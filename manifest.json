@@ -1,0 +1,13 @@
+{
+  "name": "Jeffrey Plewak",
+  "short_name": "Plewak",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0b0d12",
+  "theme_color": "#3b82f6",
+  "description": "Software engineer and consultant specializing in automation, SEO infrastructure, and digital systems.",
+  "icons": [
+    { "src": "/assets/favicon-32.png", "sizes": "32x32", "type": "image/png" },
+    { "src": "/assets/apple-touch-icon.png", "sizes": "180x180", "type": "image/png" }
+  ]
+}

@@ -1,42 +1,200 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Jeffrey Plewak — Software, Systems, Automation</title>
-  <meta name="description" content="Software engineer and consultant specializing in automation, SEO infrastructure, and digital systems.">
-  <style>
-    :root {
-      --bg:#0b0d12;--fg:#f5f5f5;--accent:#3b82f6;--muted:#9ca3af;
-      --font:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
-    }
-    *{box-sizing:border-box;}
-    body{
-      margin:0;padding:3rem;font-family:var(--font);
-      background:var(--bg);color:var(--fg);text-align:center;
-    }
-    h1{font-size:2.2rem;margin:0 0 .3rem;font-weight:600;}
-    p.tagline{margin:0 0 2rem;color:var(--muted);}
-    a{color:var(--accent);text-decoration:none;}
-    .btn{
-      display:inline-block;margin:.5rem;padding:.8rem 1.2rem;
-      border:1px solid var(--accent);border-radius:999px;
-      background:#0f172a;color:var(--fg);transition:.2s;
-    }
-    .btn:hover{
-      color:var(--accent);border-color:#60a5fa;transform:translateY(-2px);
-    }
-    footer{margin-top:3rem;font-size:.8rem;color:var(--muted);}
-  </style>
+  <meta name="description" content="Software engineer specializing in automation, certification, SEO infrastructure, and digital systems." />
+  <link rel="canonical" href="https://jeffreyplewak.com/" />
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="/assets/style.css" />
+
+  <!-- Icons -->
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml" />
+  <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png" />
+  <link rel="manifest" href="/manifest.json" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://jeffreyplewak.com/" />
+  <meta property="og:title" content="Jeffrey Plewak — Software, Systems, Automation" />
+  <meta property="og:description" content="Consulting, automation, certification, SEO systems. Book a consultation." />
+  <meta property="og:image" content="https://jeffreyplewak.com/assets/og.jpg" />
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:url" content="https://jeffreyplewak.com/" />
+  <meta name="twitter:title" content="Jeffrey Plewak — Software, Systems, Automation" />
+  <meta name="twitter:description" content="Consulting, automation, certification, SEO systems. Book a consultation." />
+  <meta name="twitter:image" content="https://jeffreyplewak.com/assets/og.jpg" />
+
+  <!-- Schema: Person -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Jeffrey Plewak",
+    "url": "https://jeffreyplewak.com/",
+    "image": "https://jeffreyplewak.com/assets/avatar.jpeg",
+    "jobTitle": "Software Engineer, Systems Architect",
+    "email": "mailto:plewak.jeff@gmail.com",
+    "sameAs": [
+      "https://github.com/jeffreyplewak",
+      "https://www.linkedin.com/in/jeffreyplewak",
+      "https://www.upwork.com/freelancers/~011b0dc37f99c3cf08",
+      "https://www.fiverr.com/s/qDp1bXl",
+      "https://www.reddit.com/user/Ok_Blueberry6358/",
+      "https://www.facebook.com/profile.php?id=61583524591504",
+      "https://nextdoor.com/g/z8zeudk1g/?is=groups_section_rhr",
+      "https://www.kristobi.com/"
+    ]
+  }
+  </script>
+
+  <!-- Schema: New Bern Tech -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "New Bern Tech",
+    "url": "https://jeffreyplewak.com/",
+    "logo": "https://jeffreyplewak.com/assets/og.jpg",
+    "founder": { "@type": "Person", "name": "Jeffrey Plewak" },
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "email": "contact@jeffreyplewak.com",
+      "contactType": "customer support"
+    },
+    "sameAs": [
+      "https://www.facebook.com/profile.php?id=61583524591504",
+      "https://nextdoor.com/g/z8zeudk1g/?is=groups_section_rhr"
+    ]
+  }
+  </script>
+
+  <!-- Schema: Kristobi -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Kristobi Certification",
+    "url": "https://www.kristobi.com/",
+    "description": "Artist and document certification: JSON-LD, PDF/A, IPFS hashing, QR/NFC traceability.",
+    "sameAs": ["https://www.kristobi.com/"]
+  }
+  </script>
 </head>
+
 <body>
-  <h1>Jeffrey Plewak</h1>
-  <p class="tagline">Software Engineer • Automation • SEO • Digital Strategy</p>
+  <main class="container">
 
-  <p><a class="btn" href="https://calendly.com/plewak-jeff" target="_blank">Book a Consultation</a></p>
-  <p><a class="btn" href="https://github.com/jeffreyplewak" target="_blank">View GitHub Projects</a></p>
-  <p><a class="btn" href="mailto:plewak.jeff@gmail.com">Email Me</a></p>
+    <!-- HERO -->
+    <header class="hero">
+      <img class="avatar" src="/assets/avatar.jpeg" alt="Portrait of Jeffrey Plewak" />
+      <h1>Jeffrey Plewak</h1>
+      <p class="tag">Software • Automation • Certification • SEO Systems • Consulting</p>
 
-  <footer>© 2025 Jeffrey Plewak — All Rights Reserved.</footer>
+      <a class="btn resume" href="/assets/resume.docx" download="Jeffrey-Plewak-Resume.docx">
+        <span class="label">Download Résumé</span>
+        <span class="sub">.docx</span>
+      </a>
+    </header>
+
+    <!-- Primary CTAs -->
+    <section class="links">
+      <a class="btn" href="https://calendly.com/plewak-jeff" target="_blank" rel="noopener">
+        <span class="label">Book a Consultation</span>
+        <span class="sub">Calendly — 30 minutes</span>
+      </a>
+      <a class="btn" href="mailto:plewak.jeff@gmail.com">
+        <span class="label">Email</span>
+        <span class="sub">plewak.jeff@gmail.com</span>
+      </a>
+    </section>
+
+    <!-- Projects -->
+    <section class="group">
+      <h2>Projects</h2>
+      <div class="card">
+        <div class="badge">Certification</div>
+        <div class="badge">Provenance</div>
+        <div class="badge">JSON-LD • PDF/A</div>
+
+        <h3>Kristobi — Artist & Document Certification</h3>
+        <ul class="list">
+          <li>Artwork certificates: PDF/A + JSON-LD metadata with SHACL validation</li>
+          <li>IPFS hash chains + QR/NFC traceable bundles</li>
+          <li>Legally verifiable delivery packages</li>
+        </ul>
+
+        <div class="stack">
+          <a class="chip" href="https://www.kristobi.com/" target="_blank" rel="noopener">Visit kristobi.com</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Content & SEO Studio -->
+    <section class="group">
+      <h2>Content & SEO Studio</h2>
+      <div class="card">
+        <div class="badge">Tech SEO</div>
+        <div class="badge">Automation</div>
+        <div class="badge">Content Ops</div>
+
+        <h3>What I Deliver</h3>
+        <ul class="list">
+          <li>Technical SEO (robots, sitemap, schema, speed)</li>
+          <li>Content engine: briefs, outlines, publication workflow</li>
+          <li>Automation: scrapers, APIs, CI-based content ops</li>
+        </ul>
+
+        <p class="note">30-min call → scoped plan → first win in 72 hours.</p>
+
+        <div class="stack">
+          <a class="chip" href="https://www.upwork.com/freelancers/~011b0dc37f99c3cf08" target="_blank">Hire on Upwork</a>
+          <a class="chip" href="https://www.fiverr.com/s/qDp1bXl" target="_blank">Hire on Fiverr</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Professional -->
+    <section class="group">
+      <h2>Professional</h2>
+      <div class="stack">
+        <a class="chip" href="https://github.com/jeffreyplewak" target="_blank">GitHub</a>
+        <a class="chip" href="https://www.linkedin.com/in/jeffreyplewak" target="_blank">LinkedIn</a>
+      </div>
+    </section>
+
+    <!-- Community -->
+    <section class="group">
+      <h2>Community</h2>
+      <div class="stack">
+        <a class="chip" href="https://www.reddit.com/user/Ok_Blueberry6358/" target="_blank">Reddit</a>
+        <a class="chip" href="https://www.facebook.com/profile.php?id=61583524591504" target="_blank">Facebook (New Bern Tech)</a>
+        <a class="chip" href="https://nextdoor.com/g/z8zeudk1g/?is=groups_section_rhr" target="_blank">Nextdoor (New Bern Tech)</a>
+      </div>
+    </section>
+
+    <!-- Premium -->
+    <section class="group">
+      <h2>Premium</h2>
+      <div class="stack">
+        <a class="chip" href="/premium.html">Content Creator Consulting — 18+</a>
+      </div>
+      <p class="note">Strategy and monetization consulting. No adult content hosted.</p>
+    </section>
+
+    <!-- Inline Booking -->
+    <section class="links">
+      <a class="btn secondary" href="/book.html">
+        <span class="label">Inline Booking</span>
+        <span class="sub">Stay on this site</span>
+      </a>
+    </section>
+
+    <footer class="foot">© 2025 Jeffrey Plewak</footer>
+  </main>
 </body>
 </html>

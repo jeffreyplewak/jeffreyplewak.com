@@ -1,3 +1,20 @@
+# jeffreyplewak.com — SEO & Crawl Policy
 User-agent: *
 Allow: /
+
+# Block non-production assets
+Disallow: /assets/*.psd$
+Disallow: /assets/*.ai$
+Disallow: /assets/*.xcf$
+Disallow: /drafts/
+Disallow: /private/
+
+# Sitemaps and canonical index
 Sitemap: https://jeffreyplewak.com/sitemap.xml
+
+# Crawl-delay (gentle hint for large bots)
+Crawl-delay: 5
+
+# Search engines friendly note
+# Contact: contact@jeffreyplewak.com
+# Maintainer: Jeffrey Plewak
