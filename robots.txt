@@ -16,5 +16,5 @@ Sitemap: https://jeffreyplewak.com/sitemap.xml
 Crawl-delay: 5
 
 # Search engines friendly note
-# Contact: contact@jeffreyplewak.com
+# Contact: plewak.jeff@gmail.com
 # Maintainer: Jeffrey Plewak
