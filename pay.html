@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Payments &amp; Pricing — Jeffrey Plewak</title>
+
+  <meta name="description"
+        content="Book a consult, web project, or maintenance plan with Jeffrey Plewak. Secure Stripe checkout plus Cash App on request." />
+  <link rel="canonical" href="https://jeffreyplewak.com/pay.html" />
+
+  <link rel="stylesheet" href="assets/style.css" />
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png" />
+  <link rel="manifest" href="manifest.json" />
+
+  <style>
+    body {
+      margin: 0;
+      background:
+        #020617
+        url("assets/background.gif")
+        center / cover
+        fixed
+        no-repeat;
+      color: #e5e7eb;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont,
+                   "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    }
+    main.shell {
+      min-height: 100vh;
+      backdrop-filter: blur(4px);
+    }
+  </style>
+</head>
+<body>
+  <main class="shell">
+
+    <!-- HEADER -->
+    <header class="hero block block-hero compact" aria-labelledby="pay-title">
+      <div class="hero-inner">
+        <a href="index.html" class="back-link">← Back to main page</a>
+        <h1 id="pay-title">Payments &amp; Pricing</h1>
+        <p class="tagline">
+          Fixed packages with Stripe-hosted checkout. After payment, you’ll
+          receive a confirmation and we coordinate by email.
+        </p>
+        <p class="hero-note">
+          For questions or custom scope, email
+          <a href="mailto:plewak.jeff@gmail.com">
+            plewak.jeff@gmail.com
+          </a>.
+          Cash App is available at <strong>$wwwpts</strong> once we agree
+          in writing.
+        </p>
+      </div>
+    </header>
+
+    <!-- PACKAGES -->
+    <section class="block" aria-labelledby="packages-main-title">
+      <h2 id="packages-main-title">Stripe Packages</h2>
+
+      <div class="pricing-grid">
+
+        <!-- 15 MIN CONSULT -->
+        <article class="pricing-card">
+          <h3>15-Minute Consult (Remote)</h3>
+          <p class="price">$20 one-time</p>
+          <p class="card-text">
+            Quick call to get unstuck on AI, backend, funnels, or site issues.
+          </p>
+          <ul class="card-list">
+            <li>15 minutes by video or audio</li>
+            <li>One focused topic per call</li>
+            <li>Clear recommendation and next steps</li>
+          </ul>
+          <a class="btn primary"
+             href="https://buy.stripe.com/8x29ALfDOa6JcVZgxN9MY02"
+             target="_blank" rel="noopener">
+            Book 15-Min Consult — Stripe
+          </a>
+        </article>
+
+        <!-- WEB DEV -->
+        <article class="pricing-card">
+          <h3>Landing Page / Microsite Build</h3>
+          <p class="price">$500 one-time</p>
+          <p class="card-text">
+            Custom, responsive landing page or small microsite deployed on
+            Vercel with clean CTAs and SEO-aware structure.
+          </p>
+          <ul class="card-list">
+            <li>Design and implementation for a focused site</li>
+            <li>Basic SEO metadata and social preview setup</li>
+            <li>Deployment on your domain or a Vercel subdomain</li>
+          </ul>
+          <a class="btn primary"
+             href="https://buy.stripe.com/fZu6ozaju2EhaNRchx9MY01"
+             target="_blank" rel="noopener">
+            Start Web Project — Stripe
+          </a>
+        </article>
+
+        <!-- MAINTENANCE -->
+        <article class="pricing-card">
+          <h3>Maintenance — Basic</h3>
+          <p class="price">$49/month</p>
+          <p class="card-text">
+            Keep a personal site, portfolio, or creator hub online, clean,
+            and current without worrying about the stack.
+          </p>
+          <ul class="card-list">
+            <li>Uptime and link checks</li>
+            <li>Minor text and content updates</li>
+            <li>Light security sweeps and basic hardening</li>
+          </ul>
+          <a class="btn primary"
+             href="https://buy.stripe.com/bJefZ92R22Eh9JN5T99MY03"
+             target="_blank" rel="noopener">
+            Subscribe — Stripe ($49/mo)
+          </a>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- CUSTOM / OTHER -->
+    <section class="block" aria-labelledby="custom-title">
+      <h2 id="custom-title">Custom Work &amp; Other Payments</h2>
+      <p class="text">
+        If you need something outside these packages
+        (multi-page builds, complex automations, larger creator systems,
+        or ongoing consulting retainers), email
+        <a href="mailto:plewak.jeff@gmail.com">
+          plewak.jeff@gmail.com
+        </a>
+        with a short description and your timeline. We can either:
+      </p>
+      <ul class="bullets">
+        <li>Issue a custom Stripe invoice, or</li>
+        <li>Agree on a Cash App payment at <strong>$wwwpts</strong>.</li>
+      </ul>
+      <p class="text">
+        Work usually starts after payment is received, unless we explicitly
+        agree otherwise in writing.
+      </p>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <p>
+        Email:
+        <a href="mailto:plewak.jeff@gmail.com">
+          plewak.jeff@gmail.com
+        </a>
+      </p>
+      <small>© 2025 Jeffrey Plewak — Payments &amp; Pricing</small>
+    </footer>
+
+  </main>
+
+  <script async src="https://js.stripe.com/v3/buy-button.js"></script>
+</body>
+</html>

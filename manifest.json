@@ -1,13 +1,21 @@
 {
-  "name": "Jeffrey Plewak",
+  "name": "Jeffrey Plewak — Software, AI & Systems Consulting",
   "short_name": "Plewak",
   "start_url": "/",
   "display": "standalone",
-  "background_color": "#0b0d12",
+  "background_color": "#050712",
   "theme_color": "#3b82f6",
-  "description": "Software engineer and consultant specializing in automation, SEO infrastructure, and digital systems.",
+  "description": "Software, AI, backend, SEO, and certification consulting for small businesses, creators, and artists.",
   "icons": [
-    { "src": "/assets/favicon-32.png", "sizes": "32x32", "type": "image/png" },
-    { "src": "/assets/apple-touch-icon.png", "sizes": "180x180", "type": "image/png" }
+    {
+      "src": "/assets/favicon-32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "/assets/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
   ]
 }
