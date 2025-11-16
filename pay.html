@@ -6,7 +6,7 @@
   <title>Payments &amp; Pricing — Jeffrey Plewak</title>
 
   <meta name="description"
-        content="Book a consult, web project, or maintenance plan with Jeffrey Plewak. Secure Stripe checkout plus Cash App on request." />
+        content="Book a consult, web project, or maintenance plan with Jeffrey Plewak. Secure Stripe checkout plus other options on request." />
   <link rel="canonical" href="https://jeffreyplewak.com/pay.html" />
 
   <link rel="stylesheet" href="assets/style.css" />
@@ -31,6 +31,59 @@
       min-height: 100vh;
       backdrop-filter: blur(4px);
     }
+    .pricing-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 14px;
+      margin-top: 10px;
+    }
+    .pricing-card {
+      border-radius: 12px;
+      border: 1px solid rgba(148, 163, 184, 0.4);
+      background: rgba(15, 23, 42, 0.96);
+      padding: 14px 16px 16px;
+    }
+    .pricing-card h3 {
+      margin: 0 0 4px;
+      font-size: 16px;
+    }
+    .pricing-card .price {
+      margin: 0 0 8px;
+      font-size: 15px;
+      font-weight: 600;
+    }
+    .pricing-card .card-text {
+      margin: 0 0 8px;
+      font-size: 13px;
+      color: #9ca3af;
+    }
+    .pricing-card .card-list {
+      margin: 0 0 10px;
+      padding-left: 18px;
+      font-size: 13px;
+      color: #9ca3af;
+    }
+    .pricing-card .card-list li {
+      margin: 3px 0;
+    }
+    .btn.primary {
+      display: inline-block;
+      padding: 8px 13px;
+      border-radius: 999px;
+      border: 1px solid transparent;
+      background: linear-gradient(135deg, #2563eb, #8b5cf6);
+      color: #f9fafb;
+      font-size: 14px;
+      text-decoration: none;
+      box-shadow: 0 10px 25px rgba(37, 99, 235, 0.35);
+      transition:
+        transform 0.08s ease-out,
+        box-shadow 0.15s ease-out;
+    }
+    .btn.primary:hover {
+      transform: translateY(-1px);
+      box-shadow: 0 14px 30px rgba(37, 99, 235, 0.45);
+    }
   </style>
 </head>
 <body>
@@ -40,8 +93,8 @@
     <header class="hero block block-hero compact" aria-labelledby="pay-title">
       <div class="hero-inner">
         <a href="index.html" class="back-link">← Back to main page</a>
-        <h1 id="pay-title">Payments &amp; Pricing</h1>
-        <p class="tagline">
+        <h1 id="pay-title" class="title">Payments &amp; Pricing</h1>
+        <p class="subtitle">
           Fixed packages with Stripe-hosted checkout. After payment, you’ll
           receive a confirmation and we coordinate by email.
         </p>
@@ -50,15 +103,15 @@
           <a href="mailto:plewak.jeff@gmail.com">
             plewak.jeff@gmail.com
           </a>.
-          Cash App is available at <strong>$wwwpts</strong> once we agree
-          in writing.
+          Additional payment options (such as Cash App) can be used once
+          we agree in writing.
         </p>
       </div>
     </header>
 
     <!-- PACKAGES -->
     <section class="block" aria-labelledby="packages-main-title">
-      <h2 id="packages-main-title">Stripe Packages</h2>
+      <h2 id="packages-main-title" class="block-title">Stripe Packages</h2>
 
       <div class="pricing-grid">
 
@@ -87,7 +140,7 @@
           <p class="price">$500 one-time</p>
           <p class="card-text">
             Custom, responsive landing page or small microsite deployed on
-            Vercel with clean CTAs and SEO-aware structure.
+            Vercel with clear calls to action and SEO-aware structure.
           </p>
           <ul class="card-list">
             <li>Design and implementation for a focused site</li>
@@ -126,19 +179,19 @@
 
     <!-- CUSTOM / OTHER -->
     <section class="block" aria-labelledby="custom-title">
-      <h2 id="custom-title">Custom Work &amp; Other Payments</h2>
+      <h2 id="custom-title" class="block-title">Custom Work &amp; Other Payments</h2>
       <p class="text">
-        If you need something outside these packages
-        (multi-page builds, complex automations, larger creator systems,
-        or ongoing consulting retainers), email
+        If you need something outside these packages (multi-page builds,
+        more complex automations, larger creator systems, or ongoing
+        consulting retainers), email
         <a href="mailto:plewak.jeff@gmail.com">
           plewak.jeff@gmail.com
         </a>
         with a short description and your timeline. We can either:
       </p>
-      <ul class="bullets">
+      <ul class="simple-list">
         <li>Issue a custom Stripe invoice, or</li>
-        <li>Agree on a Cash App payment at <strong>$wwwpts</strong>.</li>
+        <li>Agree on another payment method in writing.</li>
       </ul>
       <p class="text">
         Work usually starts after payment is received, unless we explicitly
@@ -153,6 +206,10 @@
         <a href="mailto:plewak.jeff@gmail.com">
           plewak.jeff@gmail.com
         </a>
+      </p>
+      <p>
+        <a href="terms.html">Terms</a> ·
+        <a href="privacy.html">Privacy</a>
       </p>
       <small>© 2025 Jeffrey Plewak — Payments &amp; Pricing</small>
     </footer>

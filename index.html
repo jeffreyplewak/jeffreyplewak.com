@@ -1,102 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
+  <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Jeffrey Plewak — Software, AI & Systems Consulting</title>
+
+  <title>Jeffrey Plewak — Software, AI &amp; Systems Consulting</title>
 
   <meta name="description"
         content="Software engineer and systems consultant in New Bern, NC. AI, automation, backend, SEO-aware web, creator systems, and local tech support." />
   <link rel="canonical" href="https://jeffreyplewak.com/" />
 
-  <!-- Shared assets -->
-  <link rel="stylesheet" href="assets/style.css" />
+  <meta property="og:title" content="Jeffrey Plewak — Software, AI &amp; Systems Consulting" />
+  <meta property="og:description"
+        content="Software engineer and systems consultant offering AI automation, backend, SEO-aware web builds, creator systems, and local tech support." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://jeffreyplewak.com/" />
+  <meta property="og:image" content="https://jeffreyplewak.com/assets/social-card.png" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Jeffrey Plewak — Software, AI &amp; Systems Consulting" />
+  <meta name="twitter:description"
+        content="AI &amp; systems consulting, web builds, SEO-aware sites, and creator systems." />
+  <meta name="twitter:image" content="https://jeffreyplewak.com/assets/social-card.png" />
+
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
   <link rel="apple-touch-icon" href="assets/apple-touch-icon.png" />
   <link rel="manifest" href="manifest.json" />
 
-  <!-- Lightweight inline overrides for GIF background -->
-  <style>
-    body {
-      margin: 0;
-      background:
-        #020617
-        url("assets/background.gif")
-        center / cover
-        fixed
-        no-repeat;
-      color: #e5e7eb;
-      font-family: system-ui, -apple-system, BlinkMacSystemFont,
-                   "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-    }
-    main.shell {
-      min-height: 100vh;
-      backdrop-filter: blur(4px);
-    }
-  </style>
+  <link rel="stylesheet" href="assets/style.css" />
 
-  <!-- Open Graph -->
-  <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://jeffreyplewak.com/" />
-  <meta property="og:title"
-        content="Jeffrey Plewak — Software, AI & Systems Consulting" />
-  <meta property="og:description"
-        content="AI consulting, backend systems, automation, SEO-aware sites, creator funnels, and local tech support." />
-  <meta property="og:image"
-        content="https://jeffreyplewak.com/assets/og.jpg" />
-
-  <!-- Twitter -->
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:url" content="https://jeffreyplewak.com/" />
-  <meta name="twitter:title"
-        content="Jeffrey Plewak — Software, AI & Systems Consulting" />
-  <meta name="twitter:description"
-        content="Consulting, automation, web and creator systems. Book a call or pay online." />
-  <meta name="twitter:image"
-        content="https://jeffreyplewak.com/assets/og.jpg" />
-
-  <!-- Schema.org Person -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "Person",
     "name": "Jeffrey Plewak",
     "url": "https://jeffreyplewak.com/",
-    "image": "https://jeffreyplewak.com/assets/avatar.jpeg",
-    "jobTitle": "Software Engineer & Systems Consultant",
     "email": "mailto:plewak.jeff@gmail.com",
-    "sameAs": [
-      "https://github.com/jeffreyplewak",
-      "https://www.linkedin.com/in/jeffreyplewak",
-      "https://www.upwork.com/freelancers/~011b0dc37f99c3cf08",
-      "https://www.fiverr.com/s/qDp1bXl",
-      "https://www.reddit.com/user/Ok_Blueberry6358/",
-      "https://www.facebook.com/profile.php?id=61583524591504",
-      "https://nextdoor.com/g/z8zeudk1g/?is=groups_section_rhr",
-      "https://www.kristobi.com/"
-    ]
+    "jobTitle": "Software Engineer & Systems Consultant",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "New Bern",
+      "addressRegion": "NC",
+      "addressCountry": "US"
+    }
   }
   </script>
 </head>
 <body>
   <main class="shell">
-
-    <!-- NAV -->
-    <header class="site-header">
-      <div class="site-header-inner">
-        <div class="site-brand">
-          <span class="site-name">Jeffrey Plewak</span>
-          <span class="site-tag">Software · AI · Systems</span>
-        </div>
-        <nav class="site-nav">
-          <a href="#services">Services</a>
-          <a href="#packages">Packages</a>
-          <a href="#platforms">Platforms</a>
-          <a href="#creator">Creator</a>
-          <a href="pay.html">Pay</a>
-        </nav>
-      </div>
-    </header>
 
     <!-- HERO -->
     <section class="hero block block-hero" aria-labelledby="hero-title">
@@ -104,17 +55,18 @@
         <img class="avatar"
              src="assets/avatar.jpeg"
              alt="Portrait of Jeffrey Plewak" />
-        <h1 id="hero-title">Jeffrey Plewak</h1>
-        <p class="tagline">
+
+        <h1 id="hero-title" class="title">Jeffrey Plewak</h1>
+
+        <p class="subtitle">
           Software Engineer &amp; Systems Consultant · AI &amp; Automation ·
           Backend &amp; SEO · Creator &amp; Local Tech Support
         </p>
 
         <div class="hero-actions">
           <a class="btn primary"
-             href="resume.docx"
-             download="Jeffrey-Plewak-Resume.docx">
-            Download Résumé
+             href="pay.html">
+            View Packages &amp; Pay Online
           </a>
           <a class="btn"
              href="https://calendly.com/plewak-jeff"
@@ -122,8 +74,9 @@
             Book a Consultation
           </a>
           <a class="btn secondary"
-             href="pay.html">
-            View Pricing &amp; Pay Online
+             href="resume.docx"
+             download="Jeffrey-Plewak-Resume.docx">
+            Download R&eacute;sum&eacute;
           </a>
         </div>
 
@@ -133,63 +86,44 @@
             plewak.jeff@gmail.com
           </a>
         </p>
+
+        <div class="pill-row">
+          <span class="pill">AI &amp; Automation</span>
+          <span class="pill">Backend &amp; APIs</span>
+          <span class="pill">SEO-Aware Web</span>
+          <span class="pill">Creator Systems</span>
+          <span class="pill">Local Tech Support</span>
+        </div>
       </div>
     </section>
 
-    <!-- SERVICES -->
-    <section id="services" class="block" aria-labelledby="services-title">
-      <h2 id="services-title">Core Services</h2>
-      <div class="cards cards-3">
-        <article class="card">
-          <h3>AI &amp; Systems Consulting</h3>
-          <ul>
-            <li>LLM workflows, agents, and prompt design</li>
-            <li>Automation for creators and small teams</li>
-            <li>Architecture and technical review sessions</li>
-          </ul>
-        </article>
+    <!-- START HERE / OFFER STACK -->
+    <section class="block" aria-labelledby="start-here-title">
+      <h2 id="start-here-title" class="block-title">Start Here</h2>
 
-        <article class="card">
-          <h3>Web &amp; Backend Engineering</h3>
-          <ul>
-            <li>Landing pages and micro-sites on Vercel</li>
-            <li>APIs, webhooks, and integration glue</li>
-            <li>Stripe / payment link setup and debugging</li>
-          </ul>
-        </article>
-
-        <article class="card">
-          <h3>Content, SEO &amp; Creator Systems</h3>
-          <ul>
-            <li>SEO-aware site structure and technical fixes</li>
-            <li>Reddit / X / social funnels into link hubs</li>
-            <li>Creator consulting (OnlyFans, FeetFinder, etc.)</li>
-          </ul>
-        </article>
-      </div>
-    </section>
-
-    <!-- PACKAGES SUMMARY -->
-    <section id="packages" class="block" aria-labelledby="packages-title">
-      <h2 id="packages-title">Packages</h2>
-      <p class="text">
-        Clear starting points; scope can expand after an initial call.
-      </p>
       <div class="cards cards-3">
         <article class="card">
           <h3>15-Minute Consult</h3>
           <p class="price">$20</p>
           <p class="card-text">
-            Quick diagnostic for AI, backend, funnels, or site questions.
+            Rapid diagnostic for AI, backend, funnels, or site questions.
           </p>
+          <a class="btn primary"
+             href="pay.html#packages-main-title">
+            Book via Stripe
+          </a>
         </article>
 
         <article class="card">
           <h3>Landing Page / Microsite</h3>
           <p class="price">$500</p>
           <p class="card-text">
-            Custom, responsive, SEO-aware landing page or small microsite.
+            Custom, responsive landing page or small microsite deployed on Vercel.
           </p>
+          <a class="btn primary"
+             href="pay.html#packages-main-title">
+            Start Web Project
+          </a>
         </article>
 
         <article class="card">
@@ -198,95 +132,189 @@
           <p class="card-text">
             Monthly upkeep for a personal site, portfolio, or creator hub.
           </p>
-        </article>
-      </div>
-      <div class="hero-actions">
-        <a class="btn primary" href="pay.html">
-          Open Payments &amp; Pricing
-        </a>
-        <a class="btn"
-           href="https://calendly.com/plewak-jeff"
-           target="_blank" rel="noopener">
-          Schedule on Calendly
-        </a>
-      </div>
-    </section>
-
-    <!-- PROJECTS / LOCAL -->
-    <section class="block" aria-labelledby="projects-title">
-      <h2 id="projects-title">Projects &amp; Local Focus</h2>
-      <div class="cards cards-2">
-        <article class="card">
-          <h3>Kristobi — Art &amp; Document Certification</h3>
-          <p class="card-text">
-            JSON-LD, PDF/A, and provenance tooling for artists and legal
-            documentation. IPFS hashing, QR/NFC, and verifiable bundles.
-          </p>
-          <a class="chip"
-             href="https://www.kristobi.com/"
-             target="_blank" rel="noopener">
-            Visit kristobi.com
+          <a class="btn primary"
+             href="pay.html#packages-main-title">
+            Subscribe
           </a>
         </article>
-
-        <article class="card">
-          <h3>New Bern Tech</h3>
-          <p class="card-text">
-            Local tech support, small business systems, and community-focused
-            automation / website work in New Bern, NC.
-          </p>
-          <div class="chips-row">
-            <a class="chip"
-               href="https://www.facebook.com/profile.php?id=61583524591504"
-               target="_blank" rel="noopener">
-              Facebook Group
-            </a>
-            <a class="chip"
-               href="https://nextdoor.com/g/z8zeudk1g/?is=groups_section_rhr"
-               target="_blank" rel="noopener">
-              Nextdoor Group
-            </a>
-          </div>
-        </article>
       </div>
     </section>
 
-    <!-- PLATFORMS -->
-    <section id="platforms" class="block" aria-labelledby="platforms-title">
-      <h2 id="platforms-title">Platforms &amp; Profiles</h2>
-      <div class="chips">
-        <a class="chip" href="https://github.com/jeffreyplewak"
-           target="_blank" rel="noopener">GitHub</a>
-        <a class="chip" href="https://www.linkedin.com/in/jeffreyplewak"
-           target="_blank" rel="noopener">LinkedIn</a>
-        <a class="chip"
-           href="https://www.upwork.com/freelancers/~011b0dc37f99c3cf08"
-           target="_blank" rel="noopener">Upwork</a>
-        <a class="chip" href="https://www.fiverr.com/s/qDp1bXl"
-           target="_blank" rel="noopener">Fiverr</a>
-        <a class="chip"
-           href="https://www.reddit.com/user/Ok_Blueberry6358/"
-           target="_blank" rel="noopener">Reddit</a>
-      </div>
-    </section>
-
-    <!-- CREATOR CONSULTING -->
-    <section id="creator" class="block" aria-labelledby="creator-title">
-      <h2 id="creator-title">Creator Consulting (18+)</h2>
+    <!-- ABOUT / SUMMARY -->
+    <section class="block" aria-labelledby="about-title">
+      <h2 id="about-title" class="block-title">Software, AI &amp; Systems</h2>
       <p class="text">
-        Systems and strategy social media and similar platforms:
-        funnels, link hubs, pricing, DM flows, retention, and safety.
-        Consulting and optimization only. No adult media is hosted or sold here.
+        I work with small businesses, creators, and technical teams to
+        design, build, and maintain systems: web apps, automation flows,
+        creator funnels, and backend services.
       </p>
-      <div class="hero-actions">
-        <a class="btn secondary" href="premium.html">
-          Creator Consulting Details.
-        </a>
-        <a class="btn"
-           href="mailto:plewak.jeff@gmail.com">
-          Email to Discuss Fit
+      <p class="text">
+        The focus is clear outcomes, clean architecture, and long-term
+        maintainability instead of one-off hacks.
+      </p>
+    </section>
+
+    <!-- SERVICES -->
+    <section class="block" aria-labelledby="services-title">
+      <h2 id="services-title" class="block-title">Services &amp; Focus</h2>
+      <ul class="simple-list">
+        <li>AI &amp; systems consulting for automation and workflows.</li>
+        <li>Backend and API design, debugging, and refactoring.</li>
+        <li>SEO-aware landing pages and small marketing sites.</li>
+        <li>Creator systems: funnels, pricing, content calendars.</li>
+        <li>Local tech support and systems work in New Bern, NC.</li>
+      </ul>
+    </section>
+
+    <!-- PACKAGES (OVERVIEW) -->
+    <section class="block" aria-labelledby="packages-overview-title">
+      <h2 id="packages-overview-title" class="block-title">Packages</h2>
+
+      <div class="card-simple">
+        <h3>15-Minute Consult — $20</h3>
+        <p class="card-text">
+          Short, focused call to get unstuck on a specific AI, backend,
+          funnel, or site problem.
+        </p>
+        <a class="link-btn primary"
+           href="pay.html#packages-main-title">
+          Book via Stripe
         </a>
       </div>
+
+      <div class="card-simple">
+        <h3>Landing Page / Microsite — $500</h3>
+        <p class="card-text">
+          Custom landing page or small microsite with responsive layout,
+          basic SEO metadata, and deployment on Vercel.
+        </p>
+        <a class="link-btn primary"
+           href="pay.html#packages-main-title">
+          Start Web Project
+        </a>
+      </div>
+
+      <div class="card-simple">
+        <h3>Maintenance — Basic — $49/month</h3>
+        <p class="card-text">
+          Ongoing updates and basic checks for a personal site, portfolio,
+          or creator hub.
+        </p>
+        <a class="link-btn primary"
+           href="pay.html#packages-main-title">
+          Subscribe
+        </a>
+      </div>
+    </section>
+
+    <!-- NEW BERN / LOCAL -->
+    <section class="block" aria-labelledby="new-bern-title">
+      <h2 id="new-bern-title" class="block-title">New Bern Tech &amp; Local Work</h2>
+      <p class="text">
+        Based in New Bern, NC. Available for local tech support, small
+        business systems work, and community-focused projects.
+      </p>
+      <ul class="simple-list">
+        <li>Local site setup and basic automation.</li>
+        <li>Simple systems for scheduling, forms, and content updates.</li>
+        <li>Hands-on help with hosting, domains, and small business tools.</li>
+      </ul>
+      <p class="text">
+        For local work, email
+        <a href="mailto:plewak.jeff@gmail.com">
+          plewak.jeff@gmail.com
+        </a>
+        with your location, current setup, and goals.
+      </p>
+    </section>
+
+    <!-- CREATOR CONSULTING (18+) -->
+    <section class="block" aria-labelledby="creator-title">
+      <h2 id="creator-title" class="block-title">Creator Consulting (18+)</h2>
+      <p class="text">
+        Strategy, funnels, and systems for creators and interested
+        parties on social platforms. This is consulting on profiles,
+        funnels, content planning, DM workflows, and retention.
+      </p>
+      <ul class="simple-list">
+        <li>Profile and niche positioning.</li>
+        <li>Funnels from X/Twitter, Reddit, and Instagram.</li>
+        <li>Pricing tiers, basic retention planning, and fan communication.</li>
+        <li>Content calendars and simple automation flows.</li>
+        <li>Separation of professional and personal identities.</li>
+      </ul>
+      <p class="note">
+        No adult media is hosted or sold on this site. You must be 18+ and
+        you remain responsible for legal, tax, and platform compliance.
+        This is strategy and systems consulting, not legal or financial
+        advice.
+      </p>
+      <div class="link-list">
+        <a class="link-btn primary"
+           href="premium.html">
+          Creator Consulting Details
+        </a>
+        <a class="link-btn"
+           href="pay.html">
+          See Pricing &amp; Payment Options
+        </a>
+      </div>
+    </section>
+
+    <!-- CONTACT / LEAD FORM -->
+    <section class="block" aria-labelledby="contact-title">
+      <h2 id="contact-title" class="block-title">Contact</h2>
+      <p class="text">
+        Prefer email over booking or instant payment? Send a short summary
+        below. This uses your email client to send directly.
+      </p>
+      <form action="mailto:plewak.jeff@gmail.com"
+            method="post"
+            enctype="text/plain">
+        <div class="form-row">
+          <label for="contact-name">Name</label>
+          <input id="contact-name" name="name" type="text" required />
+        </div>
+        <div class="form-row">
+          <label for="contact-email">Email</label>
+          <input id="contact-email" name="email" type="email" required />
+        </div>
+        <div class="form-row">
+          <label for="contact-goal">What are you trying to build or fix?</label>
+          <textarea id="contact-goal" name="goal" rows="4" required></textarea>
+        </div>
+        <div class="form-row">
+          <label for="contact-budget">Budget range (optional)</label>
+          <select id="contact-budget" name="budget">
+            <option value="">Prefer not to say</option>
+            <option value="under-250">Under $250</option>
+            <option value="250-1000">$250–$1,000</option>
+            <option value="over-1000">Over $1,000</option>
+          </select>
+        </div>
+        <button class="btn primary" type="submit">
+          Send Email Summary
+        </button>
+      </form>
+    </section>
+
+    <!-- PLATFORMS / PROFILES -->
+    <section class="block" aria-labelledby="platforms-title">
+      <h2 id="platforms-title" class="block-title">Profiles &amp; Platforms</h2>
+      <p class="text">
+        You can see more work, history, and client-facing profiles here:
+      </p>
+      <ul class="simple-list">
+        <li><a href="https://github.com/" target="_blank" rel="noopener">GitHub</a></li>
+        <li><a href="https://www.linkedin.com/" target="_blank" rel="noopener">LinkedIn</a></li>
+        <li><a href="https://www.upwork.com/" target="_blank" rel="noopener">Upwork</a></li>
+        <li><a href="https://www.fiverr.com/" target="_blank" rel="noopener">Fiverr</a></li>
+        <li><a href="https://www.reddit.com/" target="_blank" rel="noopener">Reddit</a></li>
+      </ul>
+      <p class="note">
+        These profiles may include additional work history, reviews, or
+        portfolio details hosted on their respective platforms.
+      </p>
     </section>
 
     <!-- FOOTER -->
@@ -297,11 +325,14 @@
           plewak.jeff@gmail.com
         </a>
       </p>
-      <small>© 2025 Jeffrey Plewak — Software, AI &amp; Systems Consulting</small>
+      <p>
+        <a href="terms.html">Terms</a> ·
+        <a href="privacy.html">Privacy</a>
+      </p>
+      <small>
+        © 2025 Jeffrey Plewak — Software, AI &amp; Systems Consulting
+      </small>
     </footer>
-
   </main>
-
-  <script async src="https://js.stripe.com/v3/buy-button.js"></script>
 </body>
 </html>
