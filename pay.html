@@ -1,221 +1,300 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Payments &amp; Pricing — Jeffrey Plewak</title>
-
-  <meta name="description"
-        content="Book a consult, web project, or maintenance plan with Jeffrey Plewak. Secure Stripe checkout plus other options on request." />
+  <meta charset="UTF-8" />
+  <title>Pricing & Packages – Jeffrey Plewak</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta
+    name="description"
+    content="Clear, simple packages for AI, automation, and compliance-minded systems: strategy session, core build, and landing/microsite."
+  />
+  <meta name="robots" content="index,follow" />
   <link rel="canonical" href="https://jeffreyplewak.com/pay.html" />
 
-  <link rel="stylesheet" href="assets/style.css" />
-  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
-  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png" />
+  <link rel="icon" href="favicon.svg" />
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png" />
   <link rel="manifest" href="manifest.json" />
 
-  <style>
-    body {
-      margin: 0;
-      background:
-        #020617
-        url("assets/background.gif")
-        center / cover
-        fixed
-        no-repeat;
-      color: #e5e7eb;
-      font-family: system-ui, -apple-system, BlinkMacSystemFont,
-                   "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-    }
-    main.shell {
-      min-height: 100vh;
-      backdrop-filter: blur(4px);
-    }
-    .pricing-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-      gap: 14px;
-      margin-top: 10px;
-    }
-    .pricing-card {
-      border-radius: 12px;
-      border: 1px solid rgba(148, 163, 184, 0.4);
-      background: rgba(15, 23, 42, 0.96);
-      padding: 14px 16px 16px;
-    }
-    .pricing-card h3 {
-      margin: 0 0 4px;
-      font-size: 16px;
-    }
-    .pricing-card .price {
-      margin: 0 0 8px;
-      font-size: 15px;
-      font-weight: 600;
-    }
-    .pricing-card .card-text {
-      margin: 0 0 8px;
-      font-size: 13px;
-      color: #9ca3af;
-    }
-    .pricing-card .card-list {
-      margin: 0 0 10px;
-      padding-left: 18px;
-      font-size: 13px;
-      color: #9ca3af;
-    }
-    .pricing-card .card-list li {
-      margin: 3px 0;
-    }
-    .btn.primary {
-      display: inline-block;
-      padding: 8px 13px;
-      border-radius: 999px;
-      border: 1px solid transparent;
-      background: linear-gradient(135deg, #2563eb, #8b5cf6);
-      color: #f9fafb;
-      font-size: 14px;
-      text-decoration: none;
-      box-shadow: 0 10px 25px rgba(37, 99, 235, 0.35);
-      transition:
-        transform 0.08s ease-out,
-        box-shadow 0.15s ease-out;
-    }
-    .btn.primary:hover {
-      transform: translateY(-1px);
-      box-shadow: 0 14px 30px rgba(37, 99, 235, 0.45);
-    }
-  </style>
+  <!-- Open Graph -->
+  <meta property="og:title" content="Pricing & Packages – Jeffrey Plewak" />
+  <meta
+    property="og:description"
+    content="Simple, transparent packages for AI, automation, and systems work with compliance in mind."
+  />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://jeffreyplewak.com/pay.html" />
+  <meta property="og:image" content="https://jeffreyplewak.com/assets/og-image.jpg" />
+  <meta property="og:image:alt" content="Pricing for AI, automation, and compliance consulting" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <link rel="stylesheet" href="assets/style.css" />
 </head>
 <body>
-  <main class="shell">
+  <a class="skip-link" href="#main-content">Skip to main content</a>
 
-    <!-- HEADER -->
-    <header class="hero block block-hero compact" aria-labelledby="pay-title">
-      <div class="hero-inner">
-        <a href="index.html" class="back-link">← Back to main page</a>
-        <h1 id="pay-title" class="title">Payments &amp; Pricing</h1>
-        <p class="subtitle">
-          Fixed packages with Stripe-hosted checkout. After payment, you’ll
-          receive a confirmation and we coordinate by email.
-        </p>
-        <p class="hero-note">
-          For questions or custom scope, email
-          <a href="mailto:plewak.jeff@gmail.com">
-            plewak.jeff@gmail.com
-          </a>.
-          Additional payment options (such as Cash App) can be used once
-          we agree in writing.
-        </p>
+  <!-- HEADER (match index.html) -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="brand">
+        <img
+          src="assets/avatar.jpeg"
+          alt="Photo of Jeffrey Plewak"
+          class="brand-avatar"
+        />
+        <span class="brand-text">Jeffrey Plewak</span>
+      </a>
+      <nav aria-label="Primary navigation">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="premium.html">Services</a></li>
+          <li><a href="pay.html" aria-current="page">Pricing</a></li>
+          <li><a href="book.html">Book</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="assets/resume.docx" download>Résumé</a></li>
+        </ul>
+      </nav>
+      <a href="contact.html" class="btn btn-small btn-outline header-cta">Send a short brief</a>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <!-- HERO -->
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="hero-copy">
+          <p class="eyebrow">Pricing</p>
+          <h1>Simple packages, one system at a time.</h1>
+          <p class="hero-summary">
+            No retainers by default, no surprise fees. We pick the smallest useful package, ship it, and
+            then decide if more work makes sense.
+          </p>
+
+          <div class="hero-primary-actions">
+            <a href="#packages" class="btn btn-primary">Compare packages</a>
+            <a href="book.html" class="btn btn-ghost">Talk through options</a>
+          </div>
+
+          <p class="hero-footnote">
+            This page also acts as part of my portfolio: it shows how I think about scope, outcomes, and
+            real-world constraints.
+          </p>
+        </div>
+
+        <aside class="hero-side" aria-label="Quick fit guidelines">
+          <div class="hero-side-inner">
+            <h2 class="small" style="text-transform: uppercase; letter-spacing: 0.16em;">
+              Quick fit check
+            </h2>
+            <ul class="features">
+              <li>Leads or clients are slipping through the cracks.</li>
+              <li>Your tools don’t quite talk, or nobody trusts the data.</li>
+              <li>You want automation, but not a black box you can’t maintain.</li>
+            </ul>
+            <p class="small subtle" style="margin-top: 0.75rem;">
+              If you’re a hiring manager or collaborator: treat these as reference points for scope and
+              rate, not hard limits.
+            </p>
+          </div>
+        </aside>
       </div>
-    </header>
+    </section>
 
     <!-- PACKAGES -->
-    <section class="block" aria-labelledby="packages-main-title">
-      <h2 id="packages-main-title" class="block-title">Stripe Packages</h2>
+    <section id="packages" class="section section-compact">
+      <div class="container">
+        <h2>Packages at a glance</h2>
+        <p class="section-lead">
+          These are starting points. Most work fits one of them with minor adjustments once we understand
+          your stack and risk profile.
+        </p>
 
-      <div class="pricing-grid">
+        <div class="pricing-grid">
+          <!-- Strategy Session -->
+          <article id="starter" class="pricing-card">
+            <h3>Strategy Session</h3>
+            <p class="price">$150<span>/session</span></p>
+            <p class="card-intro">
+              A 60–75 minute working session to map your stack, find leaks, and choose a direction you can
+              act on.
+            </p>
+            <ul class="features">
+              <li>Live walk-through of your tools and workflows.</li>
+              <li>Prioritized list of fixes and experiments.</li>
+              <li>Options: DIY, hire me, or hire someone else.</li>
+            </ul>
+            <a href="book.html" class="btn btn-secondary btn-full-width">Book a session</a>
+          </article>
 
-        <!-- 15 MIN CONSULT -->
-        <article class="pricing-card">
-          <h3>15-Minute Consult (Remote)</h3>
-          <p class="price">$20 one-time</p>
-          <p class="card-text">
-            Quick call to get unstuck on AI, backend, funnels, or site issues.
-          </p>
-          <ul class="card-list">
-            <li>15 minutes by video or audio</li>
-            <li>One focused topic per call</li>
-            <li>Clear recommendation and next steps</li>
-          </ul>
-          <a class="btn primary"
-             href="https://buy.stripe.com/8x29ALfDOa6JcVZgxN9MY02"
-             target="_blank" rel="noopener">
-            Book 15-Min Consult — Stripe
-          </a>
-        </article>
+          <!-- Core System Build -->
+          <article id="builder" class="pricing-card pricing-card-featured">
+            <h3>Core System Build</h3>
+            <p class="price">$750<span>/project</span></p>
+            <p class="card-intro">
+              One clearly defined system from input to outcome — a funnel, intake, or key automation that
+              earns its keep.
+            </p>
+            <ul class="features">
+              <li>Scoped with you: inputs, outputs, tools, constraints.</li>
+              <li>Implemented with your real stack (email, CRM, payment, etc.).</li>
+              <li>Docs: diagrams, notes, and simple checks to monitor.</li>
+            </ul>
+            <a href="book.html" class="btn btn-primary btn-full-width">Scope your core build</a>
+          </article>
 
-        <!-- WEB DEV -->
-        <article class="pricing-card">
-          <h3>Landing Page / Microsite Build</h3>
-          <p class="price">$500 one-time</p>
-          <p class="card-text">
-            Custom, responsive landing page or small microsite deployed on
-            Vercel with clear calls to action and SEO-aware structure.
-          </p>
-          <ul class="card-list">
-            <li>Design and implementation for a focused site</li>
-            <li>Basic SEO metadata and social preview setup</li>
-            <li>Deployment on your domain or a Vercel subdomain</li>
-          </ul>
-          <a class="btn primary"
-             href="https://buy.stripe.com/fZu6ozaju2EhaNRchx9MY01"
-             target="_blank" rel="noopener">
-            Start Web Project — Stripe
-          </a>
-        </article>
-
-        <!-- MAINTENANCE -->
-        <article class="pricing-card">
-          <h3>Maintenance — Basic</h3>
-          <p class="price">$49/month</p>
-          <p class="card-text">
-            Keep a personal site, portfolio, or creator hub online, clean,
-            and current without worrying about the stack.
-          </p>
-          <ul class="card-list">
-            <li>Uptime and link checks</li>
-            <li>Minor text and content updates</li>
-            <li>Light security sweeps and basic hardening</li>
-          </ul>
-          <a class="btn primary"
-             href="https://buy.stripe.com/bJefZ92R22Eh9JN5T99MY03"
-             target="_blank" rel="noopener">
-            Subscribe — Stripe ($49/mo)
-          </a>
-        </article>
-
+          <!-- Landing / Microsite -->
+          <article id="landing" class="pricing-card">
+            <h3>Landing / Microsite</h3>
+            <p class="price">$500<span>/project</span></p>
+            <p class="card-intro">
+              A focused, professional page for one main action — booking, subscribing, or buying.
+            </p>
+            <ul class="features">
+              <li>Offer-driven layout tuned for your audience.</li>
+              <li>Hooked into your scheduling or payment tools.</li>
+              <li>Basic analytics and lead capture configured.</li>
+            </ul>
+            <a href="book.html" class="btn btn-secondary btn-full-width">Discuss a landing page</a>
+          </article>
+        </div>
       </div>
     </section>
 
-    <!-- CUSTOM / OTHER -->
-    <section class="block" aria-labelledby="custom-title">
-      <h2 id="custom-title" class="block-title">Custom Work &amp; Other Payments</h2>
-      <p class="text">
-        If you need something outside these packages (multi-page builds,
-        more complex automations, larger creator systems, or ongoing
-        consulting retainers), email
-        <a href="mailto:plewak.jeff@gmail.com">
-          plewak.jeff@gmail.com
-        </a>
-        with a short description and your timeline. We can either:
-      </p>
-      <ul class="simple-list">
-        <li>Issue a custom Stripe invoice, or</li>
-        <li>Agree on another payment method in writing.</li>
-      </ul>
-      <p class="text">
-        Work usually starts after payment is received, unless we explicitly
-        agree otherwise in writing.
-      </p>
+    <!-- HOW THIS ACTUALLY WORKS (minimal diagram) -->
+    <section class="section section-muted">
+      <div class="container">
+        <h2>What you’re actually buying</h2>
+        <p>
+          You’re not paying for vague “hours”. You’re paying for a small, well-defined system that behaves
+          predictably on good days and bad ones.
+        </p>
+
+        <div class="system-diagram" aria-label="Project flow">
+          <div class="diagram-step">
+            <p class="diagram-label">1</p>
+            <p class="diagram-title">Clarity</p>
+            <p class="small">
+              We name the bottleneck, the outcome, and what “good enough” looks like in your world.
+            </p>
+          </div>
+          <div class="diagram-step">
+            <p class="diagram-label">2</p>
+            <p class="diagram-title">Design</p>
+            <p class="small">
+              We choose tools and flows that respect your time, risk, and energy — not just what’s trendy.
+            </p>
+          </div>
+          <div class="diagram-step">
+            <p class="diagram-label">3</p>
+            <p class="diagram-title">Build & test</p>
+            <p class="small">
+              We implement the system with real data, test edge cases, and sanity-check it on a busy week.
+            </p>
+          </div>
+          <div class="diagram-step">
+            <p class="diagram-label">4</p>
+            <p class="diagram-title">Proof & handoff</p>
+            <p class="small">
+              You leave with diagrams, notes, and clear “owners” so the system doesn’t depend on me long-term.
+            </p>
+          </div>
+        </div>
+      </div>
     </section>
 
-    <!-- FOOTER -->
-    <footer class="footer">
-      <p>
-        Email:
-        <a href="mailto:plewak.jeff@gmail.com">
-          plewak.jeff@gmail.com
-        </a>
-      </p>
-      <p>
-        <a href="terms.html">Terms</a> ·
-        <a href="privacy.html">Privacy</a>
-      </p>
-      <small>© 2025 Jeffrey Plewak — Payments &amp; Pricing</small>
-    </footer>
+    <!-- PORTFOLIO NOTE -->
+    <section class="section section-compact">
+      <div class="container">
+        <h2>For clients and hiring managers</h2>
+        <div class="grid-3">
+          <article class="card card-soft">
+            <h3>If you’re a client</h3>
+            <p class="small">
+              Treat these packages as rails: they keep scope tight and predictable. We’ll confirm fit in a
+              short call before anything is paid.
+            </p>
+          </article>
+          <article class="card card-soft">
+            <h3>If you’re hiring</h3>
+            <p class="small">
+              Use this page as a snapshot of how I think about systems work, constraints, and value. The
+              numbers help calibrate seniority and scope.
+            </p>
+          </article>
+          <article class="card card-soft">
+            <h3>If you’re unsure</h3>
+            <p class="small">
+              Start with a Strategy Session. Worst case, you get a prioritized map of what to do next and
+              a clearer sense of whether I’m the right fit.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
 
+    <!-- FINAL CTA -->
+    <section class="section section-compact">
+      <div class="container">
+        <h2>Next step</h2>
+        <p>
+          If one of these packages feels right, we’ll lock scope in a 15-minute call and pick a start
+          date. If you’re not sure, we’ll decide together whether a Strategy Session makes sense.
+        </p>
+        <div class="hero-primary-actions" style="margin-top: 1rem;">
+          <a href="book.html" class="btn btn-primary">Book a 15-minute intro</a>
+          <a href="contact.html" class="btn btn-secondary">Ask a question first</a>
+        </div>
+      </div>
+    </section>
   </main>
 
-  <script async src="https://js.stripe.com/v3/buy-button.js"></script>
+  <!-- FOOTER (match index.html) -->
+  <footer>
+    <div class="container footer-inner">
+      <div class="footer-meta">
+        <p>© 2025 Jeffrey Plewak. All rights reserved.</p>
+        <p class="small">
+          This website is built entirely by me. No ad networks or tracking pixels. See
+          <a href="privacy.html">Privacy</a> for details.
+        </p>
+        <div class="footer-links">
+          <a href="contact.html">Contact</a> ·
+          <a href="pay.html" aria-current="page">Pricing</a> ·
+          <a href="terms.html">Terms</a> ·
+          <a href="privacy.html">Privacy</a> ·
+          <a href="accessibility.html">Accessibility</a>
+        </div>
+      </div>
+
+      <div class="footer-social" aria-label="Social links">
+        <a
+          class="footer-social-link footer-social-link-x"
+          href="https://x.com/Ok_Blueberry6358"
+          target="_blank"
+          rel="noopener noreferrer"
+        >X</a>
+        <a
+          class="footer-social-link footer-social-link-li"
+          href="https://www.linkedin.com/in/jeffreyplewak"
+          target="_blank"
+          rel="noopener noreferrer"
+        >in</a>
+        <a
+          class="footer-social-link footer-social-link-gh"
+          href="https://github.com/tarcsb"
+          target="_blank"
+          rel="noopener noreferrer"
+        >GH</a>
+        <a
+          class="footer-social-link footer-social-link-mail"
+          href="mailto:plewak.jeff@gmail.com"
+        >@</a>
+      </div>
+
+      <p class="small subtle footer-disclaimer">
+        Nothing on this site is legal, financial, or tax advice. I help you design systems; you remain
+        responsible for how you use them and which rules apply to you.
+      </p>
+    </div>
+  </footer>
 </body>
 </html>

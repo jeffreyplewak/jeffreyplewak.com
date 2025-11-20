@@ -1,64 +1,144 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta charset="UTF-8" />
+  <title>Book a Call – Jeffrey Plewak Consulting</title>
+  <meta
+    name="description"
+    content="Book a 15-minute intro call with Jeffrey Plewak to map your systems, clarify options, and decide on a realistic next step."
+  />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-  <title>Book a Consultation — Jeffrey Plewak</title>
-  <meta name="description"
-        content="Schedule a consultation with Jeffrey Plewak for software, AI, systems, or creator consulting." />
   <link rel="canonical" href="https://jeffreyplewak.com/book.html" />
+  <link rel="icon" href="/favicon.svg" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png" />
+  <link rel="manifest" href="/manifest.json" />
 
   <link rel="stylesheet" href="assets/style.css" />
-  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
-  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png" />
-  <link rel="manifest" href="manifest.json" />
+
+  <!-- Calendly inline widget -->
+  <link
+    href="https://assets.calendly.com/assets/external/widget.css"
+    rel="stylesheet"
+  />
+  <script
+    src="https://assets.calendly.com/assets/external/widget.js"
+    async
+  ></script>
 </head>
+
 <body>
-  <main class="shell">
-    <section class="block block-hero compact" aria-labelledby="book-title">
-      <a href="index.html" class="back-link">← Back to main page</a>
-      <h1 id="book-title" class="title">Book a Consultation</h1>
-      <p class="subtitle">
-        Use Calendly to pick a time that works for you. Sessions are remote
-        by default unless we explicitly agree otherwise in writing.
-      </p>
-    </section>
+  <a href="#main-content" class="skip-link">Skip to main content</a>
 
-    <section class="block">
-      <h2 class="block-title">Calendly</h2>
-      <p class="text">
-        Booking is handled through Calendly. When you schedule, Calendly may
-        collect your name, email, and availability under its own terms and
-        privacy policy.
-      </p>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="brand">
+        <img src="/assets/avatar.jpeg" alt="Jeffrey Plewak headshot" class="brand-avatar" />
+        <span class="brand-text">Jeffrey Plewak</span>
+      </a>
+      <nav aria-label="Primary navigation">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="premium.html">Services</a></li>
+          <li><a href="pay.html">Pricing</a></li>
+          <li><a href="book.html" aria-current="page">Book</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="/assets/resume.docx" download>Résumé</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
 
-      <div class="calendly-embed">
-        <iframe
-          src="https://calendly.com/plewak-jeff"
-          title="Schedule time with Jeffrey Plewak"
-          width="100%"
-          height="600"
-          frameborder="0">
-        </iframe>
+  <main id="main-content">
+    <section class="section">
+      <div class="container contact-hero">
+        <h1>Book a 15-minute intro</h1>
+        <p class="lead">
+          This is a short, focused call to understand where you are, what you’re trying to fix or build, and
+          whether I’m the right person to help.
+        </p>
       </div>
     </section>
 
-    <footer class="footer">
-      <p>
-        Email:
-        <a href="mailto:plewak.jeff@gmail.com">
-          plewak.jeff@gmail.com
-        </a>
-      </p>
-      <p>
-        <a href="terms.html">Terms</a> ·
-        <a href="privacy.html">Privacy</a>
-      </p>
-      <small>
-        © 2025 Jeffrey Plewak — Consultations
-      </small>
-    </footer>
+    <section class="section section-compact">
+      <div class="container contact-layout">
+        <div class="contact-info">
+          <h2>What we’ll do on this call</h2>
+          <ul class="features">
+            <li>Briefly map your current tools and biggest pain points.</li>
+            <li>Clarify what “one clear system” would look like for you.</li>
+            <li>Decide if it makes sense to start with a session or a build.</li>
+          </ul>
+
+          <h3>Good use of this call</h3>
+          <ul class="features">
+            <li>You’re overwhelmed by scattered tools, DMs, and manual follow-ups.</li>
+            <li>You want a concrete, scoped system — not a vague “transformation”.</li>
+            <li>You care about doing things in a way that won’t cause trouble later.</li>
+          </ul>
+
+          <h3>What to prepare (optional)</h3>
+          <ul class="features">
+            <li>Rough list of tools you currently use (email, CRM, scheduling, payment, etc.).</li>
+            <li>One or two examples of where things break or leak today.</li>
+            <li>Any hard constraints: budget, timeline, compliance/regulatory concerns.</li>
+          </ul>
+
+          <p class="note small">
+            This is not a high-pressure sales call. If it’s not a fit, I’ll say that and, if possible, point you to a
+            better option.
+          </p>
+        </div>
+
+        <div class="contact-form-wrapper">
+          <h2>Pick a time</h2>
+          <div
+            class="calendly-inline-widget"
+            data-url="https://calendly.com/plewak-jeff/intro"
+            style="min-width: 320px; height: 720px;"
+          ></div>
+
+          <noscript>
+            <p class="note small">
+              Calendly requires JavaScript. You can open the booking page directly here:
+              <a href="https://calendly.com/plewak-jeff/intro" target="_blank" rel="noopener">
+                calendly.com/plewak-jeff/intro
+              </a>.
+            </p>
+          </noscript>
+
+          <p class="small" style="margin-top: 0.75rem;">
+            If you don’t see the calendar, you can also open it directly in a new tab:
+            <a href="https://calendly.com/plewak-jeff/intro" target="_blank" rel="noopener">
+              calendly.com/plewak-jeff/intro
+            </a>
+            or email
+            <a href="mailto:plewak.jeff@gmail.com">plewak.jeff@gmail.com</a>
+            with a few times that work for you.
+          </p>
+        </div>
+      </div>
+    </section>
   </main>
+
+  <footer>
+    <div class="container footer-inner">
+      <p>© 2025 Jeffrey Plewak. All rights reserved.</p>
+      <p>
+        <a href="index.html">Home</a> ·
+        <a href="pay.html">Pricing</a> ·
+        <a href="contact.html">Contact</a> ·
+        <a href="terms.html">Terms</a> ·
+        <a href="privacy.html">Privacy</a> ·
+        <a href="accessibility.html">Accessibility</a>
+      </p>
+      <p class="small subtle">
+        Nothing on this site or in these calls is legal, financial, or tax advice. I help you design systems;
+        you remain responsible for how you use them and which rules apply to you.
+      </p>
+    </div>
+  </footer>
+
+  <script src="/assets/cookie.js" defer></script>
 </body>
 </html>

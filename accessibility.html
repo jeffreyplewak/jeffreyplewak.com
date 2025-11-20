@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Accessibility – Jeffrey Plewak</title>
+  <meta
+    name="description"
+    content="Accessibility statement for jeffreyplewak.com. How the site is designed to be usable, and how to report issues."
+  />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <link rel="canonical" href="https://jeffreyplewak.com/accessibility.html" />
+  <link rel="icon" href="/favicon.svg" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png" />
+  <link rel="manifest" href="/manifest.json" />
+
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="brand">
+        <img src="/assets/avatar.jpeg" alt="Photo of Jeffrey Plewak" class="brand-avatar" />
+        <span class="brand-text">Jeffrey Plewak</span>
+      </a>
+      <nav aria-label="Primary navigation">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="premium.html">Services</a></li>
+          <li><a href="pay.html">Pricing</a></li>
+          <li><a href="book.html">Book</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="/assets/resume.docx" download>Résumé</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <section class="section">
+      <div class="container legal">
+        <h1>Accessibility</h1>
+        <p class="small subtle">
+          Last updated: November 2025
+        </p>
+
+        <h2>My commitment</h2>
+        <p>
+          I want this site to be usable and understandable for as many people as possible,
+          including people using assistive technologies such as screen readers, keyboard-only
+          navigation, or high-contrast modes.
+        </p>
+
+        <h2>What I’ve done so far</h2>
+        <ul class="features">
+          <li>Used simple layouts and clear headings for content structure.</li>
+          <li>Included a “Skip to main content” link at the top of each page.</li>
+          <li>Avoided auto-playing audio and heavy motion; soft animations respect reduced-motion settings.</li>
+          <li>Used sufficient color contrast for text and key controls where possible.</li>
+          <li>Ensured main actions (booking, contact, purchase) are accessible via keyboard navigation.</li>
+        </ul>
+
+        <h2>Where there may still be issues</h2>
+        <p>
+          Some parts of the site rely on third-party widgets, such as:
+        </p>
+        <ul class="features">
+          <li>Calendly for scheduling.</li>
+          <li>Stripe Buy Buttons for payments.</li>
+          <li>HubSpot forms for contact submissions.</li>
+        </ul>
+        <p>
+          These services control their own markup and behavior, and while they generally support
+          accessibility, there may be limitations or differences compared to the rest of the site.
+        </p>
+
+        <h2>How to report a problem</h2>
+        <p>
+          If you experience any issues using this site, especially with assistive technology
+          or keyboard navigation, please let me know:
+        </p>
+        <ul class="features">
+          <li>Email: <a href="mailto:plewak.jeff@gmail.com">plewak.jeff@gmail.com</a></li>
+          <li>Subject line: “Accessibility feedback” if you’re comfortable using that phrase.</li>
+        </ul>
+        <p class="small">
+          If you can include details like the page, what you were trying to do, and the tools
+          you use (for example screen reader or browser), that helps me fix the problem faster.
+        </p>
+
+        <h2>Ongoing improvements</h2>
+        <p>
+          I will continue to review and refine the site, especially when adding new sections
+          or tools, to keep it as clear and accessible as I reasonably can.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-inner">
+      <p>© 2025 Jeffrey Plewak. All rights reserved.</p>
+      <p>
+        <a href="index.html">Home</a> ·
+        <a href="terms.html">Terms</a> ·
+        <a href="privacy.html">Privacy</a> ·
+        <a href="accessibility.html" aria-current="page">Accessibility</a>
+      </p>
+    </div>
+  </footer>
+
+  <!-- Cookie consent -->
+  <script src="/assets/cookie.js" defer></script>
+</body>
+</html>

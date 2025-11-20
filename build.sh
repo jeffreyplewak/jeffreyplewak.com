@@ -39,7 +39,7 @@ site_url = os.getenv("SITE_URL", "https://jeffreyplewak.com")
 tokens = {
     "SITE_NAME": site_name,
     "SITE_URL": site_url,
-    "OG_IMAGE_URL": os.getenv("OG_IMAGE_URL", f"{site_url}/og-image.jpg"),
+    "OG_IMAGE_URL": os.getenv("OG_IMAGE_URL", f"{site_url}/og-image.png"),
     "FAVICON_URL": os.getenv("FAVICON_URL", "/favicon.svg"),
     "CONTACT_EMAIL": os.getenv("CONTACT_EMAIL") or os.getenv("CONTACT_FORM_EMAIL", "plewak.jeff@gmail.com"),
     "CONTACT_ENDPOINT": os.getenv("CONTACT_ENDPOINT", "https://jeffreyplewak.com/api/contact"),
