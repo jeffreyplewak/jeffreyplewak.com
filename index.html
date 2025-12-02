@@ -2,263 +2,207 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Jeffrey Plewak – AI Systems & Automation for Small Teams and Creators</title>
-  <meta
-    name="description"
-    content="I design and implement AI-powered client and revenue systems for small teams, practices, and serious creators."
-  />
-  <meta name="robots" content="index,follow" />
+  <title>Jeffrey Plewak – Lead Systems, AI & Websites</title>
+  <meta name="description" content="I build simple lead systems, AI workflows, and clean websites that turn clicks and calls into booked work you can see." />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-
+  <meta name="robots" content="index,follow" />
   <link rel="canonical" href="https://jeffreyplewak.com/" />
-
   <link rel="icon" href="favicon.svg" />
   <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png" />
   <link rel="manifest" href="manifest.json" />
 
-  <!-- Open Graph / social -->
-  <meta property="og:title" content="Jeffrey Plewak – AI Systems & Automation for Small Teams and Creators" />
-  <meta
-    property="og:description"
-    content="I build AI-assisted client and revenue systems that move people from 'found you' to 'booked and paid' in a way you can defend."
-  />
+  <!-- Tailwind CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            ink: "#111111",
+            subtle: "#666666",
+          },
+          fontFamily: {
+            sans: ["Inter", "ui-sans-serif", "system-ui"],
+          },
+        },
+      },
+    };
+  </script>
+
+  <!-- Smooth fade/slide animations -->
+  <style>
+    .fade-up { opacity: 0; transform: translateY(20px); animation: fadeUp 0.8s ease forwards; }
+    .fade-delayed { opacity: 0; transform: translateY(20px); animation: fadeUp 1s ease forwards; }
+    @keyframes fadeUp { to { opacity: 1; transform: translateY(0); } }
+  </style>
+
+  <!-- Social & SEO -->
   <meta property="og:type" content="website" />
+  <meta property="og:title" content="Jeffrey Plewak – Lead Systems, AI & Websites" />
+  <meta property="og:description" content="Simple lead systems, AI workflows, and clean websites for SMBs, creators, and teams." />
   <meta property="og:url" content="https://jeffreyplewak.com/" />
-  <meta property="og:image" content="https://jeffreyplewak.com/assets/og-image.jpg" />
-  <meta property="og:image:alt" content="AI, automation, and compliance systems by Jeffrey Plewak" />
+  <meta property="og:image" content="https://jeffreyplewak.com/assets/avatar.jpeg" />
+
   <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Jeffrey Plewak – Lead Systems, AI & Websites" />
+  <meta name="twitter:description" content="Simple lead systems, AI workflows, and clean websites for SMBs, creators, and teams." />
+  <meta name="twitter:image" content="https://jeffreyplewak.com/assets/avatar.jpeg" />
 
-  <link rel="stylesheet" href="assets/style.css" />
+  <!-- JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Jeffrey Plewak",
+    "url": "https://jeffreyplewak.com/",
+    "publisher": {
+      "@type": "Person",
+      "name": "Jeffrey Plewak",
+      "url": "https://jeffreyplewak.com/",
+      "image": "https://jeffreyplewak.com/assets/avatar.jpeg"
+    }
+  }
+  </script>
 </head>
-<body>
-  <a class="skip-link" href="#main-content">Skip to main content</a>
 
-  <!-- HEADER (shared) -->
-  <header class="site-header">
-    <div class="container header-inner">
-      <a href="index.html" class="brand">
-        <img
-          src="assets/avatar.jpeg"
-          alt="Photo of Jeffrey Plewak"
-          class="brand-avatar"
-        />
-        <span class="brand-text">Jeffrey Plewak</span>
+<body class="font-sans text-ink bg-white antialiased">
+  <!-- Header -->
+  <header class="w-full border-b border-gray-200 bg-white/80 backdrop-blur-sm">
+    <div class="max-w-6xl mx-auto flex justify-between items-center py-4 px-4">
+      <a href="index.html" class="flex items-center space-x-3">
+        <img src="assets/avatar.jpeg" alt="Jeffrey Plewak" class="w-10 h-10 rounded-full" />
+        <span class="font-semibold text-lg">Jeffrey Plewak</span>
       </a>
-      <nav aria-label="Primary navigation">
-        <ul>
-          <li><a href="index.html" aria-current="page">Home</a></li>
-          <li><a href="premium.html">Services</a></li>
-          <li><a href="pay.html">Pricing</a></li>
-          <li><a href="book.html">Book</a></li>
-          <li><a href="contact.html">Contact</a></li>
-          <li><a href="assets/resume.docx" download>Résumé</a></li>
+      <nav>
+        <ul class="flex space-x-6 text-sm">
+          <li><a href="index.html" class="hover:underline underline-offset-4">Home</a></li>
+          <li><a href="pay.html" class="hover:underline underline-offset-4">Pricing</a></li>
+          <li><a href="book.html" class="hover:underline underline-offset-4">Book</a></li>
+          <li><a href="contact.html" class="hover:underline underline-offset-4">Contact</a></li>
+          <li><a href="assets/resume.docx" download class="hover:underline underline-offset-4">Résumé</a></li>
         </ul>
       </nav>
-      <a href="contact.html" class="btn btn-small btn-outline header-cta">Send a short brief</a>
     </div>
   </header>
 
   <main id="main-content">
-    <!-- HERO: 5-second clarity -->
-    <section class="hero">
-      <div class="container hero-inner">
-        <div class="hero-copy">
-          <p class="eyebrow">AI systems, automation, and compliance</p>
-          <h1>I build client and revenue systems for small teams and serious creators.</h1>
-          <p class="hero-summary">
-            In practice, that means I design and implement:
-          </p>
-          <ul class="features" style="margin-top: 0.4rem;">
-            <li>Client intake, scheduling, and follow-up that don’t drop leads.</li>
-            <li>Creator funnels and link hubs that turn attention into paid work.</li>
-            <li>Evidence-friendly workflows and logging for higher-risk or regulated work.</li>
-          </ul>
-
-          <div class="hero-primary-actions">
-            <a href="book.html" class="btn btn-primary">Book a 15-minute intro</a>
-            <a href="premium.html" class="btn btn-ghost">See what I can build</a>
-          </div>
-
-          <p class="hero-footnote">
-            Remote and local (CT / NY area). One concrete system at a time, with trade-offs explained.
-          </p>
-        </div>
-
-        <aside class="hero-side" aria-label="Simple system diagram">
-          <div class="hero-side-inner">
-            <h2 class="small" style="text-transform: uppercase; letter-spacing: 0.16em;">
-              What every project is really about
-            </h2>
-            <div class="system-diagram">
-              <div class="diagram-step">
-                <p class="diagram-label">1</p>
-                <p class="diagram-title">People find you</p>
-                <p class="small">
-                  From DMs, social, referrals, ads, or search — right now it’s probably scattered.
-                </p>
-              </div>
-              <div class="diagram-step">
-                <p class="diagram-label">2</p>
-                <p class="diagram-title">One clear path</p>
-                <p class="small">
-                  We design one main path with rules and automations that move people to the right next step.
-                </p>
-              </div>
-              <div class="diagram-step">
-                <p class="diagram-label">3</p>
-                <p class="diagram-title">Booked, paid, or not a fit</p>
-                <p class="small">
-                  Outcomes are explicit, logged, and auditable: booked, paid, or cleanly declined.
-                </p>
-              </div>
-            </div>
-          </div>
-        </aside>
-      </div>
-    </section>
-
-    <!-- ABOUT + RÉSUMÉ -->
-    <section id="about" class="section">
-      <div class="container about-layout">
-        <div>
-          <h2>About me</h2>
-          <p class="section-lead">
-            I’m a software engineer, architect, and systems builder who likes boringly reliable systems:
-            clear diagrams, tight scopes, and logs you can defend if anyone ever asks “why did this happen?”.
-          </p>
-          <ul class="features">
-            <li>15+ years across SMB, creator, and compliance-heavy environments.</li>
-            <li>Hands-on: architecture, implementation, and documentation, not just slides.</li>
-            <li>Bias for local-first and provable systems where it matters; cloud when it actually helps.</li>
-          </ul>
-        </div>
-        <aside class="card about-meta" aria-label="Résumé and quick facts">
-          <h3>Résumé & quick facts</h3>
-          <ul class="features">
-            <li>AI, automation, and workflow tooling with risk in mind.</li>
-            <li>Experience in legal-adjacent, medical-adjacent, and creator ecosystems.</li>
-            <li>Strong focus on provenance, observability, and maintainability.</li>
-          </ul>
-          <div style="margin-top: 1rem; display: flex; flex-wrap: wrap; gap: 0.5rem;">
-            <a href="assets/resume.docx" class="btn btn-secondary" download>Download résumé</a>
-            <a href="contact.html" class="btn btn-ghost">Ask how I’d fit your team</a>
-          </div>
-        </aside>
-      </div>
-    </section>
-
-    <!-- WHERE I’M USEFUL -->
-    <section class="section">
-      <div class="container">
-        <h2>Where I’m most useful</h2>
-        <p class="section-lead">
-          If any of these sound like you, there’s almost always a system we can design and ship without
-          tearing everything down.
+    <!-- HERO -->
+    <section class="w-full bg-gradient-to-b from-gray-50 to-white py-24 px-4">
+      <div class="max-w-5xl mx-auto fade-up">
+        <p class="text-sm uppercase tracking-wide text-subtle">Lead systems • AI workflows • Clean websites</p>
+        <h1 class="text-4xl md:text-5xl font-semibold mt-3 leading-tight max-w-3xl">
+          Turn clicks and calls into booked work you can actually see.
+        </h1>
+        <p class="mt-4 text-lg text-subtle max-w-2xl">
+          I build simple, clear systems that catch every lead, organize your tools, and plug in AI safely when it truly helps.
         </p>
 
-        <div class="grid-3">
-          <article class="card">
-            <h3>SMBs &amp; practices</h3>
-            <p class="card-intro">
-              Intake, scheduling, reminders, and follow-ups that feel boring — in a good way.
-            </p>
-            <ul class="features">
-              <li>Clients stop falling through the cracks.</li>
-              <li>Staff know what happens when.</li>
-              <li>Owners get enough data to steer.</li>
-            </ul>
-          </article>
-
-          <article class="card">
-            <h3>Serious creators</h3>
-            <p class="card-intro">
-              Infrastructure for people treating their online presence like a real business.
-            </p>
-            <ul class="features">
-              <li>Offer-driven link hubs and microsites.</li>
-              <li>Routing across Reddit, X, OF, IG, email.</li>
-              <li>Boundaries and filters baked into the system.</li>
-            </ul>
-          </article>
-
-          <article class="card">
-            <h3>Systems under scrutiny</h3>
-            <p class="card-intro">
-              Work that might touch courts, regulators, or serious IP, where evidence matters.
-            </p>
-            <ul class="features">
-              <li>Audit-aware workflows and logging.</li>
-              <li>Provenance and certification via Kristobi where needed.</li>
-              <li>Diagrams and docs people can actually read.</li>
-            </ul>
-          </article>
+        <div class="mt-8 flex flex-col sm:flex-row gap-4">
+          <a href="book.html" class="px-6 py-3 bg-black text-white rounded-lg text-sm font-medium hover:bg-neutral-900 transition">
+            Book a 15-minute intro
+          </a>
+          <a href="pay.html" class="px-6 py-3 border border-black rounded-lg text-sm font-medium hover:bg-gray-100 transition">
+            See pricing
+          </a>
         </div>
       </div>
     </section>
 
-    <!-- SINGLE-SENTENCE STRIP + CTA (replaces proof grid) -->
-    <section class="section-compact section-muted">
-      <div class="container" style="max-width: 720px;">
-        <p class="small" style="margin-bottom: 1rem; color: var(--text-muted);">
-          If your leads, clients, or audience are slipping through the cracks, one well-designed system is
-          usually enough to change that.
+    <!-- WHO I HELP -->
+    <section class="py-20 px-4">
+      <div class="max-w-5xl mx-auto">
+        <h2 class="text-2xl font-semibold fade-up">Who I help</h2>
+        <div class="grid md:grid-cols-3 gap-8 mt-10">
+          <div class="fade-delayed p-6 border border-gray-200 rounded-xl hover:shadow-md transition">
+            <h3 class="font-semibold text-lg">Local service businesses</h3>
+            <p class="text-subtle text-sm mt-2">Plumbers, roofers, cleaners, marinas, clinics.</p>
+          </div>
+
+          <div class="fade-delayed p-6 border border-gray-200 rounded-xl hover:shadow-md transition">
+            <h3 class="font-semibold text-lg">Creators & solo pros</h3>
+            <p class="text-subtle text-sm mt-2">Coaches, artists, consultants, content creators.</p>
+          </div>
+
+          <div class="fade-delayed p-6 border border-gray-200 rounded-xl hover:shadow-md transition">
+            <h3 class="font-semibold text-lg">Engineering & product teams</h3>
+            <p class="text-subtle text-sm mt-2">Small teams that need senior systems help.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- WHAT I BUILD -->
+    <section class="py-20 px-4 bg-gray-50">
+      <div class="max-w-5xl mx-auto">
+        <h2 class="text-2xl font-semibold fade-up">What I build</h2>
+        <div class="grid md:grid-cols-3 gap-8 mt-10">
+          <div class="p-6 border border-gray-200 rounded-xl hover:shadow-md transition">
+            <h3 class="font-semibold text-lg">Lead systems</h3>
+            <p class="text-sm text-subtle mt-2">Stop losing leads in inboxes and voicemail.</p>
+          </div>
+
+          <div class="p-6 border border-gray-200 rounded-xl hover:shadow-md transition">
+            <h3 class="font-semibold text-lg">Canonical websites</h3>
+            <p class="text-sm text-subtle mt-2">One clear page that people actually understand.</p>
+          </div>
+
+          <div class="p-6 border border-gray-200 rounded-xl hover:shadow-md transition">
+            <h3 class="font-semibold text-lg">AI & automation</h3>
+            <p class="text-sm text-subtle mt-2">Tools that fit your workflow — not the other way around.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="py-20 px-4">
+      <div class="max-w-5xl mx-auto grid md:grid-cols-2 gap-12">
+        <div class="fade-up">
+          <h2 class="text-2xl font-semibold">Who you’re working with</h2>
+          <p class="mt-4 text-subtle leading-relaxed">
+            15+ years across engineering, automation, systems, and tooling for SMBs, teams, and creators.
+          </p>
+        </div>
+        <div class="fade-delayed">
+          <h2 class="text-2xl font-semibold">How I work</h2>
+          <p class="mt-4 text-subtle leading-relaxed">
+            Clear diagrams, scoped systems, honest trade-offs, and no fluff. If you don’t need me, I’ll tell you.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- FINAL CTA -->
+    <section class="py-20 px-4 bg-gray-50">
+      <div class="max-w-xl mx-auto text-center fade-up">
+        <h2 class="text-2xl font-semibold">Start with one small, safe system</h2>
+        <p class="text-subtle mt-2">
+          If your leads or audience feel scattered, one well-designed system can fix it.
         </p>
-        <div class="hero-primary-actions">
-          <a href="book.html" class="btn btn-primary">Book a 15-minute intro</a>
-          <a href="pay.html" class="btn btn-secondary">See pricing & packages</a>
+        <div class="mt-6 flex flex-col sm:flex-row gap-4 justify-center">
+          <a href="book.html" class="px-6 py-3 bg-black text-white rounded-lg text-sm font-medium hover:bg-neutral-900 transition">
+            Book a 15-minute intro
+          </a>
+          <a href="pay.html" class="px-6 py-3 border border-black rounded-lg text-sm font-medium hover:bg-gray-100 transition">
+            See pricing
+          </a>
         </div>
       </div>
     </section>
   </main>
 
-  <!-- FOOTER (shared) -->
-  <footer>
-    <div class="container footer-inner">
-      <div class="footer-meta">
-        <p>© 2025 Jeffrey Plewak. All rights reserved.</p>
-        <p class="small">
-          This website is built entirely by me. No ad networks or tracking pixels. See
-          <a href="privacy.html">Privacy</a> for details.
-        </p>
-        <div class="footer-links">
-          <a href="contact.html">Contact</a> ·
-          <a href="pay.html">Pricing</a> ·
-          <a href="terms.html">Terms</a> ·
-          <a href="privacy.html">Privacy</a> ·
-          <a href="accessibility.html">Accessibility</a>
-        </div>
-      </div>
-
-      <div class="footer-social" aria-label="Social links">
-        <a
-          class="footer-social-link footer-social-link-x"
-          href="https://x.com/Ok_Blueberry6358"
-          target="_blank"
-          rel="noopener noreferrer"
-        >X</a>
-        <a
-          class="footer-social-link footer-social-link-li"
-          href="https://www.linkedin.com/in/jeffreyplewak"
-          target="_blank"
-          rel="noopener noreferrer"
-        >in</a>
-        <a
-          class="footer-social-link footer-social-link-gh"
-          href="https://github.com/tarcsb"
-          target="_blank"
-          rel="noopener noreferrer"
-        >GH</a>
-        <a
-          class="footer-social-link footer-social-link-mail"
-          href="mailto:plewak.jeff@gmail.com"
-        >@</a>
-      </div>
-
-      <p class="small subtle footer-disclaimer">
-        Nothing on this site is legal, financial, or tax advice. I help you design systems; you remain
-        responsible for how you use them and which rules apply to you.
-      </p>
-    </div>
+  <!-- Footer -->
+  <footer class="py-10 border-t border-gray-200 text-center text-sm text-subtle">
+    <p>© 2025 Jeffrey Plewak. All rights reserved.</p>
+    <p class="mt-2 space-x-3">
+      <a href="contact.html" class="hover:underline">Contact</a>
+      <a href="pay.html" class="hover:underline">Pricing</a>
+      <a href="terms.html" class="hover:underline">Terms</a>
+      <a href="privacy.html" class="hover:underline">Privacy</a>
+      <a href="accessibility.html" class="hover:underline">Accessibility</a>
+    </p>
   </footer>
+
+  <script src="assets/cookie.js" defer></script>
 </body>
 </html>

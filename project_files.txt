@@ -1,0 +1,2995 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Page not found – Jeffrey Plewak</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta
+    name="description"
+    content="The page you were looking for could not be found on jeffreyplewak.com."
+  />
+  <meta name="robots" content="noindex,follow" />
+  <link rel="canonical" href="https://jeffreyplewak.com/404.html" />
+
+  <link rel="icon" href="favicon.svg" />
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png" />
+  <link rel="manifest" href="manifest.json" />
+
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="brand">
+        <img
+          src="assets/avatar.jpeg"
+          alt="Photo of Jeffrey Plewak"
+          class="brand-avatar"
+        />
+        <span class="brand-text">Jeffrey Plewak</span>
+      </a>
+      <nav aria-label="Primary navigation">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="premium.html">Services</a></li>
+          <li><a href="pay.html">Pricing</a></li>
+          <li><a href="book.html">Book</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="assets/resume.docx" download>Résumé</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <!-- Minimal 404 hero -->
+    <section class="hero">
+      <div class="animated-hero">
+        <div class="hero-overlay"></div>
+        <div class="container hero-inner hero-inner-single">
+          <div class="hero-content">
+            <p class="eyebrow">404 · Page not found</p>
+            <h1>This page isn’t here.</h1>
+            <p>
+              The link you followed may be out of date, misspelled, or pointing to something
+              that moved. You can get back to the core offers and contact options below.
+            </p>
+            <div class="hero-buttons">
+              <a href="index.html" class="btn btn-primary">Back to home</a>
+              <a href="contact.html" class="btn btn-secondary">Contact me</a>
+            </div>
+            <p class="hero-footnote">
+              If you reached this from an email or third-party link, you can forward it to
+              <a href="mailto:plewak.jeff@gmail.com">plewak.jeff@gmail.com</a> and I’ll review it.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Minimal quick links section -->
+    <section class="section section-compact">
+      <div class="container">
+        <h2>Where you might have meant to go</h2>
+        <ul class="features">
+          <li><a href="pay.html">Packages and pricing</a></li>
+          <li><a href="book.html">Book a 15-minute intro call</a></li>
+          <li><a href="premium.html">Services overview</a></li>
+          <li><a href="contact.html">Send a short message</a></li>
+          <li>
+            <a href="privacy.html">Privacy policy</a> ·
+            <a href="terms.html">Terms</a> ·
+            <a href="accessibility.html">Accessibility</a>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-inner">
+      <p>© 2025 Jeffrey Plewak. All rights reserved.</p>
+      <p>
+        <a href="contact.html">Contact</a> ·
+        <a href="pay.html">Pricing</a> ·
+        <a href="terms.html">Terms</a> ·
+        <a href="privacy.html">Privacy</a> ·
+        <a href="accessibility.html">Accessibility</a>
+      </p>
+      <p class="small subtle">
+        Nothing on this site is legal, financial, or tax advice. I help you design systems;
+        you remain responsible for how you use them and which rules apply to you.
+      </p>
+    </div>
+  </footer>
+
+  <script src="assets/cookie.js" defer></script>
+</body>
+</html><!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Accessibility – Jeffrey Plewak</title>
+  <meta
+    name="description"
+    content="Accessibility statement for jeffreyplewak.com. How the site is designed to be usable, and how to report issues."
+  />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <link rel="canonical" href="https://jeffreyplewak.com/accessibility.html" />
+  <link rel="icon" href="/favicon.svg" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png" />
+  <link rel="manifest" href="/manifest.json" />
+
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="brand">
+        <img src="/assets/avatar.jpeg" alt="Photo of Jeffrey Plewak" class="brand-avatar" />
+        <span class="brand-text">Jeffrey Plewak</span>
+      </a>
+      <nav aria-label="Primary navigation">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="premium.html">Services</a></li>
+          <li><a href="pay.html">Pricing</a></li>
+          <li><a href="book.html">Book</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="/assets/resume.docx" download>Résumé</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <section class="section">
+      <div class="container legal">
+        <h1>Accessibility</h1>
+        <p class="small subtle">
+          Last updated: November 2025
+        </p>
+
+        <h2>My commitment</h2>
+        <p>
+          I want this site to be usable and understandable for as many people as possible,
+          including people using assistive technologies such as screen readers, keyboard-only
+          navigation, or high-contrast modes.
+        </p>
+
+        <h2>What I’ve done so far</h2>
+        <ul class="features">
+          <li>Used simple layouts and clear headings for content structure.</li>
+          <li>Included a “Skip to main content” link at the top of each page.</li>
+          <li>Avoided auto-playing audio and heavy motion; soft animations respect reduced-motion settings.</li>
+          <li>Used sufficient color contrast for text and key controls where possible.</li>
+          <li>Ensured main actions (booking, contact, purchase) are accessible via keyboard navigation.</li>
+        </ul>
+
+        <h2>Where there may still be issues</h2>
+        <p>
+          Some parts of the site rely on third-party widgets, such as:
+        </p>
+        <ul class="features">
+          <li>Calendly for scheduling.</li>
+          <li>Stripe Buy Buttons for payments.</li>
+          <li>HubSpot forms for contact submissions.</li>
+        </ul>
+        <p>
+          These services control their own markup and behavior, and while they generally support
+          accessibility, there may be limitations or differences compared to the rest of the site.
+        </p>
+
+        <h2>How to report a problem</h2>
+        <p>
+          If you experience any issues using this site, especially with assistive technology
+          or keyboard navigation, please let me know:
+        </p>
+        <ul class="features">
+          <li>Email: <a href="mailto:plewak.jeff@gmail.com">plewak.jeff@gmail.com</a></li>
+          <li>Subject line: “Accessibility feedback” if you’re comfortable using that phrase.</li>
+        </ul>
+        <p class="small">
+          If you can include details like the page, what you were trying to do, and the tools
+          you use (for example screen reader or browser), that helps me fix the problem faster.
+        </p>
+
+        <h2>Ongoing improvements</h2>
+        <p>
+          I will continue to review and refine the site, especially when adding new sections
+          or tools, to keep it as clear and accessible as I reasonably can.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-inner">
+      <p>© 2025 Jeffrey Plewak. All rights reserved.</p>
+      <p>
+        <a href="index.html">Home</a> ·
+        <a href="terms.html">Terms</a> ·
+        <a href="privacy.html">Privacy</a> ·
+        <a href="accessibility.html" aria-current="page">Accessibility</a>
+      </p>
+    </div>
+  </footer>
+
+  <!-- Cookie consent -->
+  <script src="/assets/cookie.js" defer></script>
+</body>
+</html><!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Book a Call – Jeffrey Plewak</title>
+  <meta name="description" content="Book a 15-minute intro call with Jeffrey Plewak to map your tools, leads, and next steps." />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="robots" content="index,follow" />
+  <link rel="canonical" href="https://jeffreyplewak.com/book.html" />
+  <link rel="icon" href="favicon.svg" />
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png" />
+  <link rel="manifest" href="manifest.json" />
+
+  <!-- Tailwind CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: { ink: "#111", subtle: "#666" },
+          fontFamily: { sans: ["Inter", "ui-sans-serif", "system-ui"] }
+        }
+      }
+    };
+  </script>
+
+  <!-- Fade animations -->
+  <style>
+    .fade-up { opacity: 0; transform: translateY(20px); animation: fadeUp .8s ease forwards; }
+    @keyframes fadeUp { to { opacity:1; transform:translateY(0); } }
+  </style>
+
+  <!-- Calendly widget -->
+  <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+  <script src="https://assets.calendly.com/assets/external/widget.js" async></script>
+
+  <!-- JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ContactPage",
+    "name": "Book Intro Call",
+    "url": "https://jeffreyplewak.com/book.html",
+    "mainEntity": {
+      "@type": "Person",
+      "name": "Jeffrey Plewak"
+    }
+  }
+  </script>
+</head>
+
+<body class="font-sans text-ink bg-white antialiased">
+  <!-- Header -->
+  <header class="w-full border-b border-gray-200 bg-white/80 backdrop-blur-sm">
+    <div class="max-w-6xl mx-auto flex justify-between items-center py-4 px-4">
+      <a href="index.html" class="flex items-center space-x-3">
+        <img src="assets/avatar.jpeg" alt="Jeffrey Plewak" class="w-10 h-10 rounded-full" />
+        <span class="font-semibold text-lg">Jeffrey Plewak</span>
+      </a>
+      <nav>
+        <ul class="flex space-x-6 text-sm">
+          <li><a href="index.html" class="hover:underline underline-offset-4">Home</a></li>
+          <li><a href="pay.html" class="hover:underline underline-offset-4">Pricing</a></li>
+          <li><a href="book.html" aria-current="page" class="underline underline-offset-4 font-medium">Book</a></li>
+          <li><a href="contact.html" class="hover:underline underline-offset-4">Contact</a></li>
+          <li><a href="assets/resume.docx" download class="hover:underline underline-offset-4">Résumé</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <!-- HERO -->
+    <section class="w-full bg-gradient-to-b from-gray-50 to-white py-20 px-4">
+      <div class="max-w-3xl mx-auto text-center fade-up">
+        <h1 class="text-4xl font-semibold">Book a 15-minute intro</h1>
+        <p class="mt-4 text-subtle text-lg">
+          A short, focused call to understand where you are, what you're trying to fix or build, and whether I’m the right fit.
+        </p>
+      </div>
+    </section>
+
+    <!-- CONTENT -->
+    <section class="py-16 px-4">
+      <div class="max-w-5xl mx-auto grid lg:grid-cols-2 gap-12">
+        
+        <!-- Left column: expectations -->
+        <div class="fade-up">
+          <h2 class="text-xl font-semibold">What we'll cover</h2>
+          <ul class="mt-4 space-y-2 text-subtle text-sm leading-relaxed">
+            <li>• Map your current tools and biggest friction points.</li>
+            <li>• Identify one clear, realistic system that would help immediately.</li>
+            <li>• Decide whether we should start with a session or a scoped build.</li>
+          </ul>
+
+          <h2 class="text-xl font-semibold mt-8">Good use of this call</h2>
+          <ul class="mt-4 space-y-2 text-subtle text-sm">
+            <li>• You're losing leads in inboxes, DMs, or voicemail.</li>
+            <li>• You want clarity and a system, not “transformation” fluff.</li>
+            <li>• You care about doing things safely, cleanly, and evidence-ready.</li>
+          </ul>
+
+          <h2 class="text-xl font-semibold mt-8">Optional prep</h2>
+          <ul class="mt-4 space-y-2 text-subtle text-sm">
+            <li>• Rough list of tools you use (email, CRM, scheduling, payments).</li>
+            <li>• A few examples of where things break today.</li>
+            <li>• Constraints: budget, timeline, privacy, compliance.</li>
+          </ul>
+        </div>
+
+        <!-- Right column: Calendly -->
+        <div class="fade-up">
+          <h2 class="text-xl font-semibold mb-4">Pick a time</h2>
+
+          <div 
+            class="calendly-inline-widget w-full h-[700px]"
+            data-url="https://calendly.com/plewak-jeff/intro">
+          </div>
+
+          <p class="text-xs text-subtle mt-3">
+            If the widget doesn’t load, open Calendly directly:
+            <a href="https://calendly.com/plewak-jeff/intro" class="underline" target="_blank">calendly.com/plewak-jeff/intro</a>.
+          </p>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="py-10 border-t border-gray-200 text-center text-sm text-subtle">
+    <p>© 2025 Jeffrey Plewak. All rights reserved.</p>
+    <p class="mt-2 space-x-3">
+      <a href="contact.html" class="hover:underline">Contact</a>
+      <a href="pay.html" class="hover:underline">Pricing</a>
+      <a href="terms.html" class="hover:underline">Terms</a>
+      <a href="privacy.html" class="hover:underline">Privacy</a>
+      <a href="accessibility.html" class="hover:underline">Accessibility</a>
+    </p>
+  </footer>
+
+  <script src="assets/cookie.js" defer></script>
+</body>
+</html>#!/usr/bin/env bash
+#
+# build.sh – token replacement for jeffreyplewak.com
+# Replaces %%VAR%% placeholders in static HTML with environment values.
+# Run via: npm run build
+
+set -euo pipefail
+
+ROOT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+cd "$ROOT_DIR"
+
+HTML_FILES=(
+  "index.html"
+  "pay.html"
+  "premium.html"
+  "book.html"
+  "contact.html"
+)
+
+echo "build.sh: Using values (from environment)"
+echo "  SITE_NAME=${SITE_NAME:-Jeffrey Plewak}"
+echo "  SITE_URL=${SITE_URL:-https://jeffreyplewak.com}"
+echo "  CONTACT_EMAIL=${CONTACT_EMAIL:-${CONTACT_FORM_EMAIL:-plewak.jeff@gmail.com}}"
+echo "  CONTACT_ENDPOINT=${CONTACT_ENDPOINT:-https://jeffreyplewak.com/api/contact}"
+echo "  CALENDLY_URL=${CALENDLY_URL:-https://calendly.com/plewak-jeff/intro}"
+echo
+
+# Python reads env directly; shell does not touch placeholders.
+python3 - "${HTML_FILES[@]}" << 'PY'
+import os
+import sys
+from pathlib import Path
+
+html_files = [Path(p) for p in sys.argv[1:]]
+
+site_name = os.getenv("SITE_NAME", "Jeffrey Plewak")
+site_url = os.getenv("SITE_URL", "https://jeffreyplewak.com")
+
+tokens = {
+    "SITE_NAME": site_name,
+    "SITE_URL": site_url,
+    "OG_IMAGE_URL": os.getenv("OG_IMAGE_URL", f"{site_url}/og-image.png"),
+    "FAVICON_URL": os.getenv("FAVICON_URL", "/favicon.svg"),
+    "CONTACT_EMAIL": os.getenv("CONTACT_EMAIL") or os.getenv("CONTACT_FORM_EMAIL", "plewak.jeff@gmail.com"),
+    "CONTACT_ENDPOINT": os.getenv("CONTACT_ENDPOINT", "https://jeffreyplewak.com/api/contact"),
+    "CALENDLY_URL": os.getenv("CALENDLY_URL", "https://calendly.com/plewak-jeff/intro"),
+    # Stripe placeholders kept for compatibility; they can be empty.
+    "STRIPE_PUBLISHABLE_KEY": os.getenv("STRIPE_PUBLISHABLE_KEY", ""),
+    "STRIPE_STARTER_BUTTON_ID": os.getenv("STRIPE_STARTER_BUTTON_ID", ""),
+    "STRIPE_BUILDER_BUTTON_ID": os.getenv("STRIPE_BUILDER_BUTTON_ID", ""),
+}
+
+def apply_tokens(path: Path) -> None:
+    if not path.exists():
+        print(f"[build.sh] WARNING: {path} not found, skipping", file=sys.stderr)
+        return
+    text = path.read_text(encoding="utf-8")
+    original = text
+    for key, value in tokens.items():
+        placeholder = f"%%{key}%%"
+        if placeholder in text:
+            text = text.replace(placeholder, value or "")
+    if text != original:
+        path.write_text(text, encoding="utf-8")
+        print(f"[build.sh] Updated {path}")
+    else:
+        print(f"[build.sh] No tokens found in {path}, unchanged")
+
+for p in html_files:
+    apply_tokens(p)
+PY
+
+echo
+echo "build.sh: Token replacement complete."jeffreyplewak.com<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Contact – Jeffrey Plewak</title>
+  <meta name="description" content="Contact Jeffrey Plewak for lead systems, AI workflows, and clean websites built for clarity, safety, and performance." />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="robots" content="index,follow" />
+  <link rel="canonical" href="https://jeffreyplewak.com/contact.html" />
+  <link rel="icon" href="favicon.svg" />
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png" />
+  <link rel="manifest" href="manifest.json" />
+
+  <!-- Tailwind CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: { ink: "#111", subtle: "#666" },
+          fontFamily: { sans: ["Inter", "ui-sans-serif", "system-ui"] }
+        }
+      }
+    };
+  </script>
+
+  <!-- Animations -->
+  <style>
+    .fade-up { opacity: 0; transform: translateY(20px); animation: fadeUp .8s ease forwards; }
+    @keyframes fadeUp { to { opacity:1; transform:translateY(0);} }
+  </style>
+
+  <!-- HubSpot -->
+  <script charset="utf-8" type="text/javascript" src="https://js.hsforms.net/forms/embed/v2.js"></script>
+
+  <!-- JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ContactPage",
+    "name": "Contact Jeffrey Plewak",
+    "url": "https://jeffreyplewak.com/contact.html"
+  }
+  </script>
+</head>
+
+<body class="font-sans text-ink bg-white antialiased">
+  <!-- Header -->
+  <header class="w-full border-b border-gray-200 bg-white/80 backdrop-blur-sm">
+    <div class="max-w-6xl mx-auto flex justify-between items-center py-4 px-4">
+      <a href="index.html" class="flex items-center space-x-3">
+        <img src="assets/avatar.jpeg" alt="Jeffrey Plewak" class="w-10 h-10 rounded-full" />
+        <span class="font-semibold text-lg">Jeffrey Plewak</span>
+      </a>
+      <nav>
+        <ul class="flex space-x-6 text-sm">
+          <li><a href="index.html" class="hover:underline underline-offset-4">Home</a></li>
+          <li><a href="pay.html" class="hover:underline underline-offset-4">Pricing</a></li>
+          <li><a href="book.html" class="hover:underline underline-offset-4">Book</a></li>
+          <li><a href="contact.html" aria-current="page" class="underline underline-offset-4 font-medium">Contact</a></li>
+          <li><a href="assets/resume.docx" download class="hover:underline underline-offset-4">Résumé</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <!-- HERO -->
+    <section class="w-full bg-gradient-to-b from-gray-50 to-white py-20 px-4">
+      <div class="max-w-3xl mx-auto text-center fade-up">
+        <h1 class="text-4xl font-semibold">Get in touch</h1>
+        <p class="mt-4 text-subtle text-lg">
+          Send a quick note about what you're working on. I read every message personally.
+        </p>
+      </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section class="py-16 px-4">
+      <div class="max-w-4xl mx-auto grid lg:grid-cols-2 gap-12">
+        
+        <!-- Left column -->
+        <div class="fade-up">
+          <h2 class="text-xl font-semibold">What to include</h2>
+          <ul class="mt-4 space-y-3 text-subtle text-sm leading-relaxed">
+            <li>• What you're trying to fix or build</li>
+            <li>• Your tools (email, CRM, scheduling, payments)</li>
+            <li>• Any constraints (timeline, budget, privacy, risk)</li>
+            <li>• Your preferred way to follow up</li>
+          </ul>
+
+          <h2 class="text-xl font-semibold mt-10">Or book a call</h2>
+          <p class="mt-3 text-subtle text-sm">
+            Need something clearer than a message?  
+            <a href="book.html" class="underline">Book a 15-minute intro call</a>.
+          </p>
+        </div>
+
+        <!-- Right column: HubSpot form -->
+        <div class="fade-up">
+          <h2 class="text-xl font-semibold mb-4">Send a message</h2>
+
+          <div id="hubspot-form"></div>
+
+          <script>
+            hbspt.forms.create({
+              region: "na1",
+              portalId: "244411582",
+              formId: "e53f203d-0bb4-44ad-a9cf-a4c96fd773d7",
+              target: "#hubspot-form"
+            });
+          </script>
+
+          <p class="text-xs text-subtle mt-3">
+            Your details are used only to reply to your message. No marketing lists.
+          </p>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="py-10 border-t border-gray-200 text-center text-sm text-subtle">
+    <p>© 2025 Jeffrey Plewak. All rights reserved.</p>
+    <p class="mt-2 space-x-3">
+      <a href="contact.html" class="hover:underline">Contact</a>
+      <a href="pay.html" class="hover:underline">Pricing</a>
+      <a href="terms.html" class="hover:underline">Terms</a>
+      <a href="privacy.html" class="hover:underline">Privacy</a>
+      <a href="accessibility.html" class="hover:underline">Accessibility</a>
+    </p>
+  </footer>
+
+  <script src="assets/cookie.js" defer></script>
+</body>
+</html><?xml version="1.0" encoding="UTF-8"?>
+<svg width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+  <rect width="64" height="64" rx="12" ry="12" fill="#000000"/>
+  <rect x="6" y="6" width="52" height="52" rx="10" ry="10" fill="none" stroke="#007AFF" stroke-width="3"/>
+  <text x="50%" y="50%" text-anchor="middle" dominant-baseline="central"
+        font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif"
+        font-size="24" fill="#FFFFFF" font-weight="700">
+    JP
+  </text>
+</svg>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Jeffrey Plewak – Lead Systems, AI & Websites</title>
+  <meta name="description" content="I build simple lead systems, AI workflows, and clean websites that turn clicks and calls into booked work you can see." />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="robots" content="index,follow" />
+  <link rel="canonical" href="https://jeffreyplewak.com/" />
+  <link rel="icon" href="favicon.svg" />
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png" />
+  <link rel="manifest" href="manifest.json" />
+
+  <!-- Tailwind CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            ink: "#111111",
+            subtle: "#666666",
+          },
+          fontFamily: {
+            sans: ["Inter", "ui-sans-serif", "system-ui"],
+          },
+        },
+      },
+    };
+  </script>
+
+  <!-- Smooth fade/slide animations -->
+  <style>
+    .fade-up { opacity: 0; transform: translateY(20px); animation: fadeUp 0.8s ease forwards; }
+    .fade-delayed { opacity: 0; transform: translateY(20px); animation: fadeUp 1s ease forwards; }
+    @keyframes fadeUp { to { opacity: 1; transform: translateY(0); } }
+  </style>
+
+  <!-- Social & SEO -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Jeffrey Plewak – Lead Systems, AI & Websites" />
+  <meta property="og:description" content="Simple lead systems, AI workflows, and clean websites for SMBs, creators, and teams." />
+  <meta property="og:url" content="https://jeffreyplewak.com/" />
+  <meta property="og:image" content="https://jeffreyplewak.com/assets/avatar.jpeg" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Jeffrey Plewak – Lead Systems, AI & Websites" />
+  <meta name="twitter:description" content="Simple lead systems, AI workflows, and clean websites for SMBs, creators, and teams." />
+  <meta name="twitter:image" content="https://jeffreyplewak.com/assets/avatar.jpeg" />
+
+  <!-- JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Jeffrey Plewak",
+    "url": "https://jeffreyplewak.com/",
+    "publisher": {
+      "@type": "Person",
+      "name": "Jeffrey Plewak",
+      "url": "https://jeffreyplewak.com/",
+      "image": "https://jeffreyplewak.com/assets/avatar.jpeg"
+    }
+  }
+  </script>
+</head>
+
+<body class="font-sans text-ink bg-white antialiased">
+  <!-- Header -->
+  <header class="w-full border-b border-gray-200 bg-white/80 backdrop-blur-sm">
+    <div class="max-w-6xl mx-auto flex justify-between items-center py-4 px-4">
+      <a href="index.html" class="flex items-center space-x-3">
+        <img src="assets/avatar.jpeg" alt="Jeffrey Plewak" class="w-10 h-10 rounded-full" />
+        <span class="font-semibold text-lg">Jeffrey Plewak</span>
+      </a>
+      <nav>
+        <ul class="flex space-x-6 text-sm">
+          <li><a href="index.html" class="hover:underline underline-offset-4">Home</a></li>
+          <li><a href="pay.html" class="hover:underline underline-offset-4">Pricing</a></li>
+          <li><a href="book.html" class="hover:underline underline-offset-4">Book</a></li>
+          <li><a href="contact.html" class="hover:underline underline-offset-4">Contact</a></li>
+          <li><a href="assets/resume.docx" download class="hover:underline underline-offset-4">Résumé</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <!-- HERO -->
+    <section class="w-full bg-gradient-to-b from-gray-50 to-white py-24 px-4">
+      <div class="max-w-5xl mx-auto fade-up">
+        <p class="text-sm uppercase tracking-wide text-subtle">Lead systems • AI workflows • Clean websites</p>
+        <h1 class="text-4xl md:text-5xl font-semibold mt-3 leading-tight max-w-3xl">
+          Turn clicks and calls into booked work you can actually see.
+        </h1>
+        <p class="mt-4 text-lg text-subtle max-w-2xl">
+          I build simple, clear systems that catch every lead, organize your tools, and plug in AI safely when it truly helps.
+        </p>
+
+        <div class="mt-8 flex flex-col sm:flex-row gap-4">
+          <a href="book.html" class="px-6 py-3 bg-black text-white rounded-lg text-sm font-medium hover:bg-neutral-900 transition">
+            Book a 15-minute intro
+          </a>
+          <a href="pay.html" class="px-6 py-3 border border-black rounded-lg text-sm font-medium hover:bg-gray-100 transition">
+            See pricing
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- WHO I HELP -->
+    <section class="py-20 px-4">
+      <div class="max-w-5xl mx-auto">
+        <h2 class="text-2xl font-semibold fade-up">Who I help</h2>
+        <div class="grid md:grid-cols-3 gap-8 mt-10">
+          <div class="fade-delayed p-6 border border-gray-200 rounded-xl hover:shadow-md transition">
+            <h3 class="font-semibold text-lg">Local service businesses</h3>
+            <p class="text-subtle text-sm mt-2">Plumbers, roofers, cleaners, marinas, clinics.</p>
+          </div>
+
+          <div class="fade-delayed p-6 border border-gray-200 rounded-xl hover:shadow-md transition">
+            <h3 class="font-semibold text-lg">Creators & solo pros</h3>
+            <p class="text-subtle text-sm mt-2">Coaches, artists, consultants, content creators.</p>
+          </div>
+
+          <div class="fade-delayed p-6 border border-gray-200 rounded-xl hover:shadow-md transition">
+            <h3 class="font-semibold text-lg">Engineering & product teams</h3>
+            <p class="text-subtle text-sm mt-2">Small teams that need senior systems help.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- WHAT I BUILD -->
+    <section class="py-20 px-4 bg-gray-50">
+      <div class="max-w-5xl mx-auto">
+        <h2 class="text-2xl font-semibold fade-up">What I build</h2>
+        <div class="grid md:grid-cols-3 gap-8 mt-10">
+          <div class="p-6 border border-gray-200 rounded-xl hover:shadow-md transition">
+            <h3 class="font-semibold text-lg">Lead systems</h3>
+            <p class="text-sm text-subtle mt-2">Stop losing leads in inboxes and voicemail.</p>
+          </div>
+
+          <div class="p-6 border border-gray-200 rounded-xl hover:shadow-md transition">
+            <h3 class="font-semibold text-lg">Canonical websites</h3>
+            <p class="text-sm text-subtle mt-2">One clear page that people actually understand.</p>
+          </div>
+
+          <div class="p-6 border border-gray-200 rounded-xl hover:shadow-md transition">
+            <h3 class="font-semibold text-lg">AI & automation</h3>
+            <p class="text-sm text-subtle mt-2">Tools that fit your workflow — not the other way around.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="py-20 px-4">
+      <div class="max-w-5xl mx-auto grid md:grid-cols-2 gap-12">
+        <div class="fade-up">
+          <h2 class="text-2xl font-semibold">Who you’re working with</h2>
+          <p class="mt-4 text-subtle leading-relaxed">
+            15+ years across engineering, automation, systems, and tooling for SMBs, teams, and creators.
+          </p>
+        </div>
+        <div class="fade-delayed">
+          <h2 class="text-2xl font-semibold">How I work</h2>
+          <p class="mt-4 text-subtle leading-relaxed">
+            Clear diagrams, scoped systems, honest trade-offs, and no fluff. If you don’t need me, I’ll tell you.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- FINAL CTA -->
+    <section class="py-20 px-4 bg-gray-50">
+      <div class="max-w-xl mx-auto text-center fade-up">
+        <h2 class="text-2xl font-semibold">Start with one small, safe system</h2>
+        <p class="text-subtle mt-2">
+          If your leads or audience feel scattered, one well-designed system can fix it.
+        </p>
+        <div class="mt-6 flex flex-col sm:flex-row gap-4 justify-center">
+          <a href="book.html" class="px-6 py-3 bg-black text-white rounded-lg text-sm font-medium hover:bg-neutral-900 transition">
+            Book a 15-minute intro
+          </a>
+          <a href="pay.html" class="px-6 py-3 border border-black rounded-lg text-sm font-medium hover:bg-gray-100 transition">
+            See pricing
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="py-10 border-t border-gray-200 text-center text-sm text-subtle">
+    <p>© 2025 Jeffrey Plewak. All rights reserved.</p>
+    <p class="mt-2 space-x-3">
+      <a href="contact.html" class="hover:underline">Contact</a>
+      <a href="pay.html" class="hover:underline">Pricing</a>
+      <a href="terms.html" class="hover:underline">Terms</a>
+      <a href="privacy.html" class="hover:underline">Privacy</a>
+      <a href="accessibility.html" class="hover:underline">Accessibility</a>
+    </p>
+  </footer>
+
+  <script src="assets/cookie.js" defer></script>
+</body>
+</html>{
+  "name": "Jeffrey Plewak",
+  "short_name": "JP",
+  "icons": [
+    {
+      "src": "/assets/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#000000",
+  "theme_color": "#000000",
+  "display": "standalone"
+}{
+  "name": "jeffreyplewak-com",
+  "version": "1.0.0",
+  "lockfileVersion": 3,
+  "requires": true,
+  "packages": {
+    "": {
+      "name": "jeffreyplewak-com",
+      "version": "1.0.0",
+      "dependencies": {
+        "nodemailer": "^6.9.15"
+      },
+      "engines": {
+        "node": ">=18"
+      }
+    },
+    "node_modules/nodemailer": {
+      "version": "6.10.1",
+      "resolved": "https://registry.npmjs.org/nodemailer/-/nodemailer-6.10.1.tgz",
+      "integrity": "sha512-Z+iLaBGVaSjbIzQ4pX6XV41HrooLsQ10ZWPUehGmuantvzWoDVBnmsdUcOIDM1t+yPor5pDhVlDESgOMEGxhHA==",
+      "license": "MIT-0",
+      "engines": {
+        "node": ">=6.0.0"
+      }
+    }
+  }
+}
+{
+  "name": "jeffreyplewak-com",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Static portfolio + consulting site for Jeffrey Plewak with Vercel serverless contact endpoint.",
+  "scripts": {
+    "dev": "python3 -m http.server 8000",
+    "start": "python3 -m http.server 8000",
+    "build": "bash build.sh"
+  },
+  "dependencies": {
+    "nodemailer": "^6.9.15"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Services & Pricing – Jeffrey Plewak</title>
+  <meta name="description" content="Clear, transparent pricing for consulting, LinkedIn + résumé upgrades, and complete social media systems with landing pages and CRM funnels." />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="robots" content="index,follow" />
+  <link rel="canonical" href="https://jeffreyplewak.com/pay.html" />
+  <link rel="icon" href="favicon.svg" />
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png" />
+  <link rel="manifest" href="manifest.json" />
+
+  <!-- Tailwind CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: { ink: "#111", subtle: "#666" },
+          fontFamily: { sans: ["Inter", "ui-sans-serif", "system-ui"] }
+        }
+      }
+    };
+  </script>
+
+  <!-- Animations -->
+  <style>
+    .fade-up { opacity: 0; transform: translateY(20px); animation: fadeUp .8s ease forwards; }
+    @keyframes fadeUp { to { opacity:1; transform:translateY(0);} }
+  </style>
+
+  <!-- Stripe -->
+  <script async src="https://js.stripe.com/v3/buy-button.js"></script>
+
+  <!-- JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "name": "Consulting Services & Packages",
+    "provider": {
+      "@type": "Person",
+      "name": "Jeffrey Plewak",
+      "url": "https://jeffreyplewak.com"
+    },
+    "url": "https://jeffreyplewak.com/pay.html"
+  }
+  </script>
+</head>
+
+<body class="font-sans text-ink bg-white antialiased">
+  <!-- Header -->
+  <header class="w-full border-b border-gray-200 bg-white/80 backdrop-blur-sm">
+    <div class="max-w-6xl mx-auto flex justify-between items-center py-4 px-4">
+      <a href="index.html" class="flex items-center space-x-3">
+        <img src="assets/avatar.jpeg" alt="Jeffrey Plewak" class="w-10 h-10 rounded-full" />
+        <span class="font-semibold text-lg">Jeffrey Plewak</span>
+      </a>
+      <nav>
+        <ul class="flex space-x-6 text-sm">
+          <li><a href="index.html" class="hover:underline underline-offset-4">Home</a></li>
+          <li><a href="pay.html" aria-current="page" class="underline underline-offset-4 font-medium">Pricing</a></li>
+          <li><a href="book.html" class="hover:underline underline-offset-4">Book</a></li>
+          <li><a href="contact.html" class="hover:underline underline-offset-4">Contact</a></li>
+          <li><a href="assets/resume.docx" download class="hover:underline underline-offset-4">Résumé</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <!-- HERO -->
+    <section class="w-full bg-gradient-to-b from-gray-50 to-white py-20 px-4">
+      <div class="max-w-3xl mx-auto text-center fade-up">
+        <h1 class="text-4xl font-semibold">Services & Pricing</h1>
+        <p class="mt-4 text-subtle text-lg">
+          Simple, transparent pricing for clean systems, personal upgrades, and full marketing funnels.
+        </p>
+      </div>
+    </section>
+
+    <!-- PACKAGES -->
+    <section class="py-16 px-4">
+      <div class="max-w-6xl mx-auto">
+        <div class="grid md:grid-cols-3 gap-10">
+
+          <!-- $25 Intro -->
+          <div class="fade-up border border-gray-200 rounded-2xl p-8 flex flex-col hover:shadow-lg transition">
+            <h2 class="text-xl font-semibold">$25 Intro (deposit)</h2>
+            <p class="text-subtle mt-2 text-sm leading-relaxed">
+              Short in-person intro (local area). Deposit credited to your project.
+              Refundable with 24h notice; forfeited for no-show.
+            </p>
+
+            <div class="mt-6">
+              <stripe-buy-button
+                buy-button-id="buy_btn_1SWrTv0aCBTBOlO39NuVFeuj"
+                publishable-key="pk_live_51STJQl0aCBTBOlO3GIOJYCrcXsj43n6Qg6eHjQ62aWcBrQgFPtJ1g1NMGKiYJWF2SlRsYEjWiPB23gjwyFuiEAxw00oeKGh4MI">
+              </stripe-buy-button>
+            </div>
+          </div>
+
+          <!-- $200 LinkedIn + Resume -->
+          <div class="fade-up border border-gray-200 rounded-2xl p-8 flex flex-col hover:shadow-lg transition">
+            <h2 class="text-xl font-semibold">$200 LinkedIn + Résumé</h2>
+            <p class="text-subtle mt-2 text-sm leading-relaxed">
+              Full résumé rewrite + optimized LinkedIn profile branding and positioning.
+            </p>
+
+            <ul class="mt-4 space-y-2 text-sm text-subtle">
+              <li>• Résumé rewrite</li>
+              <li>• LinkedIn profile optimization</li>
+              <li>• Positioning improvements</li>
+              <li>• Optional AI drafting support</li>
+            </ul>
+
+            <div class="mt-6">
+              <stripe-buy-button
+                buy-button-id="buy_btn_1SWrOD0aCBTBOlO3FVObmNe2"
+                publishable-key="pk_live_51STJQl0aCBTBOlO3GIOJYCrcXsj43n6Qg6eHjQ62aWcBrQgFPtJ1g1NMGKiYJWF2SlRsYEjWiPB23gjwyFuiEAxw00oeKGh4MI">
+              </stripe-buy-button>
+            </div>
+          </div>
+
+          <!-- $1000 Social Media + Landing + CRM -->
+          <div class="fade-up border border-gray-200 rounded-2xl p-8 flex flex-col hover:shadow-lg transition">
+            <h2 class="text-xl font-semibold">$1000 Social System + Landing + CRM</h2>
+            <p class="text-subtle mt-2 text-sm leading-relaxed">
+              Complete social media consult, setup, business landing page, and CRM funnel.
+            </p>
+
+            <ul class="mt-4 space-y-2 text-sm text-subtle">
+              <li>• Social media setup + system</li>
+              <li>• Business landing page</li>
+              <li>• CRM funnel + pipeline</li>
+              <li>• Tracking + analytics</li>
+            </ul>
+
+            <div class="mt-6">
+              <stripe-buy-button
+                buy-button-id="buy_btn_1SWrQ40aCBTBOlO3luhrvkjQ"
+                publishable-key="pk_live_51STJQl0aCBTBOlO3GIOJYCrcXsj43n6Qg6eHjQ62aWcBrQgFPtJ1g1NMGKiYJWF2SlRsYEjWiPB23gjwyFuiEAxw00oeKGh4MI">
+              </stripe-buy-button>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- FINAL CTA -->
+    <section class="py-20 px-4 bg-gray-50">
+      <div class="fade-up max-w-xl mx-auto text-center">
+        <h2 class="text-2xl font-semibold">Prefer talking first?</h2>
+        <p class="text-subtle mt-2">
+          Book a quick intro call — we’ll map the simplest next step.
+        </p>
+        <div class="mt-6 flex justify-center">
+          <a href="book.html" class="px-6 py-3 bg-black text-white rounded-lg text-sm font-medium hover:bg-neutral-900 transition">
+            Book a 15-minute intro
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="py-10 border-t border-gray-200 text-center text-sm text-subtle">
+    <p>© 2025 Jeffrey Plewak. All rights reserved.</p>
+    <p class="mt-2 space-x-3">
+      <a href="contact.html" class="hover:underline">Contact</a>
+      <a href="pay.html" class="hover:underline">Pricing</a>
+      <a href="terms.html" class="hover:underline">Terms</a>
+      <a href="privacy.html" class="hover:underline">Privacy</a>
+      <a href="accessibility.html" class="hover:underline">Accessibility</a>
+    </p>
+  </footer>
+
+  <script src="assets/cookie.js" defer></script>
+</body>
+</html><!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Privacy Policy – Jeffrey Plewak</title>
+  <meta
+    name="description"
+    content="Privacy policy for jeffreyplewak.com. How data is collected, used, and stored when you visit, contact me, book a call, or pay for services."
+  />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <link rel="canonical" href="https://jeffreyplewak.com/privacy.html" />
+  <link rel="icon" href="/favicon.svg" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png" />
+  <link rel="manifest" href="/manifest.json" />
+
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="brand">
+        <img src="/assets/avatar.jpeg" alt="Photo of Jeffrey Plewak" class="brand-avatar" />
+        <span class="brand-text">Jeffrey Plewak</span>
+      </a>
+      <nav aria-label="Primary navigation">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="premium.html">Services</a></li>
+          <li><a href="pay.html">Pricing</a></li>
+          <li><a href="book.html">Book</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="/assets/resume.docx" download>Résumé</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <section class="section">
+      <div class="container legal">
+        <h1>Privacy Policy</h1>
+        <p class="small subtle">
+          Last updated: November 2025 · This page explains how this site handles your data in plain language.
+          It is not formal legal advice.
+        </p>
+
+        <h2>1. Who runs this site</h2>
+        <p>
+          This site is run by me, <strong>Jeffrey Plewak</strong>, as an independent consultant.
+        </p>
+        <p class="small">
+          Contact: <a href="mailto:plewak.jeff@gmail.com">plewak.jeff@gmail.com</a>
+        </p>
+
+        <h2>2. What this site does</h2>
+        <p>
+          This site is a simple marketing and booking site for my consulting work. It lets you:
+        </p>
+        <ul class="features">
+          <li>Read about services and pricing.</li>
+          <li>Book a call via Calendly.</li>
+          <li>Send a message via a contact form (backed by HubSpot CRM).</li>
+          <li>Pay for services via Stripe Buy Buttons.</li>
+        </ul>
+
+        <h2>3. What data is collected</h2>
+        <p>There are three main categories of data:</p>
+        <h3>3.1 Data you actively submit</h3>
+        <ul class="features">
+          <li>
+            <strong>Contact forms (HubSpot):</strong> When you send a message through the contact form,
+            HubSpot collects the fields shown (for example name, email, message) and stores them in
+            my HubSpot CRM account so I can respond and track follow-ups.
+          </li>
+          <li>
+            <strong>Booking (Calendly):</strong> When you schedule a call, Calendly collects details such as
+            your name, email, and chosen time to create calendar events and reminders.
+          </li>
+          <li>
+            <strong>Payments (Stripe):</strong> When you pay through a Stripe Buy Button, Stripe collects
+            payment details and billing information to process the transaction. I do not see full card numbers.
+          </li>
+        </ul>
+
+        <h3>3.2 Technical and usage data</h3>
+        <ul class="features">
+          <li>
+            <strong>Hosting logs (Vercel and related infrastructure):</strong> When you visit the site,
+            standard web server logs may record your IP address, browser type, and basic request information.
+            These logs are used for security, reliability, and abuse prevention.
+          </li>
+          <li>
+            <strong>Basic usage information:</strong> Depending on how analytics are configured, anonymised
+            metrics (such as page views and referrers) may be collected to understand which pages are used.
+          </li>
+        </ul>
+
+        <h3 id="cookies">3.3 Cookies and similar technologies</h3>
+        <p>
+          This site uses cookies and similar technologies to run basic features and, optionally,
+          analytics or marketing. The banner at the bottom of the page lets you choose your preferences.
+        </p>
+        <ul class="features">
+          <li>
+            <strong>Strictly necessary:</strong> Required for security, basic navigation, and for some
+            third-party tools (for example Stripe) to work properly.
+          </li>
+          <li>
+            <strong>Performance:</strong> Optional analytics to understand which pages are used and how.
+          </li>
+          <li>
+            <strong>Marketing / targeting:</strong> Only relevant if I later enable remarketing or ads;
+            none are currently used by default.
+          </li>
+        </ul>
+        <p class="small">
+          You can update your preferences at any time using the cookie controls when they are shown.
+        </p>
+
+        <h2>4. How your data is used</h2>
+        <p>Your data is used only to:</p>
+        <ul class="features">
+          <li>Respond to your messages and questions.</li>
+          <li>Schedule and run calls or meetings you request.</li>
+          <li>Process payments and keep basic financial records.</li>
+          <li>Maintain site security and prevent abuse.</li>
+          <li>Understand which pages are working or need improvement (if analytics are enabled).</li>
+        </ul>
+        <p>
+          I do not sell your data to third parties. Data is shared only with the service providers
+          needed to run the site and deliver services (for example HubSpot, Calendly, Stripe, hosting).
+        </p>
+
+        <h2>5. Where your data is stored</h2>
+        <p>
+          Data may be processed and stored in data centers operated by the services used, which may
+          be located in the United States or other regions. These providers have their own security
+          and compliance programs.
+        </p>
+
+        <h2>6. Third-party services used</h2>
+        <p>
+          This site uses several third-party providers. Their handling of your data is also governed
+          by their own privacy policies:
+        </p>
+        <ul class="features">
+          <li>Hosting and deployment platforms (for example Vercel or similar).</li>
+          <li>Stripe (payments and checkout).</li>
+          <li>Calendly (scheduling and calendar invites).</li>
+          <li>HubSpot (contact forms and CRM).</li>
+          <li>Optional analytics providers if enabled in the future.</li>
+        </ul>
+
+        <h2>7. Data retention</h2>
+        <p>
+          Data is kept for as long as it is reasonably needed for the purposes above:
+          responding to you, running projects, keeping basic business records, and complying with
+          legal or tax obligations.
+        </p>
+
+        <h2>8. Your rights and choices</h2>
+        <p>
+          Depending on your location, you may have rights over your personal data, such as the right
+          to access, correct, or request deletion. If you want to exercise these rights, contact me
+          at <a href="mailto:plewak.jeff@gmail.com">plewak.jeff@gmail.com</a> with enough information
+          to identify your records.
+        </p>
+        <p class="small">
+          I may need to keep certain records where there is a legal obligation (for example invoices
+          or basic transaction details).
+        </p>
+
+        <h2>9. Children</h2>
+        <p>
+          This site and services are not directed at children. If you believe information about a
+          minor has been provided, contact me and I will review and, where appropriate, delete it.
+        </p>
+
+        <h2>10. Changes to this policy</h2>
+        <p>
+          This policy may be updated from time to time as the site or services change. The “last updated”
+          date at the top of the page will always show the current version. Significant changes will be
+          reflected on this page.
+        </p>
+
+        <h2>11. How to contact me about privacy</h2>
+        <p>
+          For any privacy-related questions or requests, email
+          <a href="mailto:plewak.jeff@gmail.com">plewak.jeff@gmail.com</a>. I aim to respond within a
+          reasonable time.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-inner">
+      <p>© 2025 Jeffrey Plewak. All rights reserved.</p>
+      <p>
+        <a href="index.html">Home</a> ·
+        <a href="terms.html">Terms</a> ·
+        <a href="privacy.html" aria-current="page">Privacy</a> ·
+        <a href="accessibility.html">Accessibility</a>
+      </p>
+    </div>
+  </footer>
+
+  <!-- Cookie consent -->
+  <script src="/assets/cookie.js" defer></script>
+</body>
+</html># jeffreyplewak.com
+# jeffreyplewak.com
+
+Primary hub for Jeffrey Plewak.
+
+- Static HTML via GitHub Pages  
+- 100 % free hosting  
+- HTTPS + CDN (Cloudflare optional)  
+- Links to Calendly, GitHub, and email
+
+
+red1901User-agent: *
+Allow: /
+
+Disallow: /drafts/
+Disallow: /private/
+
+Sitemap: https://jeffreyplewak.com/sitemap.xml
+
+# Contact: plewak.jeff@gmail.com<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://jeffreyplewak.com/</loc>
+  </url>
+  <url>
+    <loc>https://jeffreyplewak.com/pay.html</loc>
+  </url>
+  <url>
+    <loc>https://jeffreyplewak.com/book.html</loc>
+  </url>
+  <url>
+    <loc>https://jeffreyplewak.com/contact.html</loc>
+  </url>
+  <url>
+    <loc>https://jeffreyplewak.com/terms.html</loc>
+  </url>
+  <url>
+    <loc>https://jeffreyplewak.com/privacy.html</loc>
+  </url>
+</urlset><!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Terms of Use – Jeffrey Plewak</title>
+  <meta
+    name="description"
+    content="Terms of use for jeffreyplewak.com. Basic rules for using this site, no guarantees, and important disclaimers."
+  />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <link rel="canonical" href="https://jeffreyplewak.com/terms.html" />
+  <link rel="icon" href="/favicon.svg" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png" />
+  <link rel="manifest" href="/manifest.json" />
+
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="brand">
+        <img src="/assets/avatar.jpeg" alt="Photo of Jeffrey Plewak" class="brand-avatar" />
+        <span class="brand-text">Jeffrey Plewak</span>
+      </a>
+      <nav aria-label="Primary navigation">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="premium.html">Services</a></li>
+          <li><a href="pay.html">Pricing</a></li>
+          <li><a href="book.html">Book</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="/assets/resume.docx" download>Résumé</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <section class="section">
+      <div class="container legal">
+        <h1>Terms of Use</h1>
+        <p class="small subtle">
+          Last updated: November 2025 · These terms are meant to be clear and readable. They are not formal legal advice.
+        </p>
+
+        <h2>1. Acceptance of these terms</h2>
+        <p>
+          By using this site, you agree to these terms of use. If you do not agree, please do not
+          use the site or submit information through it.
+        </p>
+
+        <h2>2. What this site provides</h2>
+        <p>
+          This site provides information about my services, ways to contact me, options to book
+          time, and ways to pay for certain services. Everything is provided on an “as is” and “as
+          available” basis.
+        </p>
+
+        <h2>3. No guarantees or promises</h2>
+        <p>
+          I take the work seriously and aim for professional, careful results, but:
+        </p>
+        <ul class="features">
+          <li>The site may change or be unavailable without notice.</li>
+          <li>No specific business, legal, or financial results are guaranteed.</li>
+          <li>Examples or descriptions of past work do not promise the same outcome for you.</li>
+        </ul>
+
+        <h2>4. Not legal or financial advice</h2>
+        <p>
+          Content on this site is general information, not legal or financial advice. Any work
+          involving compliance, risk, or legal processes is done with care, but decisions about
+          legal obligations remain your responsibility and, where applicable, the responsibility
+          of your own legal counsel.
+        </p>
+
+        <h2>5. Use of the site</h2>
+        <p>You agree not to do any of the following:</p>
+        <ul class="features">
+          <li>Use the site to send spam or abusive content.</li>
+          <li>Attempt to disrupt, overload, or attack the site or its infrastructure.</li>
+          <li>Try to bypass security measures or access data that is not intended for you.</li>
+        </ul>
+
+        <h2>6. Third-party services and links</h2>
+        <p>
+          This site relies on third-party tools such as hosting providers, Stripe, Calendly,
+          HubSpot, and others. There may also be links to external sites. I do not control these
+          services or sites and am not responsible for their content, policies, or availability.
+        </p>
+
+        <h2>7. Payments and refunds</h2>
+        <p>
+          Payments for services are processed by Stripe. Pricing pages and checkout options show
+          current pricing and what is included. For specific engagements, scope and terms may be
+          agreed in writing (for example by email or separate agreement).
+        </p>
+        <p class="small">
+          If something feels mismatched or you believe there has been a mistake, contact me quickly
+          at <a href="mailto:plewak.jeff@gmail.com">plewak.jeff@gmail.com</a> and I will review the
+          situation in good faith. Any refund or change is handled case by case.
+        </p>
+
+        <h2>8. Intellectual property</h2>
+        <p>
+          Unless stated otherwise, the content on this site (text, layout, and design) is owned by
+          me or used with permission. You may reference the site and share links, but copying or
+          re-using substantial portions of content for your own commercial site is not permitted
+          without explicit permission.
+        </p>
+
+        <h2>9. Limitation of liability</h2>
+        <p>
+          To the fullest extent permitted by applicable law, I am not liable for any indirect,
+          incidental, special, or consequential damages, or for any loss of profits or data arising
+          out of or in connection with your use of this site.
+        </p>
+        <p class="small">
+          If any liability is found despite the above, it will be limited to the amount you actually
+          paid for the relevant service, where applicable.
+        </p>
+
+        <h2>10. Changes to these terms</h2>
+        <p>
+          These terms may be updated from time to time. The “last updated” date at the top of this
+          page will always indicate the current version. Continued use of the site after changes
+          means you accept the updated terms.
+        </p>
+
+        <h2>11. Contact</h2>
+        <p>
+          If you have questions about these terms, email
+          <a href="mailto:plewak.jeff@gmail.com">plewak.jeff@gmail.com</a>.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-inner">
+      <p>© 2025 Jeffrey Plewak. All rights reserved.</p>
+      <p>
+        <a href="index.html">Home</a> ·
+        <a href="terms.html" aria-current="page">Terms</a> ·
+        <a href="privacy.html">Privacy</a> ·
+        <a href="accessibility.html">Accessibility</a>
+      </p>
+    </div>
+  </footer>
+
+  <!-- Cookie consent -->
+  <script src="/assets/cookie.js" defer></script>
+</body>
+</html><!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Thank You – Jeffrey Plewak</title>
+  <meta name="description" content="Thank you for your purchase. Next steps for your project or session.">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="/favicon.svg">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="brand">
+        <img src="/assets/avatar.jpeg" alt="Photo of Jeffrey Plewak" class="brand-avatar">
+        <span class="brand-text">Jeffrey Plewak</span>
+      </a>
+      <nav aria-label="Primary navigation">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="pay.html">Pricing</a></li>
+          <li><a href="book.html">Book</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <section class="section section-alt">
+      <div class="container">
+        <h1>Thank you.</h1>
+        <p>
+          Your payment was successful. You’ll receive an email shortly with:
+        </p>
+        <ul>
+          <li>A confirmation of your purchase.</li>
+          <li>A link to book your call or share project details.</li>
+          <li>Any prep questions so we can use our time well.</li>
+        </ul>
+        <p class="note">
+          If you don’t see an email within 10–15 minutes, check your spam folder or email
+          <a href="mailto:plewak.jeff@gmail.com">plewak.jeff@gmail.com</a> with your name and what you purchased.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-inner">
+      <p>© 2025 Jeffrey Plewak. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html><!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Page not found – Jeffrey Plewak</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta
+    name="description"
+    content="The page you were looking for could not be found on jeffreyplewak.com."
+  />
+  <meta name="robots" content="noindex,follow" />
+  <link rel="canonical" href="https://jeffreyplewak.com/404.html" />
+
+  <link rel="icon" href="favicon.svg" />
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png" />
+  <link rel="manifest" href="manifest.json" />
+
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="brand">
+        <img
+          src="assets/avatar.jpeg"
+          alt="Photo of Jeffrey Plewak"
+          class="brand-avatar"
+        />
+        <span class="brand-text">Jeffrey Plewak</span>
+      </a>
+      <nav aria-label="Primary navigation">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="premium.html">Services</a></li>
+          <li><a href="pay.html">Pricing</a></li>
+          <li><a href="book.html">Book</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="assets/resume.docx" download>Résumé</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <!-- Minimal 404 hero -->
+    <section class="hero">
+      <div class="animated-hero">
+        <div class="hero-overlay"></div>
+        <div class="container hero-inner hero-inner-single">
+          <div class="hero-content">
+            <p class="eyebrow">404 · Page not found</p>
+            <h1>This page isn’t here.</h1>
+            <p>
+              The link you followed may be out of date, misspelled, or pointing to something
+              that moved. You can get back to the core offers and contact options below.
+            </p>
+            <div class="hero-buttons">
+              <a href="index.html" class="btn btn-primary">Back to home</a>
+              <a href="contact.html" class="btn btn-secondary">Contact me</a>
+            </div>
+            <p class="hero-footnote">
+              If you reached this from an email or third-party link, you can forward it to
+              <a href="mailto:plewak.jeff@gmail.com">plewak.jeff@gmail.com</a> and I’ll review it.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Minimal quick links section -->
+    <section class="section section-compact">
+      <div class="container">
+        <h2>Where you might have meant to go</h2>
+        <ul class="features">
+          <li><a href="pay.html">Packages and pricing</a></li>
+          <li><a href="book.html">Book a 15-minute intro call</a></li>
+          <li><a href="premium.html">Services overview</a></li>
+          <li><a href="contact.html">Send a short message</a></li>
+          <li>
+            <a href="privacy.html">Privacy policy</a> ·
+            <a href="terms.html">Terms</a> ·
+            <a href="accessibility.html">Accessibility</a>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-inner">
+      <p>© 2025 Jeffrey Plewak. All rights reserved.</p>
+      <p>
+        <a href="contact.html">Contact</a> ·
+        <a href="pay.html">Pricing</a> ·
+        <a href="terms.html">Terms</a> ·
+        <a href="privacy.html">Privacy</a> ·
+        <a href="accessibility.html">Accessibility</a>
+      </p>
+      <p class="small subtle">
+        Nothing on this site is legal, financial, or tax advice. I help you design systems;
+        you remain responsible for how you use them and which rules apply to you.
+      </p>
+    </div>
+  </footer>
+
+  <script src="assets/cookie.js" defer></script>
+</body>
+</html><!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Accessibility – Jeffrey Plewak</title>
+  <meta
+    name="description"
+    content="Accessibility statement for jeffreyplewak.com. How the site is designed to be usable, and how to report issues."
+  />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <link rel="canonical" href="https://jeffreyplewak.com/accessibility.html" />
+  <link rel="icon" href="/favicon.svg" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png" />
+  <link rel="manifest" href="/manifest.json" />
+
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="brand">
+        <img src="/assets/avatar.jpeg" alt="Photo of Jeffrey Plewak" class="brand-avatar" />
+        <span class="brand-text">Jeffrey Plewak</span>
+      </a>
+      <nav aria-label="Primary navigation">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="premium.html">Services</a></li>
+          <li><a href="pay.html">Pricing</a></li>
+          <li><a href="book.html">Book</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="/assets/resume.docx" download>Résumé</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <section class="section">
+      <div class="container legal">
+        <h1>Accessibility</h1>
+        <p class="small subtle">
+          Last updated: November 2025
+        </p>
+
+        <h2>My commitment</h2>
+        <p>
+          I want this site to be usable and understandable for as many people as possible,
+          including people using assistive technologies such as screen readers, keyboard-only
+          navigation, or high-contrast modes.
+        </p>
+
+        <h2>What I’ve done so far</h2>
+        <ul class="features">
+          <li>Used simple layouts and clear headings for content structure.</li>
+          <li>Included a “Skip to main content” link at the top of each page.</li>
+          <li>Avoided auto-playing audio and heavy motion; soft animations respect reduced-motion settings.</li>
+          <li>Used sufficient color contrast for text and key controls where possible.</li>
+          <li>Ensured main actions (booking, contact, purchase) are accessible via keyboard navigation.</li>
+        </ul>
+
+        <h2>Where there may still be issues</h2>
+        <p>
+          Some parts of the site rely on third-party widgets, such as:
+        </p>
+        <ul class="features">
+          <li>Calendly for scheduling.</li>
+          <li>Stripe Buy Buttons for payments.</li>
+          <li>HubSpot forms for contact submissions.</li>
+        </ul>
+        <p>
+          These services control their own markup and behavior, and while they generally support
+          accessibility, there may be limitations or differences compared to the rest of the site.
+        </p>
+
+        <h2>How to report a problem</h2>
+        <p>
+          If you experience any issues using this site, especially with assistive technology
+          or keyboard navigation, please let me know:
+        </p>
+        <ul class="features">
+          <li>Email: <a href="mailto:plewak.jeff@gmail.com">plewak.jeff@gmail.com</a></li>
+          <li>Subject line: “Accessibility feedback” if you’re comfortable using that phrase.</li>
+        </ul>
+        <p class="small">
+          If you can include details like the page, what you were trying to do, and the tools
+          you use (for example screen reader or browser), that helps me fix the problem faster.
+        </p>
+
+        <h2>Ongoing improvements</h2>
+        <p>
+          I will continue to review and refine the site, especially when adding new sections
+          or tools, to keep it as clear and accessible as I reasonably can.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-inner">
+      <p>© 2025 Jeffrey Plewak. All rights reserved.</p>
+      <p>
+        <a href="index.html">Home</a> ·
+        <a href="terms.html">Terms</a> ·
+        <a href="privacy.html">Privacy</a> ·
+        <a href="accessibility.html" aria-current="page">Accessibility</a>
+      </p>
+    </div>
+  </footer>
+
+  <!-- Cookie consent -->
+  <script src="/assets/cookie.js" defer></script>
+</body>
+</html><!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Book a Call – Jeffrey Plewak</title>
+  <meta name="description" content="Book a 15-minute intro call with Jeffrey Plewak to map your tools, leads, and next steps." />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="robots" content="index,follow" />
+  <link rel="canonical" href="https://jeffreyplewak.com/book.html" />
+  <link rel="icon" href="favicon.svg" />
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png" />
+  <link rel="manifest" href="manifest.json" />
+
+  <!-- Tailwind CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: { ink: "#111", subtle: "#666" },
+          fontFamily: { sans: ["Inter", "ui-sans-serif", "system-ui"] }
+        }
+      }
+    };
+  </script>
+
+  <!-- Fade animations -->
+  <style>
+    .fade-up { opacity: 0; transform: translateY(20px); animation: fadeUp .8s ease forwards; }
+    @keyframes fadeUp { to { opacity:1; transform:translateY(0); } }
+  </style>
+
+  <!-- Calendly widget -->
+  <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+  <script src="https://assets.calendly.com/assets/external/widget.js" async></script>
+
+  <!-- JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ContactPage",
+    "name": "Book Intro Call",
+    "url": "https://jeffreyplewak.com/book.html",
+    "mainEntity": {
+      "@type": "Person",
+      "name": "Jeffrey Plewak"
+    }
+  }
+  </script>
+</head>
+
+<body class="font-sans text-ink bg-white antialiased">
+  <!-- Header -->
+  <header class="w-full border-b border-gray-200 bg-white/80 backdrop-blur-sm">
+    <div class="max-w-6xl mx-auto flex justify-between items-center py-4 px-4">
+      <a href="index.html" class="flex items-center space-x-3">
+        <img src="assets/avatar.jpeg" alt="Jeffrey Plewak" class="w-10 h-10 rounded-full" />
+        <span class="font-semibold text-lg">Jeffrey Plewak</span>
+      </a>
+      <nav>
+        <ul class="flex space-x-6 text-sm">
+          <li><a href="index.html" class="hover:underline underline-offset-4">Home</a></li>
+          <li><a href="pay.html" class="hover:underline underline-offset-4">Pricing</a></li>
+          <li><a href="book.html" aria-current="page" class="underline underline-offset-4 font-medium">Book</a></li>
+          <li><a href="contact.html" class="hover:underline underline-offset-4">Contact</a></li>
+          <li><a href="assets/resume.docx" download class="hover:underline underline-offset-4">Résumé</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <!-- HERO -->
+    <section class="w-full bg-gradient-to-b from-gray-50 to-white py-20 px-4">
+      <div class="max-w-3xl mx-auto text-center fade-up">
+        <h1 class="text-4xl font-semibold">Book a 15-minute intro</h1>
+        <p class="mt-4 text-subtle text-lg">
+          A short, focused call to understand where you are, what you're trying to fix or build, and whether I’m the right fit.
+        </p>
+      </div>
+    </section>
+
+    <!-- CONTENT -->
+    <section class="py-16 px-4">
+      <div class="max-w-5xl mx-auto grid lg:grid-cols-2 gap-12">
+        
+        <!-- Left column: expectations -->
+        <div class="fade-up">
+          <h2 class="text-xl font-semibold">What we'll cover</h2>
+          <ul class="mt-4 space-y-2 text-subtle text-sm leading-relaxed">
+            <li>• Map your current tools and biggest friction points.</li>
+            <li>• Identify one clear, realistic system that would help immediately.</li>
+            <li>• Decide whether we should start with a session or a scoped build.</li>
+          </ul>
+
+          <h2 class="text-xl font-semibold mt-8">Good use of this call</h2>
+          <ul class="mt-4 space-y-2 text-subtle text-sm">
+            <li>• You're losing leads in inboxes, DMs, or voicemail.</li>
+            <li>• You want clarity and a system, not “transformation” fluff.</li>
+            <li>• You care about doing things safely, cleanly, and evidence-ready.</li>
+          </ul>
+
+          <h2 class="text-xl font-semibold mt-8">Optional prep</h2>
+          <ul class="mt-4 space-y-2 text-subtle text-sm">
+            <li>• Rough list of tools you use (email, CRM, scheduling, payments).</li>
+            <li>• A few examples of where things break today.</li>
+            <li>• Constraints: budget, timeline, privacy, compliance.</li>
+          </ul>
+        </div>
+
+        <!-- Right column: Calendly -->
+        <div class="fade-up">
+          <h2 class="text-xl font-semibold mb-4">Pick a time</h2>
+
+          <div 
+            class="calendly-inline-widget w-full h-[700px]"
+            data-url="https://calendly.com/plewak-jeff/intro">
+          </div>
+
+          <p class="text-xs text-subtle mt-3">
+            If the widget doesn’t load, open Calendly directly:
+            <a href="https://calendly.com/plewak-jeff/intro" class="underline" target="_blank">calendly.com/plewak-jeff/intro</a>.
+          </p>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="py-10 border-t border-gray-200 text-center text-sm text-subtle">
+    <p>© 2025 Jeffrey Plewak. All rights reserved.</p>
+    <p class="mt-2 space-x-3">
+      <a href="contact.html" class="hover:underline">Contact</a>
+      <a href="pay.html" class="hover:underline">Pricing</a>
+      <a href="terms.html" class="hover:underline">Terms</a>
+      <a href="privacy.html" class="hover:underline">Privacy</a>
+      <a href="accessibility.html" class="hover:underline">Accessibility</a>
+    </p>
+  </footer>
+
+  <script src="assets/cookie.js" defer></script>
+</body>
+</html>#!/usr/bin/env bash
+#
+# build.sh – token replacement for jeffreyplewak.com
+# Replaces %%VAR%% placeholders in static HTML with environment values.
+# Run via: npm run build
+
+set -euo pipefail
+
+ROOT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+cd "$ROOT_DIR"
+
+HTML_FILES=(
+  "index.html"
+  "pay.html"
+  "premium.html"
+  "book.html"
+  "contact.html"
+)
+
+echo "build.sh: Using values (from environment)"
+echo "  SITE_NAME=${SITE_NAME:-Jeffrey Plewak}"
+echo "  SITE_URL=${SITE_URL:-https://jeffreyplewak.com}"
+echo "  CONTACT_EMAIL=${CONTACT_EMAIL:-${CONTACT_FORM_EMAIL:-plewak.jeff@gmail.com}}"
+echo "  CONTACT_ENDPOINT=${CONTACT_ENDPOINT:-https://jeffreyplewak.com/api/contact}"
+echo "  CALENDLY_URL=${CALENDLY_URL:-https://calendly.com/plewak-jeff/intro}"
+echo
+
+# Python reads env directly; shell does not touch placeholders.
+python3 - "${HTML_FILES[@]}" << 'PY'
+import os
+import sys
+from pathlib import Path
+
+html_files = [Path(p) for p in sys.argv[1:]]
+
+site_name = os.getenv("SITE_NAME", "Jeffrey Plewak")
+site_url = os.getenv("SITE_URL", "https://jeffreyplewak.com")
+
+tokens = {
+    "SITE_NAME": site_name,
+    "SITE_URL": site_url,
+    "OG_IMAGE_URL": os.getenv("OG_IMAGE_URL", f"{site_url}/og-image.png"),
+    "FAVICON_URL": os.getenv("FAVICON_URL", "/favicon.svg"),
+    "CONTACT_EMAIL": os.getenv("CONTACT_EMAIL") or os.getenv("CONTACT_FORM_EMAIL", "plewak.jeff@gmail.com"),
+    "CONTACT_ENDPOINT": os.getenv("CONTACT_ENDPOINT", "https://jeffreyplewak.com/api/contact"),
+    "CALENDLY_URL": os.getenv("CALENDLY_URL", "https://calendly.com/plewak-jeff/intro"),
+    # Stripe placeholders kept for compatibility; they can be empty.
+    "STRIPE_PUBLISHABLE_KEY": os.getenv("STRIPE_PUBLISHABLE_KEY", ""),
+    "STRIPE_STARTER_BUTTON_ID": os.getenv("STRIPE_STARTER_BUTTON_ID", ""),
+    "STRIPE_BUILDER_BUTTON_ID": os.getenv("STRIPE_BUILDER_BUTTON_ID", ""),
+}
+
+def apply_tokens(path: Path) -> None:
+    if not path.exists():
+        print(f"[build.sh] WARNING: {path} not found, skipping", file=sys.stderr)
+        return
+    text = path.read_text(encoding="utf-8")
+    original = text
+    for key, value in tokens.items():
+        placeholder = f"%%{key}%%"
+        if placeholder in text:
+            text = text.replace(placeholder, value or "")
+    if text != original:
+        path.write_text(text, encoding="utf-8")
+        print(f"[build.sh] Updated {path}")
+    else:
+        print(f"[build.sh] No tokens found in {path}, unchanged")
+
+for p in html_files:
+    apply_tokens(p)
+PY
+
+echo
+echo "build.sh: Token replacement complete."jeffreyplewak.com<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Contact – Jeffrey Plewak</title>
+  <meta name="description" content="Contact Jeffrey Plewak for lead systems, AI workflows, and clean websites built for clarity, safety, and performance." />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="robots" content="index,follow" />
+  <link rel="canonical" href="https://jeffreyplewak.com/contact.html" />
+  <link rel="icon" href="favicon.svg" />
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png" />
+  <link rel="manifest" href="manifest.json" />
+
+  <!-- Tailwind CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: { ink: "#111", subtle: "#666" },
+          fontFamily: { sans: ["Inter", "ui-sans-serif", "system-ui"] }
+        }
+      }
+    };
+  </script>
+
+  <!-- Animations -->
+  <style>
+    .fade-up { opacity: 0; transform: translateY(20px); animation: fadeUp .8s ease forwards; }
+    @keyframes fadeUp { to { opacity:1; transform:translateY(0);} }
+  </style>
+
+  <!-- HubSpot -->
+  <script charset="utf-8" type="text/javascript" src="https://js.hsforms.net/forms/embed/v2.js"></script>
+
+  <!-- JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ContactPage",
+    "name": "Contact Jeffrey Plewak",
+    "url": "https://jeffreyplewak.com/contact.html"
+  }
+  </script>
+</head>
+
+<body class="font-sans text-ink bg-white antialiased">
+  <!-- Header -->
+  <header class="w-full border-b border-gray-200 bg-white/80 backdrop-blur-sm">
+    <div class="max-w-6xl mx-auto flex justify-between items-center py-4 px-4">
+      <a href="index.html" class="flex items-center space-x-3">
+        <img src="assets/avatar.jpeg" alt="Jeffrey Plewak" class="w-10 h-10 rounded-full" />
+        <span class="font-semibold text-lg">Jeffrey Plewak</span>
+      </a>
+      <nav>
+        <ul class="flex space-x-6 text-sm">
+          <li><a href="index.html" class="hover:underline underline-offset-4">Home</a></li>
+          <li><a href="pay.html" class="hover:underline underline-offset-4">Pricing</a></li>
+          <li><a href="book.html" class="hover:underline underline-offset-4">Book</a></li>
+          <li><a href="contact.html" aria-current="page" class="underline underline-offset-4 font-medium">Contact</a></li>
+          <li><a href="assets/resume.docx" download class="hover:underline underline-offset-4">Résumé</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <!-- HERO -->
+    <section class="w-full bg-gradient-to-b from-gray-50 to-white py-20 px-4">
+      <div class="max-w-3xl mx-auto text-center fade-up">
+        <h1 class="text-4xl font-semibold">Get in touch</h1>
+        <p class="mt-4 text-subtle text-lg">
+          Send a quick note about what you're working on. I read every message personally.
+        </p>
+      </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section class="py-16 px-4">
+      <div class="max-w-4xl mx-auto grid lg:grid-cols-2 gap-12">
+        
+        <!-- Left column -->
+        <div class="fade-up">
+          <h2 class="text-xl font-semibold">What to include</h2>
+          <ul class="mt-4 space-y-3 text-subtle text-sm leading-relaxed">
+            <li>• What you're trying to fix or build</li>
+            <li>• Your tools (email, CRM, scheduling, payments)</li>
+            <li>• Any constraints (timeline, budget, privacy, risk)</li>
+            <li>• Your preferred way to follow up</li>
+          </ul>
+
+          <h2 class="text-xl font-semibold mt-10">Or book a call</h2>
+          <p class="mt-3 text-subtle text-sm">
+            Need something clearer than a message?  
+            <a href="book.html" class="underline">Book a 15-minute intro call</a>.
+          </p>
+        </div>
+
+        <!-- Right column: HubSpot form -->
+        <div class="fade-up">
+          <h2 class="text-xl font-semibold mb-4">Send a message</h2>
+
+          <div id="hubspot-form"></div>
+
+          <script>
+            hbspt.forms.create({
+              region: "na1",
+              portalId: "244411582",
+              formId: "e53f203d-0bb4-44ad-a9cf-a4c96fd773d7",
+              target: "#hubspot-form"
+            });
+          </script>
+
+          <p class="text-xs text-subtle mt-3">
+            Your details are used only to reply to your message. No marketing lists.
+          </p>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="py-10 border-t border-gray-200 text-center text-sm text-subtle">
+    <p>© 2025 Jeffrey Plewak. All rights reserved.</p>
+    <p class="mt-2 space-x-3">
+      <a href="contact.html" class="hover:underline">Contact</a>
+      <a href="pay.html" class="hover:underline">Pricing</a>
+      <a href="terms.html" class="hover:underline">Terms</a>
+      <a href="privacy.html" class="hover:underline">Privacy</a>
+      <a href="accessibility.html" class="hover:underline">Accessibility</a>
+    </p>
+  </footer>
+
+  <script src="assets/cookie.js" defer></script>
+</body>
+</html><?xml version="1.0" encoding="UTF-8"?>
+<svg width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+  <rect width="64" height="64" rx="12" ry="12" fill="#000000"/>
+  <rect x="6" y="6" width="52" height="52" rx="10" ry="10" fill="none" stroke="#007AFF" stroke-width="3"/>
+  <text x="50%" y="50%" text-anchor="middle" dominant-baseline="central"
+        font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif"
+        font-size="24" fill="#FFFFFF" font-weight="700">
+    JP
+  </text>
+</svg>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Jeffrey Plewak – Lead Systems, AI & Websites</title>
+  <meta name="description" content="I build simple lead systems, AI workflows, and clean websites that turn clicks and calls into booked work you can see." />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="robots" content="index,follow" />
+  <link rel="canonical" href="https://jeffreyplewak.com/" />
+  <link rel="icon" href="favicon.svg" />
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png" />
+  <link rel="manifest" href="manifest.json" />
+
+  <!-- Tailwind CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            ink: "#111111",
+            subtle: "#666666",
+          },
+          fontFamily: {
+            sans: ["Inter", "ui-sans-serif", "system-ui"],
+          },
+        },
+      },
+    };
+  </script>
+
+  <!-- Smooth fade/slide animations -->
+  <style>
+    .fade-up { opacity: 0; transform: translateY(20px); animation: fadeUp 0.8s ease forwards; }
+    .fade-delayed { opacity: 0; transform: translateY(20px); animation: fadeUp 1s ease forwards; }
+    @keyframes fadeUp { to { opacity: 1; transform: translateY(0); } }
+  </style>
+
+  <!-- Social & SEO -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Jeffrey Plewak – Lead Systems, AI & Websites" />
+  <meta property="og:description" content="Simple lead systems, AI workflows, and clean websites for SMBs, creators, and teams." />
+  <meta property="og:url" content="https://jeffreyplewak.com/" />
+  <meta property="og:image" content="https://jeffreyplewak.com/assets/avatar.jpeg" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Jeffrey Plewak – Lead Systems, AI & Websites" />
+  <meta name="twitter:description" content="Simple lead systems, AI workflows, and clean websites for SMBs, creators, and teams." />
+  <meta name="twitter:image" content="https://jeffreyplewak.com/assets/avatar.jpeg" />
+
+  <!-- JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Jeffrey Plewak",
+    "url": "https://jeffreyplewak.com/",
+    "publisher": {
+      "@type": "Person",
+      "name": "Jeffrey Plewak",
+      "url": "https://jeffreyplewak.com/",
+      "image": "https://jeffreyplewak.com/assets/avatar.jpeg"
+    }
+  }
+  </script>
+</head>
+
+<body class="font-sans text-ink bg-white antialiased">
+  <!-- Header -->
+  <header class="w-full border-b border-gray-200 bg-white/80 backdrop-blur-sm">
+    <div class="max-w-6xl mx-auto flex justify-between items-center py-4 px-4">
+      <a href="index.html" class="flex items-center space-x-3">
+        <img src="assets/avatar.jpeg" alt="Jeffrey Plewak" class="w-10 h-10 rounded-full" />
+        <span class="font-semibold text-lg">Jeffrey Plewak</span>
+      </a>
+      <nav>
+        <ul class="flex space-x-6 text-sm">
+          <li><a href="index.html" class="hover:underline underline-offset-4">Home</a></li>
+          <li><a href="pay.html" class="hover:underline underline-offset-4">Pricing</a></li>
+          <li><a href="book.html" class="hover:underline underline-offset-4">Book</a></li>
+          <li><a href="contact.html" class="hover:underline underline-offset-4">Contact</a></li>
+          <li><a href="assets/resume.docx" download class="hover:underline underline-offset-4">Résumé</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <!-- HERO -->
+    <section class="w-full bg-gradient-to-b from-gray-50 to-white py-24 px-4">
+      <div class="max-w-5xl mx-auto fade-up">
+        <p class="text-sm uppercase tracking-wide text-subtle">Lead systems • AI workflows • Clean websites</p>
+        <h1 class="text-4xl md:text-5xl font-semibold mt-3 leading-tight max-w-3xl">
+          Turn clicks and calls into booked work you can actually see.
+        </h1>
+        <p class="mt-4 text-lg text-subtle max-w-2xl">
+          I build simple, clear systems that catch every lead, organize your tools, and plug in AI safely when it truly helps.
+        </p>
+
+        <div class="mt-8 flex flex-col sm:flex-row gap-4">
+          <a href="book.html" class="px-6 py-3 bg-black text-white rounded-lg text-sm font-medium hover:bg-neutral-900 transition">
+            Book a 15-minute intro
+          </a>
+          <a href="pay.html" class="px-6 py-3 border border-black rounded-lg text-sm font-medium hover:bg-gray-100 transition">
+            See pricing
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- WHO I HELP -->
+    <section class="py-20 px-4">
+      <div class="max-w-5xl mx-auto">
+        <h2 class="text-2xl font-semibold fade-up">Who I help</h2>
+        <div class="grid md:grid-cols-3 gap-8 mt-10">
+          <div class="fade-delayed p-6 border border-gray-200 rounded-xl hover:shadow-md transition">
+            <h3 class="font-semibold text-lg">Local service businesses</h3>
+            <p class="text-subtle text-sm mt-2">Plumbers, roofers, cleaners, marinas, clinics.</p>
+          </div>
+
+          <div class="fade-delayed p-6 border border-gray-200 rounded-xl hover:shadow-md transition">
+            <h3 class="font-semibold text-lg">Creators & solo pros</h3>
+            <p class="text-subtle text-sm mt-2">Coaches, artists, consultants, content creators.</p>
+          </div>
+
+          <div class="fade-delayed p-6 border border-gray-200 rounded-xl hover:shadow-md transition">
+            <h3 class="font-semibold text-lg">Engineering & product teams</h3>
+            <p class="text-subtle text-sm mt-2">Small teams that need senior systems help.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- WHAT I BUILD -->
+    <section class="py-20 px-4 bg-gray-50">
+      <div class="max-w-5xl mx-auto">
+        <h2 class="text-2xl font-semibold fade-up">What I build</h2>
+        <div class="grid md:grid-cols-3 gap-8 mt-10">
+          <div class="p-6 border border-gray-200 rounded-xl hover:shadow-md transition">
+            <h3 class="font-semibold text-lg">Lead systems</h3>
+            <p class="text-sm text-subtle mt-2">Stop losing leads in inboxes and voicemail.</p>
+          </div>
+
+          <div class="p-6 border border-gray-200 rounded-xl hover:shadow-md transition">
+            <h3 class="font-semibold text-lg">Canonical websites</h3>
+            <p class="text-sm text-subtle mt-2">One clear page that people actually understand.</p>
+          </div>
+
+          <div class="p-6 border border-gray-200 rounded-xl hover:shadow-md transition">
+            <h3 class="font-semibold text-lg">AI & automation</h3>
+            <p class="text-sm text-subtle mt-2">Tools that fit your workflow — not the other way around.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="py-20 px-4">
+      <div class="max-w-5xl mx-auto grid md:grid-cols-2 gap-12">
+        <div class="fade-up">
+          <h2 class="text-2xl font-semibold">Who you’re working with</h2>
+          <p class="mt-4 text-subtle leading-relaxed">
+            15+ years across engineering, automation, systems, and tooling for SMBs, teams, and creators.
+          </p>
+        </div>
+        <div class="fade-delayed">
+          <h2 class="text-2xl font-semibold">How I work</h2>
+          <p class="mt-4 text-subtle leading-relaxed">
+            Clear diagrams, scoped systems, honest trade-offs, and no fluff. If you don’t need me, I’ll tell you.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- FINAL CTA -->
+    <section class="py-20 px-4 bg-gray-50">
+      <div class="max-w-xl mx-auto text-center fade-up">
+        <h2 class="text-2xl font-semibold">Start with one small, safe system</h2>
+        <p class="text-subtle mt-2">
+          If your leads or audience feel scattered, one well-designed system can fix it.
+        </p>
+        <div class="mt-6 flex flex-col sm:flex-row gap-4 justify-center">
+          <a href="book.html" class="px-6 py-3 bg-black text-white rounded-lg text-sm font-medium hover:bg-neutral-900 transition">
+            Book a 15-minute intro
+          </a>
+          <a href="pay.html" class="px-6 py-3 border border-black rounded-lg text-sm font-medium hover:bg-gray-100 transition">
+            See pricing
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="py-10 border-t border-gray-200 text-center text-sm text-subtle">
+    <p>© 2025 Jeffrey Plewak. All rights reserved.</p>
+    <p class="mt-2 space-x-3">
+      <a href="contact.html" class="hover:underline">Contact</a>
+      <a href="pay.html" class="hover:underline">Pricing</a>
+      <a href="terms.html" class="hover:underline">Terms</a>
+      <a href="privacy.html" class="hover:underline">Privacy</a>
+      <a href="accessibility.html" class="hover:underline">Accessibility</a>
+    </p>
+  </footer>
+
+  <script src="assets/cookie.js" defer></script>
+</body>
+</html>{
+  "name": "Jeffrey Plewak",
+  "short_name": "JP",
+  "icons": [
+    {
+      "src": "/assets/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#000000",
+  "theme_color": "#000000",
+  "display": "standalone"
+}{
+  "name": "jeffreyplewak-com",
+  "version": "1.0.0",
+  "lockfileVersion": 3,
+  "requires": true,
+  "packages": {
+    "": {
+      "name": "jeffreyplewak-com",
+      "version": "1.0.0",
+      "dependencies": {
+        "nodemailer": "^6.9.15"
+      },
+      "engines": {
+        "node": ">=18"
+      }
+    },
+    "node_modules/nodemailer": {
+      "version": "6.10.1",
+      "resolved": "https://registry.npmjs.org/nodemailer/-/nodemailer-6.10.1.tgz",
+      "integrity": "sha512-Z+iLaBGVaSjbIzQ4pX6XV41HrooLsQ10ZWPUehGmuantvzWoDVBnmsdUcOIDM1t+yPor5pDhVlDESgOMEGxhHA==",
+      "license": "MIT-0",
+      "engines": {
+        "node": ">=6.0.0"
+      }
+    }
+  }
+}
+{
+  "name": "jeffreyplewak-com",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Static portfolio + consulting site for Jeffrey Plewak with Vercel serverless contact endpoint.",
+  "scripts": {
+    "dev": "python3 -m http.server 8000",
+    "start": "python3 -m http.server 8000",
+    "build": "bash build.sh"
+  },
+  "dependencies": {
+    "nodemailer": "^6.9.15"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Services & Pricing – Jeffrey Plewak</title>
+  <meta name="description" content="Clear, transparent pricing for consulting, LinkedIn + résumé upgrades, and complete social media systems with landing pages and CRM funnels." />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="robots" content="index,follow" />
+  <link rel="canonical" href="https://jeffreyplewak.com/pay.html" />
+  <link rel="icon" href="favicon.svg" />
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png" />
+  <link rel="manifest" href="manifest.json" />
+
+  <!-- Tailwind CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: { ink: "#111", subtle: "#666" },
+          fontFamily: { sans: ["Inter", "ui-sans-serif", "system-ui"] }
+        }
+      }
+    };
+  </script>
+
+  <!-- Animations -->
+  <style>
+    .fade-up { opacity: 0; transform: translateY(20px); animation: fadeUp .8s ease forwards; }
+    @keyframes fadeUp { to { opacity:1; transform:translateY(0);} }
+  </style>
+
+  <!-- Stripe -->
+  <script async src="https://js.stripe.com/v3/buy-button.js"></script>
+
+  <!-- JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "name": "Consulting Services & Packages",
+    "provider": {
+      "@type": "Person",
+      "name": "Jeffrey Plewak",
+      "url": "https://jeffreyplewak.com"
+    },
+    "url": "https://jeffreyplewak.com/pay.html"
+  }
+  </script>
+</head>
+
+<body class="font-sans text-ink bg-white antialiased">
+  <!-- Header -->
+  <header class="w-full border-b border-gray-200 bg-white/80 backdrop-blur-sm">
+    <div class="max-w-6xl mx-auto flex justify-between items-center py-4 px-4">
+      <a href="index.html" class="flex items-center space-x-3">
+        <img src="assets/avatar.jpeg" alt="Jeffrey Plewak" class="w-10 h-10 rounded-full" />
+        <span class="font-semibold text-lg">Jeffrey Plewak</span>
+      </a>
+      <nav>
+        <ul class="flex space-x-6 text-sm">
+          <li><a href="index.html" class="hover:underline underline-offset-4">Home</a></li>
+          <li><a href="pay.html" aria-current="page" class="underline underline-offset-4 font-medium">Pricing</a></li>
+          <li><a href="book.html" class="hover:underline underline-offset-4">Book</a></li>
+          <li><a href="contact.html" class="hover:underline underline-offset-4">Contact</a></li>
+          <li><a href="assets/resume.docx" download class="hover:underline underline-offset-4">Résumé</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <!-- HERO -->
+    <section class="w-full bg-gradient-to-b from-gray-50 to-white py-20 px-4">
+      <div class="max-w-3xl mx-auto text-center fade-up">
+        <h1 class="text-4xl font-semibold">Services & Pricing</h1>
+        <p class="mt-4 text-subtle text-lg">
+          Simple, transparent pricing for clean systems, personal upgrades, and full marketing funnels.
+        </p>
+      </div>
+    </section>
+
+    <!-- PACKAGES -->
+    <section class="py-16 px-4">
+      <div class="max-w-6xl mx-auto">
+        <div class="grid md:grid-cols-3 gap-10">
+
+          <!-- $25 Intro -->
+          <div class="fade-up border border-gray-200 rounded-2xl p-8 flex flex-col hover:shadow-lg transition">
+            <h2 class="text-xl font-semibold">$25 Intro (deposit)</h2>
+            <p class="text-subtle mt-2 text-sm leading-relaxed">
+              Short in-person intro (local area). Deposit credited to your project.
+              Refundable with 24h notice; forfeited for no-show.
+            </p>
+
+            <div class="mt-6">
+              <stripe-buy-button
+                buy-button-id="buy_btn_1SWrTv0aCBTBOlO39NuVFeuj"
+                publishable-key="pk_live_51STJQl0aCBTBOlO3GIOJYCrcXsj43n6Qg6eHjQ62aWcBrQgFPtJ1g1NMGKiYJWF2SlRsYEjWiPB23gjwyFuiEAxw00oeKGh4MI">
+              </stripe-buy-button>
+            </div>
+          </div>
+
+          <!-- $200 LinkedIn + Resume -->
+          <div class="fade-up border border-gray-200 rounded-2xl p-8 flex flex-col hover:shadow-lg transition">
+            <h2 class="text-xl font-semibold">$200 LinkedIn + Résumé</h2>
+            <p class="text-subtle mt-2 text-sm leading-relaxed">
+              Full résumé rewrite + optimized LinkedIn profile branding and positioning.
+            </p>
+
+            <ul class="mt-4 space-y-2 text-sm text-subtle">
+              <li>• Résumé rewrite</li>
+              <li>• LinkedIn profile optimization</li>
+              <li>• Positioning improvements</li>
+              <li>• Optional AI drafting support</li>
+            </ul>
+
+            <div class="mt-6">
+              <stripe-buy-button
+                buy-button-id="buy_btn_1SWrOD0aCBTBOlO3FVObmNe2"
+                publishable-key="pk_live_51STJQl0aCBTBOlO3GIOJYCrcXsj43n6Qg6eHjQ62aWcBrQgFPtJ1g1NMGKiYJWF2SlRsYEjWiPB23gjwyFuiEAxw00oeKGh4MI">
+              </stripe-buy-button>
+            </div>
+          </div>
+
+          <!-- $1000 Social Media + Landing + CRM -->
+          <div class="fade-up border border-gray-200 rounded-2xl p-8 flex flex-col hover:shadow-lg transition">
+            <h2 class="text-xl font-semibold">$1000 Social System + Landing + CRM</h2>
+            <p class="text-subtle mt-2 text-sm leading-relaxed">
+              Complete social media consult, setup, business landing page, and CRM funnel.
+            </p>
+
+            <ul class="mt-4 space-y-2 text-sm text-subtle">
+              <li>• Social media setup + system</li>
+              <li>• Business landing page</li>
+              <li>• CRM funnel + pipeline</li>
+              <li>• Tracking + analytics</li>
+            </ul>
+
+            <div class="mt-6">
+              <stripe-buy-button
+                buy-button-id="buy_btn_1SWrQ40aCBTBOlO3luhrvkjQ"
+                publishable-key="pk_live_51STJQl0aCBTBOlO3GIOJYCrcXsj43n6Qg6eHjQ62aWcBrQgFPtJ1g1NMGKiYJWF2SlRsYEjWiPB23gjwyFuiEAxw00oeKGh4MI">
+              </stripe-buy-button>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- FINAL CTA -->
+    <section class="py-20 px-4 bg-gray-50">
+      <div class="fade-up max-w-xl mx-auto text-center">
+        <h2 class="text-2xl font-semibold">Prefer talking first?</h2>
+        <p class="text-subtle mt-2">
+          Book a quick intro call — we’ll map the simplest next step.
+        </p>
+        <div class="mt-6 flex justify-center">
+          <a href="book.html" class="px-6 py-3 bg-black text-white rounded-lg text-sm font-medium hover:bg-neutral-900 transition">
+            Book a 15-minute intro
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="py-10 border-t border-gray-200 text-center text-sm text-subtle">
+    <p>© 2025 Jeffrey Plewak. All rights reserved.</p>
+    <p class="mt-2 space-x-3">
+      <a href="contact.html" class="hover:underline">Contact</a>
+      <a href="pay.html" class="hover:underline">Pricing</a>
+      <a href="terms.html" class="hover:underline">Terms</a>
+      <a href="privacy.html" class="hover:underline">Privacy</a>
+      <a href="accessibility.html" class="hover:underline">Accessibility</a>
+    </p>
+  </footer>
+
+  <script src="assets/cookie.js" defer></script>
+</body>
+</html><!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Privacy Policy – Jeffrey Plewak</title>
+  <meta
+    name="description"
+    content="Privacy policy for jeffreyplewak.com. How data is collected, used, and stored when you visit, contact me, book a call, or pay for services."
+  />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <link rel="canonical" href="https://jeffreyplewak.com/privacy.html" />
+  <link rel="icon" href="/favicon.svg" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png" />
+  <link rel="manifest" href="/manifest.json" />
+
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="brand">
+        <img src="/assets/avatar.jpeg" alt="Photo of Jeffrey Plewak" class="brand-avatar" />
+        <span class="brand-text">Jeffrey Plewak</span>
+      </a>
+      <nav aria-label="Primary navigation">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="premium.html">Services</a></li>
+          <li><a href="pay.html">Pricing</a></li>
+          <li><a href="book.html">Book</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="/assets/resume.docx" download>Résumé</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <section class="section">
+      <div class="container legal">
+        <h1>Privacy Policy</h1>
+        <p class="small subtle">
+          Last updated: November 2025 · This page explains how this site handles your data in plain language.
+          It is not formal legal advice.
+        </p>
+
+        <h2>1. Who runs this site</h2>
+        <p>
+          This site is run by me, <strong>Jeffrey Plewak</strong>, as an independent consultant.
+        </p>
+        <p class="small">
+          Contact: <a href="mailto:plewak.jeff@gmail.com">plewak.jeff@gmail.com</a>
+        </p>
+
+        <h2>2. What this site does</h2>
+        <p>
+          This site is a simple marketing and booking site for my consulting work. It lets you:
+        </p>
+        <ul class="features">
+          <li>Read about services and pricing.</li>
+          <li>Book a call via Calendly.</li>
+          <li>Send a message via a contact form (backed by HubSpot CRM).</li>
+          <li>Pay for services via Stripe Buy Buttons.</li>
+        </ul>
+
+        <h2>3. What data is collected</h2>
+        <p>There are three main categories of data:</p>
+        <h3>3.1 Data you actively submit</h3>
+        <ul class="features">
+          <li>
+            <strong>Contact forms (HubSpot):</strong> When you send a message through the contact form,
+            HubSpot collects the fields shown (for example name, email, message) and stores them in
+            my HubSpot CRM account so I can respond and track follow-ups.
+          </li>
+          <li>
+            <strong>Booking (Calendly):</strong> When you schedule a call, Calendly collects details such as
+            your name, email, and chosen time to create calendar events and reminders.
+          </li>
+          <li>
+            <strong>Payments (Stripe):</strong> When you pay through a Stripe Buy Button, Stripe collects
+            payment details and billing information to process the transaction. I do not see full card numbers.
+          </li>
+        </ul>
+
+        <h3>3.2 Technical and usage data</h3>
+        <ul class="features">
+          <li>
+            <strong>Hosting logs (Vercel and related infrastructure):</strong> When you visit the site,
+            standard web server logs may record your IP address, browser type, and basic request information.
+            These logs are used for security, reliability, and abuse prevention.
+          </li>
+          <li>
+            <strong>Basic usage information:</strong> Depending on how analytics are configured, anonymised
+            metrics (such as page views and referrers) may be collected to understand which pages are used.
+          </li>
+        </ul>
+
+        <h3 id="cookies">3.3 Cookies and similar technologies</h3>
+        <p>
+          This site uses cookies and similar technologies to run basic features and, optionally,
+          analytics or marketing. The banner at the bottom of the page lets you choose your preferences.
+        </p>
+        <ul class="features">
+          <li>
+            <strong>Strictly necessary:</strong> Required for security, basic navigation, and for some
+            third-party tools (for example Stripe) to work properly.
+          </li>
+          <li>
+            <strong>Performance:</strong> Optional analytics to understand which pages are used and how.
+          </li>
+          <li>
+            <strong>Marketing / targeting:</strong> Only relevant if I later enable remarketing or ads;
+            none are currently used by default.
+          </li>
+        </ul>
+        <p class="small">
+          You can update your preferences at any time using the cookie controls when they are shown.
+        </p>
+
+        <h2>4. How your data is used</h2>
+        <p>Your data is used only to:</p>
+        <ul class="features">
+          <li>Respond to your messages and questions.</li>
+          <li>Schedule and run calls or meetings you request.</li>
+          <li>Process payments and keep basic financial records.</li>
+          <li>Maintain site security and prevent abuse.</li>
+          <li>Understand which pages are working or need improvement (if analytics are enabled).</li>
+        </ul>
+        <p>
+          I do not sell your data to third parties. Data is shared only with the service providers
+          needed to run the site and deliver services (for example HubSpot, Calendly, Stripe, hosting).
+        </p>
+
+        <h2>5. Where your data is stored</h2>
+        <p>
+          Data may be processed and stored in data centers operated by the services used, which may
+          be located in the United States or other regions. These providers have their own security
+          and compliance programs.
+        </p>
+
+        <h2>6. Third-party services used</h2>
+        <p>
+          This site uses several third-party providers. Their handling of your data is also governed
+          by their own privacy policies:
+        </p>
+        <ul class="features">
+          <li>Hosting and deployment platforms (for example Vercel or similar).</li>
+          <li>Stripe (payments and checkout).</li>
+          <li>Calendly (scheduling and calendar invites).</li>
+          <li>HubSpot (contact forms and CRM).</li>
+          <li>Optional analytics providers if enabled in the future.</li>
+        </ul>
+
+        <h2>7. Data retention</h2>
+        <p>
+          Data is kept for as long as it is reasonably needed for the purposes above:
+          responding to you, running projects, keeping basic business records, and complying with
+          legal or tax obligations.
+        </p>
+
+        <h2>8. Your rights and choices</h2>
+        <p>
+          Depending on your location, you may have rights over your personal data, such as the right
+          to access, correct, or request deletion. If you want to exercise these rights, contact me
+          at <a href="mailto:plewak.jeff@gmail.com">plewak.jeff@gmail.com</a> with enough information
+          to identify your records.
+        </p>
+        <p class="small">
+          I may need to keep certain records where there is a legal obligation (for example invoices
+          or basic transaction details).
+        </p>
+
+        <h2>9. Children</h2>
+        <p>
+          This site and services are not directed at children. If you believe information about a
+          minor has been provided, contact me and I will review and, where appropriate, delete it.
+        </p>
+
+        <h2>10. Changes to this policy</h2>
+        <p>
+          This policy may be updated from time to time as the site or services change. The “last updated”
+          date at the top of the page will always show the current version. Significant changes will be
+          reflected on this page.
+        </p>
+
+        <h2>11. How to contact me about privacy</h2>
+        <p>
+          For any privacy-related questions or requests, email
+          <a href="mailto:plewak.jeff@gmail.com">plewak.jeff@gmail.com</a>. I aim to respond within a
+          reasonable time.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-inner">
+      <p>© 2025 Jeffrey Plewak. All rights reserved.</p>
+      <p>
+        <a href="index.html">Home</a> ·
+        <a href="terms.html">Terms</a> ·
+        <a href="privacy.html" aria-current="page">Privacy</a> ·
+        <a href="accessibility.html">Accessibility</a>
+      </p>
+    </div>
+  </footer>
+
+  <!-- Cookie consent -->
+  <script src="/assets/cookie.js" defer></script>
+</body>
+</html># jeffreyplewak.com
+# jeffreyplewak.com
+
+Primary hub for Jeffrey Plewak.
+
+- Static HTML via GitHub Pages  
+- 100 % free hosting  
+- HTTPS + CDN (Cloudflare optional)  
+- Links to Calendly, GitHub, and email
+
+
+red1901User-agent: *
+Allow: /
+
+Disallow: /drafts/
+Disallow: /private/
+
+Sitemap: https://jeffreyplewak.com/sitemap.xml
+
+# Contact: plewak.jeff@gmail.com<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://jeffreyplewak.com/</loc>
+  </url>
+  <url>
+    <loc>https://jeffreyplewak.com/pay.html</loc>
+  </url>
+  <url>
+    <loc>https://jeffreyplewak.com/book.html</loc>
+  </url>
+  <url>
+    <loc>https://jeffreyplewak.com/contact.html</loc>
+  </url>
+  <url>
+    <loc>https://jeffreyplewak.com/terms.html</loc>
+  </url>
+  <url>
+    <loc>https://jeffreyplewak.com/privacy.html</loc>
+  </url>
+</urlset><!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Terms of Use – Jeffrey Plewak</title>
+  <meta
+    name="description"
+    content="Terms of use for jeffreyplewak.com. Basic rules for using this site, no guarantees, and important disclaimers."
+  />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <link rel="canonical" href="https://jeffreyplewak.com/terms.html" />
+  <link rel="icon" href="/favicon.svg" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png" />
+  <link rel="manifest" href="/manifest.json" />
+
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="brand">
+        <img src="/assets/avatar.jpeg" alt="Photo of Jeffrey Plewak" class="brand-avatar" />
+        <span class="brand-text">Jeffrey Plewak</span>
+      </a>
+      <nav aria-label="Primary navigation">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="premium.html">Services</a></li>
+          <li><a href="pay.html">Pricing</a></li>
+          <li><a href="book.html">Book</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="/assets/resume.docx" download>Résumé</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <section class="section">
+      <div class="container legal">
+        <h1>Terms of Use</h1>
+        <p class="small subtle">
+          Last updated: November 2025 · These terms are meant to be clear and readable. They are not formal legal advice.
+        </p>
+
+        <h2>1. Acceptance of these terms</h2>
+        <p>
+          By using this site, you agree to these terms of use. If you do not agree, please do not
+          use the site or submit information through it.
+        </p>
+
+        <h2>2. What this site provides</h2>
+        <p>
+          This site provides information about my services, ways to contact me, options to book
+          time, and ways to pay for certain services. Everything is provided on an “as is” and “as
+          available” basis.
+        </p>
+
+        <h2>3. No guarantees or promises</h2>
+        <p>
+          I take the work seriously and aim for professional, careful results, but:
+        </p>
+        <ul class="features">
+          <li>The site may change or be unavailable without notice.</li>
+          <li>No specific business, legal, or financial results are guaranteed.</li>
+          <li>Examples or descriptions of past work do not promise the same outcome for you.</li>
+        </ul>
+
+        <h2>4. Not legal or financial advice</h2>
+        <p>
+          Content on this site is general information, not legal or financial advice. Any work
+          involving compliance, risk, or legal processes is done with care, but decisions about
+          legal obligations remain your responsibility and, where applicable, the responsibility
+          of your own legal counsel.
+        </p>
+
+        <h2>5. Use of the site</h2>
+        <p>You agree not to do any of the following:</p>
+        <ul class="features">
+          <li>Use the site to send spam or abusive content.</li>
+          <li>Attempt to disrupt, overload, or attack the site or its infrastructure.</li>
+          <li>Try to bypass security measures or access data that is not intended for you.</li>
+        </ul>
+
+        <h2>6. Third-party services and links</h2>
+        <p>
+          This site relies on third-party tools such as hosting providers, Stripe, Calendly,
+          HubSpot, and others. There may also be links to external sites. I do not control these
+          services or sites and am not responsible for their content, policies, or availability.
+        </p>
+
+        <h2>7. Payments and refunds</h2>
+        <p>
+          Payments for services are processed by Stripe. Pricing pages and checkout options show
+          current pricing and what is included. For specific engagements, scope and terms may be
+          agreed in writing (for example by email or separate agreement).
+        </p>
+        <p class="small">
+          If something feels mismatched or you believe there has been a mistake, contact me quickly
+          at <a href="mailto:plewak.jeff@gmail.com">plewak.jeff@gmail.com</a> and I will review the
+          situation in good faith. Any refund or change is handled case by case.
+        </p>
+
+        <h2>8. Intellectual property</h2>
+        <p>
+          Unless stated otherwise, the content on this site (text, layout, and design) is owned by
+          me or used with permission. You may reference the site and share links, but copying or
+          re-using substantial portions of content for your own commercial site is not permitted
+          without explicit permission.
+        </p>
+
+        <h2>9. Limitation of liability</h2>
+        <p>
+          To the fullest extent permitted by applicable law, I am not liable for any indirect,
+          incidental, special, or consequential damages, or for any loss of profits or data arising
+          out of or in connection with your use of this site.
+        </p>
+        <p class="small">
+          If any liability is found despite the above, it will be limited to the amount you actually
+          paid for the relevant service, where applicable.
+        </p>
+
+        <h2>10. Changes to these terms</h2>
+        <p>
+          These terms may be updated from time to time. The “last updated” date at the top of this
+          page will always indicate the current version. Continued use of the site after changes
+          means you accept the updated terms.
+        </p>
+
+        <h2>11. Contact</h2>
+        <p>
+          If you have questions about these terms, email
+          <a href="mailto:plewak.jeff@gmail.com">plewak.jeff@gmail.com</a>.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-inner">
+      <p>© 2025 Jeffrey Plewak. All rights reserved.</p>
+      <p>
+        <a href="index.html">Home</a> ·
+        <a href="terms.html" aria-current="page">Terms</a> ·
+        <a href="privacy.html">Privacy</a> ·
+        <a href="accessibility.html">Accessibility</a>
+      </p>
+    </div>
+  </footer>
+
+  <!-- Cookie consent -->
+  <script src="/assets/cookie.js" defer></script>
+</body>
+</html><!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Thank You – Jeffrey Plewak</title>
+  <meta name="description" content="Thank you for your purchase. Next steps for your project or session.">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="/favicon.svg">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="brand">
+        <img src="/assets/avatar.jpeg" alt="Photo of Jeffrey Plewak" class="brand-avatar">
+        <span class="brand-text">Jeffrey Plewak</span>
+      </a>
+      <nav aria-label="Primary navigation">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="pay.html">Pricing</a></li>
+          <li><a href="book.html">Book</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <section class="section section-alt">
+      <div class="container">
+        <h1>Thank you.</h1>
+        <p>
+          Your payment was successful. You’ll receive an email shortly with:
+        </p>
+        <ul>
+          <li>A confirmation of your purchase.</li>
+          <li>A link to book your call or share project details.</li>
+          <li>Any prep questions so we can use our time well.</li>
+        </ul>
+        <p class="note">
+          If you don’t see an email within 10–15 minutes, check your spam folder or email
+          <a href="mailto:plewak.jeff@gmail.com">plewak.jeff@gmail.com</a> with your name and what you purchased.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-inner">
+      <p>© 2025 Jeffrey Plewak. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>

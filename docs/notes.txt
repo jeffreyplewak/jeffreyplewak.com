@@ -1,0 +1,782 @@
+
+Below is a complete, polished, high-conversion portfolio section you can drop directly into jeffreyplewak.com.
+It advertises the exact service captured from your whiteboard: Personal/SMB Funnel Buildout + Social + Reddit Optimization + Legal/Technical Setup.
+
+This is written as customer-facing, SEO-aligned, and conversion-ready, tailored to your consulting brand and your existing services (AI, tech consulting, creator consulting, career).
+
+If you want this rewritten in MUI components, Next.js JSX, Markdown, or Vercel-ready static HTML, tell me.
+
+⸻
+
+SERVICE: Personal & SMB Funnel Buildout (Web + Social + Reddit Growth)
+
+Transform your online presence into a high-converting, legally-safe, end-to-end funnel
+
+I build complete digital funnels designed for founders, creators, and SMBs who need a professional web presence, consistent branding, and a scalable content engine across platforms like Reddit, LinkedIn, Instagram, and your personal website.
+
+This service is ideal for anyone who wants:
+	•	A professional, high-trust brand identity
+	•	A clear funnel that converts visitors into clients
+	•	A complete technical + legal setup with zero headaches
+	•	A simple, repeatable content strategy powered by Reddit and social growth
+	•	A website and system that is actually maintainable over time
+
+I combine 13 years of engineering, design, and AI automation experience to deliver a clean, production-safe, modern digital identity for individuals and small businesses.
+
+⸻
+
+What You Get
+
+1. Funnel Architecture (Built for Non-Technical Clients)
+	•	Custom funnel map (awareness → trust → conversion)
+	•	Brand message + positioning
+	•	CTA design, lead magnets, and conversion workflow
+	•	Competitive landscape comparison
+
+2. Complete Web Presence Setup
+	•	Domain selection & DNS configuration
+	•	Personal or SMB website setup (Vercel, Squarespace, Wix, or custom)
+	•	Portfolio/landing page buildout
+	•	SEO-optimized content structure
+
+3. Social Ecosystem Overhaul
+	•	LinkedIn profile rewrite + bio optimization
+	•	Instagram + Snapchat presence alignment
+	•	Creator-friendly consulting for platforms like OnlyFans/Reddit (optional)
+
+4. Reddit Growth Strategy (Powerful + Underutilized)
+
+I structure Reddit as a traffic engine, not an afterthought.
+
+You get:
+	•	Subreddit mapping (niche targeting + reach)
+	•	Content frameworks that avoid bans and maximize visibility
+	•	A posting schedule tuned for reach + conversation
+	•	Templates for high-engagement posts
+	•	Reputation-building playbooks (comment ladders, expertise threads, AMA prep)
+
+5. Technical + Legal Setup
+	•	Gmail Workspace creation
+	•	Repository setup (GitHub, Vercel)
+	•	Full migration plan
+	•	Compliance, legal readiness, and safe digital operations
+	•	Clear, documented hand-off with everything you own 100%
+
+⸻
+
+How It Works
+
+Step 1: OCR/Parse of Your Existing Materials
+
+I extract everything from screenshots, documents, or rough notes (even messy whiteboards).
+
+Step 2: Funnel + Platform Structure
+
+We define your personal or SMB funnel, messaging, and competitive differentiators.
+
+Step 3: Build + Integrate All Components
+
+Web, social, Reddit, branding assets, and automation.
+
+Step 4: Legal + Technical Finalization
+
+Everything is hardened, documented, and handed off with maintenance guidance.
+
+⸻
+
+Why This Service Works
+
+Most people have:
+	•	Disconnected profiles
+	•	No funnel
+	•	No cohesive brand message
+	•	No structured content plan
+	•	No legally or technically sound setup
+
+I resolve all of that with a single unified package.
+
+⸻
+
+Cost Over Time
+
+Costs stay predictable because the system is:
+	•	Low-maintenance
+	•	Self-contained
+	•	Fully owned by you
+	•	Not dependent on expensive SaaS layers
+
+Your long-term cost is simply domain + optional hosting.
+
+⸻
+
+Who This Is For
+	•	Founders
+	•	Creators
+	•	Consultants
+	•	Freelancers
+	•	Students looking to stand out
+	•	SMB owners needing a modern presence
+	•	Anyone who wants high-trust, high-clarity online identity
+
+⸻
+
+Add-On: AI-Powered Content Engine
+
+Optionally, I can integrate:
+	•	Auto-posting scripts
+	•	AI-generated draft content
+	•	Analytics dashboards
+	•	Funnel health monitors
+	•	Multi-platform content calendar
+
+⸻
+
+Call to Action (for jeffreyplewak.com)
+
+Ready for a modern digital identity that converts?
+Book a session or request a quote at jeffreyplewak.com.
+
+⸻
+
+If you want, I can now generate:
+	•	A shorter homepage version
+	•	A punchy hero-section version
+	•	A Vercel-ready component (React/MUI/Tailwind)
+	•	SEO snippets and meta descriptions
+	•	Pricing tiers
+	•	Reddit-specific landing page version
+
+Just tell me what you want next.
+
+
+
+
+“I help small tech companies and solo founders make their AI apps and software stacks compliant, audit-ready, and transparent — so they avoid future fines, shutdowns, or investor pushback.”
+
+
+
+
+Strategic Monetization, Compliance, and Lead-Generation (2025)
+
+Diversified Monetization with UX in Mind
+
+Avoid relying on a single income source. Experts recommend combining multiple revenue streams (ads, affiliate links, memberships, products/services) to build a resilient business model ￼ ￼.  First, focus on delivering value and building trust with your audience (the “audience first, monetization second” principle) ￼. Only after establishing trust should you introduce revenue elements. Any ads or offers must be seamlessly integrated into the design – avoid intrusive pop-ups or clutter that disrupts the user’s experience ￼ ￼. For example, use native or contextual ads and tasteful affiliate banners that match the site’s style. In practice, start small: perhaps offer a free lead magnet or mini-course (triggering reciprocity) and a related affiliate product, then scale up to display ads or sponsored content as traffic grows ￼ ￼. Continually test and refine each monetization tactic (A/B testing CTAs, placements, offers) while monitoring how users react to avoid “tacky” overload ￼ ￼.
+
+Psychology-Driven UX Design
+
+Crafting a high-converting site relies on proven UX and psychological principles. As a UI/UX and psychology expert, ensure your layout delivers clarity and trust:
+	•	Clear Value Proposition: The hero/header section must immediately communicate what you offer.  Studies show users leave within seconds if they can’t tell the site’s purpose ￼. Use a bold headline and subheadline that plainly state your benefit. Position primary calls-to-action (CTAs) above the fold with action-oriented text (e.g. “Get My Free Quote”, “Start Your Free Trial”) ￼. Avoid jargon – speak in the user’s language ￼.
+	•	Speed & Mobile Optimization: Over 60% of traffic is mobile ￼.  Use a mobile-first design framework, thumb-friendly navigation, and optimized images to ensure <2.5s load times (each 1s delay can drop conversions ~7%) ￼ ￼.  A fast, responsive site feels professional and keeps users engaged.
+	•	Visual Hierarchy: Guide the eye with strategic layout. Use a natural “F” or “Z” pattern (widely confirmed by eye-tracking) – large headlines first, clear sections, bold buttons, and ample whitespace ￼. Contrast your primary CTA button (e.g. high-contrast color) so it stands out ￼.
+	•	Trust Signals & Social Proof: Incorporate elements that build credibility. Display real testimonials, customer logos or review stars, and security badges (SSL, payment seals) on key pages ￼ ￼. These “trusted by” indicators can lift conversions by 30–40% ￼.  Where relevant, highlight credentials or case studies to leverage the authority principle. Humanize the site with staff photos or an “About” video so users connect with a real person.
+	•	Psychological Triggers: Ethically use proven persuasion tactics. For example, highlight social proof – “Join 2,000+ happy customers” – since people follow the crowd ￼. Offer valuable freebies (free guide, trial, or toolkit) to invoke reciprocity; users who accept a free resource are more likely to convert later ￼. Use subtle scarcity/FOMO in limited-time offers (e.g. a countdown timer or “only 5 spots left”) ￼, but avoid heavy salesy language. Always respect the user’s choice – overly aggressive urgency erodes trust.
+	•	Microcopy & FAQs: Small reassuring phrases near CTAs (e.g. “No credit card required”, “100% privacy guaranteed”) can reduce anxiety and boost conversions ￼. Anticipate objections with an FAQ or trust badge next to signup forms.
+
+By marrying these design and psychological principles, you create an inviting user experience that naturally guides visitors toward desired actions (signups, purchases, calls) without feeling “tacky” or pushy ￼ ￼.
+
+Compliance, Accessibility, and Regular Audits
+
+In 2025, legal and ethical compliance is non-negotiable – and it actually enhances UX. Key steps:
+	•	Accessibility (ADA/WCAG): Follow WCAG 2.2+ guidelines. Provide alt-text for images, use semantic HTML (proper headings, labels), ensure keyboard navigability, and maintain high color contrast ￼ ￼. Accessibility isn’t just legal – it improves SEO, usability for all users, and builds trust ￼. Inaccessible sites face lawsuits (4,500+ in the U.S. in 2024) ￼, so treat it as a growth and reputational advantage. Use tools like WAVE or Axe DevTools to audit your site for WCAG compliance.
+	•	Privacy & Data: Publish a clear Privacy Policy and Terms of Service (use plain language). If you collect emails, payments or any PII, comply with GDPR/CCPA/HIPAA as relevant. Implement a cookie consent banner (if tracking visitors) and explain how you use data. Transparent data practices build trust ￼.
+	•	Regular Audits: Schedule periodic compliance reviews. Use internal/external tools to scan for privacy and accessibility gaps ￼. For example, set quarterly audits of data flows (GDPR) and site accessiblity (WCAG). FirstDirectDigital advises “conduct regular audits to assess adherence to regulations and improve user-friendly compliance” ￼. Keep software/dependencies up to date and monitor for security issues.
+	•	Documentation & Policies: Clearly list any required certifications or disclaimers. For instance, if in healthcare/therapy, note HIPAA compliance; in finance, include industry disclaimers. A visible privacy badge or ADA icon in the footer signals commitment.
+
+Overall, embedding compliance into the site design (accessible menus, visible policy links, simple opt-ins) not only avoids legal risk but makes the site inclusive, trustworthy, and future-proof ￼ ￼.
+
+Lead Generation Channels (Social & Local)
+
+Choose platforms based on your target audience and goals.  U.S. demographics show YouTube and Facebook as the most-used channels overall, with Instagram especially popular among younger users ￼ ￼ (see chart). Instagram also drives shopping: ~61% of users find products there ￼, making it ideal for visual brands and B2C.  In contrast, specialized networks like Nextdoor or Reddit have smaller audiences in the chart, meaning they work best for niche/local engagement rather than mass leads.
+
+Chart: U.S. social platform usage (2012–2024); note YouTube (red line) rising above Facebook (blue) by 2024 ￼. Instagram (yellow) surges among younger users ￼, while community-focused apps (brown/purple lines) remain smaller.
+	•	LinkedIn: The top channel for professional or B2B lead-gen ￼. Use LinkedIn to share industry insights, engage in groups, and network. LinkedIn Ads/InMail can target decision-makers directly. In short, treat LinkedIn as your most effective platform if you sell services or products to businesses ￼ ￼.
+	•	Facebook & Instagram: For B2C or local businesses, Facebook and Instagram are powerful. Facebook’s ad targeting and community groups allow hyper-targeted campaigns (e.g. local neighborhood groups on Facebook/Nextdoor). Studies note Facebook still converts well when combined with retargeting ￼. Instagram is essential for visual storytelling: post reels/Stories and leverage shopping features. Because Instagram skews younger (60% under 35) ￼, it’s especially effective for products or services that appeal to Gen Z/Millennials ￼.
+	•	Nextdoor (Local): If your service is location-based (e.g. home services, real estate, community events), Nextdoor and local Facebook Groups can generate quality leads through neighbor referrals. Engage authentically by sharing helpful tips in your area, which builds trust. (There’s less publicly available data, but anecdotal evidence shows Nextdoor excels at word-of-mouth.)
+	•	Reddit & Communities: Reddit (and niche forums) can be effective for long-term engagement. Participate in relevant subreddits by answering questions and offering helpful content (not just advertising). This builds authority; leads will come as community members recognize your expertise ￼. However, Reddit is a “slow burn” – direct lead-capture is uncommon, so use it for brand-building.
+	•	Twitter (X): Twitter/X is more about brand voice and thought leadership. Regularly share insights or useful links and engage with influencers. It can drive traffic and awareness if your audience hangs out there. Note: one marketer observed “Twitter/X works if you engage a lot” – it’s not a passive channel ￼.
+	•	Content & Video: Don’t neglect YouTube or blogging. YouTube’s vast reach means educational or how-to videos related to your field can pull in leads over time. As one expert notes, “YouTube (video content) and Reddit are both strong options in 2025” if you consistently create valuable content ￼.
+
+In summary, test and track: run small ad experiments on a couple of channels to see where your audience responds. Use tracking pixels and UTM codes to measure which network yields real conversions. The best channel will align with your target customer’s habits (e.g., B2B=LinkedIn, local services=Facebook/Nextdoor, visual products=Instagram) ￼ ￼.
+
+CRM & Analytics Tools
+	•	CRM Recommendation: Implement a simple CRM to capture and nurture leads from your Calendly bookings and website contacts.  Many small businesses start with HubSpot CRM (free tier), which offers contact management, deal tracking, and marketing integrations at no cost. Another good pick is Salesmate – it explicitly integrates with Calendly (and Gmail) so scheduled meetings automatically become tracked leads ￼.  Other options include Zoho CRM, Freshsales (Freshworks), or a simpler tool like Less Annoying CRM, depending on budget. The key is to ensure every inquiry or appointment is logged. A CRM will automate follow-ups (email drips, reminders) and prevent leads from falling through the cracks.
+	•	Vercel Analytics: Yes – Vercel provides built-in Web Analytics on all plans ￼. It gives you page view, referrer, location and device stats without using cookies (privacy-friendly) ￼. Activate Vercel Analytics in your dashboard to see which pages perform best and where visitors come from. This complements marketing efforts (e.g., seeing if social links drive traffic). If you need more detail, you can also add Google Analytics, Plausible, or Hotjar for heatmaps, but Vercel’s native analytics is a great privacy-first start ￼.
+
+By blending these strategies—thoughtful monetization, polished UX, strict compliance, and targeted outreach—you’ll create a professional 2025-ready site that converts visitors into customers without feeling pushy or inauthentic ￼ ￼.
+
+Sources: Cited industry guides and analyses support these recommendations ￼ ￼ ￼ ￼. Each strategy reflects 2025 best practices in design, psychology, and digital marketing.
+
+
+
+
+I’ll go defect-class by defect-class and give concrete, ready-to-use fixes: HTML, CSS, HubSpot, and new pages. No fluff.
+
+⸻
+
+1. Value Prop / Positioning (Home)
+
+Defect
+
+Hero doesn’t fully communicate: what you sell, for whom, what outcome.
+
+Solution (drop-in hero block for index.html)
+
+Replace your current hero <section class="hero ...">...</section> with:
+
+<section class="hero animated-hero">
+  <div class="hero-overlay"></div>
+  <div class="container hero-inner hero-inner-single">
+    <div class="hero-content">
+      <h1>AI, automation, and compliance systems you actually control.</h1>
+      <p>
+        I design and ship calm, understandable systems for SMBs, professionals, and creators —
+        so you reduce manual work, stay compliant, and keep ownership of your stack.
+      </p>
+      <div class="hero-buttons">
+        <a href="book.html" class="btn btn-primary">Book a consultation</a>
+        <a href="pay.html" class="btn btn-ghost">See pricing & packages</a>
+      </div>
+      <p class="note small" style="margin-top:1rem;">
+        15+ years as a software engineer and architect. No hype. No lock-in. Just systems that work.
+      </p>
+    </div>
+  </div>
+</section>
+
+This fixes: value prop, who you help, and what next step.
+
+⸻
+
+2. Conversion Flow / Monetization (Pricing)
+
+You already wired live Stripe Buy Buttons. Remaining defects: lack of objection handling, trust, and clarity on “what happens next”.
+
+A. Add FAQ and Trust Section to pay.html
+
+Add this entire block before </main>:
+
+    <section class="section section-alt">
+      <div class="container">
+        <h2>What happens after you pay?</h2>
+        <div class="grid-3">
+          <div class="card">
+            <h3>1. Intake</h3>
+            <p>
+              You receive an email with a short intake form and a Calendly link.
+              You pick a time and share context so we can use the call or build time well.
+            </p>
+          </div>
+          <div class="card">
+            <h3>2. Design & build</h3>
+            <p>
+              I confirm scope, give you a realistic timeline, and then ship the agreed outcome:
+              the strategy session, landing page, or automation.
+            </p>
+          </div>
+          <div class="card">
+            <h3>3. Handover</h3>
+            <p>
+              You get a walkthrough, docs, and ownership of the stack —
+              plus a short window for small adjustments.
+            </p>
+          </div>
+        </div>
+
+        <div class="faq" style="margin-top:2.5rem;">
+          <h2>Common questions</h2>
+          <details>
+            <summary>Is payment secure?</summary>
+            <p>Yes. All payments run through Stripe, using HTTPS and PCI-DSS compliant infrastructure.</p>
+          </details>
+          <details>
+            <summary>What if my situation doesn’t fit a package?</summary>
+            <p>Use the contact form and describe your situation. If I can scope it cleanly, I’ll send a fixed quote. If not, I’ll say so directly.</p>
+          </details>
+          <details>
+            <summary>Do you offer refunds?</summary>
+            <p>
+              If we can’t agree on scope after you pay, or I’m unable to deliver within the agreed timeframe,
+              I’ll refund you in full. I want this to be straightforward for both of us.
+            </p>
+          </details>
+        </div>
+
+        <div class="trust-bar" style="margin-top:2rem;">
+          <p class="small subtle">
+            Secure payments via Stripe · SSL-encrypted site · 15+ years software engineering experience
+          </p>
+        </div>
+      </div>
+    </section>
+
+This adds: “what happens after payment” + FAQs + trust bar.
+
+B. Minor microcopy improvements in existing cards
+
+You already have:
+
+<p class="note small">After checkout you’ll receive an email with a booking link and prep questions.</p>
+
+Keep that; it matches the intake step.
+
+⸻
+
+3. Compliance / Legal / Accessibility
+
+Defect
+
+Privacy, Terms, Accessibility pages missing. You’re taking payments and collecting contact data: you need these.
+
+A. privacy.html (drop-in)
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Privacy Policy – Jeffrey Plewak</title>
+  <meta name="description" content="Privacy policy for jeffreyplewak.com. How your data is collected, used, and protected.">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="canonical" href="https://jeffreyplewak.com/privacy.html">
+  <link rel="icon" href="/favicon.svg">
+  <link rel="stylesheet" href="/assets/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="brand">
+        <img src="/assets/avatar.jpeg" alt="Photo of Jeffrey Plewak" class="brand-avatar">
+        <span class="brand-text">Jeffrey Plewak</span>
+      </a>
+      <nav aria-label="Primary navigation">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="premium.html">Services</a></li>
+          <li><a href="pay.html">Pricing</a></li>
+          <li><a href="book.html">Book</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="privacy.html" aria-current="page">Privacy</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <section class="section section-alt">
+      <div class="container">
+        <h1>Privacy Policy</h1>
+        <p class="subtle small">Last updated: 2025-11-18</p>
+
+        <h2>1. Overview</h2>
+        <p>
+          This site is owned and operated by Jeffrey Plewak. This policy explains what personal data is collected,
+          how it is used, and your options.
+        </p>
+
+        <h2>2. Data collected</h2>
+        <ul>
+          <li><strong>Contact forms:</strong> Name, email address, and the details you choose to share.</li>
+          <li><strong>Bookings:</strong> When you use Calendly, they may collect additional scheduling-related data.</li>
+          <li><strong>Payments:</strong> Stripe handles payment details. This site does not store full card numbers.</li>
+          <li><strong>Analytics:</strong> Basic usage data (page views, referrers, device type) may be collected via analytics tools.</li>
+        </ul>
+
+        <h2>3. How data is used</h2>
+        <ul>
+          <li>To respond to your inquiries and deliver agreed services.</li>
+          <li>To manage billing and accounting.</li>
+          <li>To improve the site and understand which pages are useful.</li>
+        </ul>
+
+        <h2>4. Data sharing</h2>
+        <p>
+          Data may be shared with third-party providers strictly for service delivery, such as:
+          Stripe (payments), Calendly (scheduling), HubSpot or equivalent CRM (contact management),
+          and analytics providers. Data is not sold to third parties.
+        </p>
+
+        <h2>5. Your rights</h2>
+        <p>
+          Depending on your location, you may have rights to access, correct, or delete your personal data.
+          To exercise these rights, email <a href="mailto:plewak.jeff@gmail.com">plewak.jeff@gmail.com</a>.
+        </p>
+
+        <h2>6. Security</h2>
+        <p>
+          This site uses HTTPS and reputable third-party providers for payments and hosting.
+          No method of transmission is perfectly secure, but reasonable measures are taken to protect your data.
+        </p>
+
+        <h2>7. Contact</h2>
+        <p>
+          For privacy questions, contact
+          <a href="mailto:plewak.jeff@gmail.com">plewak.jeff@gmail.com</a>.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-inner">
+      <p>© 2025 Jeffrey Plewak. All rights reserved.</p>
+      <p>
+        <a href="terms.html">Terms</a> ·
+        <a href="privacy.html">Privacy</a> ·
+        <a href="accessibility.html">Accessibility</a>
+      </p>
+    </div>
+  </footer>
+</body>
+</html>
+
+B. terms.html (basic, non-jurisdiction-specific)
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Terms of Service – Jeffrey Plewak</title>
+  <meta name="description" content="Terms of service for consulting, implementation, and related work with Jeffrey Plewak.">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="canonical" href="https://jeffreyplewak.com/terms.html">
+  <link rel="icon" href="/favicon.svg">
+  <link rel="stylesheet" href="/assets/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="brand">
+        <img src="/assets/avatar.jpeg" alt="Photo of Jeffrey Plewak" class="brand-avatar">
+        <span class="brand-text">Jeffrey Plewak</span>
+      </a>
+      <nav aria-label="Primary navigation">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="premium.html">Services</a></li>
+          <li><a href="pay.html">Pricing</a></li>
+          <li><a href="book.html">Book</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="terms.html" aria-current="page">Terms</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <section class="section section-alt">
+      <div class="container">
+        <h1>Terms of Service</h1>
+        <p class="subtle small">Last updated: 2025-11-18</p>
+
+        <h2>1. Scope of services</h2>
+        <p>
+          Services may include consulting, design, implementation, and support for AI workflows, automation,
+          web builds, and related work as described on this site or in written proposals.
+        </p>
+
+        <h2>2. Payment</h2>
+        <p>
+          Fixed-price packages are payable in advance via Stripe. Custom engagements may use alternative terms
+          as described in a written proposal or agreement.
+        </p>
+
+        <h2>3. Cancellations and refunds</h2>
+        <p>
+          If work has not begun and no deliverables have been provided, you may request a refund.
+          Once work has started or deliverables have been provided, refunds are at the discretion of
+          Jeffrey Plewak and will be handled case-by-case.
+        </p>
+
+        <h2>4. Client responsibilities</h2>
+        <p>
+          You are responsible for providing accurate information, timely feedback, and access to systems
+          required to perform the work. Delays in feedback or access may extend timelines.
+        </p>
+
+        <h2>5. No guarantees</h2>
+        <p>
+          While best efforts are made to design and implement effective systems, specific results
+          (e.g., revenue, rankings, or engagement) cannot be guaranteed, as they depend on factors
+          outside of direct control.
+        </p>
+
+        <h2>6. Compliance and legal</h2>
+        <p>
+          Where projects involve regulated industries or jurisdictions, you are responsible for obtaining legal advice
+          and ensuring that the use of any system or automation complies with applicable laws and regulations.
+        </p>
+
+        <h2>7. Limitation of liability</h2>
+        <p>
+          To the maximum extent permitted by law, liability for any claim related to services is limited to the
+          amount paid for the specific engagement.
+        </p>
+
+        <h2>8. Contact</h2>
+        <p>
+          For questions about these terms, email
+          <a href="mailto:plewak.jeff@gmail.com">plewak.jeff@gmail.com</a>.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-inner">
+      <p>© 2025 Jeffrey Plewak. All rights reserved.</p>
+      <p>
+        <a href="terms.html">Terms</a> ·
+        <a href="privacy.html">Privacy</a> ·
+        <a href="accessibility.html">Accessibility</a>
+      </p>
+    </div>
+  </footer>
+</body>
+</html>
+
+C. accessibility.html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Accessibility – Jeffrey Plewak</title>
+  <meta name="description" content="Accessibility statement for jeffreyplewak.com.">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="canonical" href="https://jeffreyplewak.com/accessibility.html">
+  <link rel="icon" href="/favicon.svg">
+  <link rel="stylesheet" href="/assets/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="brand">
+        <img src="/assets/avatar.jpeg" alt="Photo of Jeffrey Plewak" class="brand-avatar">
+        <span class="brand-text">Jeffrey Plewak</span>
+      </a>
+      <nav aria-label="Primary navigation">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="premium.html">Services</a></li>
+          <li><a href="pay.html">Pricing</a></li>
+          <li><a href="book.html">Book</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="accessibility.html" aria-current="page">Accessibility</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <section class="section section-alt">
+      <div class="container">
+        <h1>Accessibility</h1>
+        <p>
+          This site is intended to be usable and accessible for as many people as possible.
+          Efforts are ongoing to align with WCAG 2.2 AA guidelines.
+        </p>
+        <ul>
+          <li>Text is designed with sufficient contrast against background colors.</li>
+          <li>Pages are structured with semantic headings and labels.</li>
+          <li>Forms include associated labels and clear errors where possible.</li>
+          <li>Navigation is keyboard-accessible.</li>
+        </ul>
+        <p>
+          If you experience any difficulty using this site or have suggestions to improve accessibility,
+          please email <a href="mailto:plewak.jeff@gmail.com">plewak.jeff@gmail.com</a>.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-inner">
+      <p>© 2025 Jeffrey Plewak. All rights reserved.</p>
+      <p>
+        <a href="terms.html">Terms</a> ·
+        <a href="privacy.html">Privacy</a> ·
+        <a href="accessibility.html">Accessibility</a>
+      </p>
+    </div>
+  </footer>
+</body>
+</html>
+
+
+⸻
+
+4. CRM / HubSpot Integration
+
+Defect
+
+You’re not capturing leads into a structured CRM.
+
+A. HubSpot tracking (all pages)
+
+In <head> of all pages, just before </head>, add:
+
+<script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/YOUR_PORTAL_ID.js"></script>
+
+Replace YOUR_PORTAL_ID with your actual HubSpot portal ID.
+
+B. Optional: Replace contact form with HubSpot form
+
+In contact.html, replace the <form id="contactForm">...</form> block with:
+
+<div id="hubspot-contact-form"></div>
+<script>
+  hbspt.forms.create({
+    region: "na1",
+    portalId: "YOUR_PORTAL_ID",
+    formId: "YOUR_FORM_ID",
+    target: "#hubspot-contact-form"
+  });
+</script>
+
+Then remove the custom JS that posts to /api/contact. That moves all form handling + follow-ups into HubSpot.
+
+⸻
+
+5. Analytics (Vercel + UTM)
+
+Vercel analytics
+
+In Vercel dashboard, enable Web Analytics for this project. No code change required if you use their default integration.
+
+UTM example (for social profiles)
+
+Use URLs like:
+	•	LinkedIn profile link:
+https://jeffreyplewak.com/?utm_source=linkedin&utm_medium=profile&utm_campaign=homepage
+	•	Reddit profile link:
+https://jeffreyplewak.com/?utm_source=reddit&utm_medium=profile&utm_campaign=homepage
+
+This lets you see which platform produces leads.
+
+⸻
+
+6. CSS Adjustments (micro-UX)
+
+Append these rule additions to style.css (no need to rewrite file):
+
+/* FAQ details styling */
+.faq details {
+  background: #101119;
+  border-radius: 0.75rem;
+  border: 1px solid #1b1c24;
+  padding: 0.75rem 1rem;
+  margin-bottom: 0.75rem;
+}
+
+.faq summary {
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.faq summary::-webkit-details-marker {
+  display: none;
+}
+
+/* subtle open/close visual cue */
+.faq details[open] {
+  border-color: #007aff;
+}
+
+/* trust bar subtle text */
+.trust-bar .small {
+  text-align: left;
+}
+
+/* reduced motion respect */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    scroll-behavior: auto !important;
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
+}
+
+
+⸻
+
+7. Thank-You Page for Stripe Success
+
+Create thank-you.html and configure your Stripe Buy Buttons to redirect here on success:
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Thank You – Jeffrey Plewak</title>
+  <meta name="description" content="Thank you for your purchase. Next steps for your project or session.">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="/favicon.svg">
+  <link rel="stylesheet" href="/assets/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="brand">
+        <img src="/assets/avatar.jpeg" alt="Photo of Jeffrey Plewak" class="brand-avatar">
+        <span class="brand-text">Jeffrey Plewak</span>
+      </a>
+      <nav aria-label="Primary navigation">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="pay.html">Pricing</a></li>
+          <li><a href="book.html">Book</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <section class="section section-alt">
+      <div class="container">
+        <h1>Thank you.</h1>
+        <p>
+          Your payment was successful. You’ll receive an email shortly with:
+        </p>
+        <ul>
+          <li>A confirmation of your purchase.</li>
+          <li>A link to book your call or share project details.</li>
+          <li>Any prep questions so we can use our time well.</li>
+        </ul>
+        <p class="note">
+          If you don’t see an email within 10–15 minutes, check your spam folder or email
+          <a href="mailto:plewak.jeff@gmail.com">plewak.jeff@gmail.com</a> with your name and what you purchased.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-inner">
+      <p>© 2025 Jeffrey Plewak. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
+
+
+⸻
+
+That covers all defect classes you listed:
+	•	Value prop / hero clarity
+	•	Monetization and conversion UX
+	•	Compliance (privacy, terms, accessibility)
+	•	CRM integration (HubSpot)
+	•	Analytics and attribution (Vercel + UTM)
+	•	Micro-UX and FAQ/trust sections
+	•	Post-payment flow (thank-you page)
+
+If you want, next step I can do is generate a service-specific landing page (e.g. “AI & Compliance for Law Offices”) that reuses this stack but is tuned to one ICP for SEO and ads.

@@ -1,0 +1,847 @@
+Got it. I’ll treat this as “baseline static site v1” and give you refined, drop-in files for jeffreyplewak.com.
+
+Below are revised:
+	•	Design/SEO text (for your docs / README / Notion)
+	•	index.html
+	•	pay.html
+	•	premium.html
+	•	book.html
+	•	contact.html
+	•	style.css
+
+You can paste these directly over your current files.
+
+⸻
+
+1) Design & UX Principles (refined)
+
+Design & UX Principles (Apple-Style Minimalism)
+
+The site uses a clean, Apple-inspired visual system: generous whitespace, high-contrast text on solid backgrounds, and crisp system typography. Headings and body text use a modern system font stack (-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif) for excellent legibility across devices. A single accent color (#007AFF) is reserved for primary CTAs and key interactive states so that calls-to-action are visually obvious without clutter.
+
+Buttons and links use subtle CSS transitions (transition: all 0.2s ease) for a polished, responsive feel. Copy is lean and benefit-focused, with a strong value proposition above the fold on the homepage so visitors understand “what Jeff does and for whom” in the first few seconds.
+
+The layout uses semantic HTML5 (<header>, <nav>, <main>, <section>, <footer>), mobile-first CSS, and flexbox/grid for a fully responsive experience. Navigation, CTAs, and contact links are consistent across all pages, and the header is sticky on scroll so users can always reach key sections.
+
+Images are compressed and served in modern formats where possible, each with descriptive alt text. The site avoids heavy client-side frameworks and unnecessary scripts, keeping performance high and bounce rates low on mobile and desktop.
+
+⸻
+
+SEO & Technical Best Practices
+
+Each page defines a unique <title> and <meta name="description">, plus Open Graph (og:) and Twitter Card (twitter:) tags for rich previews when links are shared. A viewport meta tag ensures proper mobile scaling, and a favicon is linked for browser and OS integration.
+
+The homepage includes a JSON-LD block (schema.org) that describes the site as a ProfessionalService, improving how Google understands and indexes Jeff’s consulting brand:
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ProfessionalService",
+  "name": "Jeffrey Plewak Consulting",
+  "url": "https://jeffreyplewak.com",
+  "logo": "https://jeffreyplewak.com/favicon.svg",
+  "description": "AI, automation, and creator consulting for SMBs, professionals, and online creators.",
+  "areaServed": "Global",
+  "founder": {
+    "@type": "Person",
+    "name": "Jeffrey Plewak"
+  }
+}
+</script>
+
+Accessibility is built in: semantic landmarks (<header>, <nav>, <main>), meaningful heading hierarchy, labels associated with form fields, and high-contrast text. Form inputs use HTML5 validation (required, type="email") and are progressively enhanced with JavaScript fetch() calls to POST JSON to /api/contact, with explicit success and error handling.
+
+⸻
+
+2) index.html (Homepage, refined for jeffreyplewak.com)
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Jeffrey Plewak – AI, Automation & Creator Consulting</title>
+  <meta name="description" content="AI, automation, and creator consulting for SMBs, professionals, and online creators. Build high-conversion funnels, automate workflows, and grow on Reddit and beyond.">
+  <meta name="robots" content="index,follow">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="canonical" href="https://jeffreyplewak.com/">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:title" content="Jeffrey Plewak – AI, Automation & Creator Consulting">
+  <meta property="og:description" content="End-to-end consulting for AI, automation, and creator monetization. Funnels, Reddit systems, and technical foundations that actually ship.">
+  <meta property="og:image" content="https://jeffreyplewak.com/og-image.png">
+  <meta property="og:url" content="https://jeffreyplewak.com/">
+  <meta property="og:type" content="website">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Jeffrey Plewak – AI, Automation & Creator Consulting">
+  <meta name="twitter:description" content="AI, automation, and creator consulting for serious builders and creators.">
+  <meta name="twitter:image" content="https://jeffreyplewak.com/og-image.png">
+
+  <!-- Favicon -->
+  <link rel="icon" href="/favicon.ico">
+
+  <!-- Shared CSS -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- JSON-LD: Professional Service -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ProfessionalService",
+    "name": "Jeffrey Plewak Consulting",
+    "url": "https://jeffreyplewak.com",
+    "logo": "https://jeffreyplewak.com/favicon.svg",
+    "description": "AI, automation, and creator consulting for SMBs, professionals, and online creators.",
+    "areaServed": "Global",
+    "founder": {
+      "@type": "Person",
+      "name": "Jeffrey Plewak"
+    }
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo" aria-label="Jeffrey Plewak home">
+        Jeffrey Plewak
+      </a>
+      <nav aria-label="Primary navigation">
+        <ul>
+          <li><a href="index.html" aria-current="page">Home</a></li>
+          <li><a href="premium.html">Services</a></li>
+          <li><a href="pay.html">Pricing</a></li>
+          <li><a href="book.html">Book</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <!-- Hero Section -->
+    <section class="hero section">
+      <div class="container">
+        <h1>AI, Automation & Creator Systems that Actually Ship</h1>
+        <p>Consulting and implementation for SMBs, professionals, and online creators. We build lean funnels, automate operations, and turn platforms like Reddit into predictable traffic and revenue.</p>
+        <div class="hero-actions">
+          <a href="book.html" class="btn">Book a Consultation</a>
+          <a href="pay.html" class="btn btn-secondary">View Packages</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Core Offerings -->
+    <section class="section">
+      <div class="container">
+        <h2>What I Help You Build</h2>
+        <div class="grid-3">
+          <div>
+            <h3>Creator & Platform Consulting</h3>
+            <p>Positioning, offers, and growth systems across Reddit, X, Instagram, OnlyFans, and niche creator platforms.</p>
+          </div>
+          <div>
+            <h3>Technical Automation</h3>
+            <p>Custom workflows that remove manual work: ETL, content pipelines, notifications, reporting, and back-office automation.</p>
+          </div>
+          <div>
+            <h3>AI / LLM Workflows</h3>
+            <p>Domain-specific AI tools that stay grounded in your data: drafting, analysis, onboarding flows, and client-facing assistants.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Funnel + Outcomes -->
+    <section class="section">
+      <div class="container">
+        <h2>Outcome-Focused, Not Hype-Driven</h2>
+        <ul class="features">
+          <li><strong>Unified Funnel:</strong> From Reddit and social discovery → landing page → Stripe checkout → ongoing engagement.</li>
+          <li><strong>Technical Foundation:</strong> Vercel-hosted static sites, hardened forms, and minimal dependencies for reliability.</li>
+          <li><strong>Creator & SMB Ready:</strong> Offers and copy tuned for your niche, not generic templates.</li>
+        </ul>
+        <a href="premium.html" class="btn">See Services in Detail</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-inner">
+      <p>© 2025 Jeffrey Plewak. All rights reserved.</p>
+      <p>
+        <a href="contact.html">Contact</a> ·
+        <a href="https://github.com/tarcsb" rel="noopener noreferrer">GitHub</a> ·
+        <a href="https://www.reddit.com/user/Ok_Blueberry6358" rel="noopener noreferrer">Reddit</a> ·
+        <a href="privacy.html">Privacy</a>
+      </p>
+    </div>
+  </footer>
+</body>
+</html>
+
+
+⸻
+
+3) pay.html (Pricing / Checkout, refined)
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Pricing – Jeffrey Plewak Consulting</title>
+  <meta name="description" content="Transparent pricing for AI consulting, automation systems, and creator funnel buildouts. Choose a plan that matches your stage and risk profile.">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="canonical" href="https://jeffreyplewak.com/pay.html">
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Open Graph / Twitter (shortened) -->
+  <meta property="og:title" content="Pricing – Jeffrey Plewak Consulting">
+  <meta property="og:description" content="Plans for AI, automation, and creator consulting, from focused strategy calls to full funnel buildouts.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://jeffreyplewak.com/pay.html">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Pricing – Jeffrey Plewak Consulting">
+  <meta name="twitter:description" content="Choose the consulting package that fits your stage.">
+
+  <!-- Stripe Buy Button script -->
+  <script async src="https://js.stripe.com/v3/buy-button.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo">Jeffrey Plewak</a>
+      <nav aria-label="Primary navigation">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="premium.html">Services</a></li>
+          <li><a href="pay.html" aria-current="page">Pricing</a></li>
+          <li><a href="book.html">Book</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <section class="section">
+      <div class="container">
+        <h1>Pricing</h1>
+        <p>All plans include a pre-engagement intake and clear, written deliverables. Replace the placeholders below with your live Stripe Buy Button IDs.</p>
+
+        <div class="pricing-grid">
+          <div class="pricing-card">
+            <h2>Starter</h2>
+            <p class="price">$99<span>/session</span></p>
+            <ul>
+              <li>One 60-minute strategy call</li>
+              <li>Light notes + next steps</li>
+              <li>Best for “I need direction”</li>
+            </ul>
+            <stripe-buy-button
+              buy-button-id="buy_btn_STARTER_ID"
+              publishable-key="pk_live_replace_me">
+            </stripe-buy-button>
+          </div>
+
+          <div class="pricing-card featured">
+            <h2>Builder</h2>
+            <p class="price">$499<span>/project</span></p>
+            <ul>
+              <li>One core funnel or automation shipped</li>
+              <li>Landing page + Stripe or equivalent</li>
+              <li>Email recap and implementation notes</li>
+            </ul>
+            <stripe-buy-button
+              buy-button-id="buy_btn_BUILDER_ID"
+              publishable-key="pk_live_replace_me">
+            </stripe-buy-button>
+          </div>
+
+          <div class="pricing-card">
+            <h2>Ongoing</h2>
+            <p class="price">Custom</p>
+            <ul>
+              <li>Retainer for teams, firms, or creators</li>
+              <li>Roadmap, implementation, and review</li>
+              <li>Contact for a scoped proposal</li>
+            </ul>
+            <a href="contact.html" class="btn btn-secondary">Request Proposal</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-inner">
+      <p>© 2025 Jeffrey Plewak. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
+
+
+⸻
+
+4) premium.html (Services / Creator + Tech Consulting, refined)
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Services – AI, Automation & Creator Consulting</title>
+  <meta name="description" content="Service menu for AI consulting, automation systems, creator funnels, and Reddit-driven growth, delivered by Jeffrey Plewak.">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="canonical" href="https://jeffreyplewak.com/premium.html">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo">Jeffrey Plewak</a>
+      <nav aria-label="Primary navigation">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="premium.html" aria-current="page">Services</a></li>
+          <li><a href="pay.html">Pricing</a></li>
+          <li><a href="book.html">Book</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <section class="section">
+      <div class="container">
+        <h1>Services</h1>
+        <p>I help you design, build, and ship systems – not just documents. Below are the main ways we can work together.</p>
+
+        <h2>1. Creator Monetization & Platform Strategy</h2>
+        <p>Positioning, offers, and growth systems across Reddit, X, Instagram, OnlyFans, and other creator platforms.</p>
+        <ul class="features">
+          <li><strong>Offer & Funnel Design:</strong> Map your funnel from discovery (Reddit, search, referrals) to recurring revenue.</li>
+          <li><strong>Content Systems:</strong> Repeatable formats for posts, threads, and campaigns that match your risk tolerance and platform rules.</li>
+          <li><strong>Analytics & Iteration:</strong> Light-weight metrics to see what’s working without drowning you in dashboards.</li>
+        </ul>
+
+        <h2>2. Automation & Internal Tools</h2>
+        <p>For SMBs and professionals who need less manual work and more reliability.</p>
+        <ul class="features">
+          <li>Lead routing, intake, and triage automation.</li>
+          <li>Content pipelines for newsletters, social, and knowledge bases.</li>
+          <li>Glue scripts that connect the tools you already use.</li>
+        </ul>
+
+        <h2>3. AI / LLM Workflows</h2>
+        <p>LLM-backed workflows tuned to your domain: legal, clinical, creator, or operational.</p>
+        <ul class="features">
+          <li>Prompt and system design with guardrails and provenance.</li>
+          <li>Document processing flows (PDF/A, JSON, JSON-LD, etc.).</li>
+          <li>Client-facing assistants and internal copilots.</li>
+        </ul>
+
+        <p><a href="book.html" class="btn">Book a Consultation</a></p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-inner">
+      <p>© 2025 Jeffrey Plewak. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
+
+
+⸻
+
+5) book.html (Booking / Calendly, refined)
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Schedule a Consultation – Jeffrey Plewak</title>
+  <meta name="description" content="Book a 30–60 minute consultation with Jeffrey Plewak to scope AI, automation, or creator systems for your use case.">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="canonical" href="https://jeffreyplewak.com/book.html">
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Calendly embed -->
+  <link href="https://calendly.com/assets/external/widget.css" rel="stylesheet">
+  <script src="https://calendly.com/assets/external/widget.js" async></script>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo">Jeffrey Plewak</a>
+      <nav aria-label="Primary navigation">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="premium.html">Services</a></li>
+          <li><a href="pay.html">Pricing</a></li>
+          <li><a href="book.html" aria-current="page">Book</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <section class="section">
+      <div class="container">
+        <h1>Book a Consultation</h1>
+        <p>Use the button below to open my Calendly and pick a time that works. We’ll use the call to scope your goals and decide whether to move forward.</p>
+
+        <button type="button" class="btn"
+          onclick="Calendly.initPopupWidget({ url: 'https://calendly.com/YOUR_SCHEDULING_LINK' }); return false;">
+          Open Scheduling
+        </button>
+
+        <p class="note">You can also reach out directly at <a href="mailto:plewak.jeff@gmail.com">plewak.jeff@gmail.com</a> if you prefer email.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-inner">
+      <p>© 2025 Jeffrey Plewak. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
+
+
+⸻
+
+6) contact.html (Contact Form, refined)
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact – Jeffrey Plewak</title>
+  <meta name="description" content="Contact Jeffrey Plewak for AI consulting, automation systems, creator funnels, or custom consulting packages.">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="canonical" href="https://jeffreyplewak.com/contact.html">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo">Jeffrey Plewak</a>
+      <nav aria-label="Primary navigation">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="premium.html">Services</a></li>
+          <li><a href="pay.html">Pricing</a></li>
+          <li><a href="book.html">Book</a></li>
+          <li><a href="contact.html" aria-current="page">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <section class="section">
+      <div class="container">
+        <h1>Contact</h1>
+        <p>Use the form below to outline your situation. I’ll respond within one business day with next steps or a request for more detail.</p>
+
+        <div id="form-status" class="visually-hidden" aria-live="polite"></div>
+
+        <form id="contactForm" novalidate>
+          <div class="form-group">
+            <label for="name">Name<span aria-hidden="true">*</span></label>
+            <input type="text" id="name" name="name" autocomplete="name" required>
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email<span aria-hidden="true">*</span></label>
+            <input type="email" id="email" name="email" autocomplete="email" required>
+          </div>
+
+          <div class="form-group">
+            <label for="message">What are you trying to solve?<span aria-hidden="true">*</span></label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+          </div>
+
+          <button type="submit" class="btn">Send Message</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-inner">
+      <p>© 2025 Jeffrey Plewak. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    const form = document.getElementById('contactForm');
+    const statusEl = document.getElementById('form-status');
+
+    form.addEventListener('submit', async (e) => {
+      e.preventDefault();
+
+      const data = {
+        name: form.name.value.trim(),
+        email: form.email.value.trim(),
+        message: form.message.value.trim()
+      };
+
+      if (!data.name || !data.email || !data.message) {
+        statusEl.textContent = 'Please fill out all required fields.';
+        statusEl.classList.remove('visually-hidden');
+        return;
+      }
+
+      statusEl.textContent = 'Sending…';
+      statusEl.classList.remove('visually-hidden');
+
+      try {
+        const res = await fetch('/api/contact', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(data)
+        });
+
+        if (res.ok) {
+          statusEl.textContent = 'Thank you. Your message has been sent.';
+          form.reset();
+        } else {
+          statusEl.textContent = 'Something went wrong. Please try again later.';
+        }
+      } catch (err) {
+        console.error(err);
+        statusEl.textContent = 'Network error. Please try again.';
+      }
+    });
+  </script>
+</body>
+</html>
+
+
+⸻
+
+7) style.css (Refined, Apple-style minimal + sticky header)
+
+/* Reset and base styles */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+  background: #ffffff;
+  color: #333333;
+  line-height: 1.6;
+}
+
+a {
+  color: inherit;
+}
+
+.container {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+h1, h2, h3 {
+  color: #000000;
+  margin-bottom: 0.75rem;
+}
+
+p, li {
+  margin-bottom: 0.75rem;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.section {
+  padding: 4rem 0;
+}
+
+/* Accessibility */
+.skip-link {
+  position: absolute;
+  left: -999px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+.skip-link:focus {
+  left: 1rem;
+  top: 1rem;
+  width: auto;
+  height: auto;
+  padding: 0.5rem 0.75rem;
+  background: #000000;
+  color: #ffffff;
+  z-index: 2000;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+/* Header / Navigation */
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background: rgba(255, 255, 255, 0.96);
+  backdrop-filter: blur(8px);
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.header-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.75rem 0;
+}
+
+.logo {
+  font-size: 1.3rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333333;
+  padding: 0.4rem 0.8rem;
+  border-radius: 999px;
+  font-size: 0.95rem;
+  transition: background 0.2s ease, color 0.2s ease;
+}
+
+nav a:hover,
+nav a[aria-current="page"] {
+  background: #000000;
+  color: #ffffff;
+}
+
+/* Buttons */
+.btn {
+  display: inline-block;
+  background: #007AFF;
+  color: #ffffff;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 999px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background 0.2s ease, transform 0.1s ease;
+}
+.btn:hover {
+  background: #005BBB;
+}
+.btn:active {
+  transform: translateY(1px);
+}
+.btn-secondary {
+  background: #f2f2f2;
+  color: #111111;
+}
+.btn-secondary:hover {
+  background: #e0e0e0;
+}
+
+/* Hero */
+.hero {
+  text-align: left;
+  background: #000000;
+  color: #ffffff;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+.hero h1 {
+  font-size: clamp(2.4rem, 4vw, 3rem);
+  margin-bottom: 1rem;
+}
+.hero p {
+  font-size: 1.1rem;
+  max-width: 640px;
+  margin-bottom: 1.75rem;
+}
+.hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+/* Layout helpers */
+.grid-3 {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1.5rem;
+}
+
+.features {
+  margin-top: 1rem;
+}
+.features li {
+  margin-bottom: 0.5rem;
+}
+
+/* Pricing */
+.pricing-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.pricing-card {
+  flex: 1 1 280px;
+  background: #fdfdfd;
+  border: 1px solid #e9e9e9;
+  border-radius: 12px;
+  padding: 1.5rem;
+  text-align: left;
+}
+.pricing-card.featured {
+  border-color: #007AFF;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.06);
+}
+.pricing-card h2 {
+  margin-bottom: 0.5rem;
+}
+.price {
+  font-size: 2rem;
+  margin: 0.5rem 0 1rem;
+}
+.price span {
+  font-size: 1rem;
+  color: #666666;
+}
+
+/* Forms */
+form {
+  max-width: 640px;
+}
+.form-group {
+  margin-bottom: 1rem;
+}
+label {
+  display: block;
+  margin-bottom: 0.25rem;
+  font-weight: 500;
+}
+input,
+textarea {
+  width: 100%;
+  padding: 0.6rem 0.75rem;
+  border: 1px solid #cccccc;
+  border-radius: 6px;
+  font: inherit;
+}
+input:focus,
+textarea:focus {
+  outline: none;
+  border-color: #007AFF;
+  box-shadow: 0 0 0 1px rgba(0, 122, 255, 0.2);
+}
+
+/* Footer */
+footer {
+  background: #fafafa;
+  border-top: 1px solid #f0f0f0;
+}
+.footer-inner {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0;
+}
+.footer-inner a {
+  text-decoration: none;
+  color: #555555;
+}
+.footer-inner a:hover {
+  text-decoration: underline;
+}
+
+.note {
+  margin-top: 1rem;
+  font-size: 0.95rem;
+  color: #555555;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .header-inner {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
+
+  nav ul {
+    width: 100%;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+  }
+
+  .hero {
+    text-align: left;
+  }
+
+  .grid-3 {
+    grid-template-columns: 1fr;
+  }
+
+  .pricing-grid {
+    flex-direction: column;
+  }
+}
+
+
+⸻
+
+If you want to tackle these “one at a time” further, pick the next artifact (e.g., pricing copy, Reddit-specific landing variant, or meta/SEO tweaks) and I’ll refine that slice next.
