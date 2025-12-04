@@ -8,7 +8,8 @@
   <meta name="robots" content="index,follow" />
   <link rel="canonical" href="https://jeffreyplewak.com/contact.html" />
   <link rel="icon" href="favicon.svg" />
-  <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png" />
+  <!-- Remove this if you don't actually have the file to avoid 404 noise -->
+  <!-- <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png" /> -->
   <link rel="manifest" href="manifest.json" />
 
   <!-- Tailwind CDN -->
@@ -29,9 +30,6 @@
     .fade-up { opacity: 0; transform: translateY(20px); animation: fadeUp .8s ease forwards; }
     @keyframes fadeUp { to { opacity:1; transform:translateY(0);} }
   </style>
-
-  <!-- HubSpot -->
-  <script charset="utf-8" type="text/javascript" src="https://js.hsforms.net/forms/embed/v2.js"></script>
 
   <!-- JSON-LD -->
   <script type="application/ld+json">
@@ -100,16 +98,23 @@
         <div class="fade-up">
           <h2 class="text-xl font-semibold mb-4">Send a message</h2>
 
-          <div id="hubspot-form"></div>
+          <div id="hubspot-form-wrapper">
+            <!-- HubSpot script + frame, as provided -->
+            <script src="https://js-na2.hsforms.net/forms/embed/244411582.js" defer></script>
+            <div
+              class="hs-form-frame"
+              data-region="na2"
+              data-form-id="e53f203d-0bb4-44ad-a9cf-a4c96fd773d7"
+              data-portal-id="244411582"
+            ></div>
+          </div>
 
-          <script>
-            hbspt.forms.create({
-              region: "na1",
-              portalId: "244411582",
-              formId: "e53f203d-0bb4-44ad-a9cf-a4c96fd773d7",
-              target: "#hubspot-form"
-            });
-          </script>
+          <noscript>
+            <p class="text-sm text-subtle">
+              JavaScript is required to load the contact form. You can email me directly at
+              <a href="mailto:plewak.jeff@gmail.com" class="underline">plewak.jeff@gmail.com</a>.
+            </p>
+          </noscript>
 
           <p class="text-xs text-subtle mt-3">
             Your details are used only to reply to your message. No marketing lists.

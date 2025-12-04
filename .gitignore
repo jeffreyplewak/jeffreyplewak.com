@@ -103,3 +103,4 @@ test-output/
 *.log.*
 *.tmp
 *.temp
+.vercel
