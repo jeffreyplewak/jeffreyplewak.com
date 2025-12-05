@@ -1,9 +1,4 @@
 User-agent: *
 Allow: /
 
-Disallow: /drafts/
-Disallow: /private/
-
 Sitemap: https://jeffreyplewak.com/sitemap.xml
-
-# Contact: plewak.jeff@gmail.com
