@@ -3,106 +3,125 @@
 <head>
   <meta charset="UTF-8" />
   <title>Page not found – Jeffrey Plewak</title>
+  <meta name="description" content="The page you were looking for could not be found on jeffreyplewak.com." />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta
-    name="description"
-    content="The page you were looking for could not be found on jeffreyplewak.com."
-  />
   <meta name="robots" content="noindex,follow" />
   <link rel="canonical" href="https://jeffreyplewak.com/404.html" />
-
   <link rel="icon" href="favicon.svg" />
-  <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png" />
   <link rel="manifest" href="manifest.json" />
 
-  <link rel="stylesheet" href="assets/style.css" />
-</head>
-<body>
-  <a class="skip-link" href="#main-content">Skip to main content</a>
+  <!-- Tailwind CDN (matches other subpages) -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            ink: "#111827",
+            subtle: "#6b7280",
+            accent: "#4f46e5"
+          },
+          fontFamily: {
+            sans: ["Inter", "system-ui", "ui-sans-serif", "SF Pro Text", "Segoe UI", "sans-serif"]
+          }
+        }
+      }
+    };
+  </script>
 
-  <header class="site-header">
-    <div class="container header-inner">
-      <a href="index.html" class="brand">
-        <img
-          src="assets/avatar.jpeg"
-          alt="Photo of Jeffrey Plewak"
-          class="brand-avatar"
-        />
-        <span class="brand-text">Jeffrey Plewak</span>
+  <!-- Local micro-interactions: soft fade-up -->
+  <style>
+    .fade-up { opacity: 0; transform: translateY(18px); animation: fadeUp .8s ease forwards; }
+    @keyframes fadeUp { to { opacity: 1; transform: translateY(0); } }
+
+    .card-hover {
+      transition:
+        box-shadow 0.18s ease,
+        transform 0.18s ease,
+        background 0.18s ease,
+        border-color 0.18s ease;
+    }
+    .card-hover:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 18px 40px rgba(15,23,42,0.12);
+      border-color: rgba(129,140,248,0.6);
+      background: radial-gradient(circle at top left, #eef2ff, #ffffff 55%);
+    }
+  </style>
+</head>
+
+<body class="font-sans text-ink bg-gradient-to-b from-slate-50 via-white to-slate-100 antialiased">
+  <!-- Header -->
+  <header class="w-full border-b border-slate-200 bg-white/80 backdrop-blur">
+    <div class="max-w-6xl mx-auto flex justify-between items-center py-4 px-4 md:px-6">
+      <a href="index.html" class="flex items-center space-x-3">
+        <img src="assets/avatar.jpeg" alt="Jeffrey Plewak" class="w-10 h-10 rounded-full" />
+        <span class="font-semibold text-lg tracking-tight">Jeffrey Plewak</span>
       </a>
-      <nav aria-label="Primary navigation">
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="premium.html">Services</a></li>
-          <li><a href="pay.html">Pricing</a></li>
-          <li><a href="book.html">Book</a></li>
-          <li><a href="contact.html">Contact</a></li>
-          <li><a href="assets/resume.docx" download>Résumé</a></li>
+      <nav>
+        <ul class="flex space-x-5 text-sm">
+          <li><a href="index.html" class="hover:underline underline-offset-4">Home</a></li>
+          <li><a href="pay.html" class="hover:underline underline-offset-4">Pricing</a></li>
+          <li><a href="book.html" class="hover:underline underline-offset-4">Book</a></li>
+          <li><a href="contact.html" class="hover:underline underline-offset-4">Contact</a></li>
+          <li><a href="assets/resume.pdf" class="hover:underline underline-offset-4">Résumé</a></li>
         </ul>
       </nav>
     </div>
   </header>
 
   <main id="main-content">
-    <!-- Minimal 404 hero -->
-    <section class="hero">
-      <div class="animated-hero">
-        <div class="hero-overlay"></div>
-        <div class="container hero-inner hero-inner-single">
-          <div class="hero-content">
-            <p class="eyebrow">404 · Page not found</p>
-            <h1>This page isn’t here.</h1>
-            <p>
-              The link you followed may be out of date, misspelled, or pointing to something
-              that moved. You can get back to the core offers and contact options below.
-            </p>
-            <div class="hero-buttons">
-              <a href="index.html" class="btn btn-primary">Back to home</a>
-              <a href="contact.html" class="btn btn-secondary">Contact me</a>
-            </div>
-            <p class="hero-footnote">
-              If you reached this from an email or third-party link, you can forward it to
-              <a href="mailto:plewak.jeff@gmail.com">plewak.jeff@gmail.com</a> and I’ll review it.
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
+    <section class="min-h-[70vh] flex items-center justify-center px-4 py-20">
+      <div class="max-w-2xl mx-auto text-center fade-up">
+        <p class="text-sm font-semibold tracking-wide text-accent mb-2">404</p>
+        <h1 class="text-3xl md:text-4xl font-semibold tracking-tight">
+          That page doesn’t live here (yet).
+        </h1>
+        <p class="mt-4 text-subtle text-base leading-relaxed">
+          Either the link is out of date, or I’ve moved things around while simplifying my systems.
+          The core hub for everything I offer is below.
+        </p>
 
-    <!-- Minimal quick links section -->
-    <section class="section section-compact">
-      <div class="container">
-        <h2>Where you might have meant to go</h2>
-        <ul class="features">
-          <li><a href="pay.html">Packages and pricing</a></li>
-          <li><a href="book.html">Book a 15-minute intro call</a></li>
-          <li><a href="premium.html">Services overview</a></li>
-          <li><a href="contact.html">Send a short message</a></li>
-          <li>
-            <a href="privacy.html">Privacy policy</a> ·
-            <a href="terms.html">Terms</a> ·
-            <a href="accessibility.html">Accessibility</a>
-          </li>
-        </ul>
+        <div class="mt-8 grid gap-4 sm:grid-cols-3 text-left">
+          <a href="index.html" class="card-hover border border-slate-200 rounded-xl p-4 bg-white/70">
+            <h2 class="text-sm font-semibold mb-1">Main hub</h2>
+            <p class="text-xs text-subtle">
+              Overview of offers, systems diagram, and proof.
+            </p>
+          </a>
+          <a href="book.html" class="card-hover border border-slate-200 rounded-xl p-4 bg-white/70">
+            <h2 class="text-sm font-semibold mb-1">Book a 15-min call</h2>
+            <p class="text-xs text-subtle">
+              Quick mapping session to see if I can help.
+            </p>
+          </a>
+          <a href="pay.html" class="card-hover border border-slate-200 rounded-xl p-4 bg-white/70">
+            <h2 class="text-sm font-semibold mb-1">Pricing & packages</h2>
+            <p class="text-xs text-subtle">
+              Clear, fixed pricing for core systems.
+            </p>
+          </a>
+        </div>
+
+        <p class="mt-8 text-xs text-subtle">
+          If you followed a link from an old post or deck, you can email
+          <a href="mailto:plewak.jeff@gmail.com" class="underline">plewak.jeff@gmail.com</a>
+          and I’ll point you to the updated location.
+        </p>
       </div>
     </section>
   </main>
 
-  <footer>
-    <div class="container footer-inner">
-      <p>© 2025 Jeffrey Plewak. All rights reserved.</p>
-      <p>
-        <a href="contact.html">Contact</a> ·
-        <a href="pay.html">Pricing</a> ·
-        <a href="terms.html">Terms</a> ·
-        <a href="privacy.html">Privacy</a> ·
-        <a href="accessibility.html">Accessibility</a>
-      </p>
-      <p class="small subtle">
-        Nothing on this site is legal, financial, or tax advice. I help you design systems;
-        you remain responsible for how you use them and which rules apply to you.
-      </p>
-    </div>
+  <!-- Footer -->
+  <footer class="py-10 border-t border-slate-200 text-center text-xs text-subtle bg-white/80">
+    <p>© 2025 Jeffrey Plewak. All rights reserved.</p>
+    <p class="mt-2 space-x-3">
+      <a href="contact.html" class="hover:underline">Contact</a>
+      <a href="pay.html" class="hover:underline">Pricing</a>
+      <a href="terms.html" class="hover:underline">Terms</a>
+      <a href="privacy.html" class="hover:underline">Privacy</a>
+      <a href="accessibility.html" class="hover:underline">Accessibility</a>
+    </p>
   </footer>
 
   <script src="assets/cookie.js" defer></script>

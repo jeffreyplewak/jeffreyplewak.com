@@ -1,21 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Home -->
   <url>
-    <loc>https://jeffreyplewak.com/</loc>
+    <loc>https://jeffreyplewak.com/index.html</loc>
+    <lastmod>2025-12-06T00:00:00Z</lastmod>
   </url>
+
+  <!-- Core funnel pages -->
   <url>
     <loc>https://jeffreyplewak.com/pay.html</loc>
+    <lastmod>2025-12-06T00:00:00Z</lastmod>
   </url>
   <url>
     <loc>https://jeffreyplewak.com/book.html</loc>
+    <lastmod>2025-12-06T00:00:00Z</lastmod>
   </url>
   <url>
     <loc>https://jeffreyplewak.com/contact.html</loc>
+    <lastmod>2025-12-06T00:00:00Z</lastmod>
+  </url>
+  <url>
+    <loc>https://jeffreyplewak.com/intake.html</loc>
+    <lastmod>2025-12-06T00:00:00Z</lastmod>
+  </url>
+
+  <!-- Legal & compliance pages -->
+  <url>
+    <loc>https://jeffreyplewak.com/accessibility.html</loc>
+    <lastmod>2025-12-06T00:00:00Z</lastmod>
   </url>
   <url>
     <loc>https://jeffreyplewak.com/terms.html</loc>
+    <lastmod>2025-12-06T00:00:00Z</lastmod>
   </url>
   <url>
     <loc>https://jeffreyplewak.com/privacy.html</loc>
+    <lastmod>2025-12-06T00:00:00Z</lastmod>
   </url>
 </urlset>

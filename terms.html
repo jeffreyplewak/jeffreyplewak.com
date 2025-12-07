@@ -2,156 +2,449 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Terms of Use – Jeffrey Plewak</title>
-  <meta
-    name="description"
-    content="Terms of use for jeffreyplewak.com. Basic rules for using this site, no guarantees, and important disclaimers."
-  />
+  <title>Terms of Use – AI Systems & Lead Hubs – Jeffrey Plewak</title>
+  <meta name="description" content="Terms of Use for jeffreyplewak.com. Please read these terms before using the site, booking a call, or submitting an intake form." />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-
+  <meta name="robots" content="index,follow" />
   <link rel="canonical" href="https://jeffreyplewak.com/terms.html" />
-  <link rel="icon" href="/favicon.svg" />
-  <link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png" />
-  <link rel="manifest" href="/manifest.json" />
+  <link rel="icon" href="favicon.svg" />
+  <link rel="manifest" href="manifest.json" />
 
-  <link rel="stylesheet" href="assets/style.css" />
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Terms of Use – AI Systems & Lead Hubs – Jeffrey Plewak" />
+  <meta property="og:description" content="Terms of Use for jeffreyplewak.com and related services." />
+  <meta property="og:url" content="https://jeffreyplewak.com/terms.html" />
+  <meta property="og:site_name" content="Jeffrey Plewak" />
+  <meta property="og:image" content="https://jeffreyplewak.com/assets/social-preview.jpg" />
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Terms of Use – AI Systems & Lead Hubs – Jeffrey Plewak" />
+  <meta name="twitter:description" content="Read the Terms of Use for jeffreyplewak.com before using this site or booking services." />
+  <meta name="twitter:image" content="https://jeffreyplewak.com/assets/social-preview.jpg" />
+
+  <!-- Tailwind CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: { ink: "#111827", subtle: "#6b7280" },
+          fontFamily: { sans: ["Inter", "ui-sans-serif", "system-ui"] }
+        }
+      }
+    };
+  </script>
+
+  <style>
+    .fade-up { opacity: 0; transform: translateY(18px); animation: fadeUp .6s ease forwards; }
+    @keyframes fadeUp { to { opacity: 1; transform: translateY(0); } }
+  </style>
+
+  <!-- JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "TermsOfService",
+    "name": "Terms of Use – jeffreyplewak.com",
+    "url": "https://jeffreyplewak.com/terms.html",
+    "description": "Terms of Use governing access to and use of jeffreyplewak.com.",
+    "publisher": {
+      "@type": "Person",
+      "name": "Jeffrey Plewak"
+    }
+  }
+  </script>
 </head>
-<body>
-  <a class="skip-link" href="#main-content">Skip to main content</a>
 
-  <header class="site-header">
-    <div class="container header-inner">
-      <a href="index.html" class="brand">
-        <img src="/assets/avatar.jpeg" alt="Photo of Jeffrey Plewak" class="brand-avatar" />
-        <span class="brand-text">Jeffrey Plewak</span>
+<body class="font-sans text-ink bg-white antialiased">
+  <a href="#main-content" class="sr-only focus:not-sr-only">Skip to main content</a>
+
+  <!-- Header -->
+  <header class="w-full border-b border-gray-200 bg-white/80 backdrop-blur-sm">
+    <div class="max-w-6xl mx-auto flex justify-between items-center py-4 px-4">
+      <a href="index.html" class="flex items-center space-x-3">
+        <img src="assets/avatar.jpeg" alt="Portrait of Jeffrey Plewak" class="w-10 h-10 rounded-full" />
+        <span class="font-semibold text-lg">Jeffrey Plewak</span>
       </a>
-      <nav aria-label="Primary navigation">
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="premium.html">Services</a></li>
-          <li><a href="pay.html">Pricing</a></li>
-          <li><a href="book.html">Book</a></li>
-          <li><a href="contact.html">Contact</a></li>
-          <li><a href="/assets/resume.docx" download>Résumé</a></li>
+      <nav aria-label="Primary">
+        <ul class="flex space-x-6 text-sm">
+          <li><a href="index.html" class="hover:underline underline-offset-4">Home</a></li>
+          <li><a href="pay.html" class="hover:underline underline-offset-4">Pricing</a></li>
+          <li><a href="book.html" class="hover:underline underline-offset-4">Book</a></li>
+          <li><a href="contact.html" class="hover:underline underline-offset-4">Contact</a></li>
+          <li><a href="intake.html" class="hover:underline underline-offset-4">Intake</a></li>
+          <li><a href="assets/resume.pdf" download class="hover:underline underline-offset-4">Résumé</a></li>
         </ul>
       </nav>
     </div>
   </header>
 
   <main id="main-content">
-    <section class="section">
-      <div class="container legal">
-        <h1>Terms of Use</h1>
-        <p class="small subtle">
-          Last updated: November 2025 · These terms are meant to be clear and readable. They are not formal legal advice.
+    <!-- HERO -->
+    <section class="w-full bg-gradient-to-b from-gray-50 to-white py-16 px-4">
+      <div class="max-w-3xl mx-auto text-center fade-up">
+        <p class="inline-flex items-center rounded-full border border-indigo-200 bg-indigo-50 px-3 py-1 text-[11px] font-medium uppercase tracking-[0.16em] text-indigo-700 mb-4">
+          Terms of Use • Please read carefully
         </p>
+        <h1 class="text-3xl sm:text-4xl md:text-5xl font-semibold tracking-tight">
+          Terms of Use
+        </h1>
+        <p class="mt-4 text-subtle text-base sm:text-lg leading-relaxed">
+          These Terms of Use govern your access to and use of <strong>jeffreyplewak.com</strong> (the “Site”).
+          By using this Site, you agree to these terms. If you do not agree, please do not use the Site.
+        </p>
+        <p class="mt-3 text-xs text-subtle">
+          Effective date: 6 December 2025
+        </p>
+      </div>
+    </section>
 
-        <h2>1. Acceptance of these terms</h2>
-        <p>
-          By using this site, you agree to these terms of use. If you do not agree, please do not
-          use the site or submit information through it.
-        </p>
+    <!-- BODY -->
+    <section class="py-12 px-4">
+      <div class="max-w-4xl mx-auto space-y-10 text-sm text-subtle fade-up">
 
-        <h2>2. What this site provides</h2>
-        <p>
-          This site provides information about my services, ways to contact me, options to book
-          time, and ways to pay for certain services. Everything is provided on an “as is” and “as
-          available” basis.
-        </p>
+        <!-- 1. WHO + ACCEPTANCE -->
+        <section aria-labelledby="who-heading">
+          <h2 id="who-heading" class="text-xl font-semibold text-ink mb-3">
+            1. Who operates this Site and how these Terms work
+          </h2>
+          <p class="mb-2">
+            This Site is operated by:
+          </p>
+          <p class="mb-3">
+            <strong>Jeffrey Plewak</strong><br />
+            Email: <a href="mailto:plewak.jeff@gmail.com" class="underline">plewak.jeff@gmail.com</a><br />
+            Location: New Bern, North Carolina, United States
+          </p>
+          <p class="mb-2">
+            These Terms of Use (the “Terms”) form a binding agreement between you and Jeffrey Plewak regarding
+            your use of the Site. By accessing or using the Site in any way, including browsing, submitting forms,
+            or booking calls, you indicate that you have read, understood, and agree to be bound by these Terms.
+          </p>
+          <p>
+            If you are accessing the Site on behalf of a business or organization, you represent that you are
+            authorized to accept these Terms on its behalf.
+          </p>
+        </section>
 
-        <h2>3. No guarantees or promises</h2>
-        <p>
-          I take the work seriously and aim for professional, careful results, but:
-        </p>
-        <ul class="features">
-          <li>The site may change or be unavailable without notice.</li>
-          <li>No specific business, legal, or financial results are guaranteed.</li>
-          <li>Examples or descriptions of past work do not promise the same outcome for you.</li>
-        </ul>
+        <!-- 2. CHANGES -->
+        <section aria-labelledby="changes-heading">
+          <h2 id="changes-heading" class="text-xl font-semibold text-ink mb-3">
+            2. Changes to these Terms and to the Site
+          </h2>
+          <p class="mb-3">
+            The Site and these Terms may be updated from time to time. Changes may reflect new services, new content,
+            legal requirements, or improvements to how the Site is run. 
+          </p>
+          <p>
+            When these Terms change, the “Effective date” at the top of this page will be updated. Continuing to use
+            the Site after the Terms change means you accept the updated Terms. If you do not agree with an update,
+            you should stop using the Site.
+          </p>
+        </section>
 
-        <h2>4. Not legal or financial advice</h2>
-        <p>
-          Content on this site is general information, not legal or financial advice. Any work
-          involving compliance, risk, or legal processes is done with care, but decisions about
-          legal obligations remain your responsibility and, where applicable, the responsibility
-          of your own legal counsel.
-        </p>
+        <!-- 3. ELIGIBILITY & USE -->
+        <section aria-labelledby="eligibility-heading">
+          <h2 id="eligibility-heading" class="text-xl font-semibold text-ink mb-3">
+            3. Eligibility and permitted use
+          </h2>
+          <p class="mb-3">
+            The Site and the services described on it are intended for adults and business users.
+            By using the Site, you confirm that:
+          </p>
+          <ul class="list-disc list-inside space-y-1.5 mb-3">
+            <li>You are at least 18 years old (or the age of majority in your jurisdiction).</li>
+            <li>You have the legal capacity to enter into these Terms.</li>
+            <li>You will use the Site only in accordance with these Terms and applicable law.</li>
+          </ul>
+          <p>
+            You must not use the Site in any way that is unlawful, fraudulent, or could harm the Site,
+            its operator, or other users.
+          </p>
+        </section>
 
-        <h2>5. Use of the site</h2>
-        <p>You agree not to do any of the following:</p>
-        <ul class="features">
-          <li>Use the site to send spam or abusive content.</li>
-          <li>Attempt to disrupt, overload, or attack the site or its infrastructure.</li>
-          <li>Try to bypass security measures or access data that is not intended for you.</li>
-        </ul>
+        <!-- 4. INFORMATIONAL PURPOSES / NO ADVICE -->
+        <section aria-labelledby="info-heading">
+          <h2 id="info-heading" class="text-xl font-semibold text-ink mb-3">
+            4. Informational purposes only – no professional advice
+          </h2>
+          <p class="mb-3">
+            The content on this Site is provided for general information about services offered, capabilities, and
+            experience. It may describe work in areas such as AI systems, automation, legal-adjacent workflows,
+            medical-adjacent systems, hardware, or audit support. 
+          </p>
+          <p class="mb-3">
+            Unless explicitly stated in a separate written agreement, nothing on this Site is intended to be:
+          </p>
+          <ul class="list-disc list-inside space-y-1.5 mb-3">
+            <li>Legal advice.</li>
+            <li>Medical or clinical advice.</li>
+            <li>Financial, accounting, or tax advice.</li>
+            <li>Regulatory compliance advice specific to your organization.</li>
+          </ul>
+          <p>
+            You should not rely on Site content as a substitute for advice from qualified professionals who understand
+            your specific circumstances. If you need legal, medical, financial, or other regulated advice, you should
+            consult an appropriate licensed professional in your jurisdiction.
+          </p>
+        </section>
 
-        <h2>6. Third-party services and links</h2>
-        <p>
-          This site relies on third-party tools such as hosting providers, Stripe, Calendly,
-          HubSpot, and others. There may also be links to external sites. I do not control these
-          services or sites and am not responsible for their content, policies, or availability.
-        </p>
+        <!-- 5. SERVICES & SEPARATE AGREEMENTS -->
+        <section aria-labelledby="services-heading">
+          <h2 id="services-heading" class="text-xl font-semibold text-ink mb-3">
+            5. Services, proposals, and separate agreements
+          </h2>
+          <p class="mb-3">
+            This Site describes potential services (such as strategy sessions, lead hub builds, landing pages,
+            and custom systems work) and may show indicative pricing. Any actual engagement is handled through a
+            separate scope of work, proposal, or contract (a “Service Agreement”).
+          </p>
+          <p>
+            If there is any conflict between these Terms and a signed Service Agreement that specifically applies
+            to your project, the Service Agreement will control for that project.
+          </p>
+        </section>
 
-        <h2>7. Payments and refunds</h2>
-        <p>
-          Payments for services are processed by Stripe. Pricing pages and checkout options show
-          current pricing and what is included. For specific engagements, scope and terms may be
-          agreed in writing (for example by email or separate agreement).
-        </p>
-        <p class="small">
-          If something feels mismatched or you believe there has been a mistake, contact me quickly
-          at <a href="mailto:plewak.jeff@gmail.com">plewak.jeff@gmail.com</a> and I will review the
-          situation in good faith. Any refund or change is handled case by case.
-        </p>
+        <!-- 6. INTELLECTUAL PROPERTY -->
+        <section aria-labelledby="ip-heading">
+          <h2 id="ip-heading" class="text-xl font-semibold text-ink mb-3">
+            6. Intellectual property and license to use the Site
+          </h2>
+          <p class="mb-3">
+            Unless stated otherwise, all content on the Site—including text, layout, logos, graphics, diagrams,
+            and code snippets—is owned by or licensed to Jeffrey Plewak and is protected by copyright and other
+            intellectual property laws. 
+          </p>
+          <p class="mb-3">
+            You are granted a limited, revocable, non-exclusive, non-transferable license to access and view the Site
+            for your own internal business or personal use, subject to these Terms. Except as expressly allowed by law,
+            you must not:
+          </p>
+          <ul class="list-disc list-inside space-y-1.5 mb-3">
+            <li>Copy, reproduce, modify, or distribute Site content without permission.</li>
+            <li>Scrape, harvest, or systematically download content or data from the Site.</li>
+            <li>Use Site content to build a competing service or training dataset without permission.</li>
+          </ul>
+          <p>
+            Any rights not expressly granted in these Terms are reserved.
+          </p>
+        </section>
 
-        <h2>8. Intellectual property</h2>
-        <p>
-          Unless stated otherwise, the content on this site (text, layout, and design) is owned by
-          me or used with permission. You may reference the site and share links, but copying or
-          re-using substantial portions of content for your own commercial site is not permitted
-          without explicit permission.
-        </p>
+        <!-- 7. USER CONTENT & FEEDBACK -->
+        <section aria-labelledby="user-content-heading">
+          <h2 id="user-content-heading" class="text-xl font-semibold text-ink mb-3">
+            7. User submissions, forms, and feedback
+          </h2>
+          <p class="mb-3">
+            If you submit information through a contact form, intake form, email, or similar channel (“User Content”),
+            you are responsible for ensuring that:
+          </p>
+          <ul class="list-disc list-inside space-y-1.5 mb-3">
+            <li>You have the right to share that information.</li>
+            <li>It does not infringe the rights or privacy of others.</li>
+            <li>It does not contain unlawful, abusive, or malicious content.</li>
+          </ul>
+          <p class="mb-3">
+            You retain ownership of your User Content. By submitting it, you grant a non-exclusive, worldwide,
+            royalty-free license to use, store, and process it as reasonably necessary to respond, provide services,
+            and operate the business (for example, to prepare proposals, project documents, or anonymized internal notes).
+          </p>
+          <p>
+            You agree not to submit confidential information unless it is clearly necessary and you understand the risks
+            of transmitting data over the internet. For highly sensitive or regulated data, additional protections may
+            be set out in a separate Service Agreement.
+          </p>
+        </section>
 
-        <h2>9. Limitation of liability</h2>
-        <p>
-          To the fullest extent permitted by applicable law, I am not liable for any indirect,
-          incidental, special, or consequential damages, or for any loss of profits or data arising
-          out of or in connection with your use of this site.
-        </p>
-        <p class="small">
-          If any liability is found despite the above, it will be limited to the amount you actually
-          paid for the relevant service, where applicable.
-        </p>
+        <!-- 8. ACCEPTABLE USE -->
+        <section aria-labelledby="acceptable-use-heading">
+          <h2 id="acceptable-use-heading" class="text-xl font-semibold text-ink mb-3">
+            8. Acceptable use and prohibited behavior
+          </h2>
+          <p class="mb-3">
+            You must not use the Site to:
+          </p>
+          <ul class="list-disc list-inside space-y-1.5 mb-3">
+            <li>Violate any applicable law or regulation.</li>
+            <li>Upload or transmit malicious code, malware, or harmful scripts.</li>
+            <li>Attempt to gain unauthorized access to systems, accounts, or data.</li>
+            <li>Probe, scan, or test the vulnerability of the Site without permission.</li>
+            <li>Interfere with or disrupt the operation of the Site or related services.</li>
+            <li>Harass, abuse, or harm others, or encourage others to do so.</li>
+          </ul>
+          <p>
+            If you misuse the Site or violate these Terms, your access may be limited or blocked, and other remedies
+            may be pursued where appropriate.
+          </p>
+        </section>
 
-        <h2>10. Changes to these terms</h2>
-        <p>
-          These terms may be updated from time to time. The “last updated” date at the top of this
-          page will always indicate the current version. Continued use of the site after changes
-          means you accept the updated terms.
-        </p>
+        <!-- 9. THIRD-PARTY SERVICES -->
+        <section aria-labelledby="thirdparty-heading">
+          <h2 id="thirdparty-heading" class="text-xl font-semibold text-ink mb-3">
+            9. Third-party services, links, and embedded tools
+          </h2>
+          <p class="mb-3">
+            The Site may include links to, or embedded content from, third-party services such as Calendly, HubSpot,
+            payment providers (for example, Stripe or PayPal), analytics tools, and social platforms. These services
+            are operated by third parties under their own terms and privacy policies. 
+          </p>
+          <p class="mb-3">
+            I do not control and am not responsible for the content, security, or privacy practices of those third-party
+            services. Your use of them is at your own discretion and may be subject to additional agreements between you
+            and those providers.
+          </p>
+          <p>
+            If a third-party service embedded on the Site is unavailable, inaccessible, or non-compliant with your
+            requirements (including accessibility or privacy requirements), that does not create a guarantee that the
+            Site will be available or suitable in all cases.
+          </p>
+        </section>
 
-        <h2>11. Contact</h2>
-        <p>
-          If you have questions about these terms, email
-          <a href="mailto:plewak.jeff@gmail.com">plewak.jeff@gmail.com</a>.
-        </p>
+        <!-- 10. NO WARRANTIES -->
+        <section aria-labelledby="warranty-heading">
+          <h2 id="warranty-heading" class="text-xl font-semibold text-ink mb-3">
+            10. Disclaimer of warranties
+          </h2>
+          <p class="mb-3">
+            The Site is provided on an “as is” and “as available” basis, without any warranties of any kind, whether
+            express, implied, or statutory, to the fullest extent permitted by law. 
+          </p>
+          <p class="mb-3">
+            Without limiting the foregoing, to the maximum extent allowed by applicable law, I specifically disclaim
+            any implied warranties of:
+          </p>
+          <ul class="list-disc list-inside space-y-1.5 mb-3">
+            <li>Merchantability.</li>
+            <li>Fitness for a particular purpose.</li>
+            <li>Non-infringement.</li>
+            <li>Title.</li>
+          </ul>
+          <p>
+            I do not warrant that the Site will be uninterrupted, secure, or error-free, that defects will be corrected,
+            or that the Site or any related systems are free of viruses or other harmful components. Your use of the
+            Site is at your own risk.
+          </p>
+        </section>
+
+        <!-- 11. LIMITATION OF LIABILITY -->
+        <section aria-labelledby="liability-heading">
+          <h2 id="liability-heading" class="text-xl font-semibold text-ink mb-3">
+            11. Limitation of liability
+          </h2>
+          <p class="mb-3">
+            To the fullest extent permitted by applicable law, in no event will Jeffrey Plewak be liable for any:
+          </p>
+          <ul class="list-disc list-inside space-y-1.5 mb-3">
+            <li>Indirect, incidental, special, consequential, or punitive damages, or</li>
+            <li>Loss of profits, revenue, business, data, goodwill, or anticipated savings,</li>
+          </ul>
+          <p class="mb-3">
+            arising out of or in connection with your use of (or inability to use) the Site, even if advised of the
+            possibility of such damages. 
+          </p>
+          <p>
+            To the extent any liability cannot be excluded under applicable law, my total aggregate liability
+            arising out of or relating to the Site and these Terms will be limited to the greater of:
+          </p>
+          <ul class="list-disc list-inside space-y-1.5 mt-2">
+            <li>The amount (if any) you paid directly through the Site in the 3 months preceding the event giving rise to the claim, or</li>
+            <li>USD $100.</li>
+          </ul>
+          <p class="mt-3">
+            Some jurisdictions do not allow certain exclusions or limitations of liability. In those cases, the above
+            limits apply only to the extent permitted by the laws of that jurisdiction. 
+          </p>
+        </section>
+
+        <!-- 12. INDEMNITY -->
+        <section aria-labelledby="indemnity-heading">
+          <h2 id="indemnity-heading" class="text-xl font-semibold text-ink mb-3">
+            12. Indemnity
+          </h2>
+          <p>
+            To the extent permitted by law, you agree to indemnify and hold harmless Jeffrey Plewak from and against
+            any claims, liabilities, damages, losses, and expenses (including reasonable legal fees) arising out of
+            or related to your:
+          </p>
+          <ul class="list-disc list-inside space-y-1.5 mt-2">
+            <li>Violation of these Terms, or</li>
+            <li>Misuse of the Site, or</li>
+            <li>Infringement of any rights of another person or entity in connection with your use of the Site.</li>
+          </ul>
+        </section>
+
+        <!-- 13. GOVERNING LAW & DISPUTES -->
+        <section aria-labelledby="law-heading">
+          <h2 id="law-heading" class="text-xl font-semibold text-ink mb-3">
+            13. Governing law and dispute resolution
+          </h2>
+          <p class="mb-3">
+            These Terms and any dispute or claim arising out of or in connection with them or the Site (including
+            non-contractual disputes or claims) will, to the extent permitted by law, be governed by and construed in
+            accordance with the laws of the State of North Carolina, United States, without regard to its conflict
+            of laws principles. 
+          </p>
+          <p class="mb-3">
+            Subject to any mandatory laws that apply in your jurisdiction, you agree that any disputes will be brought
+            exclusively in the state or federal courts located in North Carolina, and you consent to the personal
+            jurisdiction of those courts for such purposes. Some entities (such as governmental bodies) may be subject
+            to specific restrictions on choice-of-law and forum clauses; those rules are respected where they apply. 
+          </p>
+          <p>
+            Nothing in this section prevents you from seeking any remedies that cannot be excluded by law in your
+            jurisdiction (for example, certain consumer protection rights where applicable).
+          </p>
+        </section>
+
+        <!-- 14. COMPLIANCE & NO LEGAL ADVICE -->
+        <section aria-labelledby="compliance-heading">
+          <h2 id="compliance-heading" class="text-xl font-semibold text-ink mb-3">
+            14. Compliance and no legal advice
+          </h2>
+          <p class="mb-3">
+            These Terms are intended as a reasonable, good-faith framework for this Site and business based on publicly
+            available guidance for small business websites. They are not a substitute for personalized legal advice. 
+          </p>
+          <p>
+            If you are operating your own business or website, you should consult qualified legal counsel to understand
+            your specific obligations and risk profile.
+          </p>
+        </section>
+
+        <!-- 15. CONTACT -->
+        <section aria-labelledby="contact-heading">
+          <h2 id="contact-heading" class="text-xl font-semibold text-ink mb-3">
+            15. Contact
+          </h2>
+          <p>
+            If you have any questions about these Terms or how they apply, you can contact:
+          </p>
+          <p class="mt-2">
+            Email: <a href="mailto:plewak.jeff@gmail.com" class="underline">plewak.jeff@gmail.com</a><br />
+            Contact form: <a href="contact.html" class="underline">jeffreyplewak.com/contact.html</a>
+          </p>
+        </section>
       </div>
     </section>
   </main>
 
-  <footer>
-    <div class="container footer-inner">
-      <p>© 2025 Jeffrey Plewak. All rights reserved.</p>
-      <p>
-        <a href="index.html">Home</a> ·
-        <a href="terms.html" aria-current="page">Terms</a> ·
-        <a href="privacy.html">Privacy</a> ·
-        <a href="accessibility.html">Accessibility</a>
-      </p>
-    </div>
+  <!-- Footer -->
+  <footer class="border-t border-gray-200 py-8 text-center text-xs sm:text-sm text-subtle">
+    <p>© 2025 Jeffrey Plewak. All rights reserved.</p>
+    <p class="mt-2 space-x-3">
+      <a href="index.html" class="hover:underline">Home</a>
+      <a href="pay.html" class="hover:underline">Pricing</a>
+      <a href="book.html" class="hover:underline">Book</a>
+      <a href="contact.html" class="hover:underline">Contact</a>
+      <a href="intake.html" class="hover:underline">Intake</a>
+      <a href="accessibility.html" class="hover:underline">Accessibility</a>
+      <a href="terms.html" class="hover:underline" aria-current="page">Terms</a>
+      <a href="privacy.html" class="hover:underline">Privacy</a>
+    </p>
   </footer>
 
-  <!-- Cookie consent -->
-  <script src="/assets/cookie.js" defer></script>
+  <script src="assets/cookie.js" defer></script>
 </body>
 </html>

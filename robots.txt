@@ -1,4 +1,11 @@
-User-agent: *
-Allow: /
+# robots.txt for jeffreyplewak.com
+# Last updated: 2025-12-06
 
+User-agent: *
+Disallow:
+
+# Allow crawling of core static assets
+Allow: /assets/
+
+# Sitemaps
 Sitemap: https://jeffreyplewak.com/sitemap.xml

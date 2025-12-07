@@ -2,37 +2,48 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Book a Call – Jeffrey Plewak</title>
-  <meta name="description" content="Book a 15-minute intro call with Jeffrey Plewak to map your tools, leads, and next steps." />
+  <title>Book a 15-Minute Intro Call – Jeffrey Plewak</title>
+  <meta name="description" content="Book a short intro call with Jeffrey Plewak to map your current tools, leads, and whether a blueprint session or front-desk build is the right next step." />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="robots" content="index,follow" />
   <link rel="canonical" href="https://jeffreyplewak.com/book.html" />
   <link rel="icon" href="favicon.svg" />
-  <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png" />
   <link rel="manifest" href="manifest.json" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Book a 15-Minute Intro Call – Jeffrey Plewak" />
+  <meta property="og:description" content="A short intro call to understand your current tools, leads, and whether a blueprint session or front-desk build is the right next move." />
+  <meta property="og:url" content="https://jeffreyplewak.com/book.html" />
+  <meta property="og:site_name" content="Jeffrey Plewak" />
+  <meta property="og:image" content="https://jeffreyplewak.com/assets/social-preview.jpg" />
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Book a 15-Minute Intro Call – Jeffrey Plewak" />
+  <meta name="twitter:description" content="Book an intro call to map where you are now and choose a realistic next step: blueprint, front-desk build, or custom work." />
+  <meta name="twitter:image" content="https://jeffreyplewak.com/assets/social-preview.jpg" />
 
   <!-- Tailwind CDN -->
   <script src="https://cdn.tailwindcss.com"></script>
-
   <script>
     tailwind.config = {
       theme: {
         extend: {
-          colors: { ink: "#111", subtle: "#666" },
+          colors: { ink: "#111827", subtle: "#6b7280" },
           fontFamily: { sans: ["Inter", "ui-sans-serif", "system-ui"] }
         }
       }
     };
   </script>
 
-  <!-- Fade animations -->
   <style>
-    .fade-up { opacity: 0; transform: translateY(20px); animation: fadeUp .8s ease forwards; }
-    @keyframes fadeUp { to { opacity:1; transform:translateY(0); } }
+    .fade-up { opacity: 0; transform: translateY(18px); animation: fadeUp .6s ease forwards; }
+    @keyframes fadeUp { to { opacity: 1; transform: translateY(0); } }
   </style>
 
   <!-- Calendly widget -->
-  <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+  <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet" />
   <script src="https://assets.calendly.com/assets/external/widget.js" async></script>
 
   <!-- JSON-LD -->
@@ -40,7 +51,7 @@
   {
     "@context": "https://schema.org",
     "@type": "ContactPage",
-    "name": "Book Intro Call",
+    "name": "Book Intro Call – Jeffrey Plewak",
     "url": "https://jeffreyplewak.com/book.html",
     "mainEntity": {
       "@type": "Person",
@@ -51,92 +62,127 @@
 </head>
 
 <body class="font-sans text-ink bg-white antialiased">
+  <a href="#main-content" class="sr-only focus:not-sr-only">Skip to main content</a>
+
   <!-- Header -->
   <header class="w-full border-b border-gray-200 bg-white/80 backdrop-blur-sm">
     <div class="max-w-6xl mx-auto flex justify-between items-center py-4 px-4">
       <a href="index.html" class="flex items-center space-x-3">
-        <img src="assets/avatar.jpeg" alt="Jeffrey Plewak" class="w-10 h-10 rounded-full" />
+        <img src="assets/avatar.jpeg" alt="Portrait of Jeffrey Plewak" class="w-10 h-10 rounded-full" />
         <span class="font-semibold text-lg">Jeffrey Plewak</span>
       </a>
-      <nav>
+      <nav aria-label="Primary">
         <ul class="flex space-x-6 text-sm">
           <li><a href="index.html" class="hover:underline underline-offset-4">Home</a></li>
           <li><a href="pay.html" class="hover:underline underline-offset-4">Pricing</a></li>
           <li><a href="book.html" aria-current="page" class="underline underline-offset-4 font-medium">Book</a></li>
           <li><a href="contact.html" class="hover:underline underline-offset-4">Contact</a></li>
-          <li><a href="assets/resume.docx" download class="hover:underline underline-offset-4">Résumé</a></li>
+          <li><a href="intake.html" class="hover:underline underline-offset-4">Intake</a></li>
+          <li><a href="assets/resume.pdf" download class="hover:underline underline-offset-4">Résumé</a></li>
         </ul>
       </nav>
     </div>
   </header>
 
   <main id="main-content">
-    <!-- HERO -->
-    <section class="w-full bg-gradient-to-b from-gray-50 to-white py-20 px-4">
+    <!-- Hero -->
+    <section class="w-full bg-gradient-to-b from-gray-50 to-white py-16 px-4">
       <div class="max-w-3xl mx-auto text-center fade-up">
-        <h1 class="text-4xl font-semibold">Book a 15-minute intro</h1>
-        <p class="mt-4 text-subtle text-lg">
-          A short, focused call to understand where you are, what you're trying to fix or build, and whether I’m the right fit.
+        <p class="inline-flex items-center rounded-full border border-indigo-200 bg-indigo-50 px-3 py-1 text-[11px] font-medium uppercase tracking-[0.16em] text-indigo-700 mb-4">
+          Short intro • No pressure • Clear next step
+        </p>
+        <h1 class="text-3xl sm:text-4xl md:text-5xl font-semibold tracking-tight">
+          Book a 15-minute intro call
+        </h1>
+        <p class="mt-4 text-subtle text-base sm:text-lg leading-relaxed">
+          A focused call to understand how you currently get work, where things fall through the cracks,
+          and whether a Front Desk Blueprint, a hub build, or custom work is the right move.
+        </p>
+        <p class="mt-3 text-xs text-subtle">
+          No sales script, no pressure. If I’m not a fit, I’ll say so and point you to something simpler.
         </p>
       </div>
     </section>
 
-    <!-- CONTENT -->
-    <section class="py-16 px-4">
-      <div class="max-w-5xl mx-auto grid lg:grid-cols-2 gap-12">
-        
-        <!-- Left column: expectations -->
+    <!-- Content -->
+    <section class="py-14 px-4">
+      <div class="max-w-6xl mx-auto grid lg:grid-cols-2 gap-12">
+        <!-- Left column -->
         <div class="fade-up">
-          <h2 class="text-xl font-semibold">What we'll cover</h2>
-          <ul class="mt-4 space-y-2 text-subtle text-sm leading-relaxed">
-            <li>• Map your current tools and biggest friction points.</li>
-            <li>• Identify one clear, realistic system that would help immediately.</li>
-            <li>• Decide whether we should start with a session or a scoped build.</li>
+          <h2 class="text-xl font-semibold">What we’ll cover in 15 minutes</h2>
+          <ul class="mt-4 space-y-2 text-sm text-subtle leading-relaxed">
+            <li>• How people find you today (Nextdoor, socials, referrals, search, etc.).</li>
+            <li>• Where leads, messages, or orders get lost or delayed.</li>
+            <li>• What “good” would look like in the next 3–6 months.</li>
+            <li>• Whether you need a blueprint, a front desk build, a landing page, or a fully custom system.</li>
           </ul>
 
           <h2 class="text-xl font-semibold mt-8">Good use of this call</h2>
-          <ul class="mt-4 space-y-2 text-subtle text-sm">
-            <li>• You're losing leads in inboxes, DMs, or voicemail.</li>
-            <li>• You want clarity and a system, not “transformation” fluff.</li>
-            <li>• You care about doing things safely, cleanly, and evidence-ready.</li>
+          <ul class="mt-4 space-y-2 text-sm text-subtle">
+            <li>• You’re losing leads in inboxes, DMs, spreadsheets, or screenshots.</li>
+            <li>• You want a system, not just another landing page or tool recommendation.</li>
+            <li>• You care about clarity, safety, and traceability – especially for legal, medical, or audit work.</li>
           </ul>
 
-          <h2 class="text-xl font-semibold mt-8">Optional prep</h2>
-          <ul class="mt-4 space-y-2 text-subtle text-sm">
-            <li>• Rough list of tools you use (email, CRM, scheduling, payments).</li>
-            <li>• A few examples of where things break today.</li>
-            <li>• Constraints: budget, timeline, privacy, compliance.</li>
+          <h2 class="text-xl font-semibold mt-8">What usually happens after</h2>
+          <p class="mt-3 text-sm text-subtle">
+            Most people either:
+          </p>
+          <ul class="mt-2 space-y-2 text-sm text-subtle">
+            <li>• Book a <a href="pay.html" class="underline">Front Desk Blueprint session</a> to get a full written plan, or</li>
+            <li>• Start a scoped <a href="pay.html" class="underline">Lead Hub &amp; Front Desk build</a> with a clear fixed fee.</li>
           </ul>
-        </div>
-
-        <!-- Right column: Calendly -->
-        <div class="fade-up">
-          <h2 class="text-xl font-semibold mb-4">Pick a time</h2>
-
-          <div 
-            class="calendly-inline-widget w-full h-[700px]"
-            data-url="https://calendly.com/plewak-jeff/intro">
-          </div>
-
-          <p class="text-xs text-subtle mt-3">
-            If the widget doesn’t load, open Calendly directly:
-            <a href="https://calendly.com/plewak-jeff/intro" class="underline" target="_blank">calendly.com/plewak-jeff/intro</a>.
+          <p class="mt-3 text-xs text-subtle">
+            If neither of those makes sense after we talk, I’ll say so directly and suggest a simpler next step.
           </p>
         </div>
 
+        <!-- Right: Calendly -->
+        <div class="fade-up">
+          <h2 class="text-xl font-semibold mb-4">Pick a time</h2>
+
+          <section aria-label="Intro call scheduling widget">
+            <div
+              class="calendly-inline-widget w-full h-[700px] border border-gray-200 rounded-2xl"
+              data-url="https://calendly.com/plewak-jeff/intro">
+            </div>
+          </section>
+
+          <p class="text-xs text-subtle mt-3">
+            If the widget doesn’t load, open it directly:
+            <a href="https://calendly.com/plewak-jeff/intro" class="underline" target="_blank" rel="noopener">
+              calendly.com/plewak-jeff/intro
+            </a>.
+          </p>
+
+          <div class="mt-6 border border-gray-200 rounded-2xl p-4 bg-gray-50 text-xs text-subtle">
+            <h3 class="font-semibold text-ink mb-1 text-sm">Want to skip straight to details?</h3>
+            <p>
+              If you already know you want a scoped project, you can:
+            </p>
+            <ul class="mt-2 space-y-1.5">
+              <li>• Review <a href="pay.html" class="underline">pricing &amp; packages</a>.</li>
+              <li>• Fill out the <a href="intake.html" class="underline">client intake form</a> with more context.</li>
+              <li>• Or use the <a href="contact.html" class="underline">contact form</a> to send a detailed message.</li>
+            </ul>
+          </div>
+        </div>
       </div>
     </section>
   </main>
 
   <!-- Footer -->
-  <footer class="py-10 border-t border-gray-200 text-center text-sm text-subtle">
+  <footer class="border-t border-gray-200 py-8 text-center text-xs sm:text-sm text-subtle">
     <p>© 2025 Jeffrey Plewak. All rights reserved.</p>
     <p class="mt-2 space-x-3">
-      <a href="contact.html" class="hover:underline">Contact</a>
+      <a href="index.html" class="hover:underline">Home</a>
       <a href="pay.html" class="hover:underline">Pricing</a>
+      <a href="book.html" class="hover:underline">Book</a>
+      <a href="contact.html" class="hover:underline">Contact</a>
+      <a href="intake.html" class="hover:underline">Intake</a>
+      <a href="accessibility.html" class="hover:underline">Accessibility</a>
       <a href="terms.html" class="hover:underline">Terms</a>
       <a href="privacy.html" class="hover:underline">Privacy</a>
-      <a href="accessibility.html" class="hover:underline">Accessibility</a>
     </p>
   </footer>
 
