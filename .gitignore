@@ -104,3 +104,4 @@ test-output/
 *.tmp
 *.temp
 .vercel
+node_modules/
