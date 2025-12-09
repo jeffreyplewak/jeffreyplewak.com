@@ -1,0 +1,67 @@
+-  [error opening dir]
+I  [error opening dir]
+node_modules
+└── nodemailer
+    ├── CHANGELOG.md
+    ├── CODE_OF_CONDUCT.md
+    ├── lib
+    │   ├── addressparser
+    │   │   └── index.js
+    │   ├── base64
+    │   │   └── index.js
+    │   ├── dkim
+    │   │   ├── index.js
+    │   │   ├── message-parser.js
+    │   │   ├── relaxed-body.js
+    │   │   └── sign.js
+    │   ├── fetch
+    │   │   ├── cookies.js
+    │   │   └── index.js
+    │   ├── json-transport
+    │   │   └── index.js
+    │   ├── mail-composer
+    │   │   └── index.js
+    │   ├── mailer
+    │   │   ├── index.js
+    │   │   └── mail-message.js
+    │   ├── mime-funcs
+    │   │   ├── index.js
+    │   │   └── mime-types.js
+    │   ├── mime-node
+    │   │   ├── index.js
+    │   │   ├── last-newline.js
+    │   │   ├── le-unix.js
+    │   │   └── le-windows.js
+    │   ├── nodemailer.js
+    │   ├── punycode
+    │   │   └── index.js
+    │   ├── qp
+    │   │   └── index.js
+    │   ├── sendmail-transport
+    │   │   └── index.js
+    │   ├── ses-transport
+    │   │   └── index.js
+    │   ├── shared
+    │   │   └── index.js
+    │   ├── smtp-connection
+    │   │   ├── data-stream.js
+    │   │   ├── http-proxy-client.js
+    │   │   └── index.js
+    │   ├── smtp-pool
+    │   │   ├── index.js
+    │   │   └── pool-resource.js
+    │   ├── smtp-transport
+    │   │   └── index.js
+    │   ├── stream-transport
+    │   │   └── index.js
+    │   ├── well-known
+    │   │   ├── index.js
+    │   │   └── services.json
+    │   └── xoauth2
+    │       └── index.js
+    ├── LICENSE
+    ├── package.json
+    ├── README.md
+    └── SECURITY.txt
+
+23 directories, 40 files

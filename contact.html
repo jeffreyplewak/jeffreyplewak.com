@@ -2,8 +2,12 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Contact – AI Systems & Lead Hubs – Jeffrey Plewak</title>
-  <meta name="description" content="Short contact form to reach Jeffrey Plewak about lead hubs, digital front desks, and custom AI or systems work." />
+  <title>Contact – Simple Systems for Booked Work – Jeffrey Plewak</title>
+
+  <meta
+    name="description"
+    content="Send a short message to Jeffrey Plewak about your business, lead hub, or digital front desk. Use this contact form if you’re not ready to book a call yet."
+  />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="robots" content="index,follow" />
   <link rel="canonical" href="https://jeffreyplewak.com/contact.html" />
@@ -12,16 +16,22 @@
 
   <!-- Open Graph -->
   <meta property="og:type" content="website" />
-  <meta property="og:title" content="Contact – AI Systems & Lead Hubs – Jeffrey Plewak" />
-  <meta property="og:description" content="Send a short message about your situation or questions. For deeper projects, use the full client intake or book a call." />
+  <meta property="og:title" content="Contact – Simple Systems for Booked Work" />
+  <meta
+    property="og:description"
+    content="Short, low-pressure contact form to reach Jeffrey Plewak about lead hubs, digital front desks, and simple systems."
+  />
   <meta property="og:url" content="https://jeffreyplewak.com/contact.html" />
   <meta property="og:site_name" content="Jeffrey Plewak" />
   <meta property="og:image" content="https://jeffreyplewak.com/assets/social-preview.jpg" />
 
   <!-- Twitter -->
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Contact – AI Systems & Lead Hubs – Jeffrey Plewak" />
-  <meta name="twitter:description" content="Short contact form for questions and quick context about your business and lead hub needs." />
+  <meta name="twitter:title" content="Contact – Simple Systems for Booked Work" />
+  <meta
+    name="twitter:description"
+    content="Send a short note about what you’re trying to fix or understand before booking a call."
+  />
   <meta name="twitter:image" content="https://jeffreyplewak.com/assets/social-preview.jpg" />
 
   <!-- JSON-LD -->
@@ -29,11 +39,11 @@
   {
     "@context": "https://schema.org",
     "@type": "ContactPage",
-    "name": "Contact – AI Systems & Lead Hubs",
+    "name": "Contact – Simple Systems for Booked Work",
     "url": "https://jeffreyplewak.com/contact.html",
     "about": {
       "@type": "Service",
-      "name": "Lead hubs & AI systems",
+      "name": "Lead hubs & digital front desks",
       "provider": {
         "@type": "Person",
         "name": "Jeffrey Plewak"
@@ -42,240 +52,235 @@
   }
   </script>
 
-  <!-- Tailwind CDN -->
-  <script src="https://cdn.tailwindcss.com"></script>
-  <script>
-    tailwind.config = {
-      theme: {
-        extend: {
-          colors: {
-            ink: "#111827",
-            subtle: "#6b7280",
-            accent: "#4f46e5"
-          },
-          fontFamily: {
-            sans: ["Inter", "system-ui", "ui-sans-serif", "SF Pro Text", "Segoe UI", "sans-serif"]
-          }
-        }
-      }
-    };
-  </script>
+  <!-- Global styles -->
+  <link rel="stylesheet" href="assets/style.css" />
 
   <style>
-    .fade-up { opacity: 0; transform: translateY(18px); animation: fadeUp .6s ease forwards; }
-    @keyframes fadeUp { to { opacity: 1; transform: translateY(0); } }
+    .contact-hero {
+      padding: 2.4rem 0 2.2rem;
+      background: radial-gradient(circle at top left, #e0f2fe, #eef2ff 48%, #f9fafb 100%);
+      border-bottom: 1px solid rgba(226, 232, 240, 0.9);
+    }
 
-    .card {
+    .contact-hero-inner {
+      display: grid;
+      grid-template-columns: minmax(0, 1.6fr) minmax(0, 1.1fr);
+      gap: 2.25rem;
+      align-items: center;
+    }
+
+    @media (max-width: 900px) {
+      .contact-hero-inner {
+        grid-template-columns: minmax(0, 1fr);
+      }
+    }
+
+    .contact-hero-title {
+      font-size: clamp(2.1rem, 3.3vw, 2.7rem);
+      line-height: 1.1;
+      letter-spacing: -0.03em;
+      margin: 0.8rem 0 0.6rem;
+    }
+
+    .contact-hero-lede {
+      font-size: 0.98rem;
+      color: var(--text-muted);
+      max-width: 32rem;
+      margin: 0 0 0.6rem;
+    }
+
+    .contact-hero-note {
+      font-size: 0.82rem;
+      color: var(--text-subtle);
+      max-width: 30rem;
+    }
+
+    .contact-aside {
+      background: rgba(255, 255, 255, 0.96);
+      border-radius: 1.1rem;
+      border: 1px solid rgba(209, 213, 219, 0.9);
+      box-shadow: var(--shadow-soft);
+      padding: 1.1rem 1.25rem;
+      font-size: 0.86rem;
+    }
+
+    .contact-aside-title {
+      font-size: 0.94rem;
+      font-weight: 600;
+      margin-bottom: 0.35rem;
+    }
+
+    .contact-aside-list {
+      margin: 0.4rem 0 0.4rem;
+      padding-left: 1.1rem;
+      color: var(--text-subtle);
+    }
+
+    .contact-meta {
+      font-size: 0.78rem;
+      color: var(--text-subtle);
+      margin-top: 0.5rem;
+    }
+
+    .contact-form-wrapper {
+      background: #ffffff;
       border-radius: 1.2rem;
-      border: 1px solid rgba(226,232,240,0.95);
-      background: rgba(255,255,255,0.96);
-      box-shadow: 0 18px 40px rgba(15,23,42,0.08);
+      border: 1px solid var(--border-subtle);
+      box-shadow: 0 18px 40px rgba(15, 23, 42, 0.06);
+      padding: 0;
+      overflow: hidden;
     }
 
-    .card-soft {
-      border-radius: 1rem;
-      border: 1px dashed rgba(209,213,219,0.9);
-      background: rgba(248,250,252,0.9);
-    }
-
-    .pill {
-      display: inline-flex;
-      align-items: center;
-      gap: 0.35rem;
-      padding: 0.25rem 0.7rem;
-      border-radius: 999px;
-      font-size: 0.75rem;
-      letter-spacing: 0.12em;
-      text-transform: uppercase;
-      border: 1px solid rgba(191,219,254,0.9);
-      background: rgba(239,246,255,0.9);
-      color: #4b5563;
-    }
-
-    .link-pill {
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      padding: 0.5rem 1.2rem;
-      border-radius: 999px;
-      border: 1px solid rgba(148,163,184,0.9);
-      font-size: 0.85rem;
-      text-decoration: none;
-      transition:
-        background 0.16s ease,
-        color 0.16s ease,
-        transform 0.16s ease,
-        box-shadow 0.16s ease;
-    }
-
-    .link-pill-primary {
-      background: linear-gradient(135deg, #4f46e5, #2e78ff);
-      color: #f9fafb;
-      border-color: rgba(129,140,248,0.9);
-    }
-    .link-pill-primary:hover {
-      transform: translateY(-1px);
-      box-shadow: 0 16px 32px rgba(79,70,229,0.32);
-      text-decoration: none;
-    }
-
-    .link-pill-ghost {
-      background: rgba(255,255,255,0.96);
-      color: #111827;
-      border-color: rgba(148,163,184,0.9);
-    }
-    .link-pill-ghost:hover {
-      background: #e5e7eb;
-      text-decoration: none;
+    .contact-form-frame {
+      width: 100%;
+      min-height: 640px;
+      border: 0;
+      display: block;
     }
   </style>
 </head>
 
-<body class="font-sans text-ink bg-gradient-to-b from-slate-50 via-white to-slate-100 antialiased">
-  <a href="#main-content" class="sr-only focus:not-sr-only">Skip to main content</a>
+<body>
+  <a href="#main-content" class="sr-only">Skip to main content</a>
 
-  <!-- Header -->
-  <header class="w-full border-b border-slate-200 bg-white/80 backdrop-blur-sm">
-    <div class="max-w-6xl mx-auto flex justify-between items-center py-4 px-4 md:px-6">
-      <a href="index.html" class="flex items-center space-x-3">
-        <img src="assets/avatar.jpeg" alt="Portrait of Jeffrey Plewak" class="w-10 h-10 rounded-full" />
-        <span class="font-semibold text-lg tracking-tight">Jeffrey Plewak</span>
-      </a>
-      <nav aria-label="Primary">
-        <ul class="flex flex-wrap gap-4 text-sm">
-          <li><a href="index.html" class="hover:underline underline-offset-4">Home</a></li>
-          <li><a href="pay.html" class="hover:underline underline-offset-4">Pricing</a></li>
-          <li><a href="book.html" class="hover:underline underline-offset-4">Book</a></li>
-          <li><a href="contact.html" class="hover:underline underline-offset-4" aria-current="page">Contact</a></li>
-          <li><a href="intake.html" class="hover:underline underline-offset-4">Intake</a></li>
-          <li><a href="assets/resume.pdf" class="hover:underline underline-offset-4">Résumé</a></li>
-        </ul>
-      </nav>
-    </div>
-  </header>
+  <!-- Shared header -->
+  <div data-include="header"></div>
 
   <main id="main-content">
     <!-- Hero / intro -->
-    <section class="w-full bg-gradient-to-b from-slate-50 via-white to-slate-100 py-12 px-4">
-      <div class="max-w-4xl mx-auto flex flex-col md:flex-row gap-8 md:gap-10 fade-up">
-        <div class="md:w-3/5">
-          <span class="pill mb-3">
+    <section class="contact-hero">
+      <div class="shell contact-hero-inner">
+        <div>
+          <p class="eyebrow">
+            <span class="eyebrow-dot"></span>
             Short contact · Step 0
-          </span>
-          <h1 class="text-3xl sm:text-4xl font-semibold tracking-tight">
-            Send a short note about what you’re trying to fix.
-          </h1>
-          <p class="mt-4 text-subtle text-base leading-relaxed">
-            This is the short contact form. Use it if you want to ask a question, sanity-check
-            an idea, or share a quick snapshot of your current setup before we book anything.
-          </p>
-          <p class="mt-3 text-sm text-subtle">
-            For deeper projects (full lead hub, front desk, or custom development for legal,
-            medical-adjacent, audit, or hardware work), it helps to also fill in the
-            <a href="intake.html" class="underline">longer client intake</a>. For quick mapping,
-            you can skip straight to a <a href="book.html" class="underline">15-minute intro call</a>.
           </p>
 
-          <div class="mt-5 grid gap-3 text-sm text-subtle">
-            <div class="card-soft p-3.5">
-              <p class="font-medium text-ink text-xs uppercase tracking-[0.16em] mb-1">
-                Best uses
-              </p>
-              <ul class="list-disc list-inside space-y-1">
-                <li>You’re not sure yet which package or path fits.</li>
-                <li>You need to describe a specific constraint or risk.</li>
-                <li>You prefer email-style back-and-forth before a call.</li>
-              </ul>
-            </div>
-            <div class="card-soft p-3.5">
-              <p class="font-medium text-ink text-xs uppercase tracking-[0.16em] mb-1">
-                Response time
-              </p>
-              <p>
-                I usually reply within one business day. If it’s urgent or time-sensitive,
-                mention that in your message and I’ll do my best to prioritize it.
-              </p>
-            </div>
+          <h1 class="contact-hero-title">Send a short note about what you’re trying to fix.</h1>
+
+          <p class="contact-hero-lede">
+            Use this form if you want to ask a question, sanity-check an idea, or share a quick
+            snapshot of how your business works today—before we book anything.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#contact-form" class="btn btn-primary">
+              Fill the short contact form
+            </a>
+            <a href="book.html" class="btn btn-ghost">
+              Or book a 15-minute intro
+            </a>
           </div>
+
+          <p class="contact-hero-note">
+            For deeper projects (full lead hub, digital front desk, AI-heavy or regulated work),
+            it often helps to also fill in the
+            <a href="intake.html">full client intake</a>. If you’d rather not use forms at all,
+            you can always email me directly.
+          </p>
         </div>
 
-        <aside class="md:w-2/5 card p-4 md:p-5">
-          <h2 class="text-sm font-semibold text-ink mb-2">
-            Other ways to start
-          </h2>
-          <div class="flex flex-col gap-2 text-xs text-subtle">
-            <a href="book.html" class="link-pill link-pill-primary">
-              Book a 15-minute intro call
-            </a>
-            <a href="intake.html" class="link-pill link-pill-ghost">
-              Fill out the full client intake
-            </a>
-          </div>
-          <div class="mt-3 text-xs text-subtle">
-            <p>Email works too:</p>
-            <p>
-              <a href="mailto:plewak.jeff@gmail.com" class="underline">plewak.jeff@gmail.com</a>
-            </p>
-          </div>
+        <aside class="contact-aside" aria-label="How to use this contact form">
+          <div class="contact-aside-title">When this form is useful</div>
+          <ul class="contact-aside-list">
+            <li>You’re not sure yet which package or path fits.</li>
+            <li>You want to describe a specific constraint or risk.</li>
+            <li>You prefer email-style back-and-forth before a call.</li>
+          </ul>
+          <p style="margin: 0; color: var(--text-subtle); font-size: 0.82rem;">
+            Typical response time is within one business day. If something is time-sensitive
+            (for example, a launch, an audit, or a legal deadline), mention that in your message.
+          </p>
+          <p class="contact-meta">
+            Prefer direct email? Write to
+            <a href="mailto:plewak.jeff@gmail.com">plewak.jeff@gmail.com</a>
+            with a few lines about your situation.
+          </p>
         </aside>
       </div>
     </section>
 
-    <!-- HubSpot short contact form (via share link) -->
-    <section class="py-10 px-4 bg-white">
-      <div class="max-w-4xl mx-auto">
-        <div class="mb-4">
-          <h2 class="text-lg font-semibold text-ink">Short contact form</h2>
-          <p class="mt-1 text-sm text-subtle">
-            A few quick questions so I can understand your situation and send a useful,
-            concrete reply. If you prefer not to use forms, you can email me directly instead.
+    <!-- HubSpot short contact form -->
+    <section class="section" id="contact-form">
+      <div class="shell">
+        <header class="section-header">
+          <div class="section-eyebrow">Short contact form</div>
+          <h2 class="section-title">A few quick questions so I can reply with something useful.</h2>
+          <p class="section-kicker">
+            Answer in plain language. Bullet points and “rough notes” are fine—this is not a test.
+            If you’re not sure about a field, you can skip it.
           </p>
-        </div>
+        </header>
 
-        <div class="bg-white rounded-2xl border border-slate-200 shadow-sm p-0 overflow-hidden">
+        <div class="contact-form-wrapper" aria-label="Contact form powered by HubSpot">
           <iframe
             src="https://share-na2.hsforms.com/19fRFtO8rSROlTZepjN1_Rw41il6m"
             title="Short contact form"
             loading="lazy"
-            class="w-full"
-            style="min-height: 640px; border: 0;"
-          >
-          </iframe>
+            class="contact-form-frame"
+          ></iframe>
         </div>
 
-        <div class="mt-4 text-[11px] text-subtle">
-          <p>
-            This form is powered by HubSpot. By submitting, you agree that your
-            information will be processed according to my
-            <a href="privacy.html" class="underline">privacy policy</a>. You can
-            always request a copy or deletion of your data.
+        <div style="margin-top: 0.9rem; font-size: 0.78rem; color: var(--text-subtle); max-width: 40rem;">
+          <p style="margin: 0;">
+            This form is powered by HubSpot. By submitting, you agree that your information
+            will be processed according to my <a href="privacy.html">privacy policy</a>.
+            You can always request a copy or deletion of your data.
           </p>
-          <p class="mt-1">
+          <p style="margin: 0.4rem 0 0;">
             If the form doesn’t load, email
-            <a href="mailto:plewak.jeff@gmail.com" class="underline">plewak.jeff@gmail.com</a>
+            <a href="mailto:plewak.jeff@gmail.com">plewak.jeff@gmail.com</a>
             with the subject line “Short contact” and include whatever context you can.
           </p>
         </div>
       </div>
     </section>
+
+    <!-- Light “what happens next” -->
+    <section class="section">
+      <div class="shell">
+        <header class="section-header">
+          <div class="section-eyebrow">What happens after you send this</div>
+          <h2 class="section-title">No funnels, no pressure—just a clear next step.</h2>
+          <p class="section-kicker">
+            I read what you send, respond in plain language, and suggest a realistic next step.
+            If I’m not the right fit, I’ll say that clearly.
+          </p>
+        </header>
+
+        <div class="card-grid card-grid--three">
+          <article class="card">
+            <div class="card-title">1. I read your note.</div>
+            <p class="card-body">
+              I look at how you describe your work, where leads show up now, and what feels messy or fragile.
+            </p>
+          </article>
+
+          <article class="card">
+            <div class="card-title">2. You get a grounded reply.</div>
+            <p class="card-body">
+              I’ll reply with what I’m seeing, a few questions if needed, and whether I think I can actually help.
+            </p>
+          </article>
+
+          <article class="card">
+            <div class="card-title">3. We decide together.</div>
+            <p class="card-body">
+              If it’s a fit, the next step is usually a
+              <a href="pay.html#blueprint">simple $150 plan</a> or a
+              <a href="book.html">short call</a>. If not, you still keep the clarity from the reply.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
   </main>
 
-  <!-- Footer -->
-  <footer class="border-t border-slate-200 py-8 text-center text-xs sm:text-sm text-subtle bg-white/90">
-    <p>© 2025 Jeffrey Plewak. All rights reserved.</p>
-    <p class="mt-2 space-x-3">
-      <a href="index.html" class="hover:underline">Home</a>
-      <a href="pay.html" class="hover:underline">Pricing</a>
-      <a href="book.html" class="hover:underline">Book</a>
-      <a href="contact.html" class="hover:underline" aria-current="page">Contact</a>
-      <a href="intake.html" class="hover:underline">Intake</a>
-      <a href="accessibility.html" class="hover:underline">Accessibility</a>
-      <a href="terms.html" class="hover:underline">Terms</a>
-      <a href="privacy.html" class="hover:underline">Privacy</a>
-    </p>
-  </footer>
+  <!-- Shared footer + cookie banner -->
+  <div data-include="footer"></div>
 
-  <!-- Cookie logic -->
-  <script src="assets/cookie.js" defer></script>
+  <!-- Layout + cookie logic -->
+  <script src="assets/layout.js"></script>
+  <script src="assets/cookie.js"></script>
 </body>
 </html>

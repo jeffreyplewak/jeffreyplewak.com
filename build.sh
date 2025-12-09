@@ -9,13 +9,14 @@ set -euo pipefail
 ROOT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 cd "$ROOT_DIR"
 
-HTML_FILES=(
-  "index.html"
-  "pay.html"
-  "premium.html"
-  "book.html"
-  "contact.html"
-)
+# Collect all top-level HTML files (index.html, pay.html, book.html, etc.)
+HTML_FILES=( ./*.html )
+
+# If no HTML files exist, bail out cleanly
+if [ "${HTML_FILES[0]}" = "./*.html" ]; then
+  echo "build.sh: No HTML files found in project root, nothing to do."
+  exit 0
+fi
 
 echo "build.sh: Using values (from environment)"
 echo "  SITE_NAME=${SITE_NAME:-Jeffrey Plewak}"
@@ -44,7 +45,6 @@ tokens = {
     "CONTACT_EMAIL": os.getenv("CONTACT_EMAIL") or os.getenv("CONTACT_FORM_EMAIL", "plewak.jeff@gmail.com"),
     "CONTACT_ENDPOINT": os.getenv("CONTACT_ENDPOINT", "https://jeffreyplewak.com/api/contact"),
     "CALENDLY_URL": os.getenv("CALENDLY_URL", "https://calendly.com/plewak-jeff/intro"),
-    # Stripe placeholders kept for compatibility; they can be empty.
     "STRIPE_PUBLISHABLE_KEY": os.getenv("STRIPE_PUBLISHABLE_KEY", ""),
     "STRIPE_STARTER_BUTTON_ID": os.getenv("STRIPE_STARTER_BUTTON_ID", ""),
     "STRIPE_BUILDER_BUTTON_ID": os.getenv("STRIPE_BUILDER_BUTTON_ID", ""),

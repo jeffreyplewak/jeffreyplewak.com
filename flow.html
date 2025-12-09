@@ -1,0 +1,770 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- SEO: Local + Remote -->
+  <title>Client Acquisition Journey | New Bern, NC & Remote</title>
+  <meta name="description" content="Turn clicks into booked work with a simple online front desk — built for service businesses in New Bern, NC and remote clients across the U.S." />
+
+  <!-- Open Graph (optional but recommended) -->
+  <meta property="og:title" content="Client Acquisition Journey | New Bern, NC & Remote" />
+  <meta property="og:description" content="A simple, visual client journey that turns discovery into booked work with a 24/7 online front desk." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://jeffreyplewak.com/" />
+
+  <!-- LocalBusiness Schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Jeffrey Plewak Consulting",
+    "url": "https://jeffreyplewak.com/",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "New Bern",
+      "addressRegion": "NC",
+      "addressCountry": "US"
+    },
+    "description": "Consulting to turn clicks and messages into booked work with a simple online front desk, serving New Bern, NC and remote clients."
+  }
+  </script>
+
+  <style>
+    :root {
+      --bg: #0f172a;
+      --bg-alt: #020617;
+      --card-bg: #ffffff;
+      --text-main: #0f172a;
+      --text-muted: #6b7280;
+      --accent: #2563eb;
+      --accent-soft: #dbeafe;
+      --border-subtle: #e5e7eb;
+      --shadow-soft: 0 18px 45px rgba(15, 23, 42, 0.28);
+      --radius-lg: 18px;
+      --radius-md: 12px;
+      --radius-pill: 999px;
+      --font-sans: system-ui, -apple-system, BlinkMacSystemFont, "SF Pro Text",
+        "Segoe UI", sans-serif;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      font-family: var(--font-sans);
+      background: radial-gradient(circle at top, #1d283a 0, #020617 55%, #000 100%);
+      color: #e5e7eb;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    .page {
+      max-width: 1120px;
+      margin: 0 auto;
+      padding: 1.5rem 1.25rem 3rem;
+    }
+
+    header {
+      padding: 1.25rem 0 1rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1.5rem;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+    }
+
+    .brand-mark {
+      width: 32px;
+      height: 32px;
+      border-radius: 10px;
+      background: radial-gradient(circle at 30% 20%, #38bdf8, #1d4ed8 55%, #020617 100%);
+      box-shadow: 0 10px 30px rgba(37, 99, 235, 0.6);
+    }
+
+    .brand-text {
+      display: flex;
+      flex-direction: column;
+      gap: 0.2rem;
+    }
+
+    .brand-text span:first-child {
+      font-size: 0.95rem;
+      font-weight: 600;
+      letter-spacing: 0.03em;
+    }
+
+    .brand-text span:last-child {
+      font-size: 0.8rem;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      color: #9ca3af;
+    }
+
+    .nav-cta {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      font-size: 0.85rem;
+    }
+
+    .nav-tag {
+      padding: 0.3rem 0.75rem;
+      border-radius: var(--radius-pill);
+      border: 1px solid rgba(148, 163, 184, 0.5);
+      color: #cbd5f5;
+      background: radial-gradient(circle at top left, rgba(96, 165, 250, 0.18), transparent 60%);
+      white-space: nowrap;
+    }
+
+    .nav-link {
+      padding: 0.4rem 0.9rem;
+      border-radius: var(--radius-pill);
+      border: 1px solid rgba(148, 163, 184, 0.5);
+      color: #e5e7eb;
+      background: linear-gradient(to right, rgba(15, 23, 42, 0.8), rgba(15, 23, 42, 0.9));
+      cursor: pointer;
+    }
+
+    .hero {
+      margin-top: 1rem;
+      display: grid;
+      grid-template-columns: minmax(0, 1.1fr) minmax(0, 1.1fr);
+      gap: 1.75rem;
+      align-items: center;
+    }
+
+    .hero-copy {
+      padding-right: 0.5rem;
+    }
+
+    .hero-kicker {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      padding: 0.2rem 0.8rem;
+      border-radius: var(--radius-pill);
+      border: 1px solid rgba(148, 163, 184, 0.6);
+      background: radial-gradient(circle at top left, rgba(37, 99, 235, 0.25), transparent 55%);
+      font-size: 0.78rem;
+      text-transform: uppercase;
+      letter-spacing: 0.16em;
+      color: #cbd5f5;
+      margin-bottom: 0.85rem;
+    }
+
+    .hero-kicker span:last-child {
+      font-weight: 600;
+    }
+
+    .hero h1 {
+      font-size: clamp(1.9rem, 3vw, 2.4rem);
+      line-height: 1.15;
+      margin: 0 0 0.75rem;
+    }
+
+    .hero h1 span {
+      color: #bfdbfe;
+    }
+
+    .hero-sub {
+      font-size: 0.96rem;
+      line-height: 1.6;
+      color: #cbd5f5;
+      max-width: 32rem;
+      margin-bottom: 1.25rem;
+    }
+
+    .hero-sub strong {
+      font-weight: 600;
+      color: #e5e7eb;
+    }
+
+    .hero-local {
+      font-size: 0.86rem;
+      color: #9ca3af;
+      margin-bottom: 1.5rem;
+    }
+
+    .hero-cta-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.9rem;
+      align-items: center;
+      margin-bottom: 1.1rem;
+    }
+
+    .btn-primary {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.45rem;
+      padding: 0.65rem 1.35rem;
+      border-radius: var(--radius-pill);
+      border: none;
+      background: linear-gradient(135deg, #2563eb, #4f46e5);
+      color: #f9fafb;
+      font-size: 0.9rem;
+      font-weight: 600;
+      cursor: pointer;
+      box-shadow: 0 16px 40px rgba(37, 99, 235, 0.55);
+      text-decoration: none;
+      transition: transform 150ms ease, box-shadow 150ms ease, filter 150ms ease;
+    }
+
+    .btn-primary:hover {
+      transform: translateY(-1px);
+      box-shadow: 0 20px 50px rgba(37, 99, 235, 0.7);
+      filter: brightness(1.03);
+    }
+
+    .btn-ghost {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 0.62rem 1.1rem;
+      border-radius: var(--radius-pill);
+      border: 1px solid rgba(148, 163, 184, 0.75);
+      font-size: 0.85rem;
+      color: #e5e7eb;
+      cursor: pointer;
+      background: radial-gradient(circle at top, rgba(15, 23, 42, 0.8), rgba(15, 23, 42, 0.95));
+      text-decoration: none;
+      gap: 0.4rem;
+    }
+
+    .hero-note {
+      font-size: 0.82rem;
+      color: #9ca3af;
+    }
+
+    .hero-note strong {
+      color: #e5e7eb;
+      font-weight: 600;
+    }
+
+    .card {
+      background: linear-gradient(155deg, rgba(15, 23, 42, 0.94), rgba(15, 23, 42, 1));
+      border-radius: var(--radius-lg);
+      border: 1px solid rgba(148, 163, 184, 0.4);
+      box-shadow: var(--shadow-soft);
+      padding: 1.25rem 1.3rem 1.4rem;
+      backdrop-filter: blur(18px);
+    }
+
+    .card-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      gap: 1rem;
+      margin-bottom: 0.9rem;
+    }
+
+    .card-title {
+      font-size: 0.95rem;
+      font-weight: 600;
+      color: #e5e7eb;
+    }
+
+    .card-tag {
+      font-size: 0.78rem;
+      padding: 0.2rem 0.65rem;
+      border-radius: var(--radius-pill);
+      background: rgba(17, 24, 39, 0.9);
+      border: 1px solid rgba(55, 65, 81, 0.9);
+      color: #9ca3af;
+    }
+
+    .svg-wrapper {
+      margin-top: 0.4rem;
+      border-radius: var(--radius-md);
+      background: radial-gradient(circle at top, rgba(37, 99, 235, 0.18), rgba(15, 23, 42, 0.9));
+      border: 1px solid rgba(148, 163, 184, 0.45);
+      padding: 0.9rem;
+      overflow: hidden;
+    }
+
+    svg {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    .svg-rect {
+      transition: transform 140ms ease, filter 140ms ease;
+      cursor: default;
+    }
+
+    .svg-rect:hover {
+      transform: translateY(-2px);
+      filter: brightness(1.06);
+    }
+
+    .svg-label {
+      font-size: 0.8rem;
+      fill: #0b1120;
+      font-weight: 500;
+    }
+
+    .svg-main-label {
+      fill: #ffffff;
+      font-size: 0.88rem;
+      font-weight: 500;
+    }
+
+    .diagram-caption {
+      margin-top: 0.7rem;
+      font-size: 0.8rem;
+      color: #cbd5f5;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.4rem 1.2rem;
+    }
+
+    .diagram-caption span {
+      display: flex;
+      align-items: center;
+      gap: 0.4rem;
+    }
+
+    .dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 999px;
+      background: #38bdf8;
+    }
+
+    .dot.orange {
+      background: #fb923c;
+    }
+
+    .dot.purple {
+      background: #a855f7;
+    }
+
+    .how-it-works {
+      margin-top: 2.3rem;
+      display: grid;
+      grid-template-columns: minmax(0, 1.4fr) minmax(0, 1fr);
+      gap: 1.5rem;
+      align-items: flex-start;
+    }
+
+    .how-copy h2 {
+      margin: 0 0 0.4rem;
+      font-size: 1.05rem;
+    }
+
+    .how-copy p {
+      margin: 0 0 0.8rem;
+      font-size: 0.86rem;
+      color: #cbd5f5;
+      line-height: 1.6;
+    }
+
+    .how-list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: grid;
+      gap: 0.7rem;
+    }
+
+    .how-list li {
+      font-size: 0.86rem;
+      color: #e5e7eb;
+      display: flex;
+      align-items: flex-start;
+      gap: 0.45rem;
+    }
+
+    .how-list li::before {
+      content: "";
+      width: 6px;
+      height: 6px;
+      border-radius: 999px;
+      margin-top: 0.45rem;
+      background: #4ade80;
+      flex-shrink: 0;
+    }
+
+    .cta-block {
+      margin-top: 2.2rem;
+      padding: 1.1rem 1.1rem;
+      border-radius: var(--radius-lg);
+      border: 1px solid rgba(148, 163, 184, 0.55);
+      background: linear-gradient(135deg, rgba(15, 23, 42, 0.95), rgba(15, 23, 42, 0.98));
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+    }
+
+    .cta-text {
+      font-size: 0.9rem;
+      color: #e5e7eb;
+    }
+
+    .cta-text span {
+      display: block;
+      color: #9ca3af;
+      font-size: 0.8rem;
+      margin-top: 0.15rem;
+    }
+
+    .cta-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.7rem;
+    }
+
+    .contact-anchor {
+      scroll-margin-top: 80px;
+    }
+
+    .contact-section {
+      margin-top: 2.5rem;
+      padding-top: 1.5rem;
+      border-top: 1px solid rgba(31, 41, 55, 0.9);
+      font-size: 0.9rem;
+      color: #cbd5f5;
+    }
+
+    .contact-section h2 {
+      margin: 0 0 0.4rem;
+      font-size: 0.98rem;
+    }
+
+    .contact-section p {
+      margin: 0 0 0.6rem;
+    }
+
+    .contact-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.7rem;
+      margin-top: 0.6rem;
+    }
+
+    .contact-link {
+      font-size: 0.82rem;
+      padding: 0.45rem 0.85rem;
+      border-radius: var(--radius-pill);
+      border: 1px solid rgba(148, 163, 184, 0.65);
+      background: rgba(15, 23, 42, 0.95);
+      color: #e5e7eb;
+    }
+
+    footer {
+      margin-top: 2rem;
+      padding-top: 1.5rem;
+      border-top: 1px solid rgba(31, 41, 55, 0.9);
+      font-size: 0.8rem;
+      color: #6b7280;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 0.8rem;
+    }
+
+    @media (max-width: 900px) {
+      .hero {
+        grid-template-columns: minmax(0, 1fr);
+      }
+      .hero-copy {
+        padding-right: 0;
+      }
+      .how-it-works {
+        grid-template-columns: minmax(0, 1fr);
+      }
+    }
+
+    @media (max-width: 640px) {
+      header {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+      .nav-cta {
+        align-self: stretch;
+        justify-content: space-between;
+      }
+      .hero h1 {
+        font-size: 1.8rem;
+      }
+      .hero-sub {
+        font-size: 0.9rem;
+      }
+      .diagram-caption {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <header>
+      <div class="brand">
+        <div class="brand-mark"></div>
+        <div class="brand-text">
+          <span>Jeffrey Plewak</span>
+          <span>Digital front desk systems</span>
+        </div>
+      </div>
+      <div class="nav-cta">
+        <div class="nav-tag">Serving New Bern, NC & remote</div>
+        <a href="#contact" class="nav-link">Contact</a>
+      </div>
+    </header>
+
+    <main>
+      <!-- HERO -->
+      <section class="hero">
+        <div class="hero-copy">
+          <div class="hero-kicker">
+            <span>Client acquisition journey</span>
+            <span>From click to booked work</span>
+          </div>
+          <h1>
+            Turn <span>random clicks</span> into
+            steady, booked work.
+          </h1>
+          <p class="hero-sub">
+            I build a simple online front desk that
+            <strong>catches leads from anywhere</strong>,
+            books time on your calendar, and keeps all the details in one place
+            so you can focus on the work, not the chasing.
+          </p>
+          <p class="hero-local">
+            Based in New Bern, NC — working with local makers, trades, and service
+            businesses, plus remote clients across the U.S.
+          </p>
+
+          <div class="hero-cta-row">
+            <a href="#contact" class="btn-primary">Talk about your setup</a>
+            <a href="#journey" class="btn-ghost">See the client journey</a>
+          </div>
+          <p class="hero-note">
+            <strong>Plain-language, no-pressure calls.</strong>
+            We walk through how you get work now and what this flow could replace.
+          </p>
+        </div>
+
+        <!-- SVG CARD -->
+        <aside class="card" id="journey">
+          <div class="card-header">
+            <div class="card-title">Your client journey, at a glance</div>
+            <div class="card-tag">Visual map of the system</div>
+          </div>
+          <div class="svg-wrapper" aria-hidden="false">
+            <svg
+              viewBox="0 0 1000 700"
+              xmlns="http://www.w3.org/2000/svg"
+              role="img"
+              aria-labelledby="journey-title journey-desc"
+            >
+              <title id="journey-title">Client Acquisition Journey</title>
+              <desc id="journey-desc">
+                A visual map showing how people discover you, click your link,
+                land on your online front desk, then either fill a form, book time,
+                pay online, or have their info saved — all leading to more work.
+              </desc>
+
+              <!-- Top stages -->
+              <g class="svg-rect">
+                <rect x="300" y="10" width="400" height="60" fill="#3498db" rx="10" />
+                <text x="500" y="45" text-anchor="middle" class="svg-main-label">
+                  Where People Discover You
+                </text>
+              </g>
+
+              <g class="svg-rect">
+                <rect x="300" y="90" width="400" height="60" fill="#22c55e" rx="10" />
+                <text x="500" y="125" text-anchor="middle" class="svg-main-label">
+                  They Click Your Link
+                </text>
+              </g>
+
+              <g class="svg-rect">
+                <rect x="300" y="170" width="400" height="60" fill="#f97316" rx="10" />
+                <text x="500" y="205" text-anchor="middle" class="svg-main-label">
+                  Your Online Front Desk (24/7)
+                </text>
+              </g>
+
+              <!-- Options row -->
+              <g class="svg-rect">
+                <rect x="50" y="270" width="200" height="60" fill="#fb923c" rx="10" />
+                <text x="150" y="305" text-anchor="middle" class="svg-main-label">
+                  Quick Form
+                </text>
+              </g>
+
+              <g class="svg-rect">
+                <rect x="300" y="270" width="200" height="60" fill="#fb923c" rx="10" />
+                <text x="400" y="305" text-anchor="middle" class="svg-main-label">
+                  Book a Time
+                </text>
+              </g>
+
+              <g class="svg-rect">
+                <rect x="550" y="270" width="200" height="60" fill="#fb923c" rx="10" />
+                <text x="650" y="305" text-anchor="middle" class="svg-main-label">
+                  Pay Online
+                </text>
+              </g>
+
+              <g class="svg-rect">
+                <rect x="800" y="270" width="200" height="60" fill="#fb923c" rx="10" />
+                <text x="900" y="305" text-anchor="middle" class="svg-main-label">
+                  Saved Info
+                </text>
+              </g>
+
+              <!-- Outcome -->
+              <g class="svg-rect">
+                <rect x="300" y="380" width="400" height="60" fill="#8b5cf6" rx="10" />
+                <text x="500" y="415" text-anchor="middle" class="svg-main-label">
+                  You Get More Work
+                </text>
+              </g>
+
+              <!-- Arrows -->
+              <defs>
+                <marker
+                  id="arrow"
+                  markerWidth="10"
+                  markerHeight="10"
+                  refX="5"
+                  refY="3"
+                  orient="auto"
+                  markerUnits="strokeWidth"
+                >
+                  <path d="M0,0 L0,6 L9,3 z" fill="#111827" />
+                </marker>
+              </defs>
+
+              <line x1="500" y1="70" x2="500" y2="90" stroke="#111827" stroke-width="2" marker-end="url(#arrow)" />
+              <line x1="500" y1="150" x2="500" y2="170" stroke="#111827" stroke-width="2" marker-end="url(#arrow)" />
+
+              <line x1="500" y1="230" x2="150" y2="270" stroke="#111827" stroke-width="2" marker-end="url(#arrow)" />
+              <line x1="500" y1="230" x2="400" y2="270" stroke="#111827" stroke-width="2" marker-end="url(#arrow)" />
+              <line x1="500" y1="230" x2="650" y2="270" stroke="#111827" stroke-width="2" marker-end="url(#arrow)" />
+              <line x1="500" y1="230" x2="900" y2="270" stroke="#111827" stroke-width="2" marker-end="url(#arrow)" />
+
+              <line x1="150" y1="330" x2="500" y2="380" stroke="#111827" stroke-width="2" marker-end="url(#arrow)" />
+              <line x1="400" y1="330" x2="500" y2="380" stroke="#111827" stroke-width="2" marker-end="url(#arrow)" />
+              <line x1="650" y1="330" x2="500" y2="380" stroke="#111827" stroke-width="2" marker-end="url(#arrow)" />
+              <line x1="900" y1="330" x2="500" y2="380" stroke="#111827" stroke-width="2" marker-end="url(#arrow)" />
+            </svg>
+          </div>
+
+          <div class="diagram-caption">
+            <span><span class="dot"></span> Top: where people find you and click in</span>
+            <span><span class="dot orange"></span> Middle: what they can do in one place</span>
+            <span><span class="dot purple"></span> Bottom: your calendar and income stay full</span>
+          </div>
+        </aside>
+      </section>
+
+      <!-- HOW IT WORKS / COPY-LITE -->
+      <section class="how-it-works">
+        <div class="how-copy">
+          <h2>Serving New Bern, NC and remote clients</h2>
+          <p>
+            Whether your work comes from Nextdoor, word of mouth, Instagram, or a
+            simple link you text to people, this flow keeps everything pointed at
+            one place: your online front desk.
+          </p>
+          <p>
+            The goal is simple: fewer back-and-forth messages, fewer lost leads,
+            and a calm, predictable way new clients show up on your calendar.
+          </p>
+
+          <ul class="how-list">
+            <li>We map how people currently find and contact you.</li>
+            <li>We plug your channels into one clear “front desk” page.</li>
+            <li>We add form, booking, and payment in a way that fits your work.</li>
+            <li>We connect it to your email or CRM so nothing gets lost.</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <div class="card-title" style="margin-bottom:0.4rem;">
+            What this replaces
+          </div>
+          <ul class="how-list">
+            <li>Loose DMs spread across Facebook, Nextdoor, and text.</li>
+            <li>“Sorry, I missed this” messages when life gets busy.</li>
+            <li>Paper notes with names, phone numbers, and requests.</li>
+            <li>Guessing what to charge or how to explain your offers.</li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- CTA BLOCK -->
+      <section class="cta-block">
+        <div class="cta-text">
+          Ready to see this flow with your real business?
+          <span>We start with a short call and a simple sketch of your current journey.</span>
+        </div>
+        <div class="cta-actions">
+          <a href="/contact.html" class="btn-primary">Request a call</a>
+          <a href="#contact" class="btn-ghost">See contact options</a>
+        </div>
+      </section>
+
+      <!-- CONTACT -->
+      <section id="contact" class="contact-anchor contact-section">
+        <h2>Contact</h2>
+        <p>
+          If you are in or around New Bern — or working fully remote — and want
+          a clearer client journey, reach out in the way that is easiest for you.
+        </p>
+        <div class="contact-links">
+          <a href="mailto:plewak.jeff@gmail.com" class="contact-link">
+            Email: plewak.jeff@gmail.com
+          </a>
+          <a href="/contact.html" class="contact-link">
+            Contact form
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <span>© <span id="year"></span> Jeffrey Plewak. All rights reserved.</span>
+      <span>Based in New Bern, NC — working with clients across the U.S.</span>
+    </footer>
+  </div>
+
+  <script>
+    // Set current year in footer
+    document.getElementById("year").textContent = new Date().getFullYear();
+
+    // Smooth scroll for in-page links (optional but nice)
+    document.addEventListener("click", function (e) {
+      const link = e.target.closest('a[href^="#"]');
+      if (!link) return;
+      const target = document.querySelector(link.getAttribute("href"));
+      if (!target) return;
+      e.preventDefault();
+      target.scrollIntoView({ behavior: "smooth", block: "start" });
+    });
+  </script>
+</body>
+</html>

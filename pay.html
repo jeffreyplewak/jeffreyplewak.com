@@ -2,8 +2,12 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Pricing &amp; Packages – AI Systems & Lead Hubs – Jeffrey Plewak</title>
-  <meta name="description" content="Clear pricing for system blueprints, lead hub builds, landing pages, and custom systems by Jeffrey Plewak. Built for local services, creators, and teams that need evidence-ready systems." />
+  <title>Pricing & Packages – Simple Systems for Booked Work – Jeffrey Plewak</title>
+
+  <meta
+    name="description"
+    content="Clear, upfront pricing for lead hubs, digital front desks, and simple AI-assisted systems built by Jeffrey Plewak. Start with a $150 blueprint or go straight to a full build."
+  />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="robots" content="index,follow" />
   <link rel="canonical" href="https://jeffreyplewak.com/pay.html" />
@@ -12,554 +16,521 @@
 
   <!-- Open Graph -->
   <meta property="og:type" content="website" />
-  <meta property="og:title" content="Pricing &amp; Packages – AI Systems & Lead Hubs" />
-  <meta property="og:description" content="Fixed, transparent pricing for blueprints, lead hub builds, landing pages, and custom systems by Jeffrey Plewak." />
+  <meta property="og:title" content="Pricing & Packages – Simple Systems for Booked Work" />
+  <meta
+    property="og:description"
+    content="Plain-language pricing for small businesses, creators, and teams who want a simple hub that turns messages into booked work."
+  />
   <meta property="og:url" content="https://jeffreyplewak.com/pay.html" />
   <meta property="og:site_name" content="Jeffrey Plewak" />
   <meta property="og:image" content="https://jeffreyplewak.com/assets/social-preview.jpg" />
 
   <!-- Twitter -->
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Pricing &amp; Packages – AI Systems & Lead Hubs" />
-  <meta name="twitter:description" content="Blueprint, lead hub build, landing page, and custom development options with Stripe-powered payment links." />
+  <meta name="twitter:title" content="Pricing & Packages – Simple Systems for Booked Work" />
+  <meta
+    name="twitter:description"
+    content="Choose a $150 plan, a lead hub build, or a focused landing page. No retainers, no tricks."
+  />
   <meta name="twitter:image" content="https://jeffreyplewak.com/assets/social-preview.jpg" />
 
-  <!-- JSON-LD (Service + Offers for SEO) -->
+  <!-- JSON-LD -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "Service",
-    "@id": "https://jeffreyplewak.com/#lead-hubs-service",
-    "name": "AI Systems & Lead Hubs",
+    "name": "Lead hubs and digital front desks",
     "url": "https://jeffreyplewak.com/pay.html",
     "provider": {
       "@type": "Person",
-      "name": "Jeffrey Plewak",
-      "url": "https://jeffreyplewak.com/"
+      "name": "Jeffrey Plewak"
     },
-    "description": "Blueprints, lead hub builds, and landing pages that turn scattered clicks into booked, evidence-ready work.",
-    "areaServed": {
-      "@type": "Place",
-      "name": "Remote and local (United States)"
-    },
+    "areaServed": "US",
     "offers": [
       {
         "@type": "Offer",
-        "@id": "https://jeffreyplewak.com/pay.html#blueprint",
         "name": "System blueprint & prioritization",
-        "price": "150.00",
-        "priceCurrency": "USD",
-        "url": "https://jeffreyplewak.com/pay.html#blueprint",
-        "availability": "https://schema.org/InStock"
+        "price": "150",
+        "priceCurrency": "USD"
       },
       {
         "@type": "Offer",
-        "@id": "https://jeffreyplewak.com/pay.html#lead-hub",
-        "name": "Lead hub & front desk build",
-        "price": "750.00",
-        "priceCurrency": "USD",
-        "url": "https://jeffreyplewak.com/pay.html#lead-hub",
-        "availability": "https://schema.org/InStock"
+        "name": "Lead hub build",
+        "price": "750",
+        "priceCurrency": "USD"
       },
       {
         "@type": "Offer",
-        "@id": "https://jeffreyplewak.com/pay.html#landing",
-        "name": "Landing page & offer cleanup",
-        "price": "500.00",
-        "priceCurrency": "USD",
-        "url": "https://jeffreyplewak.com/pay.html#landing",
-        "availability": "https://schema.org/InStock"
+        "name": "Standalone landing page",
+        "price": "500",
+        "priceCurrency": "USD"
       }
     ]
   }
   </script>
 
-  <!-- Tailwind CDN -->
-  <script src="https://cdn.tailwindcss.com"></script>
-  <script>
-    tailwind.config = {
-      theme: {
-        extend: {
-          colors: {
-            ink: "#111827",
-            subtle: "#6b7280",
-            accent: "#4f46e5",
-            accentSoft: "#eef2ff"
-          },
-          fontFamily: {
-            sans: ["Inter", "system-ui", "ui-sans-serif", "SF Pro Text", "Segoe UI", "sans-serif"]
-          }
-        }
-      }
-    };
-  </script>
+  <!-- Global styles -->
+  <link rel="stylesheet" href="assets/style.css" />
 
   <style>
-    .fade-up { opacity: 0; transform: translateY(18px); animation: fadeUp .6s ease forwards; }
-    @keyframes fadeUp { to { opacity: 1; transform: translateY(0); } }
-
-    .pill {
-      display: inline-flex;
-      align-items: center;
-      gap: 0.35rem;
-      padding: 0.25rem 0.7rem;
-      border-radius: 999px;
-      font-size: 0.75rem;
-      letter-spacing: 0.12em;
-      text-transform: uppercase;
-      border: 1px solid rgba(191,219,254,0.9);
-      background: rgba(239,246,255,0.9);
-      color: #4b5563;
+    .pay-hero {
+      padding: 2.75rem 0 1.6rem;
+      background: radial-gradient(circle at top left, #e0f2fe, #eef2ff 48%, #f9fafb 100%);
+      border-bottom: 1px solid rgba(226, 232, 240, 0.9);
     }
 
-    .price-card {
-      border-radius: 1.4rem;
-      border: 1px solid rgba(226,232,240,0.98);
-      background: rgba(255,255,255,0.98);
-      box-shadow: 0 18px 40px rgba(15,23,42,0.08);
+    .pay-hero-inner {
+      display: grid;
+      grid-template-columns: minmax(0, 1.7fr) minmax(0, 1.1fr);
+      gap: 2.25rem;
+      align-items: center;
+    }
+
+    @media (max-width: 900px) {
+      .pay-hero-inner {
+        grid-template-columns: minmax(0, 1fr);
+      }
+    }
+
+    .pay-hero-title {
+      font-size: clamp(2.1rem, 3.4vw, 2.7rem);
+      line-height: 1.1;
+      letter-spacing: -0.03em;
+      margin: 0 0 0.6rem;
+    }
+
+    .pay-hero-lede {
+      font-size: 0.98rem;
+      color: var(--text-muted);
+      max-width: 32rem;
+      margin: 0 0 0.5rem;
+    }
+
+    .pay-hero-note {
+      font-size: 0.82rem;
+      color: var(--text-subtle);
+      max-width: 30rem;
+    }
+
+    .pay-hero-tags {
+      margin-top: 1rem;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.45rem;
+      font-size: 0.78rem;
+      color: var(--text-subtle);
+    }
+
+    .pay-hero-tag {
+      padding: 0.18rem 0.6rem;
+      border-radius: 999px;
+      background: rgba(15, 23, 42, 0.04);
+    }
+
+    .pay-aside {
+      background: rgba(255, 255, 255, 0.95);
+      border-radius: 1.1rem;
+      border: 1px solid rgba(209, 213, 219, 0.9);
+      box-shadow: var(--shadow-soft);
+      padding: 1.1rem 1.25rem;
+      font-size: 0.85rem;
+    }
+
+    .pay-aside-title {
+      font-size: 0.94rem;
+      font-weight: 600;
+      margin-bottom: 0.3rem;
+    }
+
+    .pay-aside-list {
+      margin: 0.4rem 0 0;
+      padding-left: 1.1rem;
+      color: var(--text-subtle);
+    }
+
+    /* Pricing cards */
+
+    .pricing-grid {
+      display: grid;
+      gap: 1.1rem;
+    }
+
+    @media (min-width: 900px) {
+      .pricing-grid {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+      }
+    }
+
+    .pricing-card {
+      position: relative;
+      background: var(--bg-surface);
+      border-radius: 1.1rem;
+      border: 1px solid var(--border-subtle);
+      padding: 1.1rem 1.15rem 1.15rem;
+      box-shadow: 0 10px 28px rgba(15, 23, 42, 0.04);
       display: flex;
       flex-direction: column;
-      height: 100%;
+      gap: 0.55rem;
     }
 
-    .price-card-highlight {
-      border-color: rgba(129,140,248,0.9);
-      box-shadow: 0 22px 50px rgba(79,70,229,0.22);
-      position: relative;
-      overflow: hidden;
+    .pricing-card--highlight {
+      border-color: rgba(37, 99, 235, 0.9);
+      box-shadow: 0 18px 40px rgba(37, 99, 235, 0.15);
+      background: linear-gradient(135deg, rgba(219, 234, 254, 0.6), #ffffff);
     }
 
-    .price-card-highlight::before {
-      content: "";
-      position: absolute;
-      inset: 0;
-      background: radial-gradient(circle at top left, rgba(129,140,248,0.16), transparent 55%);
-      pointer-events: none;
-    }
-
-    .price-card-header {
-      padding: 1.25rem 1.4rem 0.4rem;
-      position: relative;
-      z-index: 1;
-    }
-
-    .price-card-body {
-      padding: 0 1.4rem 1.4rem;
-      position: relative;
-      z-index: 1;
-    }
-
-    .price {
-      font-size: 1.6rem;
-      font-weight: 600;
-      letter-spacing: -0.03em;
-    }
-
-    .price-term {
-      font-size: 0.8rem;
-      color: #6b7280;
-    }
-
-    .feature-list {
-      margin-top: 0.75rem;
-      font-size: 0.9rem;
-      color: #4b5563;
-    }
-
-    .feature-list li {
-      margin-bottom: 0.3rem;
-      display: flex;
-      align-items: flex-start;
-      gap: 0.4rem;
-    }
-
-    .feature-bullet {
-      margin-top: 0.35rem;
-      width: 0.3rem;
-      height: 0.3rem;
-      border-radius: 999px;
-      background: #4f46e5;
-      flex-shrink: 0;
-    }
-
-    .btn-pill {
+    .pricing-pill {
       display: inline-flex;
       align-items: center;
-      justify-content: center;
-      gap: 0.4rem;
-      padding: 0.6rem 1.3rem;
+      gap: 0.3rem;
+      padding: 0.18rem 0.55rem;
       border-radius: 999px;
-      font-size: 0.9rem;
+      font-size: 0.72rem;
+      background: rgba(59, 130, 246, 0.08);
+      color: #1d4ed8;
+    }
+
+    .pricing-name {
+      font-size: 0.98rem;
+      font-weight: 600;
+    }
+
+    .pricing-price {
+      font-size: 1.2rem;
+      font-weight: 600;
+    }
+
+    .pricing-price span {
+      font-size: 0.82rem;
       font-weight: 500;
-      border: 1px solid transparent;
-      text-decoration: none;
-      transition:
-        background 0.18s ease,
-        color 0.18s ease,
-        border-color 0.18s ease,
-        box-shadow 0.18s ease,
-        transform 0.18s ease;
-      white-space: nowrap;
+      color: var(--text-subtle);
     }
 
-    .btn-primary {
-      background: linear-gradient(135deg, #4f46e5, #2e78ff);
-      color: #f9fafb;
-      border-color: rgba(129,140,248,0.9);
-      box-shadow: 0 16px 32px rgba(79,70,229,0.35);
+    .pricing-body {
+      font-size: 0.85rem;
+      color: var(--text-muted);
     }
 
-    .btn-primary:hover {
-      transform: translateY(-1px);
-      box-shadow: 0 20px 40px rgba(79,70,229,0.42);
-      text-decoration: none;
+    .pricing-list {
+      list-style: disc;
+      padding-left: 1.1rem;
+      margin: 0.4rem 0 0.3rem;
+      font-size: 0.82rem;
+      color: var(--text-muted);
     }
 
-    .btn-outline {
-      background: rgba(255,255,255,0.96);
-      color: #111827;
-      border-color: rgba(148,163,184,0.9);
+    .pricing-footer {
+      margin-top: 0.6rem;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.45rem;
+      align-items: center;
     }
 
-    .btn-outline:hover {
-      background: #e5e7eb;
+    .pricing-secondary-note {
+      font-size: 0.76rem;
+      color: var(--text-subtle);
+    }
+
+    .stripe-button-link {
       text-decoration: none;
     }
 
-    .note {
-      font-size: 0.8rem;
-      color: #6b7280;
+    /* Stripe climate badge wrapper */
+
+    .climate-wrap {
+      margin-top: 1.75rem;
+      padding: 0.9rem 1rem;
+      border-radius: 1rem;
+      border: 1px solid rgba(209, 213, 219, 0.9);
+      background: rgba(248, 250, 252, 0.95);
+      font-size: 0.78rem;
+      color: var(--text-subtle);
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.75rem;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .climate-copy {
+      max-width: 28rem;
+    }
+
+    .climate-copy strong {
+      font-weight: 600;
+      color: var(--text-main);
+    }
+
+    @media (max-width: 640px) {
+      .climate-wrap {
+        flex-direction: column;
+        align-items: flex-start;
+      }
     }
   </style>
 </head>
 
-<body class="font-sans text-ink bg-gradient-to-b from-slate-50 via-white to-slate-100 antialiased">
-  <a href="#main-content" class="sr-only focus:not-sr-only">Skip to main content</a>
+<body>
+  <a href="#main-content" class="sr-only">Skip to main content</a>
 
-  <!-- Header -->
-  <header class="w-full border-b border-slate-200 bg-white/80 backdrop-blur-sm">
-    <div class="max-w-6xl mx-auto flex justify-between items-center py-4 px-4 md:px-6">
-      <a href="index.html" class="flex items-center space-x-3">
-        <img src="assets/avatar.jpeg" alt="Portrait of Jeffrey Plewak" class="w-10 h-10 rounded-full" />
-        <span class="font-semibold text-lg tracking-tight">Jeffrey Plewak</span>
-      </a>
-      <nav aria-label="Primary">
-        <ul class="flex flex-wrap gap-4 text-sm">
-          <li><a href="index.html" class="hover:underline underline-offset-4">Home</a></li>
-          <li><a href="pay.html" class="hover:underline underline-offset-4" aria-current="page">Pricing</a></li>
-          <li><a href="book.html" class="hover:underline underline-offset-4">Book</a></li>
-          <li><a href="contact.html" class="hover:underline underline-offset-4">Contact</a></li>
-          <li><a href="intake.html" class="hover:underline underline-offset-4">Intake</a></li>
-          <li><a href="assets/resume.pdf" class="hover:underline underline-offset-4">Résumé</a></li>
-        </ul>
-      </nav>
-    </div>
-  </header>
+  <!-- Shared header -->
+  <div data-include="header"></div>
 
   <main id="main-content">
-    <!-- Intro -->
-    <section class="w-full bg-gradient-to-b from-slate-50 via-white to-slate-100 py-10 px-4">
-      <div class="max-w-4xl mx-auto fade-up">
-        <span class="pill mb-3 inline-flex">
-          Clear pricing · No retainers
-        </span>
-        <h1 class="text-3xl sm:text-4xl font-semibold tracking-tight">
-          Straightforward pricing for blueprints, lead hubs, and landing pages.
-        </h1>
-        <p class="mt-4 text-subtle text-base leading-relaxed">
-          Most work starts with one of these three options. They cover the common
-          patterns I see: “we need a plan,” “we need the hub built,” and
-          “we need a page that actually converts.”
-        </p>
-        <p class="mt-2 text-sm text-subtle">
-          All payments are handled securely by Stripe using hosted checkout pages.
-          I never see your full card details, and you get email receipts for your records.
-        </p>
-        <div class="mt-4 flex flex-wrap gap-3 text-xs text-subtle">
-          <div class="inline-flex items-center gap-2 bg-slate-100 border border-slate-200 rounded-full px-3 py-1">
-            <span class="w-2 h-2 rounded-full bg-green-500"></span>
-            <span>Fixed scope · No surprise add-ons</span>
-          </div>
-          <div class="inline-flex items-center gap-2 bg-slate-100 border border-slate-200 rounded-full px-3 py-1">
-            <span class="w-2 h-2 rounded-full bg-blue-500"></span>
-            <span>Evidence-ready artifacts (docs, diagrams, exports)</span>
+    <!-- Pricing hero -->
+    <section class="pay-hero">
+      <div class="shell pay-hero-inner">
+        <div>
+          <p class="eyebrow">
+            <span class="eyebrow-dot"></span>
+            Clear, simple pricing
+          </p>
+          <h1 class="pay-hero-title">Pick a starting point that fits where you are.</h1>
+          <p class="pay-hero-lede">
+            No retainers, no vague “packages.” Just a short plan, a full lead hub build, or a focused landing page—
+            all built around how your business actually gets work.
+          </p>
+          <p class="pay-hero-note">
+            Most people in and around New Bern start with the $150 plan. From there, you can either implement
+            with your own team or have me build everything out.
+          </p>
+
+          <div class="pay-hero-tags">
+            <span class="pay-hero-tag">Local + remote</span>
+            <span class="pay-hero-tag">Small teams & solo businesses</span>
+            <span class="pay-hero-tag">Evidence-friendly workflow</span>
           </div>
         </div>
+
+        <aside class="pay-aside" aria-label="Quick notes about pricing">
+          <div class="pay-aside-title">A quick note on how I work</div>
+          <p style="margin: 0; color: var(--text-subtle);">
+            I’m not an agency. I’m a single, experienced engineer and systems designer.
+            That means:
+          </p>
+          <ul class="pay-aside-list">
+            <li>You get my attention, not a rotating cast.</li>
+            <li>We keep scopes small, honest, and testable.</li>
+            <li>Anything sensitive (legal, medical-adjacent, audit) is handled with care.</li>
+          </ul>
+          <p style="margin: 0.45rem 0 0; font-size: 0.78rem; color: var(--text-subtle);">
+            If you’re not sure where you fit, we can always start with a short call
+            and decide together.
+          </p>
+        </aside>
       </div>
     </section>
 
-    <!-- Pricing cards -->
-    <section class="py-8 px-4 bg-transparent">
-      <div class="max-w-6xl mx-auto grid gap-6 lg:grid-cols-3">
-        <!-- Blueprint -->
-        <article id="blueprint" class="price-card fade-up">
-          <div class="price-card-header">
-            <h2 class="text-base font-semibold text-ink">System blueprint &amp; prioritization</h2>
-            <p class="mt-1 text-xs uppercase tracking-[0.16em] text-subtle">
-              Best starting point
-            </p>
-          </div>
-          <div class="price-card-body flex flex-col flex-1">
-            <div class="flex items-baseline gap-2">
-              <span class="price">$150</span>
-              <span class="price-term">one-time</span>
+    <!-- Packages -->
+    <section class="section">
+      <div class="shell">
+        <header class="section-header">
+          <div class="section-eyebrow">Packages</div>
+          <h2 class="section-title">Three ways to work together, plus custom builds.</h2>
+          <p class="section-kicker">
+            These are the most common entry points. Everything is written down, scope-limited,
+            and designed so you always know what you’re paying for and what you’ll walk away with.
+          </p>
+        </header>
+
+        <div class="pricing-grid">
+          <!-- $150 blueprint -->
+          <article class="pricing-card pricing-card--highlight" id="blueprint">
+            <div class="pricing-pill">Most common starting point</div>
+            <div class="pricing-name">$150 – System blueprint &amp; prioritization</div>
+            <div class="pricing-price">
+              $150 <span>one-time, no retainer</span>
             </div>
-            <p class="mt-2 text-sm text-subtle">
-              A focused working session plus a written plan that maps your current tools,
-              gaps, and a realistic first version of your lead hub or front desk.
+            <p class="pricing-body">
+              A focused session and a written plan that maps where your leads come from now, how you
+              respond, and what a calm, reliable “front desk” would look like for you.
             </p>
-            <ul class="feature-list mt-3">
-              <li>
-                <span class="feature-bullet"></span>
-                <span>60–90 minute strategy session (remote).</span>
-              </li>
-              <li>
-                <span class="feature-bullet"></span>
-                <span>Written blueprint (PDF) with stack, flows, and priorities.</span>
-              </li>
-              <li>
-                <span class="feature-bullet"></span>
-                <span>1–2 quick wins you can implement immediately.</span>
-              </li>
-              <li>
-                <span class="feature-bullet"></span>
-                <span>Credit applied toward a full hub build if you continue.</span>
-              </li>
+            <ul class="pricing-list">
+              <li>60–90 minute remote call.</li>
+              <li>Plain-language written blueprint you can reuse.</li>
+              <li>Prioritized steps: “fix now,” “later,” and “optional.”</li>
+              <li>Credit applied if you move into a build within 60 days.</li>
             </ul>
-            <div class="mt-4 flex flex-col gap-2">
+            <div class="pricing-footer">
               <a
                 href="https://buy.stripe.com/3cI4gr4ZaceR2hl2GX9MY0b"
-                class="btn-pill btn-primary"
+                class="stripe-button-link"
                 target="_blank"
                 rel="noopener"
               >
-                Pay securely with Stripe
+                <button type="button" class="btn btn-primary">
+                  Pay $150 &amp; book the blueprint
+                </button>
               </a>
-              <a href="book.html" class="btn-pill btn-outline">
-                Talk first, then decide
-              </a>
-              <p class="note mt-1">
-                Once payment is complete, you’ll receive a calendar link and a short
-                pre-call questionnaire.
-              </p>
+              <div class="pricing-secondary-note">
+                Prefer to talk first? <a href="book.html">Book a 15-minute intro</a>.
+              </div>
             </div>
-          </div>
-        </article>
+          </article>
 
-        <!-- Lead hub build -->
-        <article id="lead-hub" class="price-card price-card-highlight fade-up">
-          <div class="price-card-header">
-            <h2 class="text-base font-semibold text-ink">Lead hub &amp; front desk build</h2>
-            <p class="mt-1 text-xs uppercase tracking-[0.16em] text-subtle">
-              Most popular for local services &amp; creators
-            </p>
-          </div>
-          <div class="price-card-body flex flex-col flex-1">
-            <div class="flex items-baseline gap-2">
-              <span class="price">$750</span>
-              <span class="price-term">per hub (typical)</span>
+          <!-- $750 lead hub -->
+          <article class="pricing-card">
+            <div class="pricing-pill">When you’re ready to build</div>
+            <div class="pricing-name">$750+ – Lead hub build</div>
+            <div class="pricing-price">
+              From $750 <span>for common setups</span>
             </div>
-            <p class="mt-2 text-sm text-subtle">
-              A complete digital front desk for one business line: intake, routing,
-              booking, payments, and basic reporting wired into one calm system.
+            <p class="pricing-body">
+              We turn your blueprint into a working lead hub: a simple website or central page with offers,
+              intake, booking, and payments wired in and tested.
             </p>
-            <ul class="feature-list mt-3">
-              <li>
-                <span class="feature-bullet"></span>
-                <span>Central intake form(s) and inbox wired to your tools.</span>
-              </li>
-              <li>
-                <span class="feature-bullet"></span>
-                <span>Booking (Calendly or equivalent) connected to your real calendar.</span>
-              </li>
-              <li>
-                <span class="feature-bullet"></span>
-                <span>Stripe / PayPal / Apple Pay offered where it makes sense.</span>
-              </li>
-              <li>
-                <span class="feature-bullet"></span>
-                <span>Evidence-ready exports (logs, PDF summaries, and a simple diagram).</span>
-              </li>
-              <li>
-                <span class="feature-bullet"></span>
-                <span>Implementation window: usually 2–4 weeks, depending on complexity.</span>
-              </li>
+            <ul class="pricing-list">
+              <li>Custom landing or small site tuned to your work.</li>
+              <li>Configured intake (HubSpot or similar) and booking (Calendly or similar).</li>
+              <li>Payments via Stripe or your existing provider.</li>
+              <li>Light reporting/export so you can see what’s working.</li>
             </ul>
-            <div class="mt-4 flex flex-col gap-2">
+            <div class="pricing-footer">
               <a
                 href="https://buy.stripe.com/28EdR177iemZ6xB0yP9MY0a"
-                class="btn-pill btn-primary"
+                class="stripe-button-link"
                 target="_blank"
                 rel="noopener"
               >
-                Pay deposit with Stripe
+                <button type="button" class="btn btn-secondary">
+                  Reserve a lead hub build
+                </button>
               </a>
-              <a href="book.html" class="btn-pill btn-outline">
-                Book intro call first
-              </a>
-              <p class="note mt-1">
-                This covers the first phase of work and locks in your spot. Larger or
-                regulated projects may need a custom quote based on the blueprint.
-              </p>
+              <div class="pricing-secondary-note">
+                Larger or regulated systems may be phased and quoted separately.
+              </div>
             </div>
-          </div>
-        </article>
+          </article>
 
-        <!-- Landing page -->
-        <article id="landing" class="price-card fade-up">
-          <div class="price-card-header">
-            <h2 class="text-base font-semibold text-ink">Landing page &amp; offer cleanup</h2>
-            <p class="mt-1 text-xs uppercase tracking-[0.16em] text-subtle">
-              For “we just need a page that works”
-            </p>
-          </div>
-          <div class="price-card-body flex flex-col flex-1">
-            <div class="flex items-baseline gap-2">
-              <span class="price">$500</span>
-              <span class="price-term">per page</span>
+          <!-- $500 landing page -->
+          <article class="pricing-card">
+            <div class="pricing-pill">Focused option</div>
+            <div class="pricing-name">$500 – Standalone landing page</div>
+            <div class="pricing-price">
+              $500 <span>per landing page</span>
             </div>
-            <p class="mt-2 text-sm text-subtle">
-              A fast, clear landing page that explains what you do, who it’s for, and
-              how to buy – wired into your booking and payment flow.
+            <p class="pricing-body">
+              A single, sharp landing page tied to one offer or campaign. Ideal if you’re testing
+              something new or need a “better than link-in-bio” page quickly.
             </p>
-            <ul class="feature-list mt-3">
-              <li>
-                <span class="feature-bullet"></span>
-                <span>Offer + page structure people can skim in under 30 seconds.</span>
-              </li>
-              <li>
-                <span class="feature-bullet"></span>
-                <span>Copy tuned for your audience (local, online, or hybrid).</span>
-              </li>
-              <li>
-                <span class="feature-bullet"></span>
-                <span>Links to your calendar and Stripe / payment flow.</span>
-              </li>
-              <li>
-                <span class="feature-bullet"></span>
-                <span>Simple update path so you’re not locked to me forever.</span>
-              </li>
+            <ul class="pricing-list">
+              <li>Clear copy for one main offer.</li>
+              <li>Contact or booking wired to your existing tools.</li>
+              <li>Mobile-first, fast, and simple to update.</li>
+              <li>Optional add-ons for A/B variants or extra sections.</li>
             </ul>
-            <div class="mt-4 flex flex-col gap-2">
+            <div class="pricing-footer">
               <a
                 href="https://buy.stripe.com/dRmdR1aju2Eh8FJ5T99MY09"
-                class="btn-pill btn-primary"
+                class="stripe-button-link"
                 target="_blank"
                 rel="noopener"
               >
-                Pay securely with Stripe
+                <button type="button" class="btn btn-secondary">
+                  Order a landing page
+                </button>
               </a>
-              <a href="book.html" class="btn-pill btn-outline">
-                Talk through the offer first
-              </a>
-              <p class="note mt-1">
-                If we later expand this into a full lead hub, I’ll reuse whatever we can
-                so you’re not paying twice for the same work.
-              </p>
+              <div class="pricing-secondary-note">
+                Not sure which offer to feature? We’ll decide together on a short call.
+              </div>
             </div>
+          </article>
+        </div>
+
+        <!-- Custom / complex work -->
+        <div style="margin-top: 1.9rem;">
+          <h3 style="font-size: 1rem; font-weight: 600; margin: 0 0 0.4rem;">
+            Complex or regulated work
+          </h3>
+          <p style="margin: 0; font-size: 0.9rem; color: var(--text-subtle); max-width: 44rem;">
+            If your world involves contracts, regulated data, audits, or hardware (for example:
+            legal-adjacent work, clinical workflows, or certified logging), we’ll break the project
+            into small, evidence-friendly phases. Each phase is quoted separately with a written
+            scope, so you’re never guessing what’s next.
+          </p>
+          <p style="margin: 0.45rem 0 0; font-size: 0.9rem; color: var(--text-subtle);">
+            The best way to start those conversations is either the
+            <a href="intake.html">full client intake</a> or a
+            <a href="book.html">short intro call</a>.
+          </p>
+        </div>
+
+        <!-- Stripe climate badge -->
+        <div class="climate-wrap" aria-label="Stripe climate and sustainability note">
+          <div class="climate-copy">
+            <strong>Stripe Climate.</strong> A portion of eligible payments goes toward
+            carbon removal projects through Stripe’s climate program.
           </div>
-        </article>
-      </div>
-    </section>
-
-    <!-- Custom work -->
-    <section id="custom-work" class="py-8 px-4 bg-white">
-      <div class="max-w-4xl mx-auto">
-        <div class="fade-up">
-          <h2 class="text-xl font-semibold text-ink">Custom systems &amp; development</h2>
-          <p class="mt-2 text-subtle text-sm leading-relaxed">
-            Some work doesn’t fit neatly into a package: legal-adjacent workflows, medical
-            intake and triage, audit and compliance tooling, hardware integrations, or
-            heavier AI and model work. Those are scoped and priced individually.
-          </p>
-          <p class="mt-2 text-subtle text-sm">
-            The usual path is: <strong>blueprint</strong> → <strong>narrowed proposal</strong>
-            → <strong>phased build</strong>, with clear checkpoints and artifacts you can
-            keep even if we pause or stop.
-          </p>
-
-          <div class="mt-4 flex flex-wrap gap-3">
-            <a href="contact.html" class="btn-pill btn-outline">
-              Describe a custom project
-            </a>
-            <a href="book.html" class="btn-pill btn-primary">
-              Book a 15-minute intro call
-            </a>
-            <a href="intake.html" class="btn-pill btn-outline">
-              Fill out the full client intake
-            </a>
+          <div>
+            <iframe
+              width="220"
+              height="32"
+              style="border:0; max-width:100%;"
+              src="https://climate.stripe.com/badge/DFd8YI?theme=light&size=small&locale=en-US"
+              title="Stripe Climate badge"
+              loading="lazy"
+            ></iframe>
           </div>
-
-          <p class="note mt-3">
-            For regulated environments (legal, medical-adjacent, public sector),
-            I’ll ask more questions up front about risk, record-keeping, and approvals
-            so we don’t design something you can’t actually deploy.
-          </p>
         </div>
       </div>
     </section>
 
-    <!-- How payment & terms work -->
-    <section class="py-10 px-4 bg-slate-50">
-      <div class="max-w-4xl mx-auto fade-up">
-        <h2 class="text-lg font-semibold text-ink">How payments, scheduling, and terms work.</h2>
-        <div class="mt-3 grid gap-4 md:grid-cols-3 text-sm text-subtle">
-          <div class="bg-white/90 border border-slate-200 rounded-xl p-4">
-            <h3 class="text-xs font-semibold uppercase tracking-[0.16em] text-ink mb-2">
-              Payments &amp; receipts
-            </h3>
-            <p>
-              Payments are processed by Stripe using secure checkout pages. I never see
-              your full card number. You’ll receive receipts by email, and you can also
-              request a summary for your records.
+    <!-- Next steps section -->
+    <section class="section">
+      <div class="shell">
+        <header class="section-header">
+          <div class="section-eyebrow">Next steps</div>
+          <h2 class="section-title">Not sure which option fits? Start light.</h2>
+          <p class="section-kicker">
+            You don’t have to decide everything at once. A short conversation or a quick intake
+            is usually enough to see whether this is a fit.
+          </p>
+        </header>
+
+        <div class="card-grid card-grid--three">
+          <article class="card">
+            <div class="card-title">Short intro call</div>
+            <p class="card-body">
+              A 15-minute call to talk through where you are now, what’s blocking you, and what
+              a realistic next step might look like.
             </p>
-            <div class="mt-3">
-              <p class="note mb-1">
-                A portion of revenue supports climate projects via Stripe Climate:
-              </p>
-              <iframe width="380" height="38" style="border:0;" src="https://climate.stripe.com/badge/DFd8YI?theme=light&size=small&locale=en-US"></iframe>
-            </div>
-          </div>
-          <div class="bg-white/90 border border-slate-200 rounded-xl p-4">
-            <h3 class="text-xs font-semibold uppercase tracking-[0.16em] text-ink mb-2">
-              Scheduling &amp; rescheduling
-            </h3>
-            <p>
-              Most calls are booked through Calendly. If you need to reschedule, you can
-              use the links in the confirmation emails or reply directly to me.
+            <p class="card-body" style="margin-top: 0.45rem;">
+              <a href="book.html" class="btn btn-secondary">Book a quick call</a>
             </p>
-          </div>
-          <div class="bg-white/90 border border-slate-200 rounded-xl p-4">
-            <h3 class="text-xs font-semibold uppercase tracking-[0.16em] text-ink mb-2">
-              Terms, refunds, and scope
-            </h3>
-            <p>
-              Scope, deliverables, and timelines are agreed in writing before work begins.
-              Please review the <a href="terms.html" class="underline">terms</a> and
-              <a href="privacy.html" class="underline">privacy policy</a> before paying.
+          </article>
+
+          <article class="card">
+            <div class="card-title">Short contact form</div>
+            <p class="card-body">
+              Prefer writing to talking? Use the short contact form to send a quick snapshot of
+              your situation, tools, and questions.
             </p>
-          </div>
+            <p class="card-body" style="margin-top: 0.45rem;">
+              <a href="contact.html" class="btn btn-ghost">Send a short note</a>
+            </p>
+          </article>
+
+          <article class="card">
+            <div class="card-title">Full client intake</div>
+            <p class="card-body">
+              For bigger projects or regulated work, the full intake helps us avoid rework and
+              design systems that can stand up to scrutiny.
+            </p>
+            <p class="card-body" style="margin-top: 0.45rem;">
+              <a href="intake.html" class="btn btn-ghost">Fill out the intake</a>
+            </p>
+          </article>
         </div>
       </div>
     </section>
   </main>
 
-  <!-- Footer -->
-  <footer class="border-t border-slate-200 py-8 text-center text-xs sm:text-sm text-subtle bg-white/90">
-    <p>© 2025 Jeffrey Plewak. All rights reserved.</p>
-    <p class="mt-2 space-x-3">
-      <a href="index.html" class="hover:underline">Home</a>
-      <a href="pay.html" class="hover:underline" aria-current="page">Pricing</a>
-      <a href="book.html" class="hover:underline">Book</a>
-      <a href="contact.html" class="hover:underline">Contact</a>
-      <a href="intake.html" class="hover:underline">Intake</a>
-      <a href="accessibility.html" class="hover:underline">Accessibility</a>
-      <a href="terms.html" class="hover:underline">Terms</a>
-      <a href="privacy.html" class="hover:underline">Privacy</a>
-    </p>
-  </footer>
+  <!-- Shared footer + cookie banner -->
+  <div data-include="footer"></div>
 
-  <!-- Cookie logic -->
-  <script src="assets/cookie.js" defer></script>
+  <!-- Layout + cookie logic -->
+  <script src="assets/layout.js"></script>
+  <script src="assets/cookie.js"></script>
 </body>
 </html>

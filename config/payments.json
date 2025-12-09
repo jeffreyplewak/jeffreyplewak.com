@@ -1,0 +1,91 @@
+{
+  "schema_version": "1.0.0",
+  "site": {
+    "owner": "Jeffrey Plewak",
+    "domain": "jeffreyplewak.com",
+    "currency": "usd",
+    "success_url": "https://jeffreyplewak.com/thank-you.html",
+    "cancel_url": "https://jeffreyplewak.com/pay.html"
+  },
+  "stripe": {
+    "publishable_key": "pk_live_51STJQl0aCBTBOlO3GIOJYCrcXsj43n6Qg6eHjQ62aWcBrQgFPtJ1g1NMGKiYJWF2SlRsYEjWiPB23gjwyFuiEAxw00oeKGh4MI"
+  },
+  "products": [
+    {
+      "key": "blueprint",
+      "name": "System blueprint & prioritization",
+      "description": "Strategy session and written plan for your lead hub or digital front desk.",
+      "amount": 15000,
+      "currency": "usd",
+      "kind": "fixed",
+      "stripe": {
+        "product_id": "",
+        "price_id": "",
+        "payment_link_url": "https://buy.stripe.com/3cI4gr4ZaceR2hl2GX9MY0b",
+        "buy_button_id": ""
+      },
+      "site": {
+        "page": "pay.html",
+        "anchor": "#blueprint",
+        "cta_text": "Pay securely with Stripe"
+      }
+    },
+    {
+      "key": "lead_hub",
+      "name": "Lead hub & front desk build",
+      "description": "Complete digital front desk for one business line: intake, routing, booking, payments, reporting.",
+      "amount": 75000,
+      "currency": "usd",
+      "kind": "fixed",
+      "stripe": {
+        "product_id": "",
+        "price_id": "",
+        "payment_link_url": "https://buy.stripe.com/28EdR177iemZ6xB0yP9MY0a",
+        "buy_button_id": ""
+      },
+      "site": {
+        "page": "pay.html",
+        "anchor": "#lead-hub",
+        "cta_text": "Pay deposit with Stripe"
+      }
+    },
+    {
+      "key": "landing",
+      "name": "Landing page & offer cleanup",
+      "description": "High-conversion landing page wired to your booking and payment flows.",
+      "amount": 50000,
+      "currency": "usd",
+      "kind": "fixed",
+      "stripe": {
+        "product_id": "",
+        "price_id": "",
+        "payment_link_url": "https://buy.stripe.com/dRmdR1aju2Eh8FJ5T99MY09",
+        "buy_button_id": ""
+      },
+      "site": {
+        "page": "pay.html",
+        "anchor": "#landing",
+        "cta_text": "Pay securely with Stripe"
+      }
+    },
+    {
+      "key": "custom",
+      "name": "Custom systems & development",
+      "description": "Bespoke work for legal-adjacent, medical-adjacent, audit, hardware integrations, and heavier AI.",
+      "amount": null,
+      "currency": "usd",
+      "kind": "custom",
+      "stripe": {
+        "product_id": null,
+        "price_id": null,
+        "payment_link_url": null,
+        "buy_button_id": null
+      },
+      "site": {
+        "page": "pay.html",
+        "anchor": "#custom-work",
+        "cta_text": "Describe a custom project"
+      }
+    }
+  ]
+}
