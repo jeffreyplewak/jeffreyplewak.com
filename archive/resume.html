@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Resume — {{site.name}}</title>
+  <meta name="description" content="Resume downloads and professional links." />
+  <link rel="canonical" href="{{site.domain}}/resume.html" />
+  <link rel="icon" href="/assets/favicon.png" />
+  <link rel="stylesheet" href="/assets/style.css" />
+  <script defer src="/assets/site.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  {{partial.header}}
+
+  <main id="main" class="section">
+    <div class="container">
+      <h1>Resume</h1>
+      <p class="sub">Downloads and verified links.</p>
+
+      <div class="actions">
+        <a class="btn primary" href="{{site.downloads.resumePdf}}">Download PDF</a>
+        <a class="btn" href="{{site.downloads.resumeDocx}}">Download DOCX</a>
+        <a class="btn" href="{{site.downloads.vcard}}">Download vCard</a>
+      </div>
+
+      <div class="hr"></div>
+
+      <div class="cards">
+        <a class="card" href="{{site.links.linkedin}}" target="_blank" rel="noopener"><h3>LinkedIn</h3><p>Professional profile</p></a>
+        <a class="card" href="{{site.links.upwork}}" target="_blank" rel="noopener"><h3>Upwork</h3><p>Work entry point</p></a>
+        <a class="card" href="contact.html"><h3>Contact</h3><p>{{site.email}}</p></a>
+      </div>
+    </div>
+  </main>
+
+  {{partial.footer}}
+</body>
+</html>

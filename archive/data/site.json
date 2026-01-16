@@ -1,0 +1,21 @@
+{
+  "name": "Jeffrey Plewak",
+  "shortName": "JP",
+  "title": "Software Engineer · Systems & Automation",
+  "location": "North Carolina, USA",
+  "email": "plewak.jeff@gmail.com",
+
+  "links": {
+    "linkedin": "https://www.linkedin.com/in/jeffreyplewak",
+    "github": "https://github.com",
+    "reddit": "https://www.reddit.com/user/Ok_Blueberry6358",
+    "upwork": "https://www.upwork.com/freelancers/~011b0dc37f99c3cf08",
+    "fiverr": "https://www.fiverr.com/qDp1bXl",
+    "calendly": "https://calendly.com/YOUR-CALENDLY-SLUG/30min"
+  },
+
+  "seo": {
+    "description": "Engineering-led systems and automation. Calm, durable solutions for real work.",
+    "ogImage": "/assets/og-image.png"
+  }
+}

@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Accessibility Statement – AI Systems & Lead Hubs – Jeffrey Plewak</title>
+  <meta name="description" content="Accessibility statement for jeffreyplewak.com. Commitment to making this site usable for as many people as possible, following WCAG 2.1 AA as a target and improving over time." />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="robots" content="index,follow" />
+  <link rel="canonical" href="https://jeffreyplewak.com/accessibility.html" />
+  <link rel="icon" href="favicon.svg" />
+  <link rel="manifest" href="manifest.json" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Accessibility Statement – AI Systems & Lead Hubs – Jeffrey Plewak" />
+  <meta property="og:description" content="How this site approaches accessibility, which standards it aims for, known limitations, and how to report an issue." />
+  <meta property="og:url" content="https://jeffreyplewak.com/accessibility.html" />
+  <meta property="og:site_name" content="Jeffrey Plewak" />
+  <meta property="og:image" content="https://jeffreyplewak.com/assets/social-preview.jpg" />
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Accessibility Statement – AI Systems & Lead Hubs – Jeffrey Plewak" />
+  <meta name="twitter:description" content="Accessibility commitment, standards, and feedback channels for jeffreyplewak.com." />
+  <meta name="twitter:image" content="https://jeffreyplewak.com/assets/social-preview.jpg" />
+
+  <!-- Tailwind CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: { ink: "#111827", subtle: "#6b7280" },
+          fontFamily: { sans: ["Inter", "ui-sans-serif", "system-ui"] }
+        }
+      }
+    };
+  </script>
+
+  <style>
+    .fade-up { opacity: 0; transform: translateY(18px); animation: fadeUp .6s ease forwards; }
+    @keyframes fadeUp { to { opacity: 1; transform: translateY(0); } }
+  </style>
+
+  <!-- JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Statement",
+    "name": "Accessibility Statement – jeffreyplewak.com",
+    "url": "https://jeffreyplewak.com/accessibility.html",
+    "description": "Accessibility statement describing the commitment, standards targeted, and feedback channels for jeffreyplewak.com.",
+    "publisher": {
+      "@type": "Person",
+      "name": "Jeffrey Plewak"
+    }
+  }
+  </script>
+</head>
+
+<body class="font-sans text-ink bg-white antialiased">
+  <a href="#main-content" class="sr-only focus:not-sr-only">Skip to main content</a>
+
+  <!-- Header -->
+  <header class="w-full border-b border-gray-200 bg-white/80 backdrop-blur-sm">
+    <div class="max-w-6xl mx-auto flex justify-between items-center py-4 px-4">
+      <a href="index.html" class="flex items-center space-x-3">
+        <img src="assets/avatar.jpeg" alt="Portrait of Jeffrey Plewak" class="w-10 h-10 rounded-full" />
+        <span class="font-semibold text-lg">Jeffrey Plewak</span>
+      </a>
+      <nav aria-label="Primary">
+        <ul class="flex space-x-6 text-sm">
+          <li><a href="index.html" class="hover:underline underline-offset-4">Home</a></li>
+          <li><a href="pay.html" class="hover:underline underline-offset-4">Pricing</a></li>
+          <li><a href="book.html" class="hover:underline underline-offset-4">Book</a></li>
+          <li><a href="contact.html" class="hover:underline underline-offset-4">Contact</a></li>
+          <li><a href="intake.html" class="hover:underline underline-offset-4">Intake</a></li>
+          <li><a href="assets/resume.pdf" download class="hover:underline underline-offset-4">Résumé</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <!-- HERO -->
+    <section class="w-full bg-gradient-to-b from-gray-50 to-white py-16 px-4">
+      <div class="max-w-3xl mx-auto text-center fade-up">
+        <p class="inline-flex items-center rounded-full border border-indigo-200 bg-indigo-50 px-3 py-1 text-[11px] font-medium uppercase tracking-[0.16em] text-indigo-700 mb-4">
+          Accessibility • WCAG-informed • Continuous improvement
+        </p>
+        <h1 class="text-3xl sm:text-4xl md:text-5xl font-semibold tracking-tight">
+          Accessibility statement
+        </h1>
+        <p class="mt-4 text-subtle text-base sm:text-lg leading-relaxed">
+          This site is being built and maintained with accessibility in mind. The goal is for as many people
+          as possible to use it comfortably, including people using assistive technologies.
+        </p>
+        <p class="mt-3 text-xs text-subtle">
+          Accessibility is an ongoing process, not a one-time project. This statement describes the current approach,
+          what I’m aiming for, and how to report a problem.
+        </p>
+      </div>
+    </section>
+
+    <!-- COMMITMENT & STANDARD -->
+    <section class="py-12 px-4">
+      <div class="max-w-4xl mx-auto space-y-10 text-sm text-subtle fade-up">
+        <section aria-labelledby="commitment-heading">
+          <h2 id="commitment-heading" class="text-xl font-semibold text-ink mb-3">
+            Commitment to accessibility
+          </h2>
+          <p class="mb-3">
+            I design and develop <strong>jeffreyplewak.com</strong> with the same principles I use for client work:
+            clear structure, semantic HTML, and an intent to support assistive technologies wherever possible.
+            The site is intended to be usable by people who navigate with a keyboard, screen reader, or other
+            assistive tools, as well as on smaller screens and different zoom levels. 
+          </p>
+          <p>
+            For legal and regulatory context, I follow public guidance on web accessibility and the Americans with
+            Disabilities Act (ADA) for businesses open to the public, which emphasize effective communication and
+            equal access, even where there is flexibility in how those requirements are met. 
+          </p>
+        </section>
+
+        <section aria-labelledby="standard-heading">
+          <h2 id="standard-heading" class="text-xl font-semibold text-ink mb-3">
+            Accessibility standard and target level
+          </h2>
+          <p class="mb-3">
+            The primary technical standard I use as a reference is the
+            <strong>Web Content Accessibility Guidelines (WCAG) 2.1, Level AA</strong>. This is the level most often
+            referenced in current accessibility guidance and case law for businesses. I also track guidance related
+            to WCAG 2.2 as it becomes more widely adopted. 
+          </p>
+          <p>
+            I do <strong>not</strong> claim perfect or full conformance. Instead, the goal is to move the site toward
+            WCAG 2.1 AA over time, while being transparent about limitations and responsive to feedback. This aligns
+            with current best practices that treat accessibility as a continuous improvement process. 
+          </p>
+        </section>
+
+        <!-- FEATURES -->
+        <section aria-labelledby="features-heading">
+          <h2 id="features-heading" class="text-xl font-semibold text-ink mb-3">
+            What this site is doing today
+          </h2>
+          <p class="mb-3">
+            The site is relatively simple – a small set of static pages, contact forms, booking links, and payment paths.
+            Within that scope, I aim to:
+          </p>
+          <ul class="list-disc list-inside space-y-1.5">
+            <li>Use clear and consistent navigation across all pages.</li>
+            <li>Structure content with headings, lists, and landmarks so screen readers can understand the layout.</li>
+            <li>Provide descriptive link text instead of “click here” where possible.</li>
+            <li>Ensure text can be enlarged using browser zoom and remains readable on small screens.</li>
+            <li>Maintain reasonable color contrast between text and background, especially for body text and buttons.</li>
+            <li>Keep forms as simple as possible, with visible labels and clear instructions.</li>
+          </ul>
+        </section>
+
+        <!-- THIRD-PARTY -->
+        <section aria-labelledby="thirdparty-heading">
+          <h2 id="thirdparty-heading" class="text-xl font-semibold text-ink mb-3">
+            Third-party services and known limitations
+          </h2>
+          <p class="mb-3">
+            This site embeds or links to a few third-party services, such as:
+          </p>
+          <ul class="list-disc list-inside space-y-1.5">
+            <li>Calendly (for booking calls).</li>
+            <li>HubSpot forms (for contact and intake), loaded from js-na2.hsforms.net.</li>
+            <li>Stripe, PayPal, and other payment providers (via hosted checkout pages or links).</li>
+            <li>Analytics and error-logging tools used to understand which parts of the site are working.</li>
+          </ul>
+          <p class="mt-3">
+            I do not control the code for these external services. Each vendor is responsible for their own
+            accessibility, though I try to choose tools that state an accessibility commitment and to configure
+            them in accessible ways. If an issue appears inside an embedded widget, I may need to work with that
+            vendor or adjust the implementation. 
+          </p>
+        </section>
+
+        <!-- STATUS & IMPROVEMENT -->
+        <section aria-labelledby="status-heading">
+          <h2 id="status-heading" class="text-xl font-semibold text-ink mb-3">
+            Current status and ongoing work
+          </h2>
+          <p class="mb-3">
+            At this time, the site has been built using semantic HTML, responsive layouts, and a color palette chosen
+            with contrast in mind. It has been spot-checked using keyboard navigation and basic screen-reader and zoom
+            checks, but it has <strong>not</strong> undergone a formal third-party accessibility audit yet. 
+          </p>
+          <p>
+            As the site evolves – new pages, more examples, and deeper case studies – I plan to:
+          </p>
+          <ul class="list-disc list-inside space-y-1.5 mt-2">
+            <li>Periodically review templates and components against updated WCAG guidance.</li>
+            <li>Address issues raised by visitors as they are reported.</li>
+            <li>Seek external review where appropriate, especially as the site grows.</li>
+          </ul>
+        </section>
+
+        <!-- FEEDBACK -->
+        <section aria-labelledby="feedback-heading">
+          <h2 id="feedback-heading" class="text-xl font-semibold text-ink mb-3">
+            Feedback and contact for accessibility issues
+          </h2>
+          <p class="mb-3">
+            If you have trouble using any part of this website, find something hard to read or operate,
+            or discover a specific accessibility problem, please let me know. Useful details include:
+          </p>
+          <ul class="list-disc list-inside space-y-1.5">
+            <li>The page or feature you were using (a URL helps).</li>
+            <li>What you were trying to do.</li>
+            <li>Any assistive technology or browser you were using (for example, screen reader, browser, device).</li>
+          </ul>
+          <p class="mt-3">
+            You can reach me at:
+          </p>
+          <ul class="list-disc list-inside space-y-1.5 mt-2">
+            <li>Email: <a href="mailto:plewak.jeff@gmail.com" class="underline">plewak.jeff@gmail.com</a></li>
+            <li>Contact form: <a href="contact.html" class="underline">jeffreyplewak.com/contact.html</a></li>
+            <li>Or, if easier, mention the issue when you book an intro call: <a href="book.html" class="underline">jeffreyplewak.com/book.html</a></li>
+          </ul>
+          <p class="mt-3">
+            I will review your message and, where possible, respond with either a fix, a workaround,
+            or a realistic timeline for addressing the issue.
+          </p>
+        </section>
+
+        <!-- LEGAL NOTE -->
+        <section aria-labelledby="legal-heading">
+          <h2 id="legal-heading" class="text-xl font-semibold text-ink mb-3">
+            Legal note
+          </h2>
+          <p>
+            This accessibility statement is intended to describe the current approach and commitments for
+            <strong>jeffreyplewak.com</strong>. It is not legal advice. If you need a formal legal interpretation of
+            accessibility obligations for your own organization, you should consult qualified counsel who can review
+            your specific situation and the latest regulations relevant to your jurisdiction and industry. 
+          </p>
+        </section>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="border-t border-gray-200 py-8 text-center text-xs sm:text-sm text-subtle">
+    <p>© 2025 Jeffrey Plewak. All rights reserved.</p>
+    <p class="mt-2 space-x-3">
+      <a href="index.html" class="hover:underline">Home</a>
+      <a href="pay.html" class="hover:underline">Pricing</a>
+      <a href="book.html" class="hover:underline">Book</a>
+      <a href="contact.html" class="hover:underline">Contact</a>
+      <a href="intake.html" class="hover:underline">Intake</a>
+      <a href="accessibility.html" class="hover:underline" aria-current="page">Accessibility</a>
+      <a href="terms.html" class="hover:underline">Terms</a>
+      <a href="privacy.html" class="hover:underline">Privacy</a>
+    </p>
+  </footer>
+
+  <script src="assets/cookie.js" defer></script>
+</body>
+</html>

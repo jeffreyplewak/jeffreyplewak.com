@@ -1,0 +1,47 @@
+name: Quality
+
+on:
+  push:
+    branches: ["main"]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  basic:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Verify sitemap.xml is XML
+        run: |
+          test -f sitemap.xml
+          head -n 2 sitemap.xml | grep -qi '<?xml' || (echo "sitemap.xml missing XML header" && exit 1)
+
+      - name: Verify robots.txt exists
+        run: |
+          test -f robots.txt
+          grep -qi "Sitemap:" robots.txt || (echo "robots.txt missing Sitemap line" && exit 1)
+
+      - name: Verify index.html exists
+        run: |
+          test -f index.html
+
+      - name: Link smoke test (no network)
+        run: |
+          # Ensure critical local paths referenced by index exist
+          grep -oE 'href="/[^"]+"' index.html | cut -d'"' -f2 | while read -r p; do
+            # ignore anchors + external
+            test -z "$p" && continue
+            test "${p#http}" != "$p" && continue
+            # strip query
+            f="${p%%\?*}"
+            # allow routes without extension
+            if [ -f ".${f}" ] || [ -f ".${f}/index.html" ]; then
+              echo "OK $f"
+            else
+              echo "MISSING .$f"
+              exit 1
+            fi
+          done

@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Work — {{site.name}}</title>
+  <meta name="description" content="Selected work and case-study summaries." />
+  <link rel="canonical" href="{{site.domain}}/work.html" />
+  <link rel="icon" href="/assets/favicon.png" />
+  <link rel="stylesheet" href="/assets/style.css" />
+  <script defer src="/assets/site.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  {{partial.header}}
+
+  <main id="main" class="section">
+    <div class="container">
+      <h1>Selected work</h1>
+      <p class="sub">Short, scannable summaries. Each entry should become a full case study when ready.</p>
+
+      <div class="work-list">
+        <article class="work-item" id="project-1">
+          <div class="work-top">
+            <h2 class="work-title">Automation / Integration System</h2>
+            <span class="badge">Static-first · Maintainable</span>
+          </div>
+          <p class="work-desc">Problem → constraints → decisions → outcome. Add real details here (no fluff).</p>
+        </article>
+
+        <article class="work-item" id="project-2">
+          <div class="work-top">
+            <h2 class="work-title">Frontend UX Engineering</h2>
+            <span class="badge">Performance · A11y</span>
+          </div>
+          <p class="work-desc">Interface design focused on clarity, speed, and accessibility.</p>
+        </article>
+
+        <article class="work-item" id="project-3">
+          <div class="work-top">
+            <h2 class="work-title">Architecture / Review</h2>
+            <span class="badge">Audit · Plan</span>
+          </div>
+          <p class="work-desc">System audit and implementation plan with risk reduction and clear next steps.</p>
+        </article>
+      </div>
+    </div>
+  </main>
+
+  {{partial.footer}}
+</body>
+</html>

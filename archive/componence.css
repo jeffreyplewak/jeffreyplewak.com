@@ -1,0 +1,52 @@
+/* components.css */
+
+/* Buttons */
+.btn {
+  display: inline-block;
+  font-family: var(--font-primary);
+  font-size: var(--fs-1);
+  padding: var(--space-sm) var(--space-md);
+  border-radius: var(--radius-btn);
+  border: 1px solid transparent;
+  cursor: pointer;
+  text-align: center;
+  transition: background-color 0.15s ease, color 0.15s ease;
+}
+
+.btn-primary {
+  background: var(--color-accent);
+  color: white;
+  border-color: var(--color-accent);
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+  background: #1e4bb8;
+  outline: none;
+}
+
+.btn-secondary {
+  background: white;
+  color: var(--color-accent);
+  border-color: var(--color-accent);
+}
+
+.btn-secondary:hover,
+.btn-secondary:focus {
+  background: var(--color-accent);
+  color: white;
+  outline: none;
+}
+
+/* Lists */
+.focus-list li,
+.experience-list li,
+.work-list li {
+  margin-bottom: var(--space-xs);
+  list-style: disc inside;
+}
+
+/* Contact */
+.contact-list li {
+  margin-bottom: var(--space-sm);
+}

@@ -1,0 +1,3 @@
+Contact: mailto:plewak.jeff@gmail.com
+Preferred-Languages: en
+Canonical: https://jeffreyplewak.com/security.txt

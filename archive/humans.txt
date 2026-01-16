@@ -1,0 +1,11 @@
+/* TEAM */
+Name: Jeffrey Plewak
+Role: Software Engineer & Automation Consultant
+Website: https://jeffreyplewak.com
+Location: United States
+
+/* SITE */
+Standards: HTML5, CSS3
+Hosting: Vercel
+Build: Static, framework-free
+Launch: 2025

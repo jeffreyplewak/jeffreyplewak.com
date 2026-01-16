@@ -1,0 +1,36 @@
+/* layout.css */
+
+/* Page-level spacing */
+.section {
+  padding-top: var(--space-xl);
+  padding-bottom: var(--space-xl);
+}
+
+/* Centered container for main content */
+.content-section, .hero-content {
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: var(--space-sm);
+  padding-right: var(--space-sm);
+}
+
+/* Hero section */
+.hero-section {
+  text-align: center;
+  padding-top: var(--space-xxl);
+  padding-bottom: var(--space-lg);
+}
+
+.hero-avatar {
+  border-radius: 8px;
+  margin: 0 auto var(--space-md) auto;
+  max-width: 240px;
+}
+
+/* Responsive adjustments */
+@media (min-width: 768px) {
+  .hero-avatar {
+    max-width: 300px;
+  }
+}

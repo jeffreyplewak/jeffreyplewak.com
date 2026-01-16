@@ -1,0 +1,85 @@
+.
+├── 404.html
+├── accessibility.html
+├── api
+│   └── contact.js
+├── assets
+│   ├── avatar.jpeg
+│   ├── background.jpeg
+│   ├── cookie.js
+│   ├── diagrams
+│   ├── favicon.png
+│   ├── hubspot.js
+│   ├── icon-192.png
+│   ├── icon-512.png
+│   ├── layout.js
+│   ├── logos
+│   │   ├── aws.svg
+│   │   ├── expedia.svg
+│   │   ├── fidelity-investments.svg
+│   │   ├── ibm.svg
+│   │   ├── jp-morgan-chase.svg
+│   │   ├── lockheed-martin.svg
+│   │   ├── nintendo.svg
+│   │   ├── raytheon.svg
+│   │   └── rtx-raytheon.svg
+│   ├── Natalie-JRP-contract.pdf
+│   ├── og-image.png
+│   ├── resume.docx
+│   ├── resume.pdf
+│   └── style.css
+├── backup
+│   └── 2026-01-impl
+│       ├── accessibility.html
+│       ├── book.html
+│       ├── contact.html
+│       ├── index.html
+│       ├── pay.html
+│       ├── privacy.html
+│       ├── style.css
+│       └── terms.html
+├── bg-loop.gif
+├── book.html
+├── build.sh
+├── CNAME
+├── components
+├── config
+│   └── payments.json
+├── contact.html
+├── docs
+│   ├── architecture.txt
+│   ├── comparison-linktree
+│   ├── flow-front-desk.md
+│   ├── notes.txt
+│   ├── todo.txt
+│   └── todo2.txt
+├── favicon.svg
+├── flow.html
+├── form.ts
+├── generate-diagrams.js
+├── index.html
+├── intake.html
+├── manifest.json
+├── package-lock.json
+├── package.json
+├── partials
+│   ├── footer.html
+│   └── header.html
+├── pay.html
+├── privacy.html
+├── project_files.txt
+├── project_tree.txt
+├── projectec_structure.txt
+├── public
+├── README.md
+├── robots.txt
+├── scripts
+│   ├── check-logos.mjs
+│   └── fetch-logos.sh
+├── sitemap.xml
+├── terms.html
+├── test
+├── thank-you.html
+└── vercel.json
+
+13 directories, 70 files

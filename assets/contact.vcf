@@ -1,0 +1,23 @@
+BEGIN:VCARD
+VERSION:3.0
+FN:Jeffrey Plewak
+N:Plewak;Jeffrey;;;
+NICKNAME:JP
+TITLE:Senior Software Engineer - Python & AI/ML Specialist
+ORG:Independent Consultant
+EMAIL;TYPE=INTERNET,PREF:plewak.jeff@gmail.com
+TEL;TYPE=CELL,VOICE:+1-919-402-6624
+ADR;TYPE=WORK:;;New Bern;North Carolina;28560;United States
+URL:https://jeffreyplewak.com
+URL;TYPE=LinkedIn:https://www.linkedin.com/in/jeffreyplewak
+URL;TYPE=GitHub:https://github.com/tarcsb
+URL;TYPE=GitHub:https://github.com/carcodez1
+URL;TYPE=Upwork:https://www.upwork.com/freelancers/~011b0dc37f99c3cf08
+URL;TYPE=Fiverr:https://www.fiverr.com/qDp1bXl
+NOTE:Full-stack Python engineer specializing in AI/ML platforms\, LLM orchestration\, cloud infrastructure\, and mission-critical systems. 10+ years experience with companies like Lockheed Martin\, IBM\, JP Morgan\, and Fidelity. Expert in FastAPI\, LangChain\, Kubernetes\, AWS\, and compliance (DO-178\, HIPAA\, GDPR).
+CATEGORIES:Software Engineer,Python Developer,AI/ML,Cloud Architecture,DevOps
+TZ:-05:00
+GEO:35.1085;-77.0441
+PHOTO;ENCODING=URI:https://jeffreyplewak.com/assets/profile.jpg
+REV:2024-12-24T00:00:00Z
+END:VCARD

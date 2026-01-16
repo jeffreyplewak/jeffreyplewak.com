@@ -1,0 +1,139 @@
+name: Preflight + Quality Enforcement CI
+
+on:
+  push:
+    branches: [ "main", "master", "trunk" ]
+  pull_request:
+    branches: [ "*" ]
+
+jobs:
+
+  audit_and_lint:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    env:
+      LHCI_GITHUB_APP_TOKEN: ${{ secrets.LHCI_GITHUB_APP_TOKEN }}
+      CI: true
+
+    steps:
+
+      # ----------------------------------------------------------------
+      # 1) Checkout repo
+      # ----------------------------------------------------------------
+      - uses: actions/checkout@v4
+
+      # ----------------------------------------------------------------
+      # 2) Setup environment (Node + Axe CLI)
+      # ----------------------------------------------------------------
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "18"
+
+      - name: Install global tools
+        run: |
+          npm install -g @lhci/cli@0.11.3
+          npm install -g @axe-core/cli@4.8.0
+
+      # ----------------------------------------------------------------
+      # 3) Audit static files and refs
+      # ----------------------------------------------------------------
+      - name: Run preflight audit
+        run: bash preflight.sh --audit
+
+      # ----------------------------------------------------------------
+      # 4) Start local dev server
+      # ----------------------------------------------------------------
+      - name: Start local server
+        run: bash preflight.sh --dev --port 3000 --yes &
+      
+      - name: Wait for server readiness
+        run: sleep 8
+
+      # ----------------------------------------------------------------
+      # 5) Run Lighthouse CI with GitHub Annotations
+      # ----------------------------------------------------------------
+      - name: Run Lighthouse CI
+        run: |
+          lhci autorun \
+            --upload.target=github
+
+      # ----------------------------------------------------------------
+      # 6) Assert Performance Budgets
+      # ----------------------------------------------------------------
+      - name: Assert performance budgets
+        run: |
+          REPORT="./lhci-report/lhr-0.json"
+          echo "Reading Lighthouse results from: $REPORT"
+          PERF=$(jq -r '.categories.performance.score' "$REPORT")
+          FCP=$(jq -r '.audits."first-contentful-paint".numericValue' "$REPORT")
+          LCP=$(jq -r '.audits."largest-contentful-paint".numericValue' "$REPORT")
+
+          echo "Performance Score: $PERF"
+          echo "First Contentful Paint: ${FCP}ms"
+          echo "Largest Contentful Paint: ${LCP}ms"
+
+          if (( $(echo "$PERF < 0.90" | bc -l) )); then
+            echo "Performance score below 0.90 — failing"
+            exit 1
+          fi
+
+          if (( $(echo "$FCP > 1800" | bc -l) )); then
+            echo "FCP > 1800ms — failing"
+            exit 1
+          fi
+
+          if (( $(echo "$LCP > 2500" | bc -l) )); then
+            echo "LCP > 2500ms — failing"
+            exit 1
+          fi
+
+      # ----------------------------------------------------------------
+      # 7) Axe accessibility audit
+      # ----------------------------------------------------------------
+      - name: Axe accessibility audit
+        run: |
+          npx axe http://localhost:3000/ --timeout 15000
+
+      # ----------------------------------------------------------------
+      # 8) Smoke Tests
+      # ----------------------------------------------------------------
+      - name: Smoke tests
+        run: |
+          paths=(
+            "/" 
+            "/css/base.css"
+            "/css/layout.css"
+            "/css/components.css"
+            "/css/effects.css"
+            "/js/main.js"
+            "/js/a11y.js"
+            "/js/parallax.js"
+            "/assets/favicon.png"
+          )
+          for p in "${paths[@]}"; do
+            code=$(curl -s -o /dev/null -w "%{http_code}" "http://localhost:3000$p")
+            echo "$code => $p"
+            if [[ "$code" != "200" ]]; then
+              echo "Smoke test failed: $p returned $code"
+              exit 1
+            fi
+          done
+
+      # ----------------------------------------------------------------
+      # 9) Upload Lighthouse Reports
+      # ----------------------------------------------------------------
+      - name: Upload Lighthouse Report
+        uses: actions/upload-artifact@v3
+        with:
+          name: lighthouse-report
+          path: ./lhci-report/
+
+      # ----------------------------------------------------------------
+      # Optionally fail deploy preview on regressions
+      # ----------------------------------------------------------------
+      - name: Optional Lighthouse Regression Guard
+        if: ${{ github.event_name == 'pull_request' }}
+        run: |
+          echo "If you want to optionally fail on regressions against base, configure LHCI_GITHUB_APP_TOKEN."

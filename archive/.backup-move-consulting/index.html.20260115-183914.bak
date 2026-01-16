@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>Jeffrey Plewak — Software Engineer & Automation</title>
+  <meta name="description" content="Engineering-led systems, automation, and frontend work. Durable solutions with clear constraints and professional delivery." />
+
+  <!-- Canonical -->
+  <link rel="canonical" href="https://jeffreyplewak.com/" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Jeffrey Plewak — Software Engineer & Automation" />
+  <meta property="og:description" content="Engineering-led systems, automation, and frontend work." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://jeffreyplewak.com/" />
+  <meta property="og:image" content="https://jeffreyplewak.com/assets/og-image.png" />
+
+  <!-- Icons / PWA -->
+  <link rel="icon" type="image/png" href="/assets/favicon.png" />
+  <link rel="apple-touch-icon" href="/assets/icon-192.png" />
+  <link rel="manifest" href="/site.webmanifest" />
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="/assets/style.css" />
+
+  <!-- Scripts -->
+  <script src="/assets/site.js" defer></script>
+
+  <!-- Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Person",
+        "name": "Jeffrey Plewak",
+        "jobTitle": "Software Engineer & Automation Consultant",
+        "url": "https://jeffreyplewak.com/",
+        "knowsAbout": [
+          "Systems architecture",
+          "Workflow automation",
+          "Frontend engineering",
+          "Integrations"
+        ],
+        "sameAs": [
+          "https://www.linkedin.com/in/jeffreyplewak",
+          "https://www.reddit.com/user/Ok_Blueberry6358",
+          "https://www.upwork.com/freelancers/~011b0dc37f99c3cf08",
+          "https://www.fiverr.com/qDp1bXl"
+        ]
+      },
+      {
+        "@type": "WebSite",
+        "name": "Jeffrey Plewak",
+        "url": "https://jeffreyplewak.com/"
+      }
+    ]
+  }
+  </script>
+</head>
+
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header" id="main-header">
+  <div class="site-header-inner container">
+    <a href="/" class="site-logo" aria-label="Home">
+      <span class="site-logo-mark">JP</span>
+      <span class="site-logo-text">
+        <span class="site-logo-title">Jeffrey Plewak</span>
+        <span class="site-logo-subtitle">Software & Automation</span>
+      </span>
+    </a>
+
+    <nav class="site-nav" aria-label="Main navigation">
+      <a href="/pay" class="site-nav-link">Services</a>
+      <a href="/skills" class="site-nav-link">Skills</a>
+      <a href="/book" class="site-nav-link">Book</a>
+      <a href="/contact" class="site-nav-link">Contact</a>
+    </nav>
+
+    <div class="site-header-actions">
+      <a href="/book" class="primary-cta">Get started</a>
+      <button
+        class="site-header-menu-toggle"
+        aria-label="Toggle navigation menu"
+        aria-expanded="false"
+      >
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+  <section class="section">
+    <div class="container hero">
+      <h1>Engineering-led systems and automation for real-world workflows</h1>
+
+      <p class="section-kicker">
+        Clear constraints. Durable solutions. Professional delivery.
+      </p>
+
+      <p>
+        I design and build software systems that reduce operational friction,
+        automate repeatable work, and remain understandable long after delivery.
+        My focus is on reliability, clarity, and long-term maintainability.
+      </p>
+
+      <div class="hero-actions">
+        <a href="/book" class="btn btn-primary">Book a call</a>
+        <a href="/assets/resume.pdf" class="btn btn-ghost">Download résumé</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <h2>What I work on</h2>
+
+      <ul>
+        <li>Automation of internal and client-facing workflows</li>
+        <li>System integration and data flow design</li>
+        <li>Frontend engineering with accessibility in mind</li>
+        <li>Pragmatic tooling that fits existing teams and constraints</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <h2>How to engage</h2>
+
+      <p>
+        Most engagements start with a short call to understand goals,
+        constraints, and timelines. If there’s a fit, I outline next steps
+        and a concrete plan forward.
+      </p>
+
+      <p>
+        You can review services, book a call directly, or reach out with
+        questions using the links below.
+      </p>
+
+      <div class="hero-actions">
+        <a href="/pay" class="btn btn-primary">View services</a>
+        <a href="/contact" class="btn btn-ghost">Contact</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="container footer-grid">
+    <div>
+      <strong>Jeffrey Plewak</strong>
+      <p>Software Engineer · Systems & Automation</p>
+    </div>
+
+    <nav class="footer-nav" aria-label="Footer navigation">
+      <a href="/">Home</a>
+      <a href="/pay">Services</a>
+      <a href="/contact">Contact</a>
+    </nav>
+  </div>
+</footer>
+
+</body>
+</html>

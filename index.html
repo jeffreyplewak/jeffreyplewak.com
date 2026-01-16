@@ -1,203 +1,427 @@
-<!-- Client Acquisition Journey -->
-<section id="client-journey" class="journey-section">
-    <div class="journey-inner">
-        <h2 class="journey-title">From awareness to engagement</h2>
-        <p class="journey-subtitle">A seamless journey that converts interest into action.</p>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
 
-        <div class="journey-flow">
-            <!-- Stage 1 -->
-            <div class="journey-stage-wrapper">
-                <div class="journey-stage">
-                    <div class="journey-stage-number">01</div>
-                    <div class="journey-stage-content">
-                        <div class="journey-stage-header">
-                            <div class="journey-stage-icon icon-blue">
-                                <i class="fa-solid fa-compass" aria-hidden="true"></i>
-                            </div>
-                            <div>
-                                <div class="journey-stage-label">Discovery</div>
-                                <h3 class="journey-stage-title">Where people find you</h3>
-                            </div>
-                        </div>
-                        <p class="journey-stage-description">
-                            Your potential clients discover you through search, social media, referrals, and professional networks. This first touchpoint shapes their perception and determines whether they'll take the next step.
-                        </p>
+  <!-- Icons / PWA -->
+  <link rel="icon" href="/assets/favicon.png" />
+  <link rel="apple-touch-icon" href="/assets/icon-192.png" />
+  <link rel="manifest" href="/site.webmanifest" />
+  <meta name="theme-color" content="#0b0f17" />
 
-                        <ul class="channel-icon-row" aria-label="Typical discovery channels">
-                            <li>
-                                <i class="fa-brands fa-google" aria-hidden="true"></i>
-                                <span>Search</span>
-                            </li>
-                            <li>
-                                <i class="fa-brands fa-facebook" aria-hidden="true"></i>
-                                <span>Facebook</span>
-                            </li>
-                            <li>
-                                <i class="fa-brands fa-instagram" aria-hidden="true"></i>
-                                <span>Instagram</span>
-                            </li>
-                            <li>
-                                <i class="fa-brands fa-reddit" aria-hidden="true"></i>
-                                <span>Reddit</span>
-                            </li>
-                            <li>
-                                <i class="fa-solid fa-location-dot" aria-hidden="true"></i>
-                                <span>Local / Nextdoor</span>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
+  <!-- Primary SEO -->
+  <title>Jeffrey Plewak — Senior Software Engineer (AI, Cloud, Compliance)</title>
+  <meta
+    name="description"
+    content="Senior software engineer building reliability-first AI platforms and compliance-focused cloud systems."
+  />
+  <meta name="author" content="Jeffrey Plewak" />
+  <link rel="canonical" href="https://jeffreyplewak.com/" />
+  <meta name="robots" content="index,follow" />
+  <meta name="googlebot" content="index,follow" />
 
-            <div class="journey-connector" aria-hidden="true"></div>
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Jeffrey Plewak — Senior Software Engineer" />
+  <meta
+    property="og:description"
+    content="Reliability-first AI, cloud, and compliance-critical software."
+  />
+  <meta property="og:url" content="https://jeffreyplewak.com/" />
+  <meta property="og:image" content="https://jeffreyplewak.com/assets/images/og-image.png" />
 
-            <!-- Stage 2 -->
-            <div class="journey-stage-wrapper">
-                <div class="journey-stage">
-                    <div class="journey-stage-number">02</div>
-                    <div class="journey-stage-content">
-                        <div class="journey-stage-header">
-                            <div class="journey-stage-icon icon-gray">
-                                <i class="fa-solid fa-link" aria-hidden="true"></i>
-                            </div>
-                            <div>
-                                <div class="journey-stage-label">Connection</div>
-                                <h3 class="journey-stage-title">They tap your link</h3>
-                            </div>
-                        </div>
-                        <p class="journey-stage-description">
-                            Interest turns into action. When prospects click through to your New Bern Tech link, they're looking for clear information and an easy path forward. This is where first impressions become lasting ones.
-                        </p>
-                    </div>
-                </div>
-            </div>
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Jeffrey Plewak — Senior Software Engineer" />
+  <meta
+    name="twitter:description"
+    content="Reliability-first AI, cloud, and compliance-critical software."
+  />
+  <meta name="twitter:image" content="https://jeffreyplewak.com/assets/images/og-image.png" />
 
-            <div class="journey-connector" aria-hidden="true"></div>
+  <!-- Schema.org -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Jeffrey Plewak",
+    "jobTitle": "Senior Software Engineer",
+    "url": "https://jeffreyplewak.com/",
+    "image": "https://jeffreyplewak.com/assets/images/jeffrey-plewak-portrait.jpg",
+    "address": {
+      "@type": "PostalAddress",
+      "addressRegion": "North Carolina",
+      "addressCountry": "US"
+    },
+    "sameAs": [
+      "https://www.linkedin.com/in/jeffreyplewak",
+      "https://github.com/carcodez1"
+    ],
+    "knowsAbout": [
+      "Distributed Systems",
+      "Cloud Computing",
+      "AI Platforms",
+      "Software Compliance",
+      "Reliability Engineering",
+      "Observability",
+      "Python"
+    ]
+  }
+  </script>
 
-            <!-- Stage 3 -->
-            <div class="journey-stage-wrapper">
-                <div class="journey-stage">
-                    <div class="journey-stage-number">03</div>
-                    <div class="journey-stage-content">
-                        <div class="journey-stage-header">
-                            <div class="journey-stage-icon icon-teal">
-                                <i class="fa-regular fa-clock" aria-hidden="true"></i>
-                            </div>
-                            <div>
-                                <div class="journey-stage-label">Availability</div>
-                                <h3 class="journey-stage-title">Your digital front desk</h3>
-                            </div>
-                        </div>
-                        <p class="journey-stage-description">
-                            Always open, always ready. Your online presence works 24/7, allowing prospects to explore services, understand your value, and take action whenever it's convenient for them—no business hours required.
-                        </p>
-                    </div>
-                </div>
-            </div>
+  <!-- Styles -->
+  <link rel="stylesheet" href="/css/reset.css" />
+  <link rel="stylesheet" href="/css/tokens.css" />
+  <link rel="stylesheet" href="/css/base.css" />
+  <link rel="stylesheet" href="/css/layout.css" />
+  <link rel="stylesheet" href="/css/components.css" />
+  <link rel="stylesheet" href="/css/effects.css" />
 
-            <div class="journey-connector" aria-hidden="true"></div>
+  <!-- Scripts (progressive enhancement only) -->
+  <script defer src="/js/main.js"></script>
+  <script defer src="/js/a11y.js"></script>
+  <script defer src="/js/parallax.js"></script>
+</head>
 
-            <!-- Stage 4 -->
-            <div class="journey-stage-wrapper">
-                <div class="journey-stage">
-                    <div class="journey-stage-number">04</div>
-                    <div class="journey-stage-content">
-                        <div class="journey-stage-header">
-                            <div class="journey-stage-icon icon-green">
-                                <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
-                            </div>
-                            <div>
-                                <div class="journey-stage-label">Conversion</div>
-                                <h3 class="journey-stage-title">Multiple paths forward</h3>
-                            </div>
-                        </div>
-                        <p class="journey-stage-description">
-                            Different clients prefer different approaches. Offer flexible options that match their comfort level and urgency, removing friction and making it easy to move forward.
-                        </p>
+<body class="parallax-root">
+  <a class="skip-link" href="#main">Skip to content</a>
 
-                        <div class="journey-actions-section">
-                            <div class="journey-actions-grid">
-                                <div class="journey-action-card message">
-                                    <div class="journey-action-icon">
-                                        <i class="fa-regular fa-message" aria-hidden="true"></i>
-                                    </div>
-                                    <h4 class="journey-action-title">Send a message</h4>
-                                    <p class="journey-action-description">Quick inquiry for immediate questions or brief consultations</p>
-                                </div>
+  <!-- Top header -->
+  <header class="site-top" id="top">
+    <nav class="top-nav" aria-label="Primary">
+      <a class="brand" href="#top" aria-label="Home">
+        <span class="brand-mark" aria-hidden="true">JP</span>
+        <span class="brand-text">Jeffrey Plewak</span>
+      </a>
 
-                                <div class="journey-action-card schedule">
-                                    <div class="journey-action-icon">
-                                        <i class="fa-regular fa-calendar-check" aria-hidden="true"></i>
-                                    </div>
-                                    <h4 class="journey-action-title">Book a time</h4>
-                                    <p class="journey-action-description">Schedule a consultation at a time that works for them</p>
-                                </div>
+      <div class="nav-links" role="navigation" aria-label="Sections">
+        <a class="nav-link" href="#focus">Focus</a>
+        <a class="nav-link" href="#experience">Experience</a>
+        <a class="nav-link" href="#projects">Projects</a>
+        <a class="nav-link" href="#stack">Stack</a>
+        <a class="nav-link" href="#contact">Contact</a>
+      </div>
 
-                                <div class="journey-action-card payment">
-                                    <div class="journey-action-icon">
-                                        <i class="fa-regular fa-credit-card" aria-hidden="true"></i>
-                                    </div>
-                                    <h4 class="journey-action-title">Pay securely</h4>
-                                    <p class="journey-action-description">Secure payment processing with instant confirmation</p>
-                                </div>
+      <!-- Theme toggle (wired by /js/main.js) -->
+      <button class="theme-toggle" id="themeToggle" type="button" aria-pressed="false">
+        <span class="theme-toggle__icon" data-icon aria-hidden="true">☀︎</span>
+        <span class="theme-toggle__label" data-label>Light</span>
+      </button>
+    </nav>
+  </header>
 
-                                <div class="journey-action-card capture">
-                                    <div class="journey-action-icon">
-                                        <i class="fa-solid fa-user-plus" aria-hidden="true"></i>
-                                    </div>
-                                    <h4 class="journey-action-title">Stay connected</h4>
-                                    <p class="journey-action-description">Capture contact details for personalized follow-up</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="journey-connector" aria-hidden="true"></div>
-
-            <!-- Final Stage -->
-            <div class="journey-stage-wrapper">
-                <div class="journey-stage journey-final-stage">
-                    <div class="journey-stage-content">
-                        <div class="journey-stage-header journey-final-header">
-                            <div class="journey-stage-icon icon-purple journey-final-icon">
-                                <i class="fa-solid fa-check" aria-hidden="true"></i>
-                            </div>
-                        </div>
-
-                        <h3 class="journey-stage-title journey-final-title">You get the right work</h3>
-                        <p class="journey-stage-description journey-final-description">
-                            A streamlined journey attracts qualified clients who are ready to engage. You spend less time on admin, more time on what matters, and build a sustainable pipeline of quality work.
-                        </p>
-
-                        <div class="funnel-diagram" aria-hidden="true">
-                            <div class="funnel-step">Discover</div>
-                            <div class="funnel-arrow"></div>
-                            <div class="funnel-step">Visit your hub</div>
-                            <div class="funnel-arrow"></div>
-                            <div class="funnel-step">Message / Book / Pay</div>
-                            <div class="funnel-arrow"></div>
-                            <div class="funnel-step funnel-step-final">Good-fit client</div>
-                        </div>
-
-                        <div class="journey-metrics">
-                            <div class="journey-metric">
-                                <div class="journey-metric-value">24/7</div>
-                                <div class="journey-metric-label">Always available</div>
-                            </div>
-                            <div class="journey-metric">
-                                <div class="journey-metric-value">4</div>
-                                <div class="journey-metric-label">Conversion options</div>
-                            </div>
-                            <div class="journey-metric">
-                                <div class="journey-metric-value">&infin;</div>
-                                <div class="journey-metric-label">Scale potential</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+  <!-- Hero -->
+  <section class="hero-wrap parallax-bg" data-parallax-speed="0.14" aria-label="Intro">
+    <div class="container">
+      <div class="hero-card">
+        <div class="hero-head">
+          <h1 class="hero-title">Jeffrey Plewak</h1>
+          <p class="hero-subtitle">
+            Senior Python software engineer for AI platforms, cloud systems, and compliance-heavy environments.
+          </p>
         </div>
+
+        <div class="hero-body">
+          <div class="hero-preview" aria-label="Portrait and preview">
+            <div class="portrait-frame">
+              <picture>
+                <source type="image/avif" srcset="/assets/images/jeffrey-plewak-portrait.avif" />
+                <source type="image/webp" srcset="/assets/images/jeffrey-plewak-portrait.webp" />
+                <img
+                  src="/assets/images/jeffrey-plewak-portrait.jpg"
+                  alt="Portrait of Jeffrey Plewak"
+                  width="560"
+                  height="560"
+                  class="hero-avatar"
+                  loading="eager"
+                  fetchpriority="high"
+                  decoding="async"
+                />
+              </picture>
+            </div>
+
+            <div class="preview-panel" aria-label="Quick summary">
+              <p class="kicker">Reliability. Clear interfaces. Measurable operations.</p>
+
+              <div class="cta-row" role="group" aria-label="Primary actions">
+                <a
+                  class="btn btn-primary"
+                  href="/downloads/jeffrey-plewak-resume.pdf"
+                  download
+                  data-track="resume"
+                  aria-label="Download Jeffrey Plewak resume PDF"
+                >Résumé</a>
+
+                <a
+                  class="btn btn-secondary"
+                  href="/downloads/jeffrey-plewak.vcf"
+                  download
+                  data-track="vcard"
+                  aria-label="Download Jeffrey Plewak vCard"
+                >vCard</a>
+
+                <a class="btn btn-secondary" href="mailto:plewak.jeff@gmail.com" data-track="email">Email</a>
+
+                <a
+                  class="btn btn-secondary"
+                  href="https://www.linkedin.com/in/jeffreyplewak"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  data-track="linkedin"
+                >Message on LinkedIn</a>
+
+                <a
+                  class="btn btn-ghost"
+                  href="https://calendly.com/plewak-jeff"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  data-track="calendly"
+                >Schedule</a>
+              </div>
+
+              <div class="chip-row" aria-label="Selected experience">
+                <span class="chip">Lockheed Martin</span>
+                <span class="chip">IBM Cloud</span>
+                <span class="chip">J.P. Morgan Chase</span>
+                <span class="chip">Fidelity</span>
+                <span class="chip">BAE Systems</span>
+              </div>
+
+              <p class="micro">
+                I build production systems where correctness, traceability, and compliance are expected.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-foot" aria-label="At-a-glance">
+          <div class="stat">
+            <div class="stat-k">Core strengths</div>
+            <div class="stat-v">Reliability • Compliance • Automation</div>
+          </div>
+          <div class="stat">
+            <div class="stat-k">Primary domains</div>
+            <div class="stat-v">AI Platforms • Cloud • Regulated Environments</div>
+          </div>
+          <div class="stat">
+            <div class="stat-k">Location</div>
+            <div class="stat-v">North Carolina (Remote-friendly)</div>
+          </div>
+        </div>
+      </div>
     </div>
-</section>
+  </section>
+
+  <main id="main" class="main">
+    <div class="container">
+      <!-- Focus -->
+      <section class="section" id="focus">
+        <header class="section-head">
+          <h2>Focus</h2>
+          <p class="lede">Product and production systems. Backend-leaning, full stack when needed.</p>
+        </header>
+
+        <div class="card-grid">
+          <article class="card">
+            <h3>AI workflows</h3>
+            <p>Deterministic orchestration, schemas, and observability so behavior is explainable and testable.</p>
+          </article>
+          <article class="card">
+            <h3>Cloud platforms</h3>
+            <p>Services that hold up in production: clear boundaries, measurable reliability, sane ops.</p>
+          </article>
+          <article class="card">
+            <h3>Compliance delivery</h3>
+            <p>SBOM/SLSA, traceability, and artifact hygiene where audits are part of the job.</p>
+          </article>
+        </div>
+      </section>
+
+      <!-- Experience (FULL timeline) -->
+      <section class="section" id="experience">
+        <header class="section-head">
+          <h2>Experience</h2>
+          <p class="lede">All roles and dates as listed on my résumé.</p>
+        </header>
+
+        <ul class="timeline" aria-label="Experience timeline">
+          <li class="timeline-item">
+            <div class="timeline-meta"><span class="timeline-date">09/2024 – Present</span></div>
+            <div class="timeline-body">
+              <h3>MSTRO.ai <span class="timeline-role">— Python Full Stack Developer (Remote)</span></h3>
+              <p>AI platforms, multi-agent systems, compliance-driven orchestration.</p>
+            </div>
+          </li>
+
+          <li class="timeline-item">
+            <div class="timeline-meta"><span class="timeline-date">02/2024 – 09/2024</span></div>
+            <div class="timeline-body">
+              <h3>MyGeo LLC <span class="timeline-role">— Python Developer, Member/Owner (Remote)</span></h3>
+              <p>SBOM/SLSA automation, signing, RBAC, and platform traceability.</p>
+            </div>
+          </li>
+
+          <li class="timeline-item">
+            <div class="timeline-meta"><span class="timeline-date">07/2022 – 12/2023</span></div>
+            <div class="timeline-body">
+              <h3>J.P. Morgan Chase <span class="timeline-role">— Senior Associate III (Remote/Dallas, TX)</span></h3>
+              <p>Cloud automation tooling and production SRE in AWS/EKS environments.</p>
+            </div>
+          </li>
+
+          <li class="timeline-item">
+            <div class="timeline-meta"><span class="timeline-date">09/2019 – 03/2022</span></div>
+            <div class="timeline-body">
+              <h3>W2 Consulting (Nintendo) <span class="timeline-role">— Senior Consultant</span></h3>
+              <p>Modernization/migration programs; automation across enterprise delivery pipelines.</p>
+            </div>
+          </li>
+
+          <li class="timeline-item">
+            <div class="timeline-meta"><span class="timeline-date">01/2019 – 09/2019</span></div>
+            <div class="timeline-body">
+              <h3>IBM Cloud <span class="timeline-role">— Senior Software Engineer (Austin, TX)</span></h3>
+              <p>Kubernetes microservices, CI/CD, reliability engineering.</p>
+            </div>
+          </li>
+
+          <li class="timeline-item">
+            <div class="timeline-meta"><span class="timeline-date">01/2018 – 12/2019</span></div>
+            <div class="timeline-body">
+              <h3>Lockheed Martin <span class="timeline-role">— Senior Software Engineer (Fort Worth, TX)</span></h3>
+              <p>Safety-critical C++ systems and certification-aware workflows (DO-178).</p>
+            </div>
+          </li>
+
+          <li class="timeline-item">
+            <div class="timeline-meta"><span class="timeline-date">04/2015 – 12/2017</span></div>
+            <div class="timeline-body">
+              <h3>Fidelity Investments <span class="timeline-role">— Senior Python Engineer (Westlake, TX)</span></h3>
+              <p>Large-scale Python/Django backends, refactoring, and reliability-focused delivery.</p>
+            </div>
+          </li>
+
+          <li class="timeline-item">
+            <div class="timeline-meta"><span class="timeline-date">06/2012 – 04/2015</span></div>
+            <div class="timeline-body">
+              <h3>Lockheed Martin <span class="timeline-role">— Software Engineer (Syracuse, NY)</span></h3>
+              <p>Avionics simulation and tooling; DO-178 aligned delivery practices.</p>
+            </div>
+          </li>
+
+          <li class="timeline-item">
+            <div class="timeline-meta"><span class="timeline-date">05/2011 – 06/2012</span></div>
+            <div class="timeline-body">
+              <h3>BAE Systems <span class="timeline-role">— Software Engineer Associate (St. Inigoes, MD)</span></h3>
+              <p>Multithreaded simulations and R&amp;D lifecycle support for radar systems.</p>
+            </div>
+          </li>
+        </ul>
+      </section>
+
+      <!-- Projects -->
+      <section class="section" id="projects">
+        <header class="section-head">
+          <h2>Featured Work</h2>
+          <p class="lede">A few representative systems and themes.</p>
+        </header>
+
+        <div class="card-grid">
+          <article class="card card-linkout">
+            <h3>Solarprompt</h3>
+            <p>Compliance-oriented platform with deterministic inputs/outputs and traceability.</p>
+            <p class="card-links">
+              <a class="link" href="#contact">Contact</a>
+            </p>
+          </article>
+
+          <article class="card card-linkout">
+            <h3>Perplexity Insights</h3>
+            <p>React + Python system integrating LLM workflows for deeper website SEO insights and analysis.</p>
+            <p class="card-links">
+              <a class="link" href="#contact">Contact</a>
+            </p>
+          </article>
+
+          <article class="card card-linkout">
+            <h3>Repository Grader</h3>
+            <p>ETL pipeline to assess repo maturity and readiness for migration across environments.</p>
+            <p class="card-links">
+              <a class="link" href="#contact">Contact</a>
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <!-- Stack -->
+      <section class="section" id="stack">
+        <header class="section-head">
+          <h2>Stack</h2>
+          <p class="lede">What I ship with most often.</p>
+        </header>
+
+        <div class="pill-grid" aria-label="Tech stack">
+          <span class="pill">Python</span>
+          <span class="pill">Go</span>
+          <span class="pill">Java</span>
+          <span class="pill">C/C++</span>
+          <span class="pill">TypeScript</span>
+          <span class="pill">AWS</span>
+          <span class="pill">Kubernetes</span>
+          <span class="pill">Docker</span>
+          <span class="pill">Terraform</span>
+          <span class="pill">OpenTelemetry</span>
+          <span class="pill">Testing</span>
+          <span class="pill">CI/CD</span>
+        </div>
+      </section>
+
+      <!-- Contact -->
+      <section class="section" id="contact">
+        <header class="section-head">
+          <h2>Contact</h2>
+          <p class="lede">Fastest is LinkedIn or email.</p>
+        </header>
+
+        <div class="contact-card">
+          <div class="contact-row">
+            <div class="contact-k">Email</div>
+            <div class="contact-v"><a href="mailto:plewak.jeff@gmail.com">plewak.jeff@gmail.com</a></div>
+          </div>
+
+          <div class="contact-row">
+            <div class="contact-k">GitHub</div>
+            <div class="contact-v">
+              <a href="https://github.com/carcodez1" target="_blank" rel="noopener noreferrer">github.com/carcodez1</a>
+            </div>
+          </div>
+
+          <div class="contact-row">
+            <div class="contact-k">LinkedIn</div>
+            <div class="contact-v">
+              <a href="https://www.linkedin.com/in/jeffreyplewak" target="_blank" rel="noopener noreferrer">/in/jeffreyplewak</a>
+            </div>
+          </div>
+
+          <div class="contact-row">
+            <div class="contact-k">Location</div>
+            <div class="contact-v">North Carolina, USA (Remote-friendly)</div>
+          </div>
+
+          <div class="contact-actions" role="group" aria-label="Contact actions">
+            <a class="btn btn-primary" href="mailto:plewak.jeff@gmail.com" data-track="email2">Email</a>
+            <a class="btn btn-secondary" href="https://calendly.com/plewak-jeff" target="_blank" rel="noopener noreferrer" data-track="calendly2">Schedule</a>
+            <a class="btn btn-secondary" href="https://www.linkedin.com/in/jeffreyplewak" target="_blank" rel="noopener noreferrer" data-track="linkedin2">Message on LinkedIn</a>
+            <a class="btn btn-secondary" href="/downloads/jeffrey-plewak-resume.pdf" download data-track="resume2">Download résumé</a>
+          </div>
+        </div>
+      </section>
+
+      <footer class="site-footer" aria-label="Footer">
+        <p>© <span id="year">2026</span> Jeffrey Plewak</p>
+      </footer>
+    </div>
+  </main>
+</body>
+</html>

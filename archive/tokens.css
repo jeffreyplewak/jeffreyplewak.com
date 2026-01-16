@@ -1,0 +1,35 @@
+/* tokens.css */
+
+:root {
+  /* Color palette */
+  --color-bg: #FAFAFA;
+  --color-text-primary: #111827;
+  --color-text-secondary: #4B5563;
+  --color-accent: #2563EB;
+  --color-border: #E5E7EB;
+
+  /* Typography */
+  --font-primary: "Inter Variable", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --font-secondary: "Source Serif 4", Georgia, Cambria, "Times New Roman", Times, serif;
+
+  --fs-0: 0.875rem; /* small text */
+  --fs-1: 1rem;     /* base body */
+  --fs-2: 1.25rem;  /* medium heading */
+  --fs-3: 1.75rem;  /* section heading */
+  --fs-4: 2.5rem;   /* large title */
+
+  --lh-body: 1.6;
+  --lh-heading: 1.3;
+
+  /* Spacing scale */
+  --space-xxs: 0.5rem;
+  --space-xs: 0.75rem;
+  --space-sm: 1rem;
+  --space-md: 1.5rem;
+  --space-lg: 2.5rem;
+  --space-xl: 4rem;
+  --space-xxl: 6rem;
+
+  /* Border radius */
+  --radius-btn: 6px;
+}

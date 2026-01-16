@@ -1,0 +1,43 @@
+/* base.css */
+
+body {
+  font-family: var(--font-primary);
+  background: var(--color-bg);
+  color: var(--color-text-primary);
+  font-size: var(--fs-1);
+  line-height: var(--lh-body);
+}
+
+h1, h2, h3 {
+  font-family: var(--font-secondary);
+  color: var(--color-text-primary);
+  line-height: var(--lh-heading);
+}
+
+h1 {
+  font-size: var(--fs-4);
+  margin-bottom: var(--space-sm);
+}
+
+h2 {
+  font-size: var(--fs-3);
+  margin-bottom: var(--space-sm);
+}
+
+p {
+  margin-bottom: var(--space-sm);
+  color: var(--color-text-secondary);
+}
+
+a {
+  color: var(--color-accent);
+}
+
+ul, ol {
+  margin-left: var(--space-md);
+  margin-bottom: var(--space-sm);
+}
+
+main {
+  overflow-x: hidden;
+}

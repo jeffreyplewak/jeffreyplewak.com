@@ -1,40 +1,180 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <!-- Home -->
-  <url>
-    <loc>https://jeffreyplewak.com/index.html</loc>
-    <lastmod>2025-12-06T00:00:00Z</lastmod>
-  </url>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Jeffrey Plewak</title>
+  <link rel="stylesheet" href="css/base.css" />
+  <link rel="stylesheet" href="css/components.css" />
+  <link rel="stylesheet" href="css/tokens.css" />
+  <script src="js/main.js" defer></script>
+</head>
+<body>
+  <nav class="top-nav" aria-label="Primary navigation">
+    <div class="nav-links">
+      <a class="nav-link" href="#about">About</a>
+      <a class="nav-link" href="#focus">Focus</a>
+      <a class="nav-link" href="#experience">Experience</a>
+      <a class="nav-link" href="#stack">Technical Breadth</a>
+      <a class="nav-link" href="#contact">Contact</a>
+        <button class="nav-toggle" type="button" id="themeToggle" aria-label="Toggle theme" aria-pressed="false" data-theme-toggle>
+          <span class="nav-toggle-label">Theme</span>
+        </button>
+    </div>
+  </nav>
 
-  <!-- Core funnel pages -->
-  <url>
-    <loc>https://jeffreyplewak.com/pay.html</loc>
-    <lastmod>2025-12-06T00:00:00Z</lastmod>
-  </url>
-  <url>
-    <loc>https://jeffreyplewak.com/book.html</loc>
-    <lastmod>2025-12-06T00:00:00Z</lastmod>
-  </url>
-  <url>
-    <loc>https://jeffreyplewak.com/contact.html</loc>
-    <lastmod>2025-12-06T00:00:00Z</lastmod>
-  </url>
-  <url>
-    <loc>https://jeffreyplewak.com/intake.html</loc>
-    <lastmod>2025-12-06T00:00:00Z</lastmod>
-  </url>
+  <header class="hero">
+    <div class="hero-text">
+          <hgroup class="hero-hgroup">
+            <h1>Jeffrey Plewak</h1>
+            <p class="hero-subtitle">Senior Software Engineer</p>
+            <p class="hero-kicker">AI platforms • cloud systems • compliance-critical software</p>
+          </hgroup>
+          <p class="hero-one-liner">
+            Reliability-first engineering with a bias for clear interfaces, measurable operations, and audit-ready delivery.
+          </p>
+    </div>
+  </header>
 
-  <!-- Legal & compliance pages -->
-  <url>
-    <loc>https://jeffreyplewak.com/accessibility.html</loc>
-    <lastmod>2025-12-06T00:00:00Z</lastmod>
-  </url>
-  <url>
-    <loc>https://jeffreyplewak.com/terms.html</loc>
-    <lastmod>2025-12-06T00:00:00Z</lastmod>
-  </url>
-  <url>
-    <loc>https://jeffreyplewak.com/privacy.html</loc>
-    <lastmod>2025-12-06T00:00:00Z</lastmod>
-  </url>
-</urlset>
+  <main>
+    <section class="section content-section" id="focus">
+      <h2>Focus</h2>
+      <div class="pillars" role="list">
+        <article class="pillar" role="listitem">
+          <h3>Reliability</h3>
+          <p>Systems designed to stay correct under load, change, and incident pressure.</p>
+          <ul>
+            <li>SLO/SLA thinking, safe deploys, incident readiness</li>
+            <li>Observability that answers “what changed” quickly</li>
+          </ul>
+        </article>
+        <article class="pillar" role="listitem">
+          <h3>Compliance</h3>
+          <p>Traceability that holds up in regulated or audit-heavy environments.</p>
+          <ul>
+            <li>SBOM, SLSA, provenance, signing, policy-as-code</li>
+            <li>Deterministic pipelines and verifiable artifacts</li>
+          </ul>
+        </article>
+        <article class="pillar" role="listitem">
+          <h3>Platforms</h3>
+          <p>Cloud-native backends and AI workflows with clear contracts.</p>
+          <ul>
+            <li>Event-driven services, async workflows, orchestration</li>
+            <li>Kubernetes/AWS, Docker, CI/CD automation</li>
+          </ul>
+        </article>
+      </div>
+
+      <aside class="stack-callout" aria-label="Top technologies">
+        <h3>Top stack</h3>
+        <dl class="stack-dl">
+          <div>
+            <dt>Languages</dt>
+            <dd>Python, Go, Java</dd>
+          </div>
+          <div>
+            <dt>Frameworks</dt>
+            <dd>FastAPI, React, Terraform</dd>
+          </div>
+          <div>
+            <dt>Infra</dt>
+            <dd>AWS, Kubernetes, OpenTelemetry</dd>
+          </div>
+        </dl>
+      </aside>
+    </section>
+
+    <section class="section content-section" id="experience">
+      <h2>Experience</h2>
+      <p class="section-lede">
+        Production systems across enterprise cloud, global banking, and defense—where traceability and operational correctness are non-negotiable.
+      </p>
+
+      <ol class="timeline" aria-label="Career timeline">
+        <li class="timeline-item">
+          <div class="timeline-meta">
+            <span class="timeline-role">Senior / Lead Engineer</span>
+            <span class="timeline-org">MSTRO.ai</span>
+          </div>
+          <p class="timeline-desc">Multi-agent LLM platforms, provenance/lineage, and event-driven microservices.</p>
+          <ul class="timeline-tags" aria-label="Key themes">
+            <li>LLM orchestration</li>
+            <li>Provenance</li>
+            <li>Microservices</li>
+          </ul>
+        </li>
+        <li class="timeline-item">
+          <div class="timeline-meta">
+            <span class="timeline-role">Platform Engineer</span>
+            <span class="timeline-org">MyGeo LLC</span>
+          </div>
+          <p class="timeline-desc">SBOM automation, SLSA attestations, signing, and RBAC for a provenance-first platform.</p>
+          <ul class="timeline-tags" aria-label="Key themes">
+            <li>SBOM/SLSA</li>
+            <li>Signing</li>
+            <li>RBAC</li>
+          </ul>
+        </li>
+        <li class="timeline-item">
+          <div class="timeline-meta">
+            <span class="timeline-role">SRE / Platform</span>
+            <span class="timeline-org">J.P. Morgan Chase</span>
+          </div>
+          <p class="timeline-desc">AWS/EKS automation tooling and production reliability work.</p>
+          <ul class="timeline-tags" aria-label="Key themes">
+            <li>AWS</li>
+            <li>EKS</li>
+            <li>Reliability</li>
+          </ul>
+        </li>
+        <li class="timeline-item">
+          <div class="timeline-meta">
+            <span class="timeline-role">Software Engineer</span>
+            <span class="timeline-org">IBM Cloud</span>
+          </div>
+          <p class="timeline-desc">Kubernetes microservices with reliability discipline and CI/CD rigor.</p>
+          <ul class="timeline-tags" aria-label="Key themes">
+            <li>Kubernetes</li>
+            <li>Microservices</li>
+            <li>CI/CD</li>
+          </ul>
+        </li>
+        <li class="timeline-item">
+          <div class="timeline-meta">
+            <span class="timeline-role">Software Engineer</span>
+            <span class="timeline-org">Lockheed Martin</span>
+          </div>
+          <p class="timeline-desc">Real-time C++ systems in certification-aware workflows (DO-178).</p>
+          <ul class="timeline-tags" aria-label="Key themes">
+            <li>C++</li>
+            <li>Real-time</li>
+            <li>DO-178</li>
+          </ul>
+        </li>
+      </ol>
+    </section>
+
+    <section class="section content-section" id="stack">
+      <h2>Technical Breadth</h2>
+      <div class="stack-grid" role="list">
+        <div class="stack-group" role="listitem">
+          <h3>Languages</h3>
+          <p><strong>Primary:</strong> Python, Go, Java</p>
+          <p>Also: C/C++, TypeScript/JavaScript</p>
+        </div>
+        <div class="stack-group" role="listitem">
+          <h3>Frameworks</h3>
+          <p><strong>Primary:</strong> FastAPI, React</p>
+          <p>Also: Flask/Django, Node tooling</p>
+        </div>
+        <div class="stack-group" role="listitem">
+          <h3>Infra / Observability</h3>
+          <p><strong>Primary:</strong> AWS, Kubernetes, OpenTelemetry</p>
+          <p>Also: Docker, Terraform, Grafana, ELK/Loki</p>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>

@@ -1,0 +1,119 @@
+.
+├── 404.html
+├── accessibility.html
+├── api
+│   └── contact.js
+├── assets
+│   ├── avatar.jpeg
+│   ├── background.jpeg
+│   ├── contact.vcf
+│   ├── cookie.js
+│   ├── diagrams
+│   ├── favicon.png
+│   ├── hubspot.js
+│   ├── icon-192.png
+│   ├── icon-512.png
+│   ├── jp-landing-mvp
+│   │   ├── index.html
+│   │   ├── package.json
+│   │   ├── postcss.config.js
+│   │   ├── README.md
+│   │   ├── src
+│   │   │   ├── App.tsx
+│   │   │   ├── main.tsx
+│   │   │   └── styles.css
+│   │   ├── tailwind.config.js
+│   │   ├── tsconfig.json
+│   │   └── vite.config.ts
+│   ├── jp-landing-mvp.zip
+│   ├── layout.js
+│   ├── logos
+│   │   ├── aws.svg
+│   │   ├── expedia.svg
+│   │   ├── fidelity-investments.svg
+│   │   ├── ibm.svg
+│   │   ├── jp-morgan-chase.svg
+│   │   ├── lockheed-martin.svg
+│   │   ├── nintendo.svg
+│   │   ├── raytheon.svg
+│   │   └── rtx-raytheon.svg
+│   ├── Natalie-JRP-contract.pdf
+│   ├── og-image.png
+│   ├── resume.docx
+│   ├── resume.pdf
+│   ├── style.css
+│   ├── surelink_full
+│   │   ├── data
+│   │   │   ├── allowlists.json
+│   │   │   ├── listings.json
+│   │   │   └── listings.schema.json
+│   │   ├── docs
+│   │   │   ├── PLAYBOOK_HANDYMAN.md
+│   │   │   ├── SECURITY_MODEL.md
+│   │   │   └── TROUBLESHOOTING.md
+│   │   ├── next-steps.sh
+│   │   ├── package.json
+│   │   ├── public
+│   │   │   └── assets
+│   │   │       └── style.css
+│   │   ├── README.md
+│   │   ├── scripts
+│   │   │   └── build.mjs
+│   │   └── vercel.json
+│   └── surelink_full.zip
+├── backup
+│   └── 2026-01-impl
+│       ├── accessibility.html
+│       ├── book.html
+│       ├── contact.html
+│       ├── index.html
+│       ├── pay.html
+│       ├── privacy.html
+│       ├── style.css
+│       └── terms.html
+├── bg-loop.gif
+├── book.html
+├── build.sh
+├── CNAME
+├── config
+│   └── payments.json
+├── contact.html
+├── current.txt
+├── docs
+│   ├── architecture.txt
+│   ├── comparison-linktree
+│   ├── flow-front-desk.md
+│   ├── notes.txt
+│   ├── todo.txt
+│   └── todo2.txt
+├── favicon.svg
+├── flow.html
+├── form.ts
+├── generate-diagrams.js
+├── index.html
+├── intake.html
+├── manifest.json
+├── package-lock.json
+├── package.json
+├── partials
+│   ├── footer.html
+│   └── header.html
+├── pay.html
+├── privacy.html
+├── project_files.txt
+├── project_tree.txt
+├── projectec_structure.txt
+├── public
+├── README.md
+├── robots.txt
+├── scripts
+│   ├── check-logos.mjs
+│   └── fetch-logos.sh
+├── site-review.zip
+├── sitemap.xml
+├── terms.html
+├── test
+├── thank-you.html
+└── vercel.json
+
+20 directories, 97 files
